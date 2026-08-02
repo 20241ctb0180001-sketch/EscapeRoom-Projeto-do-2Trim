@@ -32,7 +32,8 @@ public class FirstPersonMovement : MonoBehaviour
     void FixedUpdate()
     {
         // Update IsRunning from input.
-        IsRunning = canRun && CorreAction.WasPressedThisFrame();//&& Input.GetKey(runningKey);
+        //IsRunning = canRun && CorreAction.WasPressedThisFrame();//&& Input.GetKey(runningKey);
+        IsRunning = canRun && CorreAction != null && CorreAction.IsPressed();
 
         // Get targetMovingSpeed.
         float targetMovingSpeed = IsRunning ? runSpeed : speed;
@@ -42,7 +43,8 @@ public class FirstPersonMovement : MonoBehaviour
         }
 
         // Get targetVelocity from input.
-        Vector2 targetVelocity = new Vector2( Input.GetAxis("Horizontal") * targetMovingSpeed, Input.GetAxis("Vertical") * targetMovingSpeed);
+        Vector2 movInput = MoveAction != null ? MoveAction.ReadValue<Vector2>() : Vector2.zero;
+        Vector2 targetVelocity = new Vector2( movInput.x * targetMovingSpeed, movInput.y * targetMovingSpeed);
 
         // Apply movement.
         rigidbody.linearVelocity = transform.rotation * new Vector3(targetVelocity.x, rigidbody.linearVelocity.y, targetVelocity.y);

@@ -1,10 +1,11 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.InputSystem;
+using Unity.Cinemachine;
 
 [ExecuteInEditMode]
 public class Zoom : MonoBehaviour
 {
-    Camera camera;
+    public CinemachineCamera camera;
     public float defaultFOV;
     public float maxZoomFOV;
     [Range(0, 1)]
@@ -18,18 +19,18 @@ public class Zoom : MonoBehaviour
     {
         ScrollMAction = InputSystem.actions.FindAction("ScrollWheel");
         // Get the camera on this gameObject and the defaultZoom.
-        camera = GetComponent<Camera>();
+        camera = GetComponent<CinemachineCamera>();
         if (camera)
         {
-            defaultFOV = camera.fieldOfView;
+            defaultFOV = camera.Lens.FieldOfView;
         }
     }
-
     void Update()
     {
         // Update the currentZoom and the camera's fieldOfView.
-        //currentZoom += Input.mouseScrollDelta.y * sensitivity * .05f;
+        Vector2 Scroll = ScrollMAction != null? ScrollMAction.ReadValue<Vector2>() : Vector2.zero;
+        currentZoom += Scroll.y * sensitivity * .05f;
         currentZoom = Mathf.Clamp01(currentZoom);
-        camera.fieldOfView = Mathf.Lerp(defaultFOV, maxZoomFOV, currentZoom);
+        camera.Lens.FieldOfView = Mathf.Lerp(defaultFOV, maxZoomFOV, currentZoom);
     }
 }
