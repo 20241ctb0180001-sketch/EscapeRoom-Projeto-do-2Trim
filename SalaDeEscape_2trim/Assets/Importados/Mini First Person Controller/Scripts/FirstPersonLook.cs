@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.InputSystem;
 public class FirstPersonLook : MonoBehaviour
 {
@@ -26,7 +26,6 @@ public class FirstPersonLook : MonoBehaviour
     void Update()
     {
         // Get smooth velocity.
-        //Vector2 mouseDelta = new Vector2(Input.GetAxisRaw("Mouse X"), Input.GetAxisRaw("Mouse Y"));
         Vector2 mouseDelta = Mouse.current.delta != null ? Mouse.current.delta.ReadValue() : Vector2.zero;
         Vector2 rawFrameVelocity = Vector2.Scale(mouseDelta, Vector2.one * sensitivity);
         frameVelocity = Vector2.Lerp(frameVelocity, rawFrameVelocity, 1 / smoothing);
