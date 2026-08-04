@@ -3,7 +3,7 @@ using UnityEngine.InputSystem;
 
 public class Jump : MonoBehaviour
 {
-    [SerializeField] Rigidbody rigidbody;
+    [SerializeField] Rigidbody RB;
     public float jumpStrength;
     public event System.Action Jumped;
 
@@ -27,7 +27,7 @@ public class Jump : MonoBehaviour
     void Awake()
     {
         // Get rigidbody.
-        rigidbody = GetComponent<Rigidbody>();
+        RB = GetComponent<Rigidbody>();
     }
 
     void LateUpdate()
@@ -35,7 +35,7 @@ public class Jump : MonoBehaviour
         // Jump when the Jump button is pressed and we are on the ground.
         if (PuloAction.WasPressedThisFrame() && (!groundCheck || groundCheck.isGrounded))
         {
-            rigidbody.AddForce(Vector3.up * 100 * jumpStrength);
+            RB.AddForce(Vector3.up * 100 * jumpStrength);
             Jumped?.Invoke();
         }
     }

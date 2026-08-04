@@ -17,14 +17,14 @@ public class FirstPersonMovement : MonoBehaviour
     private InputAction MoveAction;
     private InputAction CorreAction;
 
-    Rigidbody rigidbody;
+    Rigidbody RB;
     /// <summary> Functions to override movement speed. Will use the last added override. </summary>
     public List<System.Func<float>> speedOverrides = new List<System.Func<float>>();
 
     void Awake()
     {
         // Get the rigidbody on this.
-        rigidbody = GetComponent<Rigidbody>();
+        RB = GetComponent<Rigidbody>();
         MoveAction = InputSystem.actions.FindAction("Move");
         CorreAction = InputSystem.actions.FindAction("Sprint");
     }
@@ -47,6 +47,6 @@ public class FirstPersonMovement : MonoBehaviour
         Vector2 targetVelocity = new Vector2( movInput.x * targetMovingSpeed, movInput.y * targetMovingSpeed);
 
         // Apply movement.
-        rigidbody.linearVelocity = transform.rotation * new Vector3(targetVelocity.x, rigidbody.linearVelocity.y, targetVelocity.y);
+        RB.linearVelocity = transform.rotation * new Vector3(targetVelocity.x, RB.linearVelocity.y, targetVelocity.y);
     }
 }
