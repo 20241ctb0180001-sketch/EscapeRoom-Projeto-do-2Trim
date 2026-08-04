@@ -1,29 +1,52 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-#if UNITY_EDITOR
-using UnityEditor;
-#endif
+using System.Collections;
+using System.Collections.Generic;
 
 public class GerentScena : MonoBehaviour
 {
-    public void Menu()
+    public GameObject PSair;
+    public GameObject Confirm;
+    [SerializeField] private string nomeLvGame;
+
+    public void ReturnToMainMenu()
     {
+
         SceneManager.LoadScene("Menu");
+        
     }
-    public void Jogar()
+
+    public void Play()
     {
-        SceneManager.LoadScene("EscapeRoom");
+        
+        SceneManager.LoadScene(nomeLvGame);
+        
     }
-    /*public void GameOver()
-    {
-        SceneManager.LoadScene("");
-    }*/
+
     public void Exit()
-{
-#if UNITY_EDITOR
-        EditorApplication.ExitPlaymode();
-#else
-    Application.Quit(); // original code to quit Unity player
-#endif
-}
+    {
+       
+        PSair.SetActive(true);
+        Confirm.SetActive(true);
+
+    }
+
+    public void ExitNo()
+    {
+        
+        PSair.SetActive(false);
+        Confirm.SetActive(false);
+
+    }
+
+    public void ExitYes()
+    {
+
+        #if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+        #else
+        Application.Quit();
+        #endif
+
+    }
 }
