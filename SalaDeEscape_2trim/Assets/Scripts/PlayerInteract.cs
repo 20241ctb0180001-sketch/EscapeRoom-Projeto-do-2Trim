@@ -16,7 +16,7 @@ public class PlayerInteract : MonoBehaviour
     void CheckInteractables()
     {
         RaycastHit hit;
-        Vector3 rayOrigin = Mycam.ScreenToWorldPoint(new Vector3(0.5f, 0.5f, 0.5f));
+        Vector3 rayOrigin = Mycam.ScreenToWorldPoint(new Vector3(0f, 0f, 0f));
         if(Physics.Raycast(rayOrigin, Mycam.transform.forward, out hit, RayDistance))
         {
             Interactables interactable = hit.collider.GetComponent<Interactables>();
