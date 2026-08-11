@@ -8,4 +8,5 @@ public class Item : ScriptableObject
     public bool pegavel;
     public AudioClip audioClip;
     public string text;
+    public Sprite image;
 }
