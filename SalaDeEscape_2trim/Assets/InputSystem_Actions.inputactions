@@ -34,10 +34,19 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Interact",
+                    "name": "InteractE",
                     "type": "Button",
                     "id": "852140f2-7766-474d-8707-702459ba45f3",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Hold",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "InteractMouse",
+                    "type": "Button",
+                    "id": "dc3b0af8-f1b9-4461-a5d2-8c75f8826fca",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "Hold",
                     "initialStateCheck": false
@@ -457,7 +466,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard&Mouse",
-                    "action": "Interact",
+                    "action": "InteractE",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -468,7 +477,29 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Gamepad",
-                    "action": "Interact",
+                    "action": "InteractE",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fae975db-ad6a-4e14-9062-85e204d2256d",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "InteractMouse",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e29a862d-4544-4315-8028-740520e4fc82",
+                    "path": "<Gamepad>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "InteractMouse",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
