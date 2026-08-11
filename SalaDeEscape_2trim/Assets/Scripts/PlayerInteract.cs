@@ -86,7 +86,7 @@ public class PlayerInteract : MonoBehaviour
                         {
                             OriginPos = CurrInteractable.transform.position;
                             OiginRotat = CurrInteractable.transform.rotation;
-                            StartCoroutine(MovendObj(CurrInteractable, objViewer.position + objViewer.forward * 0.8f));
+                            StartCoroutine(MovendObj(CurrInteractable, objViewer.position));
                         }
                     }
                 }
@@ -122,6 +122,7 @@ public class PlayerInteract : MonoBehaviour
         canFinish = false;
         estaaVer = false;
         GerentUI.instance.SetbackImg(false);
+
         if (CurrInteractable.item.InvetoryItem)
         {
             inventory.AddItem(CurrInteractable.item);
@@ -129,6 +130,7 @@ public class PlayerInteract : MonoBehaviour
         }
         if (CurrInteractable.item.pegavel)
         {
+            CurrInteractable.transform.rotation = OiginRotat;
             CurrInteractable.transform.position = OriginPos;
             if (CurrInteractable.GetComponent<Collider>() != null)
             {
