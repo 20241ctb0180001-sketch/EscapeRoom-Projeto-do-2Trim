@@ -618,11 +618,11 @@ Transform:
   m_GameObject: {fileID: 213109585}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.35, y: 9.55, z: 35.54}
+  m_LocalPosition: {x: -7.2, y: -0.22000027, z: -2}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 741154225}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &282237906
 PrefabInstance:
@@ -1472,18 +1472,15 @@ PrefabInstance:
       addedObject: {fileID: 2087224087}
     - targetCorrespondingSourceObject: {fileID: 4071760075461652003, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       insertIndex: 8
-      addedObject: {fileID: 213109590}
-    - targetCorrespondingSourceObject: {fileID: 4071760075461652003, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
-      insertIndex: 9
       addedObject: {fileID: 1399688747}
     - targetCorrespondingSourceObject: {fileID: 4071760075461652003, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
-      insertIndex: 10
+      insertIndex: 9
       addedObject: {fileID: 1602255772}
     - targetCorrespondingSourceObject: {fileID: 4071760075461652003, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
-      insertIndex: 11
+      insertIndex: 10
       addedObject: {fileID: 1133193226}
     - targetCorrespondingSourceObject: {fileID: 4071760075461652003, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
-      insertIndex: 12
+      insertIndex: 11
       addedObject: {fileID: 1614812208}
     - targetCorrespondingSourceObject: {fileID: 5154110198328298170, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       insertIndex: 5
@@ -4816,4 +4813,5 @@ SceneRoots:
   - {fileID: 61408528}
   - {fileID: 1206317740}
   - {fileID: 1117123883}
+  - {fileID: 213109590}
   - {fileID: 741154224}
