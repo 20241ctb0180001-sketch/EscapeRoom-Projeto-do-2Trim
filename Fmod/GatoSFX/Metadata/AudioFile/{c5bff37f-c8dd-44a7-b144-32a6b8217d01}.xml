@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{c5bff37f-c8dd-44a7-b144-32a6b8217d01}">
+		<property name="assetPath">
+			<value>garras.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>38.200312500000003</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{83930bb0-2fdb-4c40-8096-822ef381df7d}</destination>
+		</relationship>
+	</object>
+</objects>
