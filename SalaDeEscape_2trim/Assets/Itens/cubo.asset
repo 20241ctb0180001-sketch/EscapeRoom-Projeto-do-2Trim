@@ -16,6 +16,6 @@ MonoBehaviour:
   audioClip: {fileID: 0}
   text: um cubinho
   image: {fileID: 0}
-  InvetoryItem: 1
+  InvetoryItem: 0
   CollectMsg: cubo coletado
   InvetoryTxt: Um cubo cuboide a base de cubos
