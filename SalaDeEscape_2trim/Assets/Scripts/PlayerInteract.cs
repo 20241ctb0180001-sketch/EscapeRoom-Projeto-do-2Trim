@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.InputSystem;
 using UnityEngine.Events;
+using Unity.Mathematics;
 public class PlayerInteract : MonoBehaviour
 {
     public float RayDistance;
@@ -86,7 +87,7 @@ public class PlayerInteract : MonoBehaviour
                         {
                             OriginPos = CurrInteractable.transform.position;
                             OiginRotat = CurrInteractable.transform.rotation;
-                            StartCoroutine(MovendObj(CurrInteractable, objViewer.position));
+                            StartCoroutine(MovendObj(CurrInteractable, objViewer.position, objViewer.rotation));
                         }
                     }
                 }
@@ -136,19 +137,19 @@ public class PlayerInteract : MonoBehaviour
             {
                 CurrInteractable.GetComponent<Collider>().enabled = true;
             }
-            StartCoroutine(MovendObj(CurrInteractable, OriginPos));
+            StartCoroutine(MovendObj(CurrInteractable, OriginPos, OiginRotat));
         }
         OnFinishView.Invoke();
     }
-    IEnumerator MovendObj(Interactables obj, Vector3 pos)
+    IEnumerator MovendObj(Interactables obj, Vector3 pos, Quaternion rotat)
     {
         obj.IsMoving = true;
         float timer = 0f;
-        while (timer > 1f)
+        while (timer > 2f)
         {
             obj.transform.position = Vector3.Lerp(OriginPos, pos, timer);
             obj.transform.rotation = Quaternion.Lerp(OiginRotat, objViewer.rotation, timer);
-            timer += Time.deltaTime * 8f;
+            timer += Time.deltaTime * 1f;
             yield return null;
         }
         obj.transform.position = pos;
