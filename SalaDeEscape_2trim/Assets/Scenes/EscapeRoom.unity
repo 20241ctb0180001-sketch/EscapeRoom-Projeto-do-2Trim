@@ -821,6 +821,14 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: cc6fec37cd6dd10469c24ca555d73929, type: 2}
+    - target: {fileID: 1255270584607456656, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
+      propertyPath: m_Name
+      value: House13 telhado
+      objectReference: {fileID: 0}
+    - target: {fileID: 1255270584607456656, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1833688692482151239, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -885,6 +893,10 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: e0126f6551099e741aa99833df6f4d04, type: 2}
+    - target: {fileID: 4650287582677411440, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 069e34ece7936bf4fb1e5582daf3a316, type: 2}
     - target: {fileID: 4791413468690818977, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
