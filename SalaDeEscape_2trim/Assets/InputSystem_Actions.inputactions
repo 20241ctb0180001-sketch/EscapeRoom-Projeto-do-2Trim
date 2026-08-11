@@ -43,6 +43,15 @@
                     "initialStateCheck": false
                 },
                 {
+                    "name": "Inventario",
+                    "type": "Button",
+                    "id": "62df8632-60ee-4c9b-ae2c-82f25fcbbf5f",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Hold",
+                    "initialStateCheck": false
+                },
+                {
                     "name": "InteractMouse",
                     "type": "Button",
                     "id": "dc3b0af8-f1b9-4461-a5d2-8c75f8826fca",
@@ -478,6 +487,28 @@
                     "processors": "",
                     "groups": "Gamepad",
                     "action": "InteractE",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ca041ae9-22a5-48c8-8067-8b547ca0c83a",
+                    "path": "<Keyboard>/i",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "Inventario",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5e06f6bc-6f71-4813-b0fa-440dc7bcebc1",
+                    "path": "<Gamepad>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "Inventario",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },

@@ -19,12 +19,14 @@ public class PlayerInteract : MonoBehaviour
     public float rotatSpeed;
     private Vector3 OriginPos;
     private Quaternion OiginRotat;
+    private PlayerInventory inventory;
 
     void Awake()
     {
         Mycam = Camera.main;
         IM = InputSystem.actions.FindAction("InteractMouse");
         RotateOb = InputSystem.actions.FindAction("Look");
+        inventory = GetComponent<PlayerInventory>();
     }
     void Update()
     {
@@ -120,6 +122,11 @@ public class PlayerInteract : MonoBehaviour
         canFinish = false;
         estaaVer = false;
         GerentUI.instance.SetbackImg(false);
+        if (CurrInteractable.item.InvetoryItem)
+        {
+            inventory.AddItem(CurrInteractable.item);
+            CurrInteractable.CollectItem.Invoke();
+        }
         if (CurrInteractable.item.pegavel)
         {
             CurrInteractable.transform.position = OriginPos;
