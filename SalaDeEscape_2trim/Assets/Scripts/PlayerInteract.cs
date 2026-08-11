@@ -145,6 +145,8 @@ public class PlayerInteract : MonoBehaviour
         while (timer > 1f)
         {
             obj.transform.position = Vector3.Lerp(OriginPos, pos, timer);
+            //*pos = Mycam.transform.position + (transform.rotation * Vector3.forward * RayDistance);
+            obj.transform.position = Vector3.Lerp(OriginPos, pos, timer);
             obj.transform.rotation = Quaternion.Lerp(OiginRotat, objViewer.rotation, timer);
             timer += Time.deltaTime * 8f;
             yield return null;
