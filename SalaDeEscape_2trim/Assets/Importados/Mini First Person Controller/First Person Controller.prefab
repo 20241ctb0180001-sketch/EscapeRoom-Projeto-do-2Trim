@@ -342,7 +342,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   distanceThreshold: 0.15
-  isGrounded: 0
+  isGrounded: 1
 --- !u!1 &1773623360729482
 GameObject:
   m_ObjectHideFlags: 0
@@ -379,7 +379,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4464631255176552}
-  - {fileID: 4589139016114759689}
   - {fileID: 4773208539257838}
   - {fileID: 687180948}
   - {fileID: 7248806632615932813}
@@ -505,7 +504,14 @@ MonoBehaviour:
   RayDistance: 1
   Mycam: {fileID: 0}
   objViewer: {fileID: 4589139016114759689}
+  OnView:
+    m_PersistentCalls:
+      m_Calls: []
+  OnFinishView:
+    m_PersistentCalls:
+      m_Calls: []
   inputAction: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  rotatSpeed: 0
 --- !u!1 &1963958859065967600
 GameObject:
   m_ObjectHideFlags: 0
@@ -921,7 +927,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 4589139016114759689}
   m_Father: {fileID: 7248806632615932813}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &9092226063645860714
@@ -1351,11 +1358,11 @@ Transform:
   m_GameObject: {fileID: 7987612179896045856}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.4, z: 1.1}
+  m_LocalPosition: {x: 0, y: -0.100000024, z: 1.0999999}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 4207293392497186}
+  m_Father: {fileID: 2974888947134561795}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7992141698785262737
 GameObject:
