@@ -87,7 +87,7 @@ public class PlayerInteract : MonoBehaviour
                         {
                             OriginPos = CurrInteractable.transform.position;
                             OiginRotat = CurrInteractable.transform.rotation;
-                            StartCoroutine(MovendObj(CurrInteractable, objViewer.position, objViewer.rotation));
+                            StartCoroutine(MovendObj(CurrInteractable, objViewer.position));
                         }
                     }
                 }
@@ -132,27 +132,29 @@ public class PlayerInteract : MonoBehaviour
         if (CurrInteractable.item.pegavel)
         {
             CurrInteractable.transform.rotation = OiginRotat;
-            CurrInteractable.transform.position = OriginPos;
             if (CurrInteractable.GetComponent<Collider>() != null)
             {
                 CurrInteractable.GetComponent<Collider>().enabled = true;
             }
-            StartCoroutine(MovendObj(CurrInteractable, OriginPos, OiginRotat));
+            StartCoroutine(MovendObj(CurrInteractable, OriginPos));
         }
         OnFinishView.Invoke();
     }
-    IEnumerator MovendObj(Interactables obj, Vector3 pos, Quaternion rotat)
+    IEnumerator MovendObj(Interactables obj, Vector3 pos)
     {
         obj.IsMoving = true;
         float timer = 0f;
-        while (timer > 2f)
+        while (timer < 2f) //<--tava >
         {
-            obj.transform.position = Vector3.Lerp(OriginPos, pos, timer);
-            obj.transform.rotation = Quaternion.Lerp(OiginRotat, objViewer.rotation, timer);
-            timer += Time.deltaTime * 1f;
+            /*obj.transform.position = Vector3.Lerp(OriginPos, pos, timer);
+            obj.transform.rotation = Quaternion.Lerp(OiginRotat, objViewer.rotation, timer);*/
+            obj.transform.position = Vector3.Lerp(OriginPos, pos, timer / 2f);
+            obj.transform.rotation = Quaternion.Lerp(OiginRotat, objViewer.rotation, timer / 2f);
+            timer += Time.deltaTime;
             yield return null;
         }
         obj.transform.position = pos;
+        //obj.transform.rotation = objViewer.rotation;
         obj.transform.rotation = objViewer.rotation;
         obj.IsMoving = false;
     }
