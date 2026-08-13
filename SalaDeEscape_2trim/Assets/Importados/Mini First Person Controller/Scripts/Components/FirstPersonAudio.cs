@@ -1,61 +1,46 @@
 ﻿using System.Linq;
 using UnityEngine;
+using FMODUnity;
+using FMOD.Studio;
 
 public class FirstPersonAudio : MonoBehaviour
 {
     public FirstPersonMovement character;
     public GroundCheck groundCheck;
 
-    [Header("Step")]
-    public AudioSource stepAudio;
-    public AudioSource runningAudio;
+    [Header("Step (FMOD events)")]
+    public string stepEvent = "event:/footstep/step";
+    public string runningEvent = "event:/footstep/run";
     [Tooltip("Minimum velocity for moving audio to play")]
-    /// <summary> "Minimum velocity for moving audio to play" </summary>
     public float velocityThreshold = .01f;
     Vector2 lastCharacterPosition;
     Vector2 CurrentCharacterPosition => new Vector2(character.transform.position.x, character.transform.position.z);
 
     [Header("Landing")]
-    public AudioSource landingAudio;
-    public AudioClip[] landingSFX;
+    public string landingEvent = "event:/player/land";
 
     [Header("Jump")]
     public Jump jump;
-    public AudioSource jumpAudio;
-    public AudioClip[] jumpSFX;
+    public string jumpEvent = "event:/player/jump";
 
     [Header("Crouch")]
     public Crouch crouch;
-    public AudioSource crouchStartAudio, crouchedAudio, crouchEndAudio;
-    public AudioClip[] crouchStartSFX, crouchEndSFX;
+    public string crouchStartEvent = "event:/player/crouch_start";
+    public string crouchedEvent = "event:/player/crouch_loop";
+    public string crouchEndEvent = "event:/player/crouch_end";
 
-    AudioSource[] MovingAudios => new AudioSource[] { stepAudio, runningAudio, crouchedAudio };
+    // FMOD event instances for looping moving sounds
+    EventInstance movingInstance;
+    string currentMovingEventPath;
 
 
     void Reset()
     {
-        // Setup stuff.
+        // Setup references only; FMOD events are set by path strings.
         character = GetComponentInParent<FirstPersonMovement>();
         groundCheck = (transform.parent ?? transform).GetComponentInChildren<GroundCheck>();
-        stepAudio = GetOrCreateAudioSource("Step Audio");
-        runningAudio = GetOrCreateAudioSource("Running Audio");
-        landingAudio = GetOrCreateAudioSource("Landing Audio");
-
-        // Setup jump audio.
         jump = GetComponentInParent<Jump>();
-        if (jump)
-        {
-            jumpAudio = GetOrCreateAudioSource("Jump audio");
-        }
-
-        // Setup crouch audio.
         crouch = GetComponentInParent<Crouch>();
-        if (crouch)
-        {
-            crouchStartAudio = GetOrCreateAudioSource("Crouch Start Audio");
-            crouchStartAudio = GetOrCreateAudioSource("Crouched Audio");
-            crouchStartAudio = GetOrCreateAudioSource("Crouch End Audio");
-        }
     }
 
     void OnEnable() => SubscribeToEvents();
@@ -70,20 +55,20 @@ public class FirstPersonAudio : MonoBehaviour
         {
             if (crouch && crouch.IsCrouched)
             {
-                SetPlayingMovingAudio(crouchedAudio);
+                SetMovingEvent(crouchedEvent);
             }
             else if (character.IsRunning)
             {
-                SetPlayingMovingAudio(runningAudio);
+                SetMovingEvent(runningEvent);
             }
             else
             {
-                SetPlayingMovingAudio(stepAudio);
+                SetMovingEvent(stepEvent);
             }
         }
         else
         {
-            SetPlayingMovingAudio(null);
+            StopMovingEvent();
         }
 
         // Remember lastCharacterPosition.
@@ -95,26 +80,40 @@ public class FirstPersonAudio : MonoBehaviour
     /// Pause all MovingAudios and enforce play on audioToPlay.
     /// </summary>
     /// <param name="audioToPlay">Audio that should be playing.</param>
-    void SetPlayingMovingAudio(AudioSource audioToPlay)
+    void SetMovingEvent(string eventPath)
     {
-        // Pause all MovingAudios.
-        foreach (var audio in MovingAudios.Where(audio => audio != audioToPlay && audio != null))
+        if (string.IsNullOrEmpty(eventPath))
         {
-            audio.Pause();
+            StopMovingEvent();
+            return;
         }
 
-        // Play audioToPlay if it was not playing.
-        if (audioToPlay && !audioToPlay.isPlaying)
+        if (currentMovingEventPath == eventPath && movingInstance.isValid())
+            return; // already playing
+
+        StopMovingEvent();
+        movingInstance = RuntimeManager.CreateInstance(eventPath);
+        movingInstance.set3DAttributes(RuntimeUtils.To3DAttributes(transform));
+        movingInstance.start();
+        currentMovingEventPath = eventPath;
+    }
+
+    void StopMovingEvent()
+    {
+        if (movingInstance.isValid())
         {
-            audioToPlay.Play();
+            movingInstance.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+            movingInstance.release();
         }
+        movingInstance = default;
+        currentMovingEventPath = null;
     }
 
     #region Play instant-related audios.
-    void PlayLandingAudio() => PlayRandomClip(landingAudio, landingSFX);
-    void PlayJumpAudio() => PlayRandomClip(jumpAudio, jumpSFX);
-    void PlayCrouchStartAudio() => PlayRandomClip(crouchStartAudio, crouchStartSFX);
-    void PlayCrouchEndAudio() => PlayRandomClip(crouchEndAudio, crouchEndSFX);
+    void PlayLandingAudio() => RuntimeManager.PlayOneShot(landingEvent, transform.position);
+    void PlayJumpAudio() => RuntimeManager.PlayOneShot(jumpEvent, transform.position);
+    void PlayCrouchStartAudio() => RuntimeManager.PlayOneShot(crouchStartEvent, transform.position);
+    void PlayCrouchEndAudio() => RuntimeManager.PlayOneShot(crouchEndEvent, transform.position);
     #endregion
 
     #region Subscribe/unsubscribe to events.
@@ -163,35 +162,9 @@ public class FirstPersonAudio : MonoBehaviour
     /// </summary>
     /// <param name="name">Name of the AudioSource to search for.</param>
     /// <returns>The created AudioSource.</returns>
-    AudioSource GetOrCreateAudioSource(string name)
+    void OnDestroy()
     {
-        // Try to get the audiosource.
-        AudioSource result = System.Array.Find(GetComponentsInChildren<AudioSource>(), a => a.name == name);
-        if (result)
-            return result;
-
-        // Audiosource does not exist, create it.
-        result = new GameObject(name).AddComponent<AudioSource>();
-        result.spatialBlend = 1;
-        result.playOnAwake = false;
-        result.transform.SetParent(transform, false);
-        return result;
-    }
-
-    static void PlayRandomClip(AudioSource audio, AudioClip[] clips)
-    {
-        if (!audio || clips.Length <= 0)
-            return;
-
-        // Get a random clip. If possible, make sure that it's not the same as the clip that is already on the audiosource.
-        AudioClip clip = clips[Random.Range(0, clips.Length)];
-        if (clips.Length > 1)
-            while (clip == audio.clip)
-                clip = clips[Random.Range(0, clips.Length)];
-
-        // Play the clip.
-        audio.clip = clip;
-        audio.Play();
+        StopMovingEvent();
     }
     #endregion 
 }

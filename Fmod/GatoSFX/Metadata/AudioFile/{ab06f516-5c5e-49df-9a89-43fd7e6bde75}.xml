@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{c5bff37f-c8dd-44a7-b144-32a6b8217d01}">
+	<object class="AudioFile" id="{ab06f516-5c5e-49df-9a89-43fd7e6bde75}">
 		<property name="assetPath">
-			<value>garras/garras.wav</value>
+			<value>Foley Stage, Small Cat Paws Softly Walking Indoors 01.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
@@ -11,10 +11,10 @@
 			<value>48</value>
 		</property>
 		<property name="channelCount">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<property name="length">
-			<value>38.200312500000003</value>
+			<value>28.919333333333334</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{83930bb0-2fdb-4c40-8096-822ef381df7d}</destination>
