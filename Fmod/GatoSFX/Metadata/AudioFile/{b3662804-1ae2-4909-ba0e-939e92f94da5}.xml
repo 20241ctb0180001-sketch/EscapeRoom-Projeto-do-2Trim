@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{67707e51-a18a-40db-8647-ee4c05e4df6e}">
+	<object class="AudioFile" id="{b3662804-1ae2-4909-ba0e-939e92f94da5}">
 		<property name="assetPath">
-			<value>footsteps/PegadasGraciosasOriginal.wav</value>
-		</property>
-		<property name="isStreaming">
-			<value>true</value>
+			<value>footsteps/walk/Steps.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
@@ -14,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>52.565312499999997</value>
+			<value>0.65000000000000002</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{83930bb0-2fdb-4c40-8096-822ef381df7d}</destination>

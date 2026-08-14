@@ -26,7 +26,88 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 560
+  Length: 520
+--- !u!114 &-6891611552121546834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Corre/jump
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
+  Name: jump
+  StudioPath: 
+  Min: 0
+  Max: 0
+  Default: 0
+  ID:
+    data1: 825915901
+    data2: 1507142479
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Value A
+  Exists: 1
+--- !u!114 &-2564517408627223288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Corre
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Corre
+  Guid:
+    Data1: 1491332456
+    Data2: 1119856731
+    Data3: 2147140509
+    Data4: 289756493
+  Banks:
+  - {fileID: 2143148157519503354}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -6891611552121546834}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-542160935053150152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/pawsteps/patas
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/pawsteps/patas
+  Guid:
+    Data1: 2089693970
+    Data2: 1127028511
+    Data3: 852548495
+    Data4: 156445580
+  Banks:
+  - {fileID: 2143148157519503354}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 2037374496619688384}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45,18 +126,47 @@ MonoBehaviour:
   EditorEvents:
   - {fileID: 5391596278765754801}
   - {fileID: -8520817822466955069}
+  - {fileID: -542160935053150152}
+  - {fileID: -2564517408627223288}
   EditorParameters: []
   MasterBanks:
   - {fileID: 2143148157519503354}
   StringsBanks:
   - {fileID: 6751627267496097018}
   cacheVersion: 131860
-  cacheTime: 639221810636036284
+  cacheTime: 639222622109533475
   SerializableEventsDict:
   - key: event:/pawsteps/garras
     index: 0
   - key: event:/fall
     index: 1
+  - key: event:/pawsteps/patas
+    index: 2
+--- !u!114 &2037374496619688384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/patas/Pawsteps.1
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
+  Name: Pawsteps.1
+  StudioPath: 
+  Min: 0
+  Max: 0
+  Default: 0
+  ID:
+    data1: 3299101643
+    data2: 4140972233
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Value A
+  Exists: 1
 --- !u!114 &2143148157519503354
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72,10 +182,10 @@ MonoBehaviour:
   Path: ../Fmod/GatoSFX/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639221810635989367
+  lastModified: 639222622109484502
   FileSizes:
   - Name: Desktop
-    Value: 32224
+    Value: 78304
   Exists: 1
 --- !u!114 &5391596278765754801
 MonoBehaviour:
@@ -99,7 +209,7 @@ MonoBehaviour:
   - {fileID: 2143148157519503354}
   IsStream: 0
   Is3D: 0
-  IsOneShot: 0
+  IsOneShot: 1
   Parameters:
   - {fileID: 6759305893985616657}
   MinDistance: 1
@@ -120,10 +230,10 @@ MonoBehaviour:
   Path: ../Fmod/GatoSFX/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639221810636036284
+  lastModified: 639222622109533475
   FileSizes:
   - Name: Desktop
-    Value: 874
+    Value: 1006
   Exists: 1
 --- !u!114 &6759305893985616657
 MonoBehaviour:
@@ -135,9 +245,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/garras/PawSteps
+  m_Name: parameter:/garras/jump
   m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
-  Name: PawSteps
+  Name: jump
   StudioPath: 
   Min: 0
   Max: 0

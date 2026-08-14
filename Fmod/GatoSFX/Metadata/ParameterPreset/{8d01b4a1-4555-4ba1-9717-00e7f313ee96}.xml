@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="ParameterPreset" id="{8e4f0c0e-c110-402d-b0cb-4a36bdbfecab}">
+	<object class="ParameterPreset" id="{8d01b4a1-4555-4ba1-9717-00e7f313ee96}">
 		<property name="name">
-			<value>jump</value>
+			<value>Pawsteps.1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{7914cddc-15fb-4aa5-b2ed-f7f270cfc5c0}</destination>
 		</relationship>
 		<relationship name="parameter">
-			<destination>{a592ae23-b01a-4329-85c3-a9448214f833}</destination>
+			<destination>{abc1ad11-0765-40df-9334-fcb770ea527b}</destination>
 		</relationship>
 	</object>
-	<object class="GameParameter" id="{a592ae23-b01a-4329-85c3-a9448214f833}">
+	<object class="GameParameter" id="{abc1ad11-0765-40df-9334-fcb770ea527b}">
 		<property name="parameterType">
 			<value>2</value>
 		</property>

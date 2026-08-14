@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{0cf9fa13-68d3-41fa-acfc-1ff322d916f0}">
+	<object class="AudioFile" id="{1ef39d2e-e7a8-444e-a422-c117ba049998}">
 		<property name="assetPath">
-			<value>garras/garras - Trimmed (4).wav</value>
+			<value>footsteps/walk/Steps3.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
 		</property>
 		<property name="channelCount">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<property name="length">
-			<value>0.45000000000000001</value>
+			<value>0.77000000000000002</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{83930bb0-2fdb-4c40-8096-822ef381df7d}</destination>
