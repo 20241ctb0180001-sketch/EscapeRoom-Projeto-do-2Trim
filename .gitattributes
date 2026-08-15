@@ -1,2 +1,3 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+SalaDeEscape_2trim/Assets/Plugins/FMOD/** -text
