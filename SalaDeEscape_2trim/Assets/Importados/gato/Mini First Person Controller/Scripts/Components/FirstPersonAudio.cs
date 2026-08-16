@@ -57,7 +57,7 @@ public class FirstPersonAudio : MonoBehaviour
             {
                 SetMovingEvent(crouchedEvent);
             }
-            else if (character.IsRunning)
+            else if (character && character.IsRunning)
             {
                 SetMovingEvent(runningEvent);
             }
@@ -83,6 +83,13 @@ public class FirstPersonAudio : MonoBehaviour
     void SetMovingEvent(string eventPath)
     {
         if (string.IsNullOrEmpty(eventPath))
+        {
+            StopMovingEvent();
+            return;
+        }
+
+        // Prevent the walking step loop from continuing while sprinting.
+        if (character && character.IsRunning && eventPath == stepEvent)
         {
             StopMovingEvent();
             return;

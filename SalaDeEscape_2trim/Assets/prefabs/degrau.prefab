@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3873780292150823941}
   - component: {fileID: 6645197523469765081}
   - component: {fileID: 4479237980387913682}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: METADE (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -121,7 +121,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8514873934926857256}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: degrau
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -136,9 +136,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6105221233799699298}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -7.108, y: -1.532, z: -4.137}
-  m_LocalScale: {x: 2.75, y: 0.19, z: 0.613}
+  m_LocalScale: {x: 14.3830385, y: 0.08199556, z: 1.2308639}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3195046386437372260}
@@ -157,7 +157,7 @@ GameObject:
   - component: {fileID: 5505699264617609338}
   - component: {fileID: 2289119197947280077}
   - component: {fileID: 5704913471506818980}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: METADE (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
