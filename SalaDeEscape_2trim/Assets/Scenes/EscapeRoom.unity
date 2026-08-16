@@ -1874,6 +1874,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CdgSenha
   inputAction: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  InteractAlcance: 0
   cdgText: {fileID: 1380893689}
   senha: 111295
   painelCdg: {fileID: 1004177993}
@@ -3364,6 +3365,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 8178559991282256531, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
+    - {fileID: 8390733668765505922, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 2696124574119775352, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       insertIndex: -1
@@ -5846,6 +5848,8 @@ MonoBehaviour:
   InventoryItens:
   - {fileID: 1647359061}
   InfoTxt: {fileID: 1360044879}
+  BoxInteract: {fileID: 0}
+  cdgsenha: {fileID: 0}
   inputAction: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
 --- !u!1001 &1223009653
 PrefabInstance:
