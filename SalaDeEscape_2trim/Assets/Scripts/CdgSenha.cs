@@ -12,6 +12,7 @@ public class CdgSenha : MonoBehaviour
     private InputAction topacoEs;
 
     private bool emAlcance = false;
+    public bool InteractAlcance;
 
     [SerializeField] private TextMeshProUGUI cdgText;
     string cdgValor = "";
@@ -31,7 +32,7 @@ public class CdgSenha : MonoBehaviour
     void Update()
     {
         cdgText.text = cdgValor;
-
+        InteractAlcance = emAlcance;
         if(cdgValor == senha)
         {
             anim.SetTrigger("abrirTampa");

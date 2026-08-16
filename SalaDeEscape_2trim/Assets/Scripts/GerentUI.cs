@@ -13,6 +13,8 @@ public class GerentUI : MonoBehaviour
     public GameObject InventoryIMG;
     public TextMeshProUGUI[] InventoryItens;
     public TextMeshProUGUI InfoTxt;
+    public GameObject BoxInteract;
+    public CdgSenha cdgsenha;
 
     public InputActionAsset inputAction;
     private InputAction Inventory;
@@ -21,6 +23,7 @@ public class GerentUI : MonoBehaviour
     {
         instance = this;
         Inventory = InputSystem.actions.FindAction("Inventario");
+        BoxInteract.SetActive(false);
     }
 
     void Update()
@@ -47,6 +50,11 @@ public class GerentUI : MonoBehaviour
     {
         interactIMG.sprite = img;
         interactIMG.enabled = true;
+    }
+    public void BoxInteraction(){
+        if(cdgsenha.InteractAlcance == true){
+            BoxInteract.SetActive(true);
+        }
     }
 
     public void setItens(Item item, int index)
