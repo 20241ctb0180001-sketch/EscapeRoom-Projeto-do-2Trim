@@ -19,6 +19,8 @@ public class CdgSenha : MonoBehaviour
     public string senha;
     public GameObject painelCdg;
 
+    public GerentUI bob;
+
     void Awake()
     {
         topacoEs = InputSystem.actions.FindAction("InteractE");
@@ -53,7 +55,12 @@ public class CdgSenha : MonoBehaviour
         {
             Cursor.visible = true;
             Cursor.lockState = CursorLockMode.None;
+        }else{
+            Cursor.visible = false;
+            Cursor.lockState = CursorLockMode.Locked;
         }
+
+        bob.SetBoxInteract(emAlcance);
     }
 
     private void OnTriggerEnter(Collider other)

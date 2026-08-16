@@ -132,7 +132,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 9150869127732090120}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: painelManager, Assembly-CSharp
           m_MethodName: SelecionarCor
           m_Mode: 3
@@ -156,8 +156,6 @@ GameObject:
   - component: {fileID: 6339002307614578129}
   - component: {fileID: 8355523078589739020}
   - component: {fileID: 7046303569544441654}
-  - component: {fileID: 3413073764934402678}
-  - component: {fileID: 3279608101910110824}
   m_Layer: 0
   m_Name: Cube (7)
   m_TagString: Untagged
@@ -258,65 +256,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &3413073764934402678
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 163385764954775916}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9300bb8f74c8b62438bc2e9f594dd926, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::painelManager
-  puzzleAtivo: 0
-  corSelecionada: -1
-  materiaisCores:
-  - {fileID: 2100000, guid: bcb12d9bbf003284ba7750fe2d2e3966, type: 2}
-  - {fileID: 2100000, guid: 7d8b276cac5d370428bc2b9a5a291ee0, type: 2}
-  - {fileID: 2100000, guid: d776d53b49172fb48b9c83a7732cfbf1, type: 2}
-  - {fileID: 2100000, guid: d502c830576574a4291f41099893a01d, type: 2}
-  - {fileID: 2100000, guid: 41cb3c0090a904944b56dd0e1c00cd52, type: 2}
-  - {fileID: 2100000, guid: 03b5c1fef1be6154a884512ac33fa109, type: 2}
-  - {fileID: 2100000, guid: 68bc6c6c70f1ce641a0b842a712f3422, type: 2}
-  - {fileID: 2100000, guid: 0713a74c5a0fbc84490989ae50eddd37, type: 2}
-  fiosBloqueio: {fileID: 0}
---- !u!114 &3279608101910110824
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 163385764954775916}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e57948ddcaea42242947a1a9c339039f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ObjectInteract
-  item: {fileID: 11400000, guid: 0838d0b61c82a1141b0b7e801c178c0c, type: 2}
-  isMoving: 0
-  CollectItem:
-    m_PersistentCalls:
-      m_Calls: []
-  PreviousItem:
-  - requiredItem: {fileID: 11400000, guid: d9e34c4ea4404314ab75b1a49d43d342, type: 2}
-    interactionItem: {fileID: 0}
-    OnInteract:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 163385764954775916}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &310557303705811673
 GameObject:
   m_ObjectHideFlags: 0
@@ -887,7 +826,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2302474477909035706}
   - component: {fileID: 386049411548798705}
-  - component: {fileID: 5085776998996128590}
   m_Layer: 0
   m_Name: Puzzle
   m_TagString: Untagged
@@ -935,33 +873,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.454092, y: 2.3026953, z: 1.5424886}
   m_Center: {x: -0.22015299, y: 0.04714942, z: 0.019996643}
---- !u!114 &5085776998996128590
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 893722942585735503}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 37eca152e09dad443b1b4ddf428bd6f5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PainelInteract
-  InteractEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 9150869127732090120}
-        m_TargetAssemblyTypeName: painelManager, Assembly-CSharp
-        m_MethodName: AbrirPuzzle
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &1049967790935333825
 GameObject:
   m_ObjectHideFlags: 0
@@ -1318,7 +1229,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 9150869127732090120}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: painelManager, Assembly-CSharp
           m_MethodName: SelecionarCor
           m_Mode: 3
@@ -2134,7 +2045,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 9150869127732090120}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: painelManager, Assembly-CSharp
           m_MethodName: SelecionarCor
           m_Mode: 3
@@ -2502,7 +2413,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 9150869127732090120}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: painelManager, Assembly-CSharp
           m_MethodName: SelecionarCor
           m_Mode: 3
@@ -3206,7 +3117,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 9150869127732090120}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: painelManager, Assembly-CSharp
           m_MethodName: SelecionarCor
           m_Mode: 3
@@ -3350,7 +3261,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 9150869127732090120}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: painelManager, Assembly-CSharp
           m_MethodName: SelecionarCor
           m_Mode: 3
@@ -3494,7 +3405,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 9150869127732090120}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: painelManager, Assembly-CSharp
           m_MethodName: SelecionarCor
           m_Mode: 3
@@ -7869,7 +7780,6 @@ GameObject:
   - component: {fileID: 3594375442598791911}
   - component: {fileID: 2247344830448633733}
   - component: {fileID: 6712245986396316504}
-  - component: {fileID: 9150869127732090120}
   m_Layer: 0
   m_Name: Cube (6)
   m_TagString: Untagged
@@ -7970,30 +7880,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &9150869127732090120
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8154302653599372557}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9300bb8f74c8b62438bc2e9f594dd926, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::painelManager
-  puzzleAtivo: 0
-  corSelecionada: -1
-  materiaisCores:
-  - {fileID: 2100000, guid: bcb12d9bbf003284ba7750fe2d2e3966, type: 2}
-  - {fileID: 2100000, guid: 7d8b276cac5d370428bc2b9a5a291ee0, type: 2}
-  - {fileID: 2100000, guid: d776d53b49172fb48b9c83a7732cfbf1, type: 2}
-  - {fileID: 2100000, guid: d502c830576574a4291f41099893a01d, type: 2}
-  - {fileID: 2100000, guid: 41cb3c0090a904944b56dd0e1c00cd52, type: 2}
-  - {fileID: 2100000, guid: 03b5c1fef1be6154a884512ac33fa109, type: 2}
-  - {fileID: 2100000, guid: 68bc6c6c70f1ce641a0b842a712f3422, type: 2}
-  - {fileID: 2100000, guid: 0713a74c5a0fbc84490989ae50eddd37, type: 2}
-  fiosBloqueio: {fileID: 0}
 --- !u!1 &8385982668294106746
 GameObject:
   m_ObjectHideFlags: 0

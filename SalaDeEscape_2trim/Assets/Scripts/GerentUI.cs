@@ -14,7 +14,6 @@ public class GerentUI : MonoBehaviour
     public TextMeshProUGUI[] InventoryItens;
     public TextMeshProUGUI InfoTxt;
     public GameObject BoxInteract;
-    public CdgSenha cdgsenha;
 
     public InputActionAsset inputAction;
     private InputAction Inventory;
@@ -38,6 +37,7 @@ public class GerentUI : MonoBehaviour
     {
         CursorPata.SetActive(state);
     }
+
     public void SetbackImg(bool state)
     {
         saiinteract.SetActive(state);
@@ -46,15 +46,15 @@ public class GerentUI : MonoBehaviour
             interactIMG.enabled = false;
         }
     }
+    
     public void SetIntIMG(Sprite img)
     {
         interactIMG.sprite = img;
         interactIMG.enabled = true;
     }
-    public void BoxInteraction(){
-        if(cdgsenha.InteractAlcance == true){
-            BoxInteract.SetActive(true);
-        }
+
+    public void SetBoxInteract(bool state){
+        BoxInteract.SetActive(state);
     }
 
     public void setItens(Item item, int index)
