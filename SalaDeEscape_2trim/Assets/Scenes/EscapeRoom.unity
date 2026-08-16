@@ -4975,13 +4975,13 @@ MonoBehaviour:
   puzzleAtivo: 0
   corSelecionada: -1
   materiaisCores:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 2100000, guid: bcb12d9bbf003284ba7750fe2d2e3966, type: 2}
+  - {fileID: 2100000, guid: 7d8b276cac5d370428bc2b9a5a291ee0, type: 2}
+  - {fileID: 2100000, guid: d776d53b49172fb48b9c83a7732cfbf1, type: 2}
+  - {fileID: 2100000, guid: d502c830576574a4291f41099893a01d, type: 2}
+  - {fileID: 2100000, guid: 41cb3c0090a904944b56dd0e1c00cd52, type: 2}
+  - {fileID: 2100000, guid: 03b5c1fef1be6154a884512ac33fa109, type: 2}
+  - {fileID: 2100000, guid: 68bc6c6c70f1ce641a0b842a712f3422, type: 2}
   fiosBloqueio: {fileID: 206097865}
 --- !u!114 &1223009660
 MonoBehaviour:
