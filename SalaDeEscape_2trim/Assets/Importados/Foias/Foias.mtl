@@ -1,0 +1,50 @@
+# Apple ModelI/O MTL File: Foias.mtl
+
+newmtl Box_mat
+	map_Kd Box_mat-color.png
+	Kd 1 1 1
+	Ka 0 0 0
+	Ks 0
+	ao 0
+	subsurface 0
+	map_metallic Box_mat-metallic.png
+	specularTint 0
+	map_roughness Box_mat-roughness.png
+	anisotropicRotation 0
+	sheen 0.05
+	sheenTint 0
+	clearCoat 0
+	clearCoatGloss 0
+
+newmtl Box_split_mat
+	map_Kd Box_split_mat-color.png
+	Kd 1 1 1
+	Ka 0 0 0
+	Ks 0
+	ao 0
+	subsurface 0
+	map_metallic Box_split_mat-metallic.png
+	specularTint 0
+	map_roughness Box_split_mat-roughness.png
+	anisotropicRotation 0
+	sheen 0.05
+	sheenTint 0
+	clearCoat 0
+	clearCoatGloss 0
+
+newmtl Box_split_1_mat
+	map_Kd Box_split_1_mat-color.png
+	Kd 1 1 1
+	Ka 0 0 0
+	Ks 0
+	ao 0
+	subsurface 0
+	map_metallic Box_split_1_mat-metallic.png
+	specularTint 0
+	map_roughness Box_split_1_mat-roughness.png
+	anisotropicRotation 0
+	sheen 0.05
+	sheenTint 0
+	clearCoat 0
+	clearCoatGloss 0
+
