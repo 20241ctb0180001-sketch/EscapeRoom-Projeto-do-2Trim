@@ -29,10 +29,12 @@ public class PlayerInteract : MonoBehaviour
         RotateOb = InputSystem.actions.FindAction("Look");
         inventory = GetComponent<PlayerInventory>();
     }
+
     void Update()
     {
         CheckInteractables();
     }
+
     void CheckInteractables()
     {
         if (estaaVer == true)
@@ -62,8 +64,24 @@ public class PlayerInteract : MonoBehaviour
 
         RaycastHit hit;
         Vector3 rayOrigin = Mycam.ScreenToWorldPoint(new Vector3(0f, 0f, 0f));
+
         if (Physics.Raycast(rayOrigin, Mycam.transform.forward, out hit, RayDistance))
-        {
+            {
+                PainelInteract painel = hit.collider.GetComponent<PainelInteract>();
+            if (painel != null)
+            {
+                if (painelManager.instance != null && painelManager.instance.puzzleAtivo)
+                {
+                    return;
+                }
+                GerentUI.instance.SetPawCursor(true);
+                if (IM.WasPressedThisFrame())
+                {
+                    painel.Interact();
+                }
+                return;
+            }
+
             Interactables interactable = hit.collider.GetComponent<Interactables>();
 
             if (interactable != null)
@@ -77,26 +95,41 @@ public class PlayerInteract : MonoBehaviour
                     }
                     CurrInteractable = interactable;
 
-                    CurrInteractable.OnInteract.Invoke();
-                    if (CurrInteractable.item != null)
+                    bool hasPreviousItem = false;
+                for (int i = 0; i < CurrInteractable.PreviousItem.Length; i++)
+                {
+                    if (inventory.itens.Contains(CurrInteractable.PreviousItem[i].requiredItem))
                     {
-                        OnView.Invoke();
-                        estaaVer = true;
-                        Invoke("CanFinish", 1f);
-                        if (CurrInteractable.item.pegavel)
-                        {
-                            OriginPos = CurrInteractable.transform.position;
-                            OiginRotat = CurrInteractable.transform.rotation;
-                            StartCoroutine(MovendObj(CurrInteractable, objViewer.position));
-                        }
+                        Interact(CurrInteractable.PreviousItem[i].requiredItem);
+                        CurrInteractable.PreviousItem[i].OnInteract.Invoke();
+                        hasPreviousItem = true;
+                        break;
+                    }
+                }
+                if (hasPreviousItem)
+                {
+                    return;
+                }
+
+                CurrInteractable.OnInteract.Invoke();
+                if (CurrInteractable.item != null)
+                {
+                    OnView.Invoke();
+                    estaaVer = true;
+                    Invoke("CanFinish", 1f);
+                    if (CurrInteractable.item.pegavel)
+                    {
+                        OriginPos = CurrInteractable.transform.position;
+                        OiginRotat = CurrInteractable.transform.rotation;
+                        StartCoroutine(MovendObj(CurrInteractable, objViewer.position));
                     }
                 }
             }
-            else { GerentUI.instance.SetPawCursor(false); }
-
         }
         else { GerentUI.instance.SetPawCursor(false); }
     }
+    else { GerentUI.instance.SetPawCursor(false); }
+}
 
     void CanFinish()
     {
@@ -166,4 +199,6 @@ public class PlayerInteract : MonoBehaviour
         CurrInteractable.transform.Rotate(Mycam.transform.right, Mathf.Deg2Rad * y * rotatSpeed, Space.World);
         CurrInteractable.transform.Rotate(Mycam.transform.up, -Mathf.Deg2Rad * x * rotatSpeed, Space.World);
     }
+
+
 }
