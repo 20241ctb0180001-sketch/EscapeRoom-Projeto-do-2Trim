@@ -1,0 +1,11 @@
+# Exported from Nomad Sculpt
+
+newmtl Box_split_1_mat
+ map_Kd Folha3_color.png
+ map_roughness Folha3_roughness.png
+ map_Pr Folha3_roughness.png
+ map_metallic Folha3_metalness.png
+ map_Pm Folha3_metalness.png
+ Kd 1.000000 1.000000 1.000000
+ Pr 0.250000
+ Pm 0.000000
