@@ -6,7 +6,7 @@ using UnityEngine.InputSystem;
 public class CdgSenha : MonoBehaviour
 {
 
-    //private Animator anim;
+    private Animator anim;
 
     public InputActionAsset inputAction;
     private InputAction topacoEs;
@@ -25,7 +25,7 @@ public class CdgSenha : MonoBehaviour
 
     void Start()
     {
-        //anim = GetComponent<Animator>();
+        anim = GetComponent<Animator>();
     }
 
     void Update()
@@ -34,7 +34,7 @@ public class CdgSenha : MonoBehaviour
 
         if(cdgValor == senha)
         {
-            //anim.SetTrigger("abrirTampa");
+            anim.SetTrigger("abrirTampa");
             painelCdg.SetActive(false);
         }
 

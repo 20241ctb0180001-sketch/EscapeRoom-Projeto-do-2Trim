@@ -1529,8 +1529,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.2822609, y: 0.74486256, z: 1}
-  m_Center: {x: 0.22832966, y: 0.12756872, z: 0}
+  m_Size: {x: 1.0573721, y: 0.74486256, z: 1.0801315}
+  m_Center: {x: 0.41983747, y: 0.12756872, z: 0.16230392}
 --- !u!114 &468710392
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3715,7 +3715,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1004177994
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8305,6 +8305,10 @@ PrefabInstance:
     - target: {fileID: 1436238053147754554, guid: ad627beecdb4f5e43b1e621c1e0a7a04, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226683488062465228, guid: ad627beecdb4f5e43b1e621c1e0a7a04, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.1113672
       objectReference: {fileID: 0}
     - target: {fileID: 2900242332372587410, guid: ad627beecdb4f5e43b1e621c1e0a7a04, type: 3}
       propertyPath: m_Name
