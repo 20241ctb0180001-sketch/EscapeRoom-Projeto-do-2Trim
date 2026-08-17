@@ -21,6 +21,8 @@ public class CdgSenha : MonoBehaviour
 
     public GerentUI bob;
 
+    public FirstPersonLook look;
+
     void Awake()
     {
         topacoEs = InputSystem.actions.FindAction("InteractE");
@@ -55,9 +57,11 @@ public class CdgSenha : MonoBehaviour
         {
             Cursor.visible = true;
             Cursor.lockState = CursorLockMode.None;
+            if (look != null) look.enabled = false;
         }else{
             Cursor.visible = false;
             Cursor.lockState = CursorLockMode.Locked;
+            if (look != null) look.enabled = true;
         }
 
         bob.SetBoxInteract(emAlcance);

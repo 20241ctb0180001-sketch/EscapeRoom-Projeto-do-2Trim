@@ -4,20 +4,28 @@ public class painelManager : MonoBehaviour
 {
     public static painelManager instance;
 
-    [Header("Estado do Puzzle")]
+    [Header("Estado do puzzle")]
     public bool puzzleAtivo = false;
 
-    [Header("Configurações de Cores")]
+    [Header("Configuracoes de cores")]
     public int corSelecionada = -1; // -1 = Nenhuma cor selecionada
     
-    [Tooltip("Arraste os materiais na ordem exata: 0=Apagar, 1=Laranja, 2=Azul, 3=Amarelo, 4=Roxo, 5=Verde, 6=Vermelho")]
+    [Tooltip("Arrastar os materiais na ordem exata")]
     public Material[] materiaisCores; 
 
-    [Header("Objetos do Cenário")]
+    [Header("Objeto do cenario")]
     public GameObject fiosBloqueio; // Objeto dos fios da porta
+    
+    [Header("Camera")]
+    public FirstPersonLook look;
 
     private Camera mainCam;
     private int[,] matrizAtual = new int[8, 8];
+
+    [Header("Carta de Dica")]
+    public Item cartaItem;
+    public GameObject cartaNaParede; // objeto ja posicionado na parede, desativado por padrao
+    public PlayerInventory inventoryPlayer; // arraste o Player no Inspector
 
     // Gabarito da Bandeira (8 faixas de cores)
     private int[,] matrizGabarito = new int[8, 8] {
@@ -39,7 +47,7 @@ public class painelManager : MonoBehaviour
     void Start()
     {
         mainCam = Camera.main;
-        ResetarMatrizLimpa(); // Sincroniza a memória com o estado zerado da tela
+        ResetarMatrizLimpa(); // Sincroniza a memoria com o estado zerado da tela
     }
 
     void ResetarMatrizLimpa()
@@ -57,13 +65,25 @@ public class painelManager : MonoBehaviour
     public void AbrirPuzzle()
     {
         puzzleAtivo = true;
-        Debug.Log("🔓 Painel ativado!");
+        if (look != null) look.enabled = false;
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+
+        if (cartaNaParede != null && cartaItem != null && inventoryPlayer != null && inventoryPlayer.itens.Contains(cartaItem))
+        {
+            cartaNaParede.SetActive(true);
+        }
+
+        Debug.Log("Painel ativado!");
     }
 
     public void FecharPuzzle()
     {
         puzzleAtivo = false;
-        Debug.Log("🔒 Painel desativado!");
+        if (look != null) look.enabled = true;
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+        Debug.Log("Painel desativado!");
     }
 
     void Update()
@@ -91,7 +111,7 @@ public class painelManager : MonoBehaviour
         {
             GameObject objClicado = hit.collider.gameObject;
 
-            // 1. BOTÃO DE COR
+            // 1. BOTAO DE COR
             if (objClicado.GetComponent<UnityEngine.EventSystems.EventTrigger>() != null || objClicado.CompareTag("BotaoCor") || objClicado.name.StartsWith("BColor"))
             {
                 int idIdentificado = DescobrirIdPeloNome(objClicado.name);
@@ -107,7 +127,7 @@ public class painelManager : MonoBehaviour
             {
                 if (corSelecionada == -1)
                 {
-                    Debug.LogWarning("⚠️ Selecione uma cor primeiro!");
+                    Debug.LogWarning("Selecione uma cor primeiro!");
                     return;
                 }
 
@@ -132,7 +152,7 @@ public class painelManager : MonoBehaviour
                     coluna = 0;
                 }
 
-                Debug.Log($"🎯 Clicou em '{objClicado.name}' -> Matriz[{linha},{coluna}]");
+                Debug.Log($" Clicou em '{objClicado.name}' -> Matriz[{linha},{coluna}]");
                 PintarBolinha(objClicado, linha, coluna);
             }
         }
@@ -154,7 +174,7 @@ public class painelManager : MonoBehaviour
     public void SelecionarCor(int idCor)
     {
         corSelecionada = idCor;
-        Debug.Log("🎨 Cor ativa alterada com SUCESSO para ID: " + idCor);
+        Debug.Log("Cor ativa alterada com SUCESSO para ID: " + idCor);
     }
 
     void PintarBolinha(GameObject objetoBolinha, int linha, int coluna)
@@ -180,17 +200,17 @@ void VerificarVitoria()
     {
         for (int c = 0; c < 8; c++)
         {
-            // Se QUALQUER célula estiver diferente do gabarito, cancela a vitória na hora!
+            // Se QUALQUER celula estiver diferente do gabarito, cancela a vitoria
             if (matrizAtual[l, c] != matrizGabarito[l, c]) 
             {
-                Debug.Log($"⏳ Não deu vitória ainda! Célula [{l},{c}] está com a cor ID {matrizAtual[l, c]}, mas o gabarito espera a cor ID {matrizGabarito[l, c]}.");
+                Debug.Log($" Nao deu vitoria ainda! Celula [{l},{c}] esta com a cor ID {matrizAtual[l, c]}, mas o gabarito espera a cor ID {matrizGabarito[l, c]}.");
                 return;
             }
         }
     }
     
-    // Se passou por TODAS as 64 posições sem nenhuma divergência:
-    Debug.Log("🎉 VOCÊ GANHOU! Bandeira concluída perfeitamente!");
+    // Se passou por TODAS as 64 posicoes sem nenhuma errada:
+    Debug.Log("VOCE GANHOU! Bandeira concluida perfeitamente!");
     if (fiosBloqueio != null) fiosBloqueio.SetActive(false);
     
     FecharPuzzle();

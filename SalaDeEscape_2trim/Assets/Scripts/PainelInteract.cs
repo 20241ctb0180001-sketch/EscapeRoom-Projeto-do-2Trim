@@ -5,13 +5,29 @@ public class PainelInteract : MonoBehaviour
 {
 
     [Header("Evento de Interação (Abrir Painel)")]
+    public UnityEvent InteractEvent;
 
-    public UnityEvent InteractEvent; //evento "AbrirPuzzle"
+    [Header("Bloqueio sem item")]
+    public bool RequerItem;
+    public Item itemNecessario;
+    public string MensagemBloqueado = "Voce precisa de algo para abrir isso.";
+    public PlayerInventory inventoryPlayer;
 
-    //função chamada pelo PlayerIntera quando o jogador clica no painel
     public void Interact()
     {
-        InteractEvent?.Invoke(); //dispara o evento programado no Inspector
-    }
+        if (RequerItem)
+        {
+            bool temItem = inventoryPlayer != null
+                && itemNecessario != null
+                && inventoryPlayer.itens.Contains(itemNecessario);
 
+            if (!temItem)
+            {
+                GerentUI.instance.ShowMessage(MensagemBloqueado);
+                return;
+            }
+        }
+
+        InteractEvent?.Invoke();
+    }
 }

@@ -111,6 +111,12 @@ public class PlayerInteract : MonoBehaviour
                     return;
                 }
 
+                if (CurrInteractable.RequerItem)
+                {
+                    GerentUI.instance.ShowMessage(CurrInteractable.MensagemBloqueado);
+                    return;
+                }
+
                 CurrInteractable.OnInteract.Invoke();
                 if (CurrInteractable.item != null)
                 {

@@ -60,7 +60,12 @@ public class GerentUI : MonoBehaviour
     public void setItens(Item item, int index)
     {
         InventoryItens[index].text = item.InvetoryTxt;
-        InfoTxt.text = item.CollectMsg;
+        ShowMessage(item.CollectMsg);
+    }
+
+    public void ShowMessage(string msg)
+    {
+        InfoTxt.text = msg;
         StartCoroutine(FadingText());
     }
 
