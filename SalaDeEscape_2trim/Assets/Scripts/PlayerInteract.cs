@@ -22,6 +22,10 @@ public class PlayerInteract : MonoBehaviour
     private Quaternion OiginRotat;
     private PlayerInventory inventory;
 
+    [Header("Câmera e Movimento")]
+    public FirstPersonLook look;
+    public FirstPersonMovement movement;
+
     void Awake()
     {
         Mycam = Camera.main;
@@ -120,8 +124,11 @@ public class PlayerInteract : MonoBehaviour
                 CurrInteractable.OnInteract.Invoke();
                 if (CurrInteractable.item != null)
                 {
+                    Interact(CurrInteractable.item);
                     OnView.Invoke();
                     estaaVer = true;
+                    if (look != null) look.enabled = false;
+                    if (movement != null) movement.enabled = false;
                     Invoke("CanFinish", 1f);
                     if (CurrInteractable.item.pegavel)
                     {
@@ -161,6 +168,8 @@ public class PlayerInteract : MonoBehaviour
     {
         canFinish = false;
         estaaVer = false;
+        if (look != null) look.enabled = true;
+        if (movement != null) movement.enabled = true;
         GerentUI.instance.SetbackImg(false);
 
         if (CurrInteractable.item.InvetoryItem)

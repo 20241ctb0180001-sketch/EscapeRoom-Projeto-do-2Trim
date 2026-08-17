@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fb915f8e4e3bcb489f7588678a39f87, type: 3}
   m_Name: Ferramenta
   m_EditorClassIdentifier: Assembly-CSharp::Item
-  pegavel: 0
+  pegavel: 1
   audioClip: {fileID: 0}
-  text: 
+  text: Uma ferramenta, acho que vou levar isso comigo...
   image: {fileID: 0}
-  InvetoryItem: 0
-  CollectMsg: 
-  InvetoryTxt: 
+  InvetoryItem: 1
+  CollectMsg: "Voc\xEA coletou uma ferramenta"
+  InvetoryTxt: Ferramenta

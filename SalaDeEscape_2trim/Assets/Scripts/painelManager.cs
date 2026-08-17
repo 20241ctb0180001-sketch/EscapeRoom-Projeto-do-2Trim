@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class painelManager : MonoBehaviour
 {
@@ -56,7 +57,7 @@ public class painelManager : MonoBehaviour
         {
             for (int c = 0; c < 8; c++)
             {
-                matrizAtual[l, c] = 0; // Marca tudo como Branco (ID 0)
+                matrizAtual[l, c] = -1; // Marca tudo como indifenido(-1)
             }
         }
     }
@@ -88,15 +89,20 @@ public class painelManager : MonoBehaviour
 
     void Update()
     {
-        if (!puzzleAtivo) return;
+            if (!puzzleAtivo) return;
 
-        if (Input.GetKeyDown(KeyCode.Escape) || Input.GetMouseButtonDown(1))
+        bool apertouEsc = Keyboard.current != null && Keyboard.current.escapeKey.wasPressedThisFrame;
+        bool apertouBotaoDireito = Mouse.current != null && Mouse.current.rightButton.wasPressedThisFrame;
+
+        if (apertouEsc || apertouBotaoDireito)
         {
             FecharPuzzle();
             return;
         }
 
-        if (Input.GetMouseButtonDown(0)) 
+        bool apertouBotaoEsquerdo = Mouse.current != null && Mouse.current.leftButton.wasPressedThisFrame;
+
+        if (apertouBotaoEsquerdo) 
         {
             ProcessarClique();
         }

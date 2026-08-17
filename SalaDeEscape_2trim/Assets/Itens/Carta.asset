@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fb915f8e4e3bcb489f7588678a39f87, type: 3}
   m_Name: Carta
   m_EditorClassIdentifier: Assembly-CSharp::Item
-  pegavel: 0
+  pegavel: 1
   audioClip: {fileID: 0}
-  text: 
-  image: {fileID: 0}
-  InvetoryItem: 0
-  CollectMsg: 
-  InvetoryTxt: 
+  text: ...
+  image: {fileID: 21300000, guid: 4c605aa9f642ec644b198d5eb47dc361, type: 3}
+  InvetoryItem: 1
+  CollectMsg: "Voc\xEA coletou a carta"
+  InvetoryTxt: Carta
