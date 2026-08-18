@@ -189,6 +189,7 @@ public class teste : MonoBehaviour
             if (CurrInteractable.CompareTag("brinquedos"))
             {
                 inventario.AdicionarItem(coletavel.dadosDoItem);
+                CurrInteractable.CollectItem.Invoke();
             }else
             {
                 inventory.AddItem(CurrInteractable.item);
