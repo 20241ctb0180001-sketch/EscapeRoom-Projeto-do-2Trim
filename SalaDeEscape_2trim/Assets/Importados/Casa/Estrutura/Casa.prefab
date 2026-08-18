@@ -32856,7 +32856,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Drawer B
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3521720717186331844, guid: 051a0cf936fb2e24b930d0fde34b165e, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
