@@ -132,7 +132,7 @@ MonoBehaviour:
   rotateSpeed: 10
   playerSan: 3
   painelEscurece: {fileID: 0}
-  fadeDuration: 0.5
+  fadeDuration: 1
 --- !u!65 &7871387233925618911
 BoxCollider:
   m_ObjectHideFlags: 0
