@@ -7,7 +7,6 @@ public class PlayerLimit : MonoBehaviour
     public Transform res1;
     public Transform res2;
     public GameObject Limitt;
-    // private Transform currRespawn;
     private int currRespawn;
     private void Awake()
     {
@@ -19,7 +18,7 @@ public class PlayerLimit : MonoBehaviour
         if (other.gameObject == Player)
         {
             print("FFFFF");
-            if (currRespawn == 1)
+            if (currRespawn == 1 || currRespawn == 0)
             {
                 Player.transform.position = res1.transform.position;
             }
