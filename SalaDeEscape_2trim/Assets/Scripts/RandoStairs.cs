@@ -5,7 +5,7 @@ public class RandoStairs : MonoBehaviour
 {
     [SerializeField] private GameObject esseDegrau;
     public GameObject hand;
-    public GameObject deco;
+    public UnityEvent EE1;
     public UnityEvent EE2;
 
     void Awake()
@@ -32,7 +32,7 @@ public class RandoStairs : MonoBehaviour
 
                 case 3:
                     Debug.Log("easterEgg1");
-                    GameObject.FindWithTag("EE1").SetActive(true);
+                    EE1.Invoke();
                     break;
 
                 case 4:
