@@ -3,10 +3,12 @@ using UnityEngine;
 public class portaEscadaria : MonoBehaviour
 {
     int numerinho = 0;
-    bool abrirPorta = false;
-    public Transform portaBranca;
-    float velocidadeGiro = 5f;
-    bool aberto = false;
+    bool fecharPorta = false;
+    public Animator portaBranca;
+    string parametroI = "abrirPorta";
+    string parametroII = "fecharPorta";
+    string parametroIII = "aberto";
+    bool aberto = true;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -17,35 +19,22 @@ public class portaEscadaria : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(abrirPorta == true && aberto == false)
-        {
-            while(portaBranca.eulerAngles.y > 93.512f)
-            {
-                print("ffgh");
-                portaBranca.Rotate(Vector3.up * velocidadeGiro * Time.deltaTime);
-                
-            }
-            
-        }else if(abrirPorta == false && numerinho >=1)
-        {
-            velocidadeGiro = -150f;
-            if(portaBranca.eulerAngles.y != -3.512f)
-            {
-                portaBranca.Rotate(Vector3.up * velocidadeGiro * Time.deltaTime);
-
-            }else if(portaBranca.eulerAngles.y <= -3.512f)
-            {
-                portaBranca.eulerAngles= new Vector3(0, -3.512f, 0);
-            }
-            
-        }
+    
     }
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            abrirPorta = false;
+            fecharPorta = true;
+            if(fecharPorta == true && aberto == true && numerinho >=1)
+            {
+                portaBranca.SetBool(parametroII, true);
+                portaBranca.Play("fecharPorta");
+                aberto = false;
+                fecharPorta = false;
+                portaBranca.SetBool(parametroII, false);
+            }
         }
     }
 
@@ -56,7 +45,11 @@ public class portaEscadaria : MonoBehaviour
             numerinho++;
             if(numerinho == 1)
             {
-                abrirPorta = true;
+                portaBranca.SetBool(parametroI, true);
+                portaBranca.Play("abrirPorta");
+                aberto = true;
+                portaBranca.SetBool(parametroIII, true);
+                portaBranca.SetBool(parametroI, false);
             }
         }
     }

@@ -35,12 +35,13 @@ public class MaoSegue : MonoBehaviour
         rb.rotation = Quaternion.Lerp(rb.rotation, targetRotation, Time.fixedDeltaTime * rotateSpeed);
     }
 
-    void OnCollisionEnter(Collision other)
+    void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Player"))
         {   
             Destroy(gameObject);
             playerSan--;
+            Debug.Log("Player Sanity: " + playerSan);
             StartCoroutine(FadeIn());
         }
     }

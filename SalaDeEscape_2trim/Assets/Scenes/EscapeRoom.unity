@@ -4003,7 +4003,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca98bda84960725478ab7a8bc7912bec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::portaEscadaria
-  portaBranca: {fileID: 1123878853}
+  portaBranca: {fileID: 1123878854}
 --- !u!65 &770655179
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4019,7 +4019,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -6403,11 +6403,6 @@ Transform:
 --- !u!1 &1123878852 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3879810044149093455, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
-  m_PrefabInstance: {fileID: 741154224}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1123878853 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1440486885978772276, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
   m_PrefabInstance: {fileID: 741154224}
   m_PrefabAsset: {fileID: 0}
 --- !u!95 &1123878854
