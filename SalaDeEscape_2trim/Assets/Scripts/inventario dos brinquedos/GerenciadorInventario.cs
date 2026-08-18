@@ -22,11 +22,13 @@ public class GerenciadorInventario : MonoBehaviour
 
     public void AtualizarTodaUI()
     {
+        print("qqqqq");
         for (int i = 0; i < slotsUI.Count; i++)
         {
             if (i < itensNoInventario.Count)
             {
                 slotsUI[i].AtualizarSlot(itensNoInventario[i]);
+                print("" + itensNoInventario[i]);
             }
             else
             {

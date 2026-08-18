@@ -10,6 +10,15 @@ public class SlotInventario : MonoBehaviour
     // Passar 'null' limpa o slot.
     public void AtualizarSlot(Item item)
     {
+        /*if(item != null)
+        {
+            print("aiai");
+        }
+        if(item.image != null)
+        {
+            print("uiui");
+        }*/
+
         if (item != null && item.image != null)
         {
             imagemIcone.sprite = item.image;

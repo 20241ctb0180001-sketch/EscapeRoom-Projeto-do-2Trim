@@ -4,8 +4,9 @@ using System.Collections.Generic;
 using UnityEngine.InputSystem;
 using UnityEngine.Events;
 
-public class PlayerInteract : MonoBehaviour
+public class teste : MonoBehaviour
 {
+    public GameObject bricador;
     [SerializeField] private float RayDistance;
     [SerializeField] private Camera Mycam;
     public Transform objViewer;
@@ -25,10 +26,12 @@ public class PlayerInteract : MonoBehaviour
     [SerializeField] private FirstPersonLook look;
     [SerializeField] private FirstPersonMovement movement;
     [SerializeField] private float animationDuration = 2f;
+    private GerenciadorInventario inventario;
 
 
     void Awake()
     {
+        inventario = bricador.GetComponent<GerenciadorInventario>();
         Mycam = Camera.main;
         IM = InputSystem.actions.FindAction("InteractMouse");
         RotateOb = InputSystem.actions.FindAction("Look");
@@ -180,10 +183,18 @@ public class PlayerInteract : MonoBehaviour
         if (movement != null) movement.enabled = true;
         GerentUI.instance.SetbackImg(false);
 
+        BrinquedoColetavel coletavel = CurrInteractable.GetComponent<BrinquedoColetavel>();
         if (CurrInteractable.item.InvetoryItem)
         {
-            inventory.AddItem(CurrInteractable.item);
-            CurrInteractable.CollectItem.Invoke();
+            if (CurrInteractable.CompareTag("brinquedos"))
+            {
+                inventario.AdicionarItem(coletavel.dadosDoItem);
+            }else
+            {
+                inventory.AddItem(CurrInteractable.item);
+                CurrInteractable.CollectItem.Invoke();
+            }
+            
         }
         if (CurrInteractable.item.pegavel)
         {
