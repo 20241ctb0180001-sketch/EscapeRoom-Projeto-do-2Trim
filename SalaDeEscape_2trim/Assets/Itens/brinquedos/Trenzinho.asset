@@ -15,7 +15,7 @@ MonoBehaviour:
   pegavel: 0
   audioClip: {fileID: 0}
   text: 
-  image: {fileID: 0}
+  image: {fileID: 21300000, guid: ecbab827065e15c44b4b494ca15b8c80, type: 3}
   InvetoryItem: 1
   CollectMsg: "Voc\xEA coletou um brinquedo"
   InvetoryTxt: Trenzinho

@@ -24,7 +24,8 @@ public class PlayerInteract : MonoBehaviour
     [Header("Câmera e Movimento")]
     [SerializeField] private FirstPersonLook look;
     [SerializeField] private FirstPersonMovement movement;
-    
+    [SerializeField] private float animationDuration = 2f;
+
 
     void Awake()
     {
@@ -74,8 +75,8 @@ public class PlayerInteract : MonoBehaviour
         Vector3 rayOrigin = Mycam.ScreenToWorldPoint(new Vector3(0f, 0f, 0f));
 
         if (Physics.Raycast(rayOrigin, Mycam.transform.forward, out hit, RayDistance))
-            {
-                PainelInteract painel = hit.collider.GetComponent<PainelInteract>();
+        {
+            PainelInteract painel = hit.collider.GetComponent<PainelInteract>();
             if (painel != null)
             {
                 if (painelManager.instance != null && painelManager.instance.puzzleAtivo)
@@ -104,55 +105,57 @@ public class PlayerInteract : MonoBehaviour
                     CurrInteractable = interactable;
 
                     bool hasPreviousItem = false;
-                for (int i = 0; i < CurrInteractable.PreviousItem.Length; i++)
-                {
-                    if (inventory.Itens.Contains(CurrInteractable.PreviousItem[i].requiredItem))
+                    for (int i = 0; i < CurrInteractable.PreviousItem.Length; i++)
                     {
-                        Interact(CurrInteractable.PreviousItem[i].requiredItem);
-                        CurrInteractable.PreviousItem[i].OnInteract.Invoke();
-                        hasPreviousItem = true;
-                        break;
+                        if (inventory.Itens.Contains(CurrInteractable.PreviousItem[i].requiredItem))
+                        {
+                            Interact(CurrInteractable.PreviousItem[i].requiredItem);
+                            CurrInteractable.PreviousItem[i].OnInteract.Invoke();
+                            hasPreviousItem = true;
+                            break;
+                        }
                     }
-                }
-                if (hasPreviousItem)
-                {
-                    return;
-                }
-
-                BloqueioDeItem bloqueio = CurrInteractable.GetComponent<BloqueioDeItem>();
-                if (bloqueio != null && !bloqueio.PodeInteragir(inventory))
-                {
-                    GerentUI.instance.ShowMessage(bloqueio.MensagemBloqueado);
-                    return;
-                }
-
-                CurrInteractable.OnInteract.Invoke();
-                if (CurrInteractable.item != null)
-                {
-                    Interact(CurrInteractable.item);
-                    OnView.Invoke();
-                    estaaVer = true;
-                    if (look != null) look.enabled = false;
-                    if (movement != null) movement.enabled = false;
-                    Invoke("CanFinish", 1f);
-                    if (CurrInteractable.item.pegavel)
+                    if (hasPreviousItem)
                     {
-                        OriginPos = CurrInteractable.transform.position;
-                        OiginRotat = CurrInteractable.transform.rotation;
-                        StartCoroutine(MovendObj(CurrInteractable, objViewer.position));
+                        return;
+                    }
+
+                    BloqueioDeItem bloqueio = CurrInteractable.GetComponent<BloqueioDeItem>();
+                    if (bloqueio != null && !bloqueio.PodeInteragir(inventory))
+                    {
+                        GerentUI.instance.ShowMessage(bloqueio.MensagemBloqueado);
+                        return;
+                    }
+
+                    CurrInteractable.OnInteract.Invoke();
+                    if (CurrInteractable.item != null)
+                    {
+                        Interact(CurrInteractable.item);
+                        OnView.Invoke();
+                        estaaVer = true;
+                        if (look != null) look.enabled = false;
+                        if (movement != null) movement.enabled = false;
+                        Invoke("CanFinish", 1f);
+                        if (CurrInteractable.item.pegavel)
+                        {
+                            OriginPos = CurrInteractable.transform.position;
+                            OiginRotat = CurrInteractable.transform.rotation;
+
+                            CurrInteractable.StoreOriginalTransform();
+                            StartCoroutine(MovendObj(CurrInteractable, objViewer.position, objViewer.rotation));
+                        }
                     }
                 }
             }
+            else { GerentUI.instance.SetPawCursor(false); }
         }
         else { GerentUI.instance.SetPawCursor(false); }
     }
-    else { GerentUI.instance.SetPawCursor(false); }
-}
 
     void CanFinish()
     {
         canFinish = true;
-        if(CurrInteractable.item.image == null && !CurrInteractable.item.pegavel)
+        if (CurrInteractable.item.image == null && !CurrInteractable.item.pegavel)
         {
             FinishView();
         }
@@ -164,7 +167,7 @@ public class PlayerInteract : MonoBehaviour
 
     void Interact(Item item)
     {
-        if(item.image != null)
+        if (item.image != null)
         {
             GerentUI.instance.SetIntIMG(item.image);
         }
@@ -189,12 +192,37 @@ public class PlayerInteract : MonoBehaviour
             {
                 CurrInteractable.GetComponent<Collider>().enabled = true;
             }
-            StartCoroutine(MovendObj(CurrInteractable, OriginPos));
+            //StartCoroutine(MovendObj(CurrInteractable, OriginPos));
+
+            CurrInteractable.RestoreOriginalTransform();
+            StartCoroutine(MovendObj(CurrInteractable, CurrInteractable.GetOriginalPosition(), CurrInteractable.GetOriginalRotation()));
         }
         OnFinishView.Invoke();
     }
 
-    IEnumerator MovendObj(Interactables obj, Vector3 pos)
+    IEnumerator MovendObj(Interactables obj, Vector3 targetPos, Quaternion targetRot)
+    {
+        obj.IsMoving = true;
+        float timer = 0f;
+        Vector3 startPos = obj.transform.position;
+        Quaternion startRot = obj.transform.rotation;
+
+        while (timer < animationDuration)
+        {
+            float progress = timer / animationDuration;
+            obj.transform.position = Vector3.Lerp(startPos, targetPos, progress);
+            obj.transform.rotation = Quaternion.Lerp(startRot, targetRot, progress);
+            timer += Time.deltaTime;
+            yield return null;
+        }
+
+        // Garante valores finais exatos
+        obj.transform.position = targetPos;
+        obj.transform.rotation = targetRot;
+        obj.IsMoving = false;
+    }
+
+    /*IEnumerator MovendObj(Interactables obj, Vector3 pos)
     {
         obj.IsMoving = true;
         float timer = 0f;
@@ -208,7 +236,7 @@ public class PlayerInteract : MonoBehaviour
         obj.transform.position = pos;
         obj.transform.rotation = objViewer.rotation;
         obj.IsMoving = false;
-    }
+    }*/
 
     void RodaObj()
     {
