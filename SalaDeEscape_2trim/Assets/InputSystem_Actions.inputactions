@@ -122,6 +122,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "abrirInventarioBrinquedos",
+                    "type": "Button",
+                    "id": "49086473-9d00-4707-871c-72503d4b98ba",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -573,6 +582,17 @@
                     "processors": "",
                     "groups": ";Keyboard&Mouse",
                     "action": "giroCamera",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "37dbce36-140e-44f9-9e32-a8a869adf7c7",
+                    "path": "<Keyboard>/tab",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard&Mouse",
+                    "action": "abrirInventarioBrinquedos",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
