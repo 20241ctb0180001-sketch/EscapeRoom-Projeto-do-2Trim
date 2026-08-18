@@ -5,8 +5,8 @@ public class RandoStairs : MonoBehaviour
 {
     [SerializeField] private GameObject esseDegrau;
     public GameObject hand;
-    public UnityEvent handtap;
-    public UnityEvent EE1;
+    //public UnityEvent handtap;
+    //public UnityEvent EE1;
     public UnityEvent EE2;
 
     void Awake()
@@ -17,21 +17,23 @@ public class RandoStairs : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            int rng = Random.Range(1, 4);
+            int rng = Random.Range(1, 5);
             switch (rng)
             {
                 case 1:
                     gameObject.GetComponent<Collider>().enabled = false;
+                    gameObject.GetComponent<MeshRenderer>().enabled = false;
                     Debug.Log("Disaparece");
                     break;
 
                 case 2:
                     SpawnObject();
-                    Debug.Log("mão");
+                    Debug.Log("mao");
                     break;
 
                 case 3:
-                    EE1.Invoke();
+                    //EE1.Invoke();
+                    GameObject.FindWithTag("EE1").SetActive(true);
                     Debug.Log("easterEgg1");
                     break;
 
