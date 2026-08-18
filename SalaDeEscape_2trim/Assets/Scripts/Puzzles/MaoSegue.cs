@@ -51,7 +51,7 @@ public class MaoSegue : MonoBehaviour
         float elapsed = 0f;
         Color startColor = painelEscurece.color;
         Color endColor = startColor;
-        endColor.a = playerSan / 3f; // Quanto mais dano, mais escuro
+        endColor.a = (3 - playerSan) / 3f; // Quanto mais dano, mais escuro
 
         while (elapsed < fadeDuration)
         {
