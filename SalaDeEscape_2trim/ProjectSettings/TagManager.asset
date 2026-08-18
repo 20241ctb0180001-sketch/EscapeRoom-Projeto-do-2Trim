@@ -11,6 +11,7 @@ TagManager:
   - respawn2
   - Limit
   - deco
+  - PainelEscurece
   layers:
   - Default
   - TransparentFX

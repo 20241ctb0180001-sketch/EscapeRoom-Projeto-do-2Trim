@@ -30,11 +30,6 @@ public class DefinirSpawn : MonoBehaviour
             print("EEEE");
             alvoScript.QualSpawnEsta(nuRespawn);
         }
-
-        /*if (other.CompareTag("Player") && currRespawn != null)
-        {
-            Player.transform.position = currRespawn.transform.position;
-        }*/
     }
     
 }

@@ -14,6 +14,7 @@ public class MaoSegue : MonoBehaviour
     public GameObject painelEscurece;
     public PlayerLimit limit;
     private CanvasGroup painelFade;
+    public FirstPersonMovement playerController;
     void Start()
     {
         target = GameObject.FindGameObjectWithTag("Player").transform;
@@ -33,29 +34,16 @@ public class MaoSegue : MonoBehaviour
     }
 
     void OnCollisionEnter(Collision other)
+{
+    if (other.gameObject.CompareTag("Player"))
     {
-        if (other.gameObject.CompareTag("Player"))
+        FirstPersonMovement playerController = other.gameObject.GetComponent<FirstPersonMovement>();
+        if (playerController != null)
         {
-            Destroy(this.gameObject);
-            playerSan --;
+            playerController.TakeDamage(1);
         }
-        //rb.useGravity = !rb.useGravity;
-        switch (playerSan)
-        {
-            case 1:
-            painelFade.alpha = 0.9f;
-            target.transform.position = limit.res1.transform.position;
-            painelFade.alpha = 0f;
-            break;
-
-            case 2:
-            painelFade.alpha = 0.5f;
-            break;
-
-            case 3:
-            painelFade.alpha = 0.25f;
-            break;
-        }
+        Destroy(this.gameObject);
     }
+}
 
 }
