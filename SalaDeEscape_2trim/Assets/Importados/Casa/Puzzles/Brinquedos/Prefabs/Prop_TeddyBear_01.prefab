@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2737554258343584328}
   - component: {fileID: 3619815178101587662}
   - component: {fileID: -6473748755244262733}
+  - component: {fileID: 2623301083869808616}
   m_Layer: 0
   m_Name: Prop_TeddyBear_01
   m_TagString: Untagged
@@ -135,5 +136,15 @@ MonoBehaviour:
       m_Calls: []
   IsMoving: 0
   PreviousItem: []
-  RequerItem: 0
-  MensagemBloqueado: Voce precisa de algo para abrir isso.
+--- !u!114 &2623301083869808616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4538858114342110109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eef18a24d2096f4795cd25832a16728, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BrinquedoColetavel

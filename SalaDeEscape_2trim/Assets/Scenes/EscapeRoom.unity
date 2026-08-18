@@ -2517,6 +2517,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 399054645710423552, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
+      propertyPath: dadosDoItem
+      value: 
+      objectReference: {fileID: 11400000, guid: 4e2d737456987aa4c8aa2e5a9e3b0aa8, type: 2}
     - target: {fileID: 447631786775185766, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -2561,6 +2565,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 613162594765269384, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
+      propertyPath: dadosDoItem
+      value: 
+      objectReference: {fileID: 11400000, guid: 02c6198f67652a147bcf5b210b8bc022, type: 2}
     - target: {fileID: 637234092644936764, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: m_LocalScale.z
       value: 1
@@ -2753,6 +2761,10 @@ PrefabInstance:
       propertyPath: CollectItem.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 1696361478026023998, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
+      propertyPath: dadosDoItem
+      value: 
+      objectReference: {fileID: 11400000, guid: e7242febf9ac3e643bbf781d04befc73, type: 2}
     - target: {fileID: 1701138407231996805, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: m_LocalPosition.y
       value: 119.18
@@ -2853,6 +2865,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: UrsoPelucia
       objectReference: {fileID: 0}
+    - target: {fileID: 2239185193791242869, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
+      propertyPath: m_TagString
+      value: brinquedos
+      objectReference: {fileID: 0}
     - target: {fileID: 2327924697169566909, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -2873,6 +2889,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Casa
       objectReference: {fileID: 0}
+    - target: {fileID: 2534826441664241259, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
+      propertyPath: dadosDoItem
+      value: 
+      objectReference: {fileID: 11400000, guid: 69128ec56f9ee1d43883543d448a8eb5, type: 2}
     - target: {fileID: 2644236800257539312, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: m_LocalScale.z
       value: 1
@@ -3024,6 +3044,10 @@ PrefabInstance:
     - target: {fileID: 4172795099610913415, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: m_Name
       value: Trenzinho
+      objectReference: {fileID: 0}
+    - target: {fileID: 4172795099610913415, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
+      propertyPath: m_TagString
+      value: brinquedos
       objectReference: {fileID: 0}
     - target: {fileID: 4359757710998843336, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: m_Enabled
@@ -3321,6 +3345,14 @@ PrefabInstance:
       propertyPath: m_TagString
       value: respawn1
       objectReference: {fileID: 0}
+    - target: {fileID: 6694772249435296064, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
+      propertyPath: dadosDoItem
+      value: 
+      objectReference: {fileID: 11400000, guid: e312ee90d2eaee045a8a34ff4d807f49, type: 2}
+    - target: {fileID: 6766317307565027909, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
+      propertyPath: m_TagString
+      value: brinquedos
+      objectReference: {fileID: 0}
     - target: {fileID: 6774415209009193929, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: m_LocalScale.z
       value: 1
@@ -3477,6 +3509,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8561531968061050441, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
+      propertyPath: m_TagString
+      value: brinquedos
+      objectReference: {fileID: 0}
     - target: {fileID: 8659616015596817282, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: CollectItem.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -3532,6 +3568,10 @@ PrefabInstance:
     - target: {fileID: 8884810852872116480, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8889802642910567877, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
+      propertyPath: m_TagString
+      value: brinquedos
       objectReference: {fileID: 0}
     - target: {fileID: 8898530616961335594, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: m_Size.x

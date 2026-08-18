@@ -12,6 +12,7 @@ TagManager:
   - Limit
   - deco
   - PainelEscurece
+  - brinquedos
   layers:
   - Default
   - TransparentFX

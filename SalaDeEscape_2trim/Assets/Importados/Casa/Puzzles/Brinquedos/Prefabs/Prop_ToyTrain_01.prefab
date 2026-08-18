@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8600093623218374477}
   - component: {fileID: 6960381617523792855}
   - component: {fileID: 7565354606669402926}
+  - component: {fileID: -8549675909814129313}
   m_Layer: 0
   m_Name: Prop_ToyTrain_01
   m_TagString: Untagged
@@ -147,5 +148,15 @@ MonoBehaviour:
       m_Calls: []
   IsMoving: 0
   PreviousItem: []
-  RequerItem: 0
-  MensagemBloqueado: Voce precisa de algo para abrir isso.
+--- !u!114 &-8549675909814129313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7807368074136856216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eef18a24d2096f4795cd25832a16728, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BrinquedoColetavel
