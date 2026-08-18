@@ -26,7 +26,6 @@ public class RandoStairs : MonoBehaviour
                     break;
 
                 case 2:
-                    handtap.Invoke();
                     SpawnObject();
                     Debug.Log("mão");
                     break;
@@ -49,8 +48,7 @@ public class RandoStairs : MonoBehaviour
 
     void SpawnObject()
     {
-        // Spawns the prefab at coordinates (0, 2, 0) with no rotation
-        Vector3 spawnPosition = new Vector3(0f, 2f, 0f);
+        Vector3 spawnPosition = esseDegrau.transform.position;
         Quaternion spawnRotation = Quaternion.identity;
 
         Instantiate(hand, spawnPosition, spawnRotation);

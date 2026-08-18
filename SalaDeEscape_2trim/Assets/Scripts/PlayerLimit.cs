@@ -5,17 +5,25 @@ public class PlayerLimit : MonoBehaviour
     public GameObject Player;
     public GameObject res1;
     public GameObject res2;
+    public GameObject Limitt;
     public GameObject currRespawn;
 
     private void Awake()
     {
         if (Player == null)
-            Player = GameObject.FindGameObjectWithTag("Player1");
+            Player = GameObject.FindGameObjectWithTag("Player");
 
         if (currRespawn == null && res1 != null)
             currRespawn = res1;
     }
 
+    void Update()
+    {
+        if(Player.transform.position.y <= Limitt.transform.position.y)
+        {
+            Player.transform.position = currRespawn.transform.position;
+        }
+    }
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject == res1)
@@ -27,10 +35,10 @@ public class PlayerLimit : MonoBehaviour
             currRespawn = res2;
         }
 
-        if (other.CompareTag("Player1") && currRespawn != null)
+        /*if (other.CompareTag("Player1") && currRespawn != null)
         {
             Player.transform.position = currRespawn.transform.position;
-        }
+        }*/
     }
 }
 
