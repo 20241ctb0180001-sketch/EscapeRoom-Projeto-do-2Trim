@@ -19,7 +19,7 @@ public class painelManager : MonoBehaviour
     
     [Header("Camera")]
     public FirstPersonLook look;
-
+    
     private Camera mainCam;
     private int[,] matrizAtual = new int[8, 8];
 
@@ -118,14 +118,11 @@ public class painelManager : MonoBehaviour
             GameObject objClicado = hit.collider.gameObject;
 
             // 1. BOTAO DE COR
-            if (objClicado.GetComponent<UnityEngine.EventSystems.EventTrigger>() != null || objClicado.CompareTag("BotaoCor") || objClicado.name.StartsWith("BColor"))
+            BotaoCor botao = objClicado.GetComponent<BotaoCor>();
+            if (botao != null)
             {
-                int idIdentificado = DescobrirIdPeloNome(objClicado.name);
-                if (idIdentificado != -1)
-                {
-                    SelecionarCor(idIdentificado);
-                    return;
-                }
+                SelecionarCor(botao.CorId);
+                return;
             }
 
             // 2. BOLINHA

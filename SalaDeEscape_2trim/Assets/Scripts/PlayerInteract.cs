@@ -118,9 +118,10 @@ public class PlayerInteract : MonoBehaviour
                     return;
                 }
 
-                if (CurrInteractable.RequerItem)
+                BloqueioDeItem bloqueio = CurrInteractable.GetComponent<BloqueioDeItem>();
+                if (bloqueio != null && !bloqueio.PodeInteragir(inventory))
                 {
-                    GerentUI.instance.ShowMessage(CurrInteractable.MensagemBloqueado);
+                    GerentUI.instance.ShowMessage(bloqueio.MensagemBloqueado);
                     return;
                 }
 
@@ -198,15 +199,12 @@ public class PlayerInteract : MonoBehaviour
         float timer = 0f;
         while (timer < 2f) //<--tava >
         {
-            /*obj.transform.position = Vector3.Lerp(OriginPos, pos, timer);
-            obj.transform.rotation = Quaternion.Lerp(OiginRotat, objViewer.rotation, timer);*/
             obj.transform.position = Vector3.Lerp(OriginPos, pos, timer / 2f);
             obj.transform.rotation = Quaternion.Lerp(OiginRotat, objViewer.rotation, timer / 2f);
             timer += Time.deltaTime;
             yield return null;
         }
         obj.transform.position = pos;
-        //obj.transform.rotation = objViewer.rotation;
         obj.transform.rotation = objViewer.rotation;
         obj.IsMoving = false;
     }
