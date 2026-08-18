@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class BotaoCor : MonoBehaviour
 {
-    [SerializeField] int corId;
+    [SerializeField] private int corId;
 
+    public int CorId => corId;
 }

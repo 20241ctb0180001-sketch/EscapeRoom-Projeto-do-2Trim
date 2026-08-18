@@ -9,10 +9,6 @@ public class Interactables : MonoBehaviour
 
     public PreviousItem[] PreviousItem;
 
-    [Header("Bloqueio sem item")]
-    public bool RequerItem; //precisa de item obrigatoriamente
-    public string MensagemBloqueado = "Voce precisa de algo para abrir isso.";
-
 }
 
 [System.Serializable]
