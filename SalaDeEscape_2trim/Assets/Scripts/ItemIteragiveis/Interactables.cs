@@ -8,7 +8,6 @@ public class Interactables : MonoBehaviour
     public bool IsMoving;
 
     public PreviousItem[] PreviousItem;
-
     private Vector3 originalPosition;
     private Quaternion originalRotation;
 
