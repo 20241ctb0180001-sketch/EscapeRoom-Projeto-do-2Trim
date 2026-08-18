@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -36,7 +37,7 @@ public class RandoStairs : MonoBehaviour
                     break;
 
                 case 4:
-                    EE2.Invoke();
+                    StartCoroutine(InvokeEE2(EE2, 3f));
                     Debug.Log("easterEgg2");
                     break;
 
@@ -52,5 +53,12 @@ public class RandoStairs : MonoBehaviour
         Quaternion spawnRotation = Quaternion.identity;
 
         Instantiate(hand, spawnPosition, spawnRotation);
+        Destroy(hand, 1.5f);
+    }
+
+    private IEnumerator InvokeEE2(UnityEvent unityEvent, float duration)
+    {
+        unityEvent.Invoke();
+        yield return new WaitForSeconds(duration);
     }
 }

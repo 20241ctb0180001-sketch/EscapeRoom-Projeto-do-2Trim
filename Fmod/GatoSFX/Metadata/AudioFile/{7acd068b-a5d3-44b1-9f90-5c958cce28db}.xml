@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{7acd068b-a5d3-44b1-9f90-5c958cce28db}">
+		<property name="assetPath">
+			<value>botoes/pintar3.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.71999999999999997</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{83930bb0-2fdb-4c40-8096-822ef381df7d}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{5f83de4d-2eba-430a-86d2-38923c7c5de0}">
+		<property name="assetPath">
+			<value>Musicas/CutSceneFinal.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>17.005714285714287</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{83930bb0-2fdb-4c40-8096-822ef381df7d}</destination>
+		</relationship>
+	</object>
+</objects>

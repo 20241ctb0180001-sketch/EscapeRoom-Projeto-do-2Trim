@@ -35,12 +35,14 @@ public class MaoSegue : MonoBehaviour
         rb.rotation = Quaternion.Lerp(rb.rotation, targetRotation, Time.fixedDeltaTime * rotateSpeed);
     }
 
-    void OnCollisionEnter(Collision other)
+    void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Player"))
         {   
-            StartCoroutine(FadeIn());
             Destroy(gameObject);
+            playerSan--;
+            Debug.Log("Player Sanity: " + playerSan);
+            StartCoroutine(FadeIn());
         }
     }
 
@@ -49,7 +51,7 @@ public class MaoSegue : MonoBehaviour
         float elapsed = 0f;
         Color startColor = painelEscurece.color;
         Color endColor = startColor;
-        endColor.a = (3 - playerSan) / 3f; // Quanto mais dano, mais escuro
+        endColor.a = playerSan / 3f; // Quanto mais dano, mais escuro
 
         while (elapsed < fadeDuration)
         {

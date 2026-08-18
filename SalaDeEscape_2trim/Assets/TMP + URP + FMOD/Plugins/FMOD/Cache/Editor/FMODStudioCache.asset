@@ -1,5 +1,32 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8925491749270566895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Botoes/Pintar
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Botoes/Pintar
+  Guid:
+    Data1: -122507675
+    Data2: 1260055430
+    Data3: 872222848
+    Data4: 1944097303
+  Banks:
+  - {fileID: 7553115357002063613}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 540
 --- !u!114 &-8127471808609410038
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15,10 +42,10 @@ MonoBehaviour:
   Path: ../Fmod/GatoSFX/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639226485709548377
+  lastModified: 639226700630964808
   FileSizes:
   - Name: Desktop
-    Value: 994
+    Value: 1288
   Exists: 1
 --- !u!114 &-5507672069030167634
 MonoBehaviour:
@@ -45,6 +72,33 @@ MonoBehaviour:
   Labels:
   - Value A
   Exists: 1
+--- !u!114 &-4552694176171035292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/M\xFAsicas/CutSceneFinal"
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: "event:/M\xFAsicas/CutSceneFinal"
+  Guid:
+    Data1: -410937342
+    Data2: 1146647037
+    Data3: -441741688
+    Data4: -1714284617
+  Banks:
+  - {fileID: 7553115357002063613}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 17005
 --- !u!114 &-3531030382874908037
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73,6 +127,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-2752014468988166104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Botoes/Click
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Botoes/Click
+  Guid:
+    Data1: -371378505
+    Data2: 1317980742
+    Data3: 234738343
+    Data4: 934721342
+  Banks:
+  - {fileID: 7553115357002063613}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 230
 --- !u!114 &-1638567441202736366
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -121,13 +202,19 @@ MonoBehaviour:
   - {fileID: 307909875913075056}
   - {fileID: -1638567441202736366}
   - {fileID: -3531030382874908037}
+  - {fileID: -4552694176171035292}
+  - {fileID: -8925491749270566895}
+  - {fileID: 3408490889184162668}
+  - {fileID: 2200418299241696263}
+  - {fileID: -2752014468988166104}
+  - {fileID: 8952630572920020763}
   EditorParameters: []
   MasterBanks:
   - {fileID: 7553115357002063613}
   StringsBanks:
   - {fileID: -8127471808609410038}
   cacheVersion: 131860
-  cacheTime: 639226485709548377
+  cacheTime: 639226700630964808
   SerializableEventsDict:
   - key: event:/pawsteps/patas
     index: 0
@@ -217,6 +304,60 @@ MonoBehaviour:
   Labels:
   - Value A
   Exists: 1
+--- !u!114 &2200418299241696263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/M\xFAsicas/Menu"
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: "event:/M\xFAsicas/Menu"
+  Guid:
+    Data1: 1840470944
+    Data2: 1224218979
+    Data3: 680086972
+    Data4: -284555827
+  Banks:
+  - {fileID: 7553115357002063613}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 29280
+--- !u!114 &3408490889184162668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/M\xFAsicas/Creditos"
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: "event:/M\xFAsicas/Creditos"
+  Guid:
+    Data1: 871951508
+    Data2: 1216956925
+    Data3: -2002422376
+    Data4: 443966987
+  Banks:
+  - {fileID: 7553115357002063613}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 214343
 --- !u!114 &5251310348135156101
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -257,8 +398,35 @@ MonoBehaviour:
   Path: ../Fmod/GatoSFX/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639226485709538380
+  lastModified: 639226700630959775
   FileSizes:
   - Name: Desktop
-    Value: 78304
+    Value: 4233344
   Exists: 1
+--- !u!114 &8952630572920020763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/M\xFAsicas/Ambiente"
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: "event:/M\xFAsicas/Ambiente"
+  Guid:
+    Data1: 1120472061
+    Data2: 1283268358
+    Data3: -2099359299
+    Data4: 1500641882
+  Banks:
+  - {fileID: 7553115357002063613}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 111571
