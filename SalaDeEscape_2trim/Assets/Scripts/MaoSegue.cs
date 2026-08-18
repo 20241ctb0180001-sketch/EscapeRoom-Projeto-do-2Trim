@@ -1,7 +1,5 @@
 using UnityEngine;
 using System.Collections;
-using FMODUnity;
-using UnityEngine.UI;
 
 [RequireComponent(typeof(Rigidbody))]
 public class MaoSegue : MonoBehaviour
@@ -10,15 +8,10 @@ public class MaoSegue : MonoBehaviour
     [SerializeField] private Rigidbody rb;
     public float speed;
     public float rotateSpeed;
-    public int playerSan = 3;
-    public GameObject painelEscurece;
-    public PlayerLimit limit;
-    private CanvasGroup painelFade;
     void Start()
     {
         target = GameObject.FindGameObjectWithTag("Player").transform;
         rb = GetComponent<Rigidbody>();
-        painelFade = painelEscurece.GetComponent<CanvasGroup>();
     }
 
     void FixedUpdate()
@@ -30,30 +23,14 @@ public class MaoSegue : MonoBehaviour
         rb.rotation = Quaternion.Lerp(rb.rotation, targetRotation, Time.fixedDeltaTime * rotateSpeed);
     }
 
-    void OnCollisionEnter(Collision other)
+    void OnCollisionEnter(Collision col)
     {
-        if (other.gameObject.CompareTag("Player"))
+        if (col.gameObject.CompareTag("Player"))
         {
-            Destroy(this.gameObject);
-            playerSan --;
+            Destroy(this.gameObject, 2f);
         }
-        //rb.useGravity = !rb.useGravity;
-        switch (playerSan)
-        {
-            case 1:
-            painelFade.alpha = 0.9f;
-            target.transform.position = limit.currRespawn.transform.position;
-            painelFade.alpha = 0f;
-            break;
 
-            case 2:
-            painelFade.alpha = 0.5f;
-            break;
-
-            case 3:
-            painelFade.alpha = 0.25f;
-            break;
-        }
+        rb.useGravity = !rb.useGravity;
     }
 
 }
