@@ -1,32 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8925491749270566895
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Botoes/Pintar
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: event:/Botoes/Pintar
-  Guid:
-    Data1: -122507675
-    Data2: 1260055430
-    Data3: 872222848
-    Data4: 1944097303
-  Banks:
-  - {fileID: 7553115357002063613}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 540
 --- !u!114 &-8127471808609410038
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42,10 +15,10 @@ MonoBehaviour:
   Path: ../Fmod/GatoSFX/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639226700630964808
+  lastModified: 639226717588682151
   FileSizes:
   - Name: Desktop
-    Value: 1288
+    Value: 1294
   Exists: 1
 --- !u!114 &-5507672069030167634
 MonoBehaviour:
@@ -203,18 +176,18 @@ MonoBehaviour:
   - {fileID: -1638567441202736366}
   - {fileID: -3531030382874908037}
   - {fileID: -4552694176171035292}
-  - {fileID: -8925491749270566895}
   - {fileID: 3408490889184162668}
   - {fileID: 2200418299241696263}
   - {fileID: -2752014468988166104}
   - {fileID: 8952630572920020763}
+  - {fileID: 7880070278296883277}
   EditorParameters: []
   MasterBanks:
   - {fileID: 7553115357002063613}
   StringsBanks:
   - {fileID: -8127471808609410038}
   cacheVersion: 131860
-  cacheTime: 639226700630964808
+  cacheTime: 639226717588682151
   SerializableEventsDict:
   - key: event:/pawsteps/patas
     index: 0
@@ -224,6 +197,18 @@ MonoBehaviour:
     index: 2
   - key: event:/pawsteps/garras
     index: 3
+  - key: "event:/M\xFAsicas/CutSceneFinal"
+    index: 4
+  - key: "event:/M\xFAsicas/Creditos"
+    index: 5
+  - key: "event:/M\xFAsicas/Menu"
+    index: 6
+  - key: event:/Botoes/Click
+    index: 7
+  - key: "event:/M\xFAsicas/Ambiente"
+    index: 8
+  - key: event:/pintar/Pintar
+    index: 9
 --- !u!114 &307909875913075056
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -398,11 +383,38 @@ MonoBehaviour:
   Path: ../Fmod/GatoSFX/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639226700630959775
+  lastModified: 639226717588672051
   FileSizes:
   - Name: Desktop
     Value: 4233344
   Exists: 1
+--- !u!114 &7880070278296883277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/pintar/Pintar
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/pintar/Pintar
+  Guid:
+    Data1: -122507675
+    Data2: 1260055430
+    Data3: 872222848
+    Data4: 1944097303
+  Banks:
+  - {fileID: 7553115357002063613}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 540
 --- !u!114 &8952630572920020763
 MonoBehaviour:
   m_ObjectHideFlags: 0
