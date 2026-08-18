@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using FMODUnity;
 
 public class painelManager : MonoBehaviour
 {
@@ -28,6 +29,10 @@ public class painelManager : MonoBehaviour
     [SerializeField] private GameObject cartaNaParede; // objeto ja posicionado na parede, desativado por padrao
     [SerializeField] private PlayerInventory inventoryPlayer; // arrastar o Player no Inspector
 
+
+    [Header("Audio")]
+    [SerializeField] private EventReference somBotao;
+    [SerializeField] private EventReference somBolinha;
     
 
     // Gabarito da Bandeira (8 faixas de cores)
@@ -112,7 +117,8 @@ public class painelManager : MonoBehaviour
 
     void ProcessarClique()
     {
-        Ray ray = mainCam.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0));
+        Vector2 mousePos = Mouse.current.position.ReadValue();
+        Ray ray = mainCam.ScreenPointToRay(mousePos);
         RaycastHit hit;
 
         if (Physics.Raycast(ray, out hit, 10f))
@@ -124,6 +130,7 @@ public class painelManager : MonoBehaviour
             if (botao != null)
             {
                 SelecionarCor(botao.CorId);
+                if (!somBotao.IsNull) RuntimeManager.PlayOneShot(somBotao, hit.point);
                 return;
             }
 
@@ -163,7 +170,7 @@ public class painelManager : MonoBehaviour
         }
     }
 
-    int DescobrirIdPeloNome(string nomeObjeto)
+    /* int DescobrirIdPeloNome(string nomeObjeto)
     {
         string nomeUpper = nomeObjeto.ToUpper();
         if (nomeUpper.Contains("APAGAR") || nomeUpper.Contains("BOTAU_0")) return 0; // Branco/Apagar
@@ -174,7 +181,7 @@ public class painelManager : MonoBehaviour
         if (nomeUpper.Contains("BCOLORE") || nomeUpper.Contains("BOTAU_5")) return 5; // Roxo
         if (nomeUpper.Contains("BCOLORF") || nomeUpper.Contains("BOTAU_6")) return 6; // Verde
         return -1;
-    }
+    } */
 
     public void SelecionarCor(int idCor)
     {
@@ -184,7 +191,6 @@ public class painelManager : MonoBehaviour
 
     void PintarBolinha(GameObject objetoBolinha, int linha, int coluna)
     {
-        // Garante estritamente que linha e coluna fiquem entre 0 e 7 (Evita IndexOutOfRange!)
         linha = Mathf.Clamp(linha, 0, 7);
         coluna = Mathf.Clamp(coluna, 0, 7);
 
@@ -194,30 +200,31 @@ public class painelManager : MonoBehaviour
         if (renderer != null && corSelecionada >= 0 && corSelecionada < materiaisCores.Length)
         {
             renderer.material = materiaisCores[corSelecionada];
+            if (!somBolinha.IsNull) RuntimeManager.PlayOneShot(somBolinha, objetoBolinha.transform.position);
         }
 
         VerificarVitoria();
     }
 
-void VerificarVitoria()
-{
-    for (int l = 0; l < 8; l++)
+    void VerificarVitoria()
     {
-        for (int c = 0; c < 8; c++)
+        for (int l = 0; l < 8; l++)
         {
-            // Se QUALQUER celula estiver diferente do gabarito, cancela a vitoria
-            if (matrizAtual[l, c] != matrizGabarito[l, c]) 
+            for (int c = 0; c < 8; c++)
             {
-                Debug.Log($" Nao deu vitoria ainda! Celula [{l},{c}] esta com a cor ID {matrizAtual[l, c]}, mas o gabarito espera a cor ID {matrizGabarito[l, c]}.");
-                return;
+                // Se QUALQUER celula estiver diferente do gabarito, cancela a vitoria
+                if (matrizAtual[l, c] != matrizGabarito[l, c]) 
+                {
+                    Debug.Log($" Nao deu vitoria ainda! Celula [{l},{c}] esta com a cor ID {matrizAtual[l, c]}, mas o gabarito espera a cor ID {matrizGabarito[l, c]}.");
+                    return;
+                }
             }
         }
+        
+        // Se passou por TODAS as 64 posicoes sem nenhuma errada:
+        Debug.Log("VOCE GANHOU! Bandeira concluida perfeitamente!");
+        if (fiosBloqueio != null) fiosBloqueio.SetActive(false);
+        
+        FecharPuzzle();
     }
-    
-    // Se passou por TODAS as 64 posicoes sem nenhuma errada:
-    Debug.Log("VOCE GANHOU! Bandeira concluida perfeitamente!");
-    if (fiosBloqueio != null) fiosBloqueio.SetActive(false);
-    
-    FecharPuzzle();
-}
 }
