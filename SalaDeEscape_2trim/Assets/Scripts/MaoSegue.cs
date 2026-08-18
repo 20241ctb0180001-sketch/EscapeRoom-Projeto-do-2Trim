@@ -27,7 +27,7 @@ public class MaoSegue : MonoBehaviour
     {
         if (col.gameObject.CompareTag("Player"))
         {
-            Destroy(this.rb, 2f);
+            Destroy(this.gameObject, 2f);
         }
 
         rb.useGravity = !rb.useGravity;
