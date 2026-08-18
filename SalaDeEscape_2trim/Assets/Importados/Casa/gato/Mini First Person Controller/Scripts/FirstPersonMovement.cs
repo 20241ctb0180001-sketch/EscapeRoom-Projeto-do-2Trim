@@ -22,18 +22,6 @@ public class FirstPersonMovement : MonoBehaviour
     public float wallCheckDistance = 0.35f;
     public float wallRadius = 0.25f;
 
-    [SerializeField] private int maxSanity = 3;
-    [SerializeField] private int currentSanity;
-    [SerializeField] private Image painelFade;
-    [SerializeField] private PlayerLimit limit;
-
-    private Dictionary<int, float> sanityFadeValues = new Dictionary<int, float>
-    {
-        { 3, 0.25f },
-        { 2, 0.5f },
-        { 1, 0.9f }
-    };
-
     Rigidbody RB;
     /// <summary> Functions to override movement speed. Will use the last added override. </summary>
     public List<System.Func<float>> speedOverrides = new List<System.Func<float>>();
@@ -44,7 +32,6 @@ public class FirstPersonMovement : MonoBehaviour
         RB = GetComponent<Rigidbody>();
         MoveAction = InputSystem.actions.FindAction("Move");
         CorreAction = InputSystem.actions.FindAction("Sprint");
-        currentSanity = maxSanity;
     }
 
     private Vector3 GetWallSafeVelocity(Vector3 desiredVelocity)
@@ -105,27 +92,5 @@ public class FirstPersonMovement : MonoBehaviour
         //   } // para impedir o player de ir muito rapido e "voar" quando pula
 
         //RB.linearVelocity = transform.rotation * new Vector3(targetVelocity.x, RB.linearVelocity.y, targetVelocity.y); cod anterior.
-    }
-
-     public void TakeDamage(int damage)
-    {
-        currentSanity -= damage;
-        currentSanity = Mathf.Max(currentSanity, 0);
-        UpdateSanityUI();
-    }
-
-    private void UpdateSanityUI()
-    {
-        if (sanityFadeValues.ContainsKey(currentSanity))
-        {
-            Color color = painelFade.color;
-            color.a = sanityFadeValues[currentSanity];
-            painelFade.color = color;
-        }
-
-        if (currentSanity == 1)
-        {
-            transform.position = limit.res1.transform.position;
-        }
     }
 }
