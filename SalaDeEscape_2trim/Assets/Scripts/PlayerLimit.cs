@@ -35,7 +35,7 @@ public class PlayerLimit : MonoBehaviour
             currRespawn = res2;
         }
 
-        /*if (other.CompareTag("Player1") && currRespawn != null)
+        /*if (other.CompareTag("Player") && currRespawn != null)
         {
             Player.transform.position = currRespawn.transform.position;
         }*/
