@@ -1,5 +1,7 @@
 using UnityEngine;
 using System.Collections;
+using FMODUnity;
+using UnityEngine.UI;
 
 [RequireComponent(typeof(Rigidbody))]
 public class MaoSegue : MonoBehaviour
@@ -8,10 +10,17 @@ public class MaoSegue : MonoBehaviour
     [SerializeField] private Rigidbody rb;
     public float speed;
     public float rotateSpeed;
+    public int playerSan = 3;
+    public GameObject painelEscurece;
+    public PlayerLimit limit;
+    private CanvasGroup painelFade;
     void Start()
     {
         target = GameObject.FindGameObjectWithTag("Player").transform;
         rb = GetComponent<Rigidbody>();
+        limit = GameObject.FindGameObjectWithTag("Limit").GetComponent<PlayerLimit>();
+        painelEscurece = GameObject.FindGameObjectWithTag("PainelEscurece");
+        painelFade = painelEscurece.GetComponent<CanvasGroup>();
     }
 
     void FixedUpdate()
@@ -23,23 +32,30 @@ public class MaoSegue : MonoBehaviour
         rb.rotation = Quaternion.Lerp(rb.rotation, targetRotation, Time.fixedDeltaTime * rotateSpeed);
     }
 
-    void OnCollisionEnter(Collision col)
+    void OnCollisionEnter(Collision other)
     {
-        if (col.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Player"))
         {
-            Destroy(this.gameObject, 2f);
+            Destroy(this.gameObject);
+            playerSan --;
         }
+        //rb.useGravity = !rb.useGravity;
+        switch (playerSan)
+        {
+            case 1:
+            painelFade.alpha = 0.9f;
+            target.transform.position = limit.res1.transform.position;
+            painelFade.alpha = 0f;
+            break;
 
-        rb.useGravity = !rb.useGravity;
+            case 2:
+            painelFade.alpha = 0.5f;
+            break;
+
+            case 3:
+            painelFade.alpha = 0.25f;
+            break;
+        }
     }
 
 }
-/*void DoFade()
-    {
-        CanvasGroup canvasGroup = GetComponent<CanvasGroup>();
-        while (canvasGroup.alpha < 1)
-        {
-            canvasGroup.alpha += Time.deltaTime / 200;
-           
-        }
-    }*/
