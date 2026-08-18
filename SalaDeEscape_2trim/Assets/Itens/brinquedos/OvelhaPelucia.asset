@@ -15,7 +15,7 @@ MonoBehaviour:
   pegavel: 0
   audioClip: {fileID: 0}
   text: 
-  image: {fileID: 0}
-  InvetoryItem: 0
-  CollectMsg: 
-  InvetoryTxt: 
+  image: {fileID: 21300000, guid: 332ba29eea7e92840a403b01fc582f56, type: 3}
+  InvetoryItem: 1
+  CollectMsg: "Voc\xEA coletou um brinquedo"
+  InvetoryTxt: Ovelha
