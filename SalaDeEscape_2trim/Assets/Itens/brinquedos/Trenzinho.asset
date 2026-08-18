@@ -16,6 +16,6 @@ MonoBehaviour:
   audioClip: {fileID: 0}
   text: 
   image: {fileID: 0}
-  InvetoryItem: 0
-  CollectMsg: 
-  InvetoryTxt: 
+  InvetoryItem: 1
+  CollectMsg: "Voc\xEA coletou um brinquedo"
+  InvetoryTxt: Trenzinho

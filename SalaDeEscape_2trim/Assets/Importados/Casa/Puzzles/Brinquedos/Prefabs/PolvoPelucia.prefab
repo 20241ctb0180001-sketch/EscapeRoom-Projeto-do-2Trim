@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1582421911794182356}
   - component: {fileID: 4382187705165268913}
   - component: {fileID: 4294240395092423820}
+  - component: {fileID: -1932101900541297329}
   m_Layer: 0
   m_Name: PolvoPelucia
   m_TagString: Untagged
@@ -113,3 +114,26 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 1960544099208130213, guid: df9387781a6118b45a481443f6972e8e, type: 3}
+--- !u!114 &-1932101900541297329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 219373662910731972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e3e062172d8e6a48805e9b2f7749c4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Interactables
+  item: {fileID: 11400000, guid: e7242febf9ac3e643bbf781d04befc73, type: 2}
+  OnInteract:
+    m_PersistentCalls:
+      m_Calls: []
+  CollectItem:
+    m_PersistentCalls:
+      m_Calls: []
+  IsMoving: 0
+  PreviousItem: []
+  RequerItem: 0
+  MensagemBloqueado: Voce precisa de algo para abrir isso.
