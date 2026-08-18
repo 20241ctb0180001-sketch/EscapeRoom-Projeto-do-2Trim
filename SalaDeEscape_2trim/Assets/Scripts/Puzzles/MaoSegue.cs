@@ -1,6 +1,5 @@
 using UnityEngine;
 using System.Collections;
-using FMODUnity;
 using UnityEngine.UI;
 
 [RequireComponent(typeof(Rigidbody))]
@@ -11,17 +10,20 @@ public class MaoSegue : MonoBehaviour
     public float speed;
     public float rotateSpeed;
     public int playerSan = 3;
-    public GameObject painelEscurece;
-    public PlayerLimit limit;
-    private CanvasGroup painelFade;
-    public FirstPersonMovement playerController;
+    public Image painelEscurece;
+    //public PlayerLimit limit;
+    public float fadeDuration = 0.5f;
     void Start()
     {
         target = GameObject.FindGameObjectWithTag("Player").transform;
         rb = GetComponent<Rigidbody>();
-        limit = GameObject.FindGameObjectWithTag("Limit").GetComponent<PlayerLimit>();
-        painelEscurece = GameObject.FindGameObjectWithTag("PainelEscurece");
-        painelFade = painelEscurece.GetComponent<CanvasGroup>();
+        //limit = GameObject.FindGameObjectWithTag("Limit").GetComponent<PlayerLimit>();
+        painelEscurece = GameObject.FindGameObjectWithTag("PainelEscurece").GetComponent<Image>();
+        
+        // Inicializa painel transparente
+        Color startColor = painelEscurece.color;
+        startColor.a = 0f;
+        painelEscurece.color = startColor;
     }
 
     void FixedUpdate()
@@ -34,16 +36,28 @@ public class MaoSegue : MonoBehaviour
     }
 
     void OnCollisionEnter(Collision other)
-{
-    if (other.gameObject.CompareTag("Player"))
     {
-        FirstPersonMovement playerController = other.gameObject.GetComponent<FirstPersonMovement>();
-        if (playerController != null)
-        {
-            playerController.TakeDamage(1);
+        if (other.gameObject.CompareTag("Player"))
+        {   
+            StartCoroutine(FadeIn());
+            Destroy(gameObject);
         }
-        Destroy(this.gameObject);
     }
-}
 
+    private IEnumerator FadeIn()
+    {
+        float elapsed = 0f;
+        Color startColor = painelEscurece.color;
+        Color endColor = startColor;
+        endColor.a = (3 - playerSan) / 3f; // Quanto mais dano, mais escuro
+
+        while (elapsed < fadeDuration)
+        {
+            elapsed += Time.deltaTime;
+            painelEscurece.color = Color.Lerp(startColor, endColor, elapsed / fadeDuration);
+            yield return null;
+        }
+
+        painelEscurece.color = endColor;
+    }
 }
