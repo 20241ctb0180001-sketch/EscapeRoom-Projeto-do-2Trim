@@ -28,7 +28,7 @@ public class GerenciadorInventario : MonoBehaviour
             if (i < itensNoInventario.Count)
             {
                 slotsUI[i].AtualizarSlot(itensNoInventario[i]);
-                print("" + itensNoInventario[i]);
+                // print("" + itensNoInventario[i]);
             }
             else
             {

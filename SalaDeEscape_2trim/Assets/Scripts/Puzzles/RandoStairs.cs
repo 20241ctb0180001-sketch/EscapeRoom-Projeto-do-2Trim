@@ -52,5 +52,6 @@ public class RandoStairs : MonoBehaviour
         Quaternion spawnRotation = Quaternion.identity;
 
         Instantiate(hand, spawnPosition, spawnRotation);
+        Destroy(hand,1.5f);
     }
 }
