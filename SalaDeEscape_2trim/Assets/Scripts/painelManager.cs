@@ -3,30 +3,32 @@ using UnityEngine.InputSystem;
 
 public class painelManager : MonoBehaviour
 {
-    public static painelManager instance;
+    [SerializeField] public static painelManager instance;
 
     [Header("Estado do puzzle")]
-    public bool puzzleAtivo = false;
+    [SerializeField] public bool puzzleAtivo = false;
 
     [Header("Configuracoes de cores")]
-    public int corSelecionada = -1; // -1 = Nenhuma cor selecionada
+    [SerializeField] private int corSelecionada = -1; // -1 = Nenhuma cor selecionada
     
     [Tooltip("Arrastar os materiais na ordem exata")]
-    public Material[] materiaisCores; 
+    [SerializeField] private Material[] materiaisCores; 
 
     [Header("Objeto do cenario")]
-    public GameObject fiosBloqueio; // Objeto dos fios da porta
+    [SerializeField] private GameObject fiosBloqueio; // Objeto dos fios da porta
     
     [Header("Camera")]
-    public FirstPersonLook look;
-    
+    [SerializeField] private FirstPersonLook look;
     private Camera mainCam;
+
     private int[,] matrizAtual = new int[8, 8];
 
     [Header("Carta de Dica")]
-    public Item cartaItem;
-    public GameObject cartaNaParede; // objeto ja posicionado na parede, desativado por padrao
-    public PlayerInventory inventoryPlayer; // arraste o Player no Inspector
+    [SerializeField] private Item cartaItem; //colocar o item carta aqui
+    [SerializeField] private GameObject cartaNaParede; // objeto ja posicionado na parede, desativado por padrao
+    [SerializeField] private PlayerInventory inventoryPlayer; // arrastar o Player no Inspector
+
+    
 
     // Gabarito da Bandeira (8 faixas de cores)
     private int[,] matrizGabarito = new int[8, 8] {
@@ -70,7 +72,7 @@ public class painelManager : MonoBehaviour
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
 
-        if (cartaNaParede != null && cartaItem != null && inventoryPlayer != null && inventoryPlayer.itens.Contains(cartaItem))
+        if (cartaNaParede != null && cartaItem != null && inventoryPlayer != null && inventoryPlayer.Itens.Contains(cartaItem))
         {
             cartaNaParede.SetActive(true);
         }

@@ -4,7 +4,13 @@ using System.Collections.Generic;
 
 public class PlayerInventory : MonoBehaviour
 {
-    public List<Item> itens;
+    [SerializeField] private List<Item> itens;
+    
+    // Forma tradicional e segura de expor a lista para leitura
+    public List<Item> Itens 
+    {
+        get { return itens; }
+    }
     public void AddItem(Item item)
     {
         if (itens.Contains(item))
