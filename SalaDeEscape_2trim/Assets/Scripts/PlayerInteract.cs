@@ -21,7 +21,6 @@ public class PlayerInteract : MonoBehaviour
     private Vector3 OriginPos;
     private Quaternion OiginRotat;
     private PlayerInventory inventory;
-
     [Header("Câmera e Movimento")]
     public FirstPersonLook look;
     public FirstPersonMovement movement;
@@ -57,11 +56,15 @@ public class PlayerInteract : MonoBehaviour
 
             if (CurrInteractable.item.pegavel && Mouse.current.leftButton.isPressed)
             {
+                if (look != null) look.enabled = false;
+                if (movement != null) movement.enabled = false;
                 RodaObj();
             }
             if (canFinish && Mouse.current.rightButton.isPressed)
             {
                 FinishView();
+                if (look != null) look.enabled = true;
+                if (movement != null) movement.enabled = true;
             }
             return;
         }
@@ -188,6 +191,7 @@ public class PlayerInteract : MonoBehaviour
         }
         OnFinishView.Invoke();
     }
+
     IEnumerator MovendObj(Interactables obj, Vector3 pos)
     {
         obj.IsMoving = true;

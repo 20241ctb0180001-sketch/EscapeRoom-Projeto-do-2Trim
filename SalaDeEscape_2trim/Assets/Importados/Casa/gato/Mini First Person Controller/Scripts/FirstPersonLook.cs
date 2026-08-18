@@ -6,6 +6,7 @@ public class FirstPersonLook : MonoBehaviour
     Transform character;
     public float sensitivity = 2;
     public float smoothing = 1.5f;
+    private InputAction cameraAction;
 
     Vector2 velocity;
     Vector2 frameVelocity;
@@ -19,21 +20,26 @@ public class FirstPersonLook : MonoBehaviour
 
     void Start()
     {
+        cameraAction = InputSystem.actions.FindAction("giroCamera");
         // Lock the mouse cursor to the game screen.
         Cursor.lockState = CursorLockMode.Locked;
     }
 
     void Update()
     {
-        // Get smooth velocity.
-        Vector2 mouseDelta = Mouse.current.delta != null ? Mouse.current.delta.ReadValue() : Vector2.zero;
-        Vector2 rawFrameVelocity = Vector2.Scale(mouseDelta, Vector2.one * sensitivity);
-        frameVelocity = Vector2.Lerp(frameVelocity, rawFrameVelocity, 1 / smoothing);
-        velocity += frameVelocity;
-        velocity.y = Mathf.Clamp(velocity.y, -90, 90);
+        if (cameraAction.IsPressed())
+        {
+            // Get smooth velocity.
+            Vector2 mouseDelta = Mouse.current.delta != null ? Mouse.current.delta.ReadValue() : Vector2.zero;
+            Vector2 rawFrameVelocity = Vector2.Scale(mouseDelta, Vector2.one * sensitivity);
+            frameVelocity = Vector2.Lerp(frameVelocity, rawFrameVelocity, 1 / smoothing);
+            velocity += frameVelocity;
+            velocity.y = Mathf.Clamp(velocity.y, -90, 90);
 
-        // Rotate camera up-down and controller left-right from velocity.
-        transform.localRotation = Quaternion.AngleAxis(-velocity.y, Vector3.right);
-        character.localRotation = Quaternion.AngleAxis(velocity.x, Vector3.up);
+            // Rotate camera up-down and controller left-right from velocity.
+            transform.localRotation = Quaternion.AngleAxis(-velocity.y, Vector3.right);
+            character.localRotation = Quaternion.AngleAxis(velocity.x, Vector3.up);
+        }
+        
     }
 }
