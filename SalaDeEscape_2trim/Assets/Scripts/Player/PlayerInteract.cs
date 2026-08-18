@@ -6,6 +6,7 @@ using UnityEngine.Events;
 
 public class PlayerInteract : MonoBehaviour
 {
+    public GameObject BInv;
     public GameObject portinha;
     public GameObject bricador;
     [SerializeField] private float RayDistance;
@@ -29,9 +30,11 @@ public class PlayerInteract : MonoBehaviour
     [SerializeField] private float animationDuration = 2f;
     private GerenciadorInventario inventario;
     private portaEscadaria abrate;
+    private inventarioBrinquedos ToyInvent;
 
     void Awake()
     {
+        ToyInvent = BInv.GetComponent<inventarioBrinquedos>();
         abrate = portinha.GetComponent<portaEscadaria>();
         inventario = bricador.GetComponent<GerenciadorInventario>();
         Mycam = Camera.main;
@@ -195,6 +198,7 @@ public class PlayerInteract : MonoBehaviour
                 if(CurrInteractable.gameObject.name == "Trenzinho")
                 {
                     abrate.tremPego(true);
+                    ToyInvent.ativarInventario(true);
                 }
             }else
             {
