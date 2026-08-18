@@ -5,8 +5,8 @@ public class PainelInteract : MonoBehaviour
 {
 
     [Header("Evento de Interação (Abrir Painel)")]
-    public UnityEvent InteractEvent;
-    public PlayerInventory inventoryPlayer;
+    [SerializeField] private UnityEvent InteractEvent;
+    [SerializeField] private PlayerInventory inventoryPlayer;
 
     public void Interact()
     {

@@ -6,7 +6,7 @@ using UnityEngine.Events;
 
 public class PlayerInteract : MonoBehaviour
 {
-    public float RayDistance;
+    [SerializeField] private float RayDistance;
     [SerializeField] private Camera Mycam;
     public Transform objViewer;
     public UnityEvent OnView;
@@ -17,13 +17,14 @@ public class PlayerInteract : MonoBehaviour
     private Interactables CurrInteractable;
     private bool estaaVer;
     private bool canFinish;
-    public float rotatSpeed;
+    [SerializeField] private float rotatSpeed;
     private Vector3 OriginPos;
     private Quaternion OiginRotat;
     private PlayerInventory inventory;
     [Header("Câmera e Movimento")]
-    public FirstPersonLook look;
-    public FirstPersonMovement movement;
+    [SerializeField] private FirstPersonLook look;
+    [SerializeField] private FirstPersonMovement movement;
+    
 
     void Awake()
     {
@@ -105,7 +106,7 @@ public class PlayerInteract : MonoBehaviour
                     bool hasPreviousItem = false;
                 for (int i = 0; i < CurrInteractable.PreviousItem.Length; i++)
                 {
-                    if (inventory.itens.Contains(CurrInteractable.PreviousItem[i].requiredItem))
+                    if (inventory.Itens.Contains(CurrInteractable.PreviousItem[i].requiredItem))
                     {
                         Interact(CurrInteractable.PreviousItem[i].requiredItem);
                         CurrInteractable.PreviousItem[i].OnInteract.Invoke();

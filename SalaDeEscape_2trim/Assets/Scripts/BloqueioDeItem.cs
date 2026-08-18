@@ -14,6 +14,6 @@ public class BloqueioDeItem : MonoBehaviour
 
         return inventory != null
             && itemNecessario != null
-            && inventory.itens.Contains(itemNecessario);
+            && inventory.Itens.Contains(itemNecessario);
     }
 }
