@@ -5,6 +5,7 @@ public class RandoStairs : MonoBehaviour
 {
     [SerializeField] private GameObject esseDegrau;
     public GameObject hand;
+    public GameObject deco;
     //public UnityEvent handtap;
     //public UnityEvent EE1;
     public UnityEvent EE2;
@@ -32,9 +33,8 @@ public class RandoStairs : MonoBehaviour
                     break;
 
                 case 3:
-                    //EE1.Invoke();
-                    GameObject.FindWithTag("EE1").SetActive(true);
                     Debug.Log("easterEgg1");
+                    GameObject.FindWithTag("EE1").SetActive(true);
                     break;
 
                 case 4:

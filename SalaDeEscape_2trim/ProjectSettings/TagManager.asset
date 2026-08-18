@@ -9,6 +9,7 @@ TagManager:
   - EE1
   - respawn1
   - respawn2
+  - Limit
   layers:
   - Default
   - TransparentFX
