@@ -34,3 +34,12 @@ public class MaoSegue : MonoBehaviour
     }
 
 }
+/*void DoFade()
+    {
+        CanvasGroup canvasGroup = GetComponent<CanvasGroup>();
+        while (canvasGroup.alpha < 1)
+        {
+            canvasGroup.alpha += Time.deltaTime / 200;
+           
+        }
+    }*/
