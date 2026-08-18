@@ -6,8 +6,6 @@ public class RandoStairs : MonoBehaviour
     [SerializeField] private GameObject esseDegrau;
     public GameObject hand;
     public GameObject deco;
-    //public UnityEvent handtap;
-    //public UnityEvent EE1;
     public UnityEvent EE2;
 
     void Awake()
