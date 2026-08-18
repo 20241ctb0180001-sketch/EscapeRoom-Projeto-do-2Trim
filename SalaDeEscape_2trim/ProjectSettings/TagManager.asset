@@ -6,8 +6,9 @@ TagManager:
   tags:
   - BotaoCor
   - BolinhaPainel
-  - Player1
   - EE1
+  - respawn1
+  - respawn2
   layers:
   - Default
   - TransparentFX
