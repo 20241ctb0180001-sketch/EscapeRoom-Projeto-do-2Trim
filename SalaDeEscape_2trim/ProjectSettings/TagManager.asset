@@ -10,6 +10,7 @@ TagManager:
   - respawn1
   - respawn2
   - Limit
+  - deco
   layers:
   - Default
   - TransparentFX
