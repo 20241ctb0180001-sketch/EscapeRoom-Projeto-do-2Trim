@@ -6,12 +6,14 @@ public class RandoStairs : MonoBehaviour
 {
     [SerializeField] private GameObject esseDegrau;
     public GameObject hand;
-    public UnityEvent EE1;
+    //public UnityEvent EE1;
     public UnityEvent EE2;
+    public GameObject Deco;
 
     void Awake()
     {
         esseDegrau = gameObject;
+        Deco = GameObject.FindGameObjectWithTag("deco");
     }
     void OnCollisionEnter(Collision other)
     {
@@ -32,8 +34,10 @@ public class RandoStairs : MonoBehaviour
                     break;
 
                 case 3:
-                    Debug.Log("easterEgg1");
-                    EE1.Invoke();
+                    bool state = !Deco.activeInHierarchy;
+                    SetActiveDeco(state);
+                    /*Debug.Log("easterEgg1");
+                    EE1.Invoke();*/
                     break;
 
                 case 4:
@@ -60,5 +64,10 @@ public class RandoStairs : MonoBehaviour
     {
         unityEvent.Invoke();
         yield return new WaitForSeconds(duration);
+    }
+
+    void SetActiveDeco(bool state)
+    {
+        Deco.SetActive(state);
     }
 }

@@ -17,7 +17,6 @@ public class MaoSegue : MonoBehaviour
     {
         target = GameObject.FindGameObjectWithTag("Player").transform;
         rb = GetComponent<Rigidbody>();
-        //limit = GameObject.FindGameObjectWithTag("Limit").GetComponent<PlayerLimit>();
         painelEscurece = GameObject.FindGameObjectWithTag("PainelEscurece").GetComponent<Image>();
         
         // Inicializa painel transparente
