@@ -16,7 +16,7 @@ public class CdgSenha : MonoBehaviour
 
     [SerializeField] private TextMeshProUGUI cdgText;
     string cdgValor = "";
-    public string senha;
+    private string senha = "111295";
     public GameObject painelCdg;
 
     public GerentUI bob;
