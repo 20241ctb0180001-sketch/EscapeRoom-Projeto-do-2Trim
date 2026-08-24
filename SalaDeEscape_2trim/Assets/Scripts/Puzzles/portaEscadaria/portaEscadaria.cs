@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Events;
 
 public class portaEscadaria : MonoBehaviour
 {
@@ -9,6 +10,8 @@ public class portaEscadaria : MonoBehaviour
     string parametroII = "fecharPorta";
     string parametroIII = "aberto";
     bool aberto = true;
+    public UnityEvent abrirPortaSom;
+    public UnityEvent fecharPortaSom;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -45,11 +48,13 @@ public class portaEscadaria : MonoBehaviour
             numerinho++;
             if(numerinho == 1)
             {
+                abrirPortaSom.Invoke();
                 portaBranca.SetBool(parametroI, true);
                 portaBranca.Play("abrirPorta");
                 aberto = true;
                 portaBranca.SetBool(parametroIII, true);
                 portaBranca.SetBool(parametroI, false);
+
             }
         }
     }
