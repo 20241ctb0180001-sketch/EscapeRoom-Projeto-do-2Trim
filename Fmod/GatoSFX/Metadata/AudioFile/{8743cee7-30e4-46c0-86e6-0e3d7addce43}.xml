@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{f486cee0-e35a-4163-8eb0-142f9bba3d59}">
+	<object class="AudioFile" id="{8743cee7-30e4-46c0-86e6-0e3d7addce43}">
 		<property name="assetPath">
-			<value>fantasma/fantasmaCochicho1.mp3</value>
+			<value>porta/portaRangendo.mp3</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
 		</property>
 		<property name="channelCount">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<property name="length">
-			<value>8.672653061224489</value>
+			<value>5.093877551020408</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{83930bb0-2fdb-4c40-8096-822ef381df7d}</destination>

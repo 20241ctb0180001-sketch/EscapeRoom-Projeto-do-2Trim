@@ -42,11 +42,38 @@ MonoBehaviour:
   Path: ../Fmod/GatoSFX/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639231128364332458
+  lastModified: 639231640547902338
   FileSizes:
   - Name: Desktop
-    Value: 1324
+    Value: 1668
   Exists: 1
+--- !u!114 &-8029535666182773444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/fantasma/simon-scream
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/fantasma/simon-scream
+  Guid:
+    Data1: -2142920873
+    Data2: 1108147313
+    Data3: -1863976003
+    Data4: -2094113226
+  Banks:
+  - {fileID: 7553115357002063613}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-7193780054696323716
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74,6 +101,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 17005
+--- !u!114 &-6750519154326870181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Brinquedos/brinqueoInventario
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Brinquedos/brinqueoInventario
+  Guid:
+    Data1: 1401357658
+    Data2: 1231187481
+    Data3: -1481722974
+    Data4: -1554550628
+  Banks:
+  - {fileID: 7553115357002063613}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-5791688633188204525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Botoes/clickInventario
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Botoes/clickInventario
+  Guid:
+    Data1: 1048816661
+    Data2: 1116339233
+    Data3: 32853420
+    Data4: 657209098
+  Banks:
+  - {fileID: 7553115357002063613}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-5507672069030167634
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -245,9 +326,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Botoes/Click
+  m_Name: event:/Botoes/click
   m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: event:/Botoes/Click
+  Path: event:/Botoes/click
   Guid:
     Data1: -371378505
     Data2: 1317980742
@@ -317,6 +398,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 540
+--- !u!114 &-815309177377673603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/fantasma/fantasmaCochichos
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/fantasma/fantasmaCochichos
+  Guid:
+    Data1: 2104530346
+    Data2: 1171503209
+    Data3: -1841745254
+    Data4: -44218403
+  Banks:
+  - {fileID: 7553115357002063613}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 9200
+--- !u!114 &-621265489152647406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Brinquedos/trainCollect-1
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Brinquedos/trainCollect-1
+  Guid:
+    Data1: 788092826
+    Data2: 1078299214
+    Data3: -912650606
+    Data4: 726319898
+  Banks:
+  - {fileID: 7553115357002063613}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -343,13 +478,19 @@ MonoBehaviour:
   - {fileID: -5226620590597489620}
   - {fileID: -7193780054696323716}
   - {fileID: 5403384698294430846}
+  - {fileID: -5791688633188204525}
+  - {fileID: 900648470484666051}
+  - {fileID: -8029535666182773444}
+  - {fileID: -6750519154326870181}
+  - {fileID: -621265489152647406}
+  - {fileID: -815309177377673603}
   EditorParameters: []
   MasterBanks:
   - {fileID: 7553115357002063613}
   StringsBanks:
   - {fileID: -8127471808609410038}
   cacheVersion: 131860
-  cacheTime: 639231128364332458
+  cacheTime: 639231640547902338
   SerializableEventsDict:
   - key: event:/pawsteps/patas
     index: 0
@@ -359,7 +500,7 @@ MonoBehaviour:
     index: 2
   - key: event:/pawsteps/garras
     index: 3
-  - key: event:/Botoes/Click
+  - key: event:/Botoes/click
     index: 4
   - key: event:/pintar/Pintar
     index: 5
@@ -371,6 +512,18 @@ MonoBehaviour:
     index: 8
   - key: "event:/M\xFAsicaAmbiente/Ambiente"
     index: 9
+  - key: event:/Botoes/clickInventario
+    index: 10
+  - key: event:/finalDeFase
+    index: 11
+  - key: event:/fantasma/simon-scream
+    index: 12
+  - key: event:/Brinquedos/brinqueoInventario
+    index: 13
+  - key: event:/Brinquedos/trainCollect-1
+    index: 14
+  - key: event:/fantasma/fantasmaCochichos
+    index: 15
 --- !u!114 &307909875913075056
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -398,6 +551,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 520
+--- !u!114 &900648470484666051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/finalDeFase
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/finalDeFase
+  Guid:
+    Data1: 69355542
+    Data2: 1133653439
+    Data3: -803814729
+    Data4: -1339661378
+  Banks:
+  - {fileID: 7553115357002063613}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &1118208258830038525
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -572,10 +752,10 @@ MonoBehaviour:
   Path: ../Fmod/GatoSFX/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639231128364311660
+  lastModified: 639231640547892357
   FileSizes:
   - Name: Desktop
-    Value: 4233344
+    Value: 4531616
   Exists: 1
 --- !u!114 &8952630572920020763
 MonoBehaviour:
