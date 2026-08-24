@@ -42,10 +42,10 @@ MonoBehaviour:
   Path: ../Fmod/GatoSFX/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639231640547902338
+  lastModified: 639231658521241220
   FileSizes:
   - Name: Desktop
-    Value: 1668
+    Value: 1768
   Exists: 1
 --- !u!114 &-8029535666182773444
 MonoBehaviour:
@@ -180,6 +180,33 @@ MonoBehaviour:
   Labels:
   - Value A
   Exists: 1
+--- !u!114 &-5474313081419492079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/porta/portaRangendo
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/porta/portaRangendo
+  Guid:
+    Data1: 338034443
+    Data2: 1320468384
+    Data3: -987509371
+    Data4: -1256580407
+  Banks:
+  - {fileID: 7553115357002063613}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-5226620590597489620
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -316,6 +343,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 29280
+--- !u!114 &-1953548114375765907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/porta/portaBatendo
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/porta/portaBatendo
+  Guid:
+    Data1: 139810404
+    Data2: 1282936792
+    Data3: -532328540
+    Data4: 360370430
+  Banks:
+  - {fileID: 7553115357002063613}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-1710182096425781288
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -484,13 +538,15 @@ MonoBehaviour:
   - {fileID: -6750519154326870181}
   - {fileID: -621265489152647406}
   - {fileID: -815309177377673603}
+  - {fileID: -5474313081419492079}
+  - {fileID: -1953548114375765907}
   EditorParameters: []
   MasterBanks:
   - {fileID: 7553115357002063613}
   StringsBanks:
   - {fileID: -8127471808609410038}
   cacheVersion: 131860
-  cacheTime: 639231640547902338
+  cacheTime: 639231658521241220
   SerializableEventsDict:
   - key: event:/pawsteps/patas
     index: 0
@@ -752,10 +808,10 @@ MonoBehaviour:
   Path: ../Fmod/GatoSFX/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639231640547892357
+  lastModified: 639231658521231123
   FileSizes:
   - Name: Desktop
-    Value: 4531616
+    Value: 4639232
   Exists: 1
 --- !u!114 &8952630572920020763
 MonoBehaviour:
