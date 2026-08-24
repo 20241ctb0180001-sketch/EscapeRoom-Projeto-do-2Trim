@@ -34,49 +34,49 @@ public class CdgSenha : MonoBehaviour
     }
 
     void Update()
-{
-    cdgText.text = cdgValor;
-    InteractAlcance = emAlcance;
-    if(cdgValor == senha)
     {
-        anim.SetTrigger("abrirTampa");
-        painelCdg.SetActive(false);
-    }
+        cdgText.text = cdgValor;
+        InteractAlcance = emAlcance;
+        if (cdgValor == senha)
+        {
+            anim.SetTrigger("abrirTampa");
+            painelCdg.SetActive(false);
+        }
 
-    if(cdgValor.Length >= 7)
-    {
-        cdgValor = "";
-    }
+        if (cdgValor.Length >= 7)
+        {
+            cdgValor = "";
+        }
 
-    if(topacoEs.WasPressedThisFrame() && emAlcance == true)
-    {
-        painelCdg.SetActive(true);
-    }
+        if (topacoEs.WasPressedThisFrame() && emAlcance == true)
+        {
+            painelCdg.SetActive(true);
+        }
 
-    // Só mexe no cursor/câmera se NENHUM outro puzzle estiver ativo,
-    // ou se a keypad dela mesma estiver aberta
-    bool outroPuzzleAtivo = painelManager.instance != null && painelManager.instance.puzzleAtivo;
+        // Só mexe no cursor/câmera se NENHUM outro puzzle estiver ativo,
+        // ou se a keypad dela mesma estiver aberta
+        bool outroPuzzleAtivo = painelManager.instance != null && painelManager.instance.puzzleAtivo;
 
-    if(painelCdg.activeInHierarchy)
-    {
-        Cursor.visible = true;
-        Cursor.lockState = CursorLockMode.None;
-        if (look != null) look.enabled = false;
-    }
-    else if (!outroPuzzleAtivo)
-    {
-        Cursor.visible = false;
-        Cursor.lockState = CursorLockMode.Locked;
-        if (look != null) look.enabled = true;
-    }
+        if (painelCdg.activeInHierarchy)
+        {
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
+            if (look != null) look.enabled = false;
+        }
+        else if (!outroPuzzleAtivo)
+        {
+            Cursor.visible = false;
+            Cursor.lockState = CursorLockMode.Locked;
+            if (look != null) look.enabled = true;
+        }
 
-    bob.SetBoxInteract(emAlcance);
-}   
+        bob.SetBoxInteract(emAlcance);
+    }
 
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.tag == "Player")
+        if (other.tag == "Player")
         {
             emAlcance = true;
         }

@@ -18129,7 +18129,6 @@ MonoBehaviour:
   inputAction: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   InteractAlcance: 0
   cdgText: {fileID: 0}
-  senha: 111295
   painelCdg: {fileID: 0}
   bob: {fileID: 0}
   look: {fileID: 0}
@@ -22227,24 +22226,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::RandoStairs
   esseDegrau: {fileID: 0}
   hand: {fileID: 5924204727158107868, guid: 3d656d7c4e0573c468aa70911ee3c905, type: 3}
-  EE1:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1260240857482188245}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
   EE2:
     m_PersistentCalls:
       m_Calls: []
+  Deco: {fileID: 0}
 --- !u!1 &7379760994065315106 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7124908285342860259, guid: 30d1f351ecdd31547838d832ad3df75a, type: 3}
@@ -22264,24 +22249,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::RandoStairs
   esseDegrau: {fileID: 0}
   hand: {fileID: 5924204727158107868, guid: 3d656d7c4e0573c468aa70911ee3c905, type: 3}
-  EE1:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1260240857482188245}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
   EE2:
     m_PersistentCalls:
       m_Calls: []
+  Deco: {fileID: 0}
 --- !u!4 &8259609871282795241 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8514873934926857256, guid: 30d1f351ecdd31547838d832ad3df75a, type: 3}
@@ -23423,24 +23394,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::RandoStairs
   esseDegrau: {fileID: 0}
   hand: {fileID: 5924204727158107868, guid: 3d656d7c4e0573c468aa70911ee3c905, type: 3}
-  EE1:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1260240857482188245}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
   EE2:
     m_PersistentCalls:
       m_Calls: []
+  Deco: {fileID: 0}
 --- !u!4 &8144852367260971707 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8514873934926857256, guid: 30d1f351ecdd31547838d832ad3df75a, type: 3}
@@ -23891,24 +23848,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::RandoStairs
   esseDegrau: {fileID: 0}
   hand: {fileID: 5924204727158107868, guid: 3d656d7c4e0573c468aa70911ee3c905, type: 3}
-  EE1:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1260240857482188245}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
   EE2:
     m_PersistentCalls:
       m_Calls: []
+  Deco: {fileID: 0}
 --- !u!4 &9137744426598089148 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8514873934926857256, guid: 30d1f351ecdd31547838d832ad3df75a, type: 3}
@@ -24612,24 +24555,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::RandoStairs
   esseDegrau: {fileID: 0}
   hand: {fileID: 5924204727158107868, guid: 3d656d7c4e0573c468aa70911ee3c905, type: 3}
-  EE1:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1260240857482188245}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
   EE2:
     m_PersistentCalls:
       m_Calls: []
+  Deco: {fileID: 0}
 --- !u!4 &9035434681712040754 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8514873934926857256, guid: 30d1f351ecdd31547838d832ad3df75a, type: 3}
@@ -24762,24 +24691,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::RandoStairs
   esseDegrau: {fileID: 0}
   hand: {fileID: 5924204727158107868, guid: 3d656d7c4e0573c468aa70911ee3c905, type: 3}
-  EE1:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1260240857482188245}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
   EE2:
     m_PersistentCalls:
       m_Calls: []
+  Deco: {fileID: 0}
 --- !u!4 &9056633259160165783 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8514873934926857256, guid: 30d1f351ecdd31547838d832ad3df75a, type: 3}
@@ -25295,24 +25210,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::RandoStairs
   esseDegrau: {fileID: 0}
   hand: {fileID: 5924204727158107868, guid: 3d656d7c4e0573c468aa70911ee3c905, type: 3}
-  EE1:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1260240857482188245}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
   EE2:
     m_PersistentCalls:
       m_Calls: []
+  Deco: {fileID: 0}
 --- !u!4 &8691792363358419134 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8514873934926857256, guid: 30d1f351ecdd31547838d832ad3df75a, type: 3}
@@ -26428,48 +26329,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Drawer 3
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6460432618352771871, guid: 2d6026980122b4149942bd11d63ee88d, type: 3}
+    - {fileID: 311026118931202227, guid: 2d6026980122b4149942bd11d63ee88d, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 8675986928852417804, guid: 2d6026980122b4149942bd11d63ee88d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 6104777343529042257}
-    - targetCorrespondingSourceObject: {fileID: 8675986928806952466, guid: 2d6026980122b4149942bd11d63ee88d, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 8831133909470131119}
   m_SourcePrefab: {fileID: 100100000, guid: 2d6026980122b4149942bd11d63ee88d, type: 3}
 --- !u!4 &7991154968119017962 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8675986927958853305, guid: 2d6026980122b4149942bd11d63ee88d, type: 3}
   m_PrefabInstance: {fileID: 1621583104797738835}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &7991154968864684353 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8675986928806952466, guid: 2d6026980122b4149942bd11d63ee88d, type: 3}
-  m_PrefabInstance: {fileID: 1621583104797738835}
-  m_PrefabAsset: {fileID: 0}
---- !u!65 &8831133909470131119
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7991154968864684353}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.5565203, y: 0.8097089, z: 0.3608421}
-  m_Center: {x: 0.26016787, y: 0.40485445, z: -0.15357688}
 --- !u!1 &7991154969079233119 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8675986928852417804, guid: 2d6026980122b4149942bd11d63ee88d, type: 3}
@@ -29037,24 +28911,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::RandoStairs
   esseDegrau: {fileID: 0}
   hand: {fileID: 5924204727158107868, guid: 3d656d7c4e0573c468aa70911ee3c905, type: 3}
-  EE1:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1260240857482188245}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
   EE2:
     m_PersistentCalls:
       m_Calls: []
+  Deco: {fileID: 0}
 --- !u!4 &5936912342619003066 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8514873934926857256, guid: 30d1f351ecdd31547838d832ad3df75a, type: 3}
@@ -29326,24 +29186,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::RandoStairs
   esseDegrau: {fileID: 0}
   hand: {fileID: 5924204727158107868, guid: 3d656d7c4e0573c468aa70911ee3c905, type: 3}
-  EE1:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1260240857482188245}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
   EE2:
     m_PersistentCalls:
       m_Calls: []
+  Deco: {fileID: 0}
 --- !u!4 &5814620377538206803 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8514873934926857256, guid: 30d1f351ecdd31547838d832ad3df75a, type: 3}
@@ -30900,24 +30746,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::RandoStairs
   esseDegrau: {fileID: 0}
   hand: {fileID: 5924204727158107868, guid: 3d656d7c4e0573c468aa70911ee3c905, type: 3}
-  EE1:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1260240857482188245}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
   EE2:
     m_PersistentCalls:
       m_Calls: []
+  Deco: {fileID: 0}
 --- !u!4 &6357063553500504475 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8514873934926857256, guid: 30d1f351ecdd31547838d832ad3df75a, type: 3}
@@ -31420,24 +31252,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::RandoStairs
   esseDegrau: {fileID: 0}
   hand: {fileID: 5924204727158107868, guid: 3d656d7c4e0573c468aa70911ee3c905, type: 3}
-  EE1:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1260240857482188245}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
   EE2:
     m_PersistentCalls:
       m_Calls: []
+  Deco: {fileID: 0}
 --- !u!4 &5044974596117033299 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8514873934926857256, guid: 30d1f351ecdd31547838d832ad3df75a, type: 3}
@@ -37159,24 +36977,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::RandoStairs
   esseDegrau: {fileID: 0}
   hand: {fileID: 5924204727158107868, guid: 3d656d7c4e0573c468aa70911ee3c905, type: 3}
-  EE1:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1260240857482188245}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
   EE2:
     m_PersistentCalls:
       m_Calls: []
+  Deco: {fileID: 0}
 --- !u!1001 &6333962869827463025
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39128,6 +38932,20 @@ MonoBehaviour:
   cartaItem: {fileID: 11400000, guid: 57a8d2ea5e84a3240abc649214e3921b, type: 2}
   cartaNaParede: {fileID: 2190624111482318757}
   inventoryPlayer: {fileID: 0}
+  somBotao:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  somBolinha:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!1 &3164415056701444595 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8097890986838277139, guid: 74d6b7ef65c5cd74ba78c3fcaa6849b0, type: 3}
@@ -40294,24 +40112,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::RandoStairs
   esseDegrau: {fileID: 0}
   hand: {fileID: 5924204727158107868, guid: 3d656d7c4e0573c468aa70911ee3c905, type: 3}
-  EE1:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1260240857482188245}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
   EE2:
     m_PersistentCalls:
       m_Calls: []
+  Deco: {fileID: 0}
 --- !u!1001 &6845857441927061367
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41730,24 +41534,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::RandoStairs
   esseDegrau: {fileID: 0}
   hand: {fileID: 5924204727158107868, guid: 3d656d7c4e0573c468aa70911ee3c905, type: 3}
-  EE1:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1260240857482188245}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
   EE2:
     m_PersistentCalls:
       m_Calls: []
+  Deco: {fileID: 0}
 --- !u!4 &1156207023379584819 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8514873934926857256, guid: 30d1f351ecdd31547838d832ad3df75a, type: 3}
@@ -42131,24 +41921,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::RandoStairs
   esseDegrau: {fileID: 0}
   hand: {fileID: 5924204727158107868, guid: 3d656d7c4e0573c468aa70911ee3c905, type: 3}
-  EE1:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1260240857482188245}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
   EE2:
     m_PersistentCalls:
       m_Calls: []
+  Deco: {fileID: 0}
 --- !u!4 &1258929407843156373 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8514873934926857256, guid: 30d1f351ecdd31547838d832ad3df75a, type: 3}
@@ -44918,24 +44694,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::RandoStairs
   esseDegrau: {fileID: 0}
   hand: {fileID: 5924204727158107868, guid: 3d656d7c4e0573c468aa70911ee3c905, type: 3}
-  EE1:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1260240857482188245}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
   EE2:
     m_PersistentCalls:
       m_Calls: []
+  Deco: {fileID: 0}
 --- !u!1001 &8313845241339790381
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45817,24 +45579,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::RandoStairs
   esseDegrau: {fileID: 0}
   hand: {fileID: 5924204727158107868, guid: 3d656d7c4e0573c468aa70911ee3c905, type: 3}
-  EE1:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1260240857482188245}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
   EE2:
     m_PersistentCalls:
       m_Calls: []
+  Deco: {fileID: 0}
 --- !u!1001 &8787980392952050177
 PrefabInstance:
   m_ObjectHideFlags: 0
