@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EncodableAsset" id="{08f5531d-27a2-466e-8b5e-3f2629d9fc11}">
+		<property name="assetPath">
+			<value>finalDeFase/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{83930bb0-2fdb-4c40-8096-822ef381df7d}</destination>
+		</relationship>
+	</object>
+</objects>
