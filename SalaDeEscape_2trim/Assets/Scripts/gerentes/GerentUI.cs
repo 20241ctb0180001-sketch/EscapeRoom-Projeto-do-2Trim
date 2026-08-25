@@ -15,7 +15,6 @@ public class GerentUI : MonoBehaviour
     public TextMeshProUGUI InfoTxt;
     public GameObject BoxInteract;
     public GameObject PauseMenu;
-
     public InputActionAsset inputAction;
     private InputAction Inventory;
     private InputAction Pause;
@@ -26,6 +25,8 @@ public class GerentUI : MonoBehaviour
 
     private void Awake()
     {
+        inputAction.FindActionMap("Player").Enable();
+        inputAction.FindActionMap("UI").Disable();
         instance = this;
         Inventory = InputSystem.actions.FindAction("Inventario");
         Pause = InputSystem.actions.FindAction("Pause");
@@ -75,6 +76,9 @@ public class GerentUI : MonoBehaviour
     public void PauseGame()
     {
         isPaused = true;
+        inputAction.FindActionMap("Player").Disable();
+        inputAction.FindActionMap("UI").Enable();
+        Pause = InputSystem.actions.FindAction("Pause");
         Time.timeScale = 0f;
 
         Cursor.lockState = CursorLockMode.None;
@@ -87,6 +91,9 @@ public class GerentUI : MonoBehaviour
     public void ResumeGame()
     {
         isPaused = false;
+        inputAction.FindActionMap("Player").Enable();
+        inputAction.FindActionMap("UI").Disable();
+        Pause = InputSystem.actions.FindAction("Pause");
         Time.timeScale = 1f;
 
         // Se estiver fechando a pausa, verifica se a keypad/puzzle não está ativa antes de travar o cursor
