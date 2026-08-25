@@ -10,9 +10,8 @@ public class MaoSegue : MonoBehaviour
     [SerializeField] private float rotateSpeed = 5f;
     [SerializeField] private float fadeDuration = 0.5f;
     [SerializeField, Range(0f, 1f)] private float aumentoAlpha = 0.67f;
-    [SerializeField, Range(0f, 1f)] private float alphaParaTeleportar = 0.9f;
+    [SerializeField, Range(0f, 1f)] private float alphaParaTeleportar = 0.6f;
     [SerializeField] private GameObject particulaAoAparecer;
-    //[SerializeField] private Transform pontoParticula;
     [SerializeField] private EventReference somAoAparecer;
     [SerializeField] private Transform target;
     [SerializeField] private Image painelEscurece;
@@ -89,16 +88,40 @@ public class MaoSegue : MonoBehaviour
 
     private IEnumerator ProcessarToque()
     {
-        float alphaAtual = painelEscurece != null ? painelEscurece.color.a : 0f;
+        Debug.Log("Target: " + (target != null ? target.name : "NULL"));
+        Debug.Log("Respawn: " + (posicaoTeleporte != null ? posicaoTeleporte.name : "NULL"));
+        Debug.Log("Posição do respawn: " + posicaoTeleporte.position);
+
+        if (painelEscurece == null)
+        {
+            Debug.LogError("PainelEscurece não foi encontrado.", this);
+            Destroy(gameObject);
+            yield break;
+        }
+
+        if (posicaoTeleporte == null)
+        {
+            Debug.LogError("Respawn1 não foi encontrado.", this);
+            Destroy(gameObject);
+            yield break;
+        }
+
+        float alphaAtual = painelEscurece.color.a;
         float proximoAlpha = Mathf.Clamp01(alphaAtual + aumentoAlpha);
         bool deveTeleportar = proximoAlpha >= alphaParaTeleportar;
 
-        yield return FadeTo(deveTeleportar ? 1f : proximoAlpha);
+        Debug.Log($"Alpha atual: {alphaAtual} | Próximo alpha: {proximoAlpha}");
+
+        yield return FadeTo(proximoAlpha);
 
         if (deveTeleportar)
         {
-            if (target != null && posicaoTeleporte != null)
-                target.position = posicaoTeleporte.position;
+            Debug.Log("Teleportando para: " + posicaoTeleporte.position);
+
+            target.SetPositionAndRotation(
+                posicaoTeleporte.position,
+                posicaoTeleporte.rotation
+            );
 
             SetAlpha(0f);
         }
