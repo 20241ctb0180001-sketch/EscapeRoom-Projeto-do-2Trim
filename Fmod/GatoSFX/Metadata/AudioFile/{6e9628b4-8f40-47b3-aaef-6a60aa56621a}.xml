@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{6e9628b4-8f40-47b3-aaef-6a60aa56621a}">
+		<property name="assetPath">
+			<value>floraphonic-shooting-sparks-electricity-2-204983.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>5.5199999999999996</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{83930bb0-2fdb-4c40-8096-822ef381df7d}</destination>
+		</relationship>
+	</object>
+</objects>
