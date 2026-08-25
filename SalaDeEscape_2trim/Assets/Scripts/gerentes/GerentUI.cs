@@ -19,22 +19,30 @@ public class GerentUI : MonoBehaviour
     public InputActionAsset inputAction;
     private InputAction Inventory;
     private InputAction Pause;
-    private bool isPaused;
+    public bool isPaused { get; private set; }
+
+    // Referência direta para a keypad da sua amiga para validar estado do puzzle
+    [SerializeField] private CdgSenha keypadScript;
 
     private void Awake()
     {
         instance = this;
         Inventory = InputSystem.actions.FindAction("Inventario");
         Pause = InputSystem.actions.FindAction("Pause");
-        BoxInteract.SetActive(false);
-        ResumeGame();
+        
+        if (BoxInteract != null) BoxInteract.SetActive(false);
+        if (PauseMenu != null) PauseMenu.SetActive(false);
     }
 
     void Update()
     {
-        if (Pause.WasPressedThisFrame())
+        if (Pause != null && Pause.WasPressedThisFrame())
         {
-            TogglePause();
+            // Impede de abrir o menu de pausa se estiver dentro de um puzzle ou keypad
+            if (!IsPuzzleOuKeypadAtivo())
+            {
+                TogglePause();
+            }
         }
 
         if (isPaused)
@@ -42,10 +50,19 @@ public class GerentUI : MonoBehaviour
             return;
         }
 
-        if (Inventory.WasPressedThisFrame())
+        if (Inventory != null && Inventory.WasPressedThisFrame())
         {
-            InventoryIMG.SetActive(!InventoryIMG.activeInHierarchy);
+            if (InventoryIMG != null)
+                InventoryIMG.SetActive(!InventoryIMG.activeInHierarchy);
         }
+    }
+
+    private bool IsPuzzleOuKeypadAtivo()
+    {
+        bool puzzleAtivo = painelManager.instance != null && painelManager.instance.puzzleAtivo;
+        bool keypadAtiva = keypadScript != null && keypadScript.painelCdg != null && keypadScript.painelCdg.activeInHierarchy;
+        
+        return puzzleAtivo || keypadAtiva;
     }
 
     public void TogglePause()
@@ -59,7 +76,7 @@ public class GerentUI : MonoBehaviour
     public void PauseGame()
     {
         isPaused = true;
-        //ime.timeScale = 0f;
+        Time.timeScale = 0f;
 
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
@@ -71,34 +88,34 @@ public class GerentUI : MonoBehaviour
     public void ResumeGame()
     {
         isPaused = false;
-        //Time.timeScale = 1f;
+        Time.timeScale = 1f;
 
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        // Se estiver fechando a pausa, verifica se a keypad/puzzle não está ativa antes de travar o cursor
+        if (!IsPuzzleOuKeypadAtivo())
+        {
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
+        }
 
         if (PauseMenu != null)
             PauseMenu.SetActive(false);
     }
+
     public void SetActivePauseMenu(bool state)
     {
         if (PauseMenu != null)
             PauseMenu.SetActive(state);
     }
 
-    /*private void OnDestroy()
-    {
-        Time.timeScale = 1f;
-    }*/
-
     public void SetPawCursor(bool state)
     {
-        CursorPata.SetActive(state);
+        if (CursorPata != null) CursorPata.SetActive(state);
     }
 
     public void SetbackImg(bool state)
     {
-        saiinteract.SetActive(state);
-        if (!state)
+        if (saiinteract != null) saiinteract.SetActive(state);
+        if (!state && interactIMG != null)
         {
             interactIMG.enabled = false;
         }
@@ -106,25 +123,34 @@ public class GerentUI : MonoBehaviour
 
     public void SetIntIMG(Sprite img)
     {
-        interactIMG.sprite = img;
-        interactIMG.enabled = true;
+        if (interactIMG != null)
+        {
+            interactIMG.sprite = img;
+            interactIMG.enabled = true;
+        }
     }
 
     public void SetBoxInteract(bool state)
     {
-        BoxInteract.SetActive(state);
+        if (BoxInteract != null) BoxInteract.SetActive(state);
     }
 
     public void setItens(Item item, int index)
     {
-        InventoryItens[index].text = item.InvetoryTxt;
-        ShowMessage(item.CollectMsg);
+        if (InventoryItens != null && index < InventoryItens.Length)
+        {
+            InventoryItens[index].text = item.InvetoryTxt;
+            ShowMessage(item.CollectMsg);
+        }
     }
 
     public void ShowMessage(string msg)
     {
-        InfoTxt.text = msg;
-        StartCoroutine(FadingText());
+        if (InfoTxt != null)
+        {
+            InfoTxt.text = msg;
+            StartCoroutine(FadingText());
+        }
     }
 
     IEnumerator FadingText()
@@ -132,14 +158,14 @@ public class GerentUI : MonoBehaviour
         Color newColor = InfoTxt.color;
         while (newColor.a < 1)
         {
-            newColor.a += Time.deltaTime;
+            newColor.a += Time.unscaledDeltaTime;
             InfoTxt.color = newColor;
             yield return null;
         }
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSecondsRealtime(2f);
         while (newColor.a > 0)
         {
-            newColor.a -= Time.deltaTime;
+            newColor.a -= Time.unscaledDeltaTime;
             InfoTxt.color = newColor;
             yield return null;
         }

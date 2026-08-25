@@ -90,6 +90,7 @@ public class CdgSenha : MonoBehaviour
 
     public void AddDigit(string digito)
     {
+        Debug.Log("Botão clicado! Dígito recebido: " + digito);
         cdgValor += digito;
     }
 }

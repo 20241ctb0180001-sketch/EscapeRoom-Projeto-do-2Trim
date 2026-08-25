@@ -49,20 +49,6 @@ public class PlayerInteract : MonoBehaviour
 
     void Update()
     {
-        // Só permite pausar se o cursor JÁ estiver travado (jogador jogando normal).
-    // Se o cursor estiver solto, significa que ele está em um puzzle/keypad/UI.
-    if (Keyboard.current != null && Keyboard.current.escapeKey.wasPressedThisFrame)
-    {
-        if (Cursor.lockState == CursorLockMode.Locked)
-        {
-            TogglePause();
-        }
-    }
-
-    if (isPaused)
-    {
-        return; 
-    }
         CheckInteractables();
     }
 
