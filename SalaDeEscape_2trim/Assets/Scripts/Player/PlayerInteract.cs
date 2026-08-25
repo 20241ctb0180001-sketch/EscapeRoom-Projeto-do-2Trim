@@ -201,11 +201,11 @@ public class PlayerInteract : MonoBehaviour
                 CurrInteractable.CollectItem.Invoke();
                 if (CurrInteractable.gameObject.name == "Trenzinho")
                 {
-                    print("AI AI AI");
+                    
                     abrate.tremPego(true);
                     if (ToyInvent != null)
                     {
-                        print("VAI, BOLSONARO!!");
+                        
                         ToyInvent.ativarInventario(true);
                     }
                 }
