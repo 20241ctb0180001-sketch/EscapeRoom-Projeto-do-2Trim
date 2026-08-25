@@ -7,22 +7,22 @@ public class painelManager : MonoBehaviour
     [SerializeField] public static painelManager instance;
 
     [Header("Estado do puzzle")]
-    [SerializeField] public bool puzzleAtivo = false;
+    [SerializeField] public bool puzzleAtivo = false; //verifica se o puzzle esta ativo
 
     [Header("Configuracoes de cores")]
-    [SerializeField] private int corSelecionada = -1; // -1 = Nenhuma cor selecionada
+    [SerializeField] private int corSelecionada = -1; // Guarda o ID da cor que o jogador clicou por ultimo (-1 significa que nenhuma foi escolhida ainda)
     
     [Tooltip("Arrastar os materiais na ordem exata")]
-    [SerializeField] private Material[] materiaisCores; 
+    [SerializeField] private Material[] materiaisCores;  //cria uma listinha de elementos no inspector pra arrastar os materiais
 
     [Header("Objeto do cenario")]
     [SerializeField] private GameObject fiosBloqueio; // Objeto dos fios da porta
     
     [Header("Camera")]
-    [SerializeField] private FirstPersonLook look;
+    [SerializeField] private FirstPersonLook look; //pega a visão do palyer
     private Camera mainCam;
 
-    private int[,] matrizAtual = new int[8, 8];
+    private int[,] matrizAtual = new int[8, 8]; //fica atualizando pra ver como ta a matriz atual
 
     [Header("Carta de Dica")]
     [SerializeField] private Item cartaItem; //colocar o item carta aqui
@@ -31,8 +31,8 @@ public class painelManager : MonoBehaviour
 
 
     [Header("Audio")]
-    [SerializeField] private EventReference somBotao;
-    [SerializeField] private EventReference somBolinha;
+    [SerializeField] private EventReference somBotao; //coisinha pro som do botão
+    [SerializeField] private EventReference somBolinha; //coisinha pro som das bolinhas
     
 
     // Gabarito da Bandeira (8 faixas de cores)
@@ -49,16 +49,16 @@ public class painelManager : MonoBehaviour
 
     void Awake()
     {
-        instance = this;
+        instance = this; 
     }
 
     void Start()
     {
         mainCam = Camera.main;
-        ResetarMatrizLimpa(); // Sincroniza a memoria com o estado zerado da tela
+        ResetarMatrizLimpa(); // Inicia a matriz zerada
     }
 
-    void ResetarMatrizLimpa()
+    void ResetarMatrizLimpa() // Preenche a matriz do jogador com -1 (sem cor atribuida)
     {
         for (int l = 0; l < 8; l++)
         {
@@ -70,14 +70,14 @@ public class painelManager : MonoBehaviour
     }
     
 
-    public void AbrirPuzzle()
+    public void AbrirPuzzle() // Ativa a interface do puzzle, libera o mouse e pausa a camera do jogador
     {
         puzzleAtivo = true;
         if (look != null) look.enabled = false;
         /*Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;*/
 
-        if (cartaNaParede != null && cartaItem != null && inventoryPlayer != null && inventoryPlayer.Itens.Contains(cartaItem))
+        if (cartaNaParede != null && cartaItem != null && inventoryPlayer != null && inventoryPlayer.Itens.Contains(cartaItem)) // Revela a dica na parede caso o jogador possua o Item no inventario
         {
             cartaNaParede.SetActive(true);
         }
@@ -85,7 +85,7 @@ public class painelManager : MonoBehaviour
         Debug.Log("Painel ativado!");
     }
 
-    public void FecharPuzzle()
+    public void FecharPuzzle() // Fecha o puzzle e devolve o controle do mouse para a camera de 1ª pessoa
     {
         puzzleAtivo = false;
         if (look != null) look.enabled = true;
@@ -96,12 +96,12 @@ public class painelManager : MonoBehaviour
 
     void Update()
     {
-            if (!puzzleAtivo) return;
+        if (!puzzleAtivo) return;
 
-        bool apertouEsc = Keyboard.current != null && Keyboard.current.escapeKey.wasPressedThisFrame;
-        bool apertouBotaoDireito = Mouse.current != null && Mouse.current.rightButton.wasPressedThisFrame;
+        bool apertouEsc = Keyboard.current != null && Keyboard.current.escapeKey.wasPressedThisFrame; //verifica se apertou esc
+        bool apertouBotaoDireito = Mouse.current != null && Mouse.current.rightButton.wasPressedThisFrame; //verifica se apertou o botão direito de acordo com o Input System
 
-        if (apertouEsc || apertouBotaoDireito)
+        if (apertouEsc || apertouBotaoDireito) //fecha o puzzle se alguem dos dois coisas foram apertados
         {
             FecharPuzzle();
             return;
@@ -109,35 +109,36 @@ public class painelManager : MonoBehaviour
 
         bool apertouBotaoEsquerdo = Mouse.current != null && Mouse.current.leftButton.wasPressedThisFrame;
 
-        if (apertouBotaoEsquerdo) 
+        if (apertouBotaoEsquerdo)  //se apertou o botão esquerdo, chama o processar clique
         {
             ProcessarClique();
         }
     }
 
+    // Dispara um Raycast da tela ate o cenario para saber em qual objeto o player clicou
     void ProcessarClique()
     {
         Vector2 mousePos = Mouse.current.position.ReadValue();
         Ray ray = mainCam.ScreenPointToRay(mousePos);
         RaycastHit hit;
 
-        if (Physics.Raycast(ray, out hit, 10f))
+        if (Physics.Raycast(ray, out hit, 10f)) //ve com o raycast o objeto em que foi clicado
         {
             GameObject objClicado = hit.collider.gameObject;
 
             // 1. BOTAO DE COR
-            BotaoCor botao = objClicado.GetComponent<BotaoCor>();
+            BotaoCor botao = objClicado.GetComponent<BotaoCor>(); //pega o componente id do botão cor(se for ele) e chama o selecionar cor
             if (botao != null)
             {
                 SelecionarCor(botao.CorId);
-                if (!somBotao.IsNull) RuntimeManager.PlayOneShot(somBotao, hit.point);
+                if (!somBotao.IsNull) RuntimeManager.PlayOneShot(somBotao, hit.point); //toca somzinho
                 return;
             }
 
             // 2. BOLINHA
-            if (objClicado.name.ToLower().StartsWith("bola") || objClicado.CompareTag("BolinhaPainel") || objClicado.name.StartsWith("Sphere"))
+            if (objClicado.name.ToLower().StartsWith("bola") || objClicado.CompareTag("BolinhaPainel") || objClicado.name.StartsWith("Sphere")) //verifica se o objeto começa com "bola, se tem tag bolinha painel ou se começa com esfera)
             {
-                if (corSelecionada == -1)
+                if (corSelecionada == -1)//se nao foi selecionado uma cor antes, ela continua como -1 e nao faz nada)
                 {
                     Debug.LogWarning("Selecione uma cor primeiro!");
                     return;
@@ -146,9 +147,9 @@ public class painelManager : MonoBehaviour
                 int linha = 0;
                 int coluna = 0;
 
-                string[] partes = objClicado.name.Split(' ');
+                string[] partes = objClicado.name.Split(' '); // Divide o nome do objeto por espacos para extrair a coordenada ("Bola 2 4")
 
-                if (partes.Length >= 2)
+                if (partes.Length >= 2) //basicamente ta dividindo o nome em brates e transformando em numeros inteiros, pra ajustar na matriz certo e dai chamar o pintarbolinhas
                 {
                     int.TryParse(partes[1], out linha);
                     linha = Mathf.Max(0, linha - 1); // Evita ficar negativo
@@ -165,48 +166,35 @@ public class painelManager : MonoBehaviour
                 }
 
                 Debug.Log($" Clicou em '{objClicado.name}' -> Matriz[{linha},{coluna}]");
-                PintarBolinha(objClicado, linha, coluna);
+                PintarBolinha(objClicado, linha, coluna); //chama o pintar bolinha pra a bolinha que foi clicada
             }
         }
     }
 
-    /* int DescobrirIdPeloNome(string nomeObjeto)
-    {
-        string nomeUpper = nomeObjeto.ToUpper();
-        if (nomeUpper.Contains("APAGAR") || nomeUpper.Contains("BOTAU_0")) return 0; // Branco/Apagar
-        if (nomeUpper.Contains("BCOLORA") || nomeUpper.Contains("BOTAU_1")) return 1; // Vermelho
-        if (nomeUpper.Contains("BCOLORB") || nomeUpper.Contains("BOTAU_2")) return 2; // Laranja
-        if (nomeUpper.Contains("BCOLORC") || nomeUpper.Contains("BOTAU_3")) return 3; // Azul
-        if (nomeUpper.Contains("BCOLORD") || nomeUpper.Contains("BOTAU_4")) return 4; // Amarelo
-        if (nomeUpper.Contains("BCOLORE") || nomeUpper.Contains("BOTAU_5")) return 5; // Roxo
-        if (nomeUpper.Contains("BCOLORF") || nomeUpper.Contains("BOTAU_6")) return 6; // Verde
-        return -1;
-    } */
-
-    public void SelecionarCor(int idCor)
+    public void SelecionarCor(int idCor) //ve o idCor do botão selecionado e guarda em corSelecionada
     {
         corSelecionada = idCor;
         Debug.Log("Cor ativa alterada com SUCESSO para ID: " + idCor);
     }
 
-    void PintarBolinha(GameObject objetoBolinha, int linha, int coluna)
+    void PintarBolinha(GameObject objetoBolinha, int linha, int coluna) // Atualiza a memoria logica e altera visualmente a cor da bolinha
     {
         linha = Mathf.Clamp(linha, 0, 7);
         coluna = Mathf.Clamp(coluna, 0, 7);
 
-        matrizAtual[linha, coluna] = corSelecionada;
+        matrizAtual[linha, coluna] = corSelecionada; // Salva a cor escolhida na posição exata da matriz lógica do jogador
 
-        MeshRenderer renderer = objetoBolinha.GetComponent<MeshRenderer>();
-        if (renderer != null && corSelecionada >= 0 && corSelecionada < materiaisCores.Length)
+        MeshRenderer renderer = objetoBolinha.GetComponent<MeshRenderer>(); // Pega o componente visual da esfera (MeshRenderer)
+        if (renderer != null && corSelecionada >= 0 && corSelecionada < materiaisCores.Length) // Valida se o renderer existe e se o ID da cor é valido dentro da lista de materiais
         {
-            renderer.material = materiaisCores[corSelecionada];
-            if (!somBolinha.IsNull) RuntimeManager.PlayOneShot(somBolinha, objetoBolinha.transform.position);
+            renderer.material = materiaisCores[corSelecionada]; // Troca o material 3D da esfera pela cor selecionada
+            if (!somBolinha.IsNull) RuntimeManager.PlayOneShot(somBolinha, objetoBolinha.transform.position); //toca somzinho
         }
 
         VerificarVitoria();
     }
 
-    void VerificarVitoria()
+    void VerificarVitoria() //Percorre as matrizes e compara a matriz atual com o matriz gabarito
     {
         for (int l = 0; l < 8; l++)
         {
@@ -223,7 +211,7 @@ public class painelManager : MonoBehaviour
         
         // Se passou por TODAS as 64 posicoes sem nenhuma errada:
         Debug.Log("VOCE GANHOU! Bandeira concluida perfeitamente!");
-        if (fiosBloqueio != null) fiosBloqueio.SetActive(false);
+        if (fiosBloqueio != null) fiosBloqueio.SetActive(false); //verifica se os fios nao estao vazios e se nao tiver desativa eles
         
         FecharPuzzle();
     }
