@@ -51,84 +51,84 @@ public class IAFantasma : MonoBehaviour
 
     
 
-void Update()
-{
-    // 1. TESTE DE CONEXÃO DO PLAYER
-    if (player == null)
+    void Update()
     {
-        Debug.LogError("ERRO GRAVE: O campo 'Player' está VAZIO no Inspector!");
-        GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
-        if (playerObj != null) 
+        // 1. TESTE DE CONEXÃO DO PLAYER
+        if (player == null)
         {
-            player = playerObj.transform;
-            Debug.Log("Player encontrado automaticamente pela Tag 'Player'!");
-        }
-        return;
-    }
-
-    // 2. DIAGNÓSTICO A CADA 1 SEGUNDO
-    timerDebug += Time.deltaTime;
-    if (timerDebug >= 1.0f)
-    {
-        float dist = Vector3.Distance(transform.position, player.position);
-        Debug.Log($"[DIAGNÓSTICO] Distância real: {dist:F1}m | Raio necessário: {raioVisao}m | Tá sumindo agora? {estaSumindo}");
-        timerDebug = 0f;
-    }
-
-    if (estaSumindo) return;
-
-    float distanciaParaOPlayer = Vector3.Distance(transform.position, player.position);
-
-    // Se a distância for menor ou igual ao raio
-    if (distanciaParaOPlayer <= raioVisao)
-    {
-        Debug.Log("Player entrou no raio! Testando visão...");
-
-        if (TemLinhaDeVisaoDireta())
-        {
-            Debug.Log("VISÃO LIMPA! Iniciando teletransporte!");
-            StopAllCoroutines();
-            estaEsperandoNoPonto = false;
-            StartCoroutine(RotinaTeletransporte());
-        }
-    }
-    else
-    {
-        // Patrulha normal
-        if (agent.enabled && agent.isOnNavMesh)
-        {
-            if (!agent.pathPending && agent.remainingDistance <= agent.stoppingDistance + 0.3f)
+            Debug.LogError("ERRO GRAVE: O campo 'Player' está VAZIO no Inspector!");
+            GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
+            if (playerObj != null) 
             {
-                if (!estaEsperandoNoPonto)
+                player = playerObj.transform;
+                Debug.Log("Player encontrado automaticamente pela Tag 'Player'!");
+            }
+            return;
+        }
+
+        // 2. DIAGNÓSTICO A CADA 1 SEGUNDO
+        timerDebug += Time.deltaTime;
+        if (timerDebug >= 1.0f)
+        {
+            float dist = Vector3.Distance(transform.position, player.position);
+            Debug.Log($"[DIAGNÓSTICO] Distância real: {dist:F1}m | Raio necessário: {raioVisao}m | Tá sumindo agora? {estaSumindo}");
+            timerDebug = 0f;
+        }
+
+        if (estaSumindo) return;
+
+        float distanciaParaOPlayer = Vector3.Distance(transform.position, player.position);
+
+        // Se a distância for menor ou igual ao raio
+        if (distanciaParaOPlayer <= raioVisao)
+        {
+            Debug.Log("Player entrou no raio! Testando visão...");
+
+            if (TemLinhaDeVisaoDireta())
+            {
+                Debug.Log("VISÃO LIMPA! Iniciando teletransporte!");
+                StopAllCoroutines();
+                estaEsperandoNoPonto = false;
+                StartCoroutine(RotinaTeletransporte());
+            }
+        }
+        else
+        {
+            // Patrulha normal
+            if (agent.enabled && agent.isOnNavMesh)
+            {
+                if (!agent.pathPending && agent.remainingDistance <= agent.stoppingDistance + 0.3f)
                 {
-                    StartCoroutine(EsperaNoPonto());
+                    if (!estaEsperandoNoPonto)
+                    {
+                        StartCoroutine(EsperaNoPonto());
+                    }
                 }
             }
         }
     }
-}
 
-bool TemLinhaDeVisaoDireta()
-{
-    Vector3 origemRaio = transform.position + Vector3.up * 1.5f;
-    Vector3 posicaoAlvo = player.position + Vector3.up * 1.0f;
-    Vector3 direcao = (posicaoAlvo - origemRaio).normalized;
-    float distancia = Vector3.Distance(origemRaio, posicaoAlvo);
-
-    // Linha VERMELHA visível na aba Scene durante o Play
-    Debug.DrawLine(origemRaio, posicaoAlvo, Color.red);
-
-    RaycastHit hit;
-
-    // Dispara o raio testando colisão
-    if (Physics.Raycast(origemRaio, direcao, out hit, distancia, camadasBloqueadoras, QueryTriggerInteraction.Ignore))
+    bool TemLinhaDeVisaoDireta()
     {
-        Debug.Log("Visão do Fantasma bloqueada pelo objeto: " + hit.transform.name + " (Layer: " + LayerMask.LayerToName(hit.transform.gameObject.layer) + ")");
-        return false;
-    }
+        Vector3 origemRaio = transform.position + Vector3.up * 1.5f;
+        Vector3 posicaoAlvo = player.position + Vector3.up * 1.0f;
+        Vector3 direcao = (posicaoAlvo - origemRaio).normalized;
+        float distancia = Vector3.Distance(origemRaio, posicaoAlvo);
 
-    return true;
-}
+        // Linha VERMELHA visível na aba Scene durante o Play
+        Debug.DrawLine(origemRaio, posicaoAlvo, Color.red);
+
+        RaycastHit hit;
+
+        // Dispara o raio testando colisão
+        if (Physics.Raycast(origemRaio, direcao, out hit, distancia, camadasBloqueadoras, QueryTriggerInteraction.Ignore))
+        {
+            Debug.Log("Visão do Fantasma bloqueada pelo objeto: " + hit.transform.name + " (Layer: " + LayerMask.LayerToName(hit.transform.gameObject.layer) + ")");
+            return false;
+        }
+
+        return true;
+    }
 
     IEnumerator EsperaNoPonto()
     {

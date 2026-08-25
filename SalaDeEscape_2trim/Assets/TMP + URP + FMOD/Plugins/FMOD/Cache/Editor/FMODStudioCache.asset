@@ -1,32 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8925491749270566895
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Botoes/Pintar
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: event:/Botoes/Pintar
-  Guid:
-    Data1: -122507675
-    Data2: 1260055430
-    Data3: 872222848
-    Data4: 1944097303
-  Banks:
-  - {fileID: 7553115357002063613}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 540
 --- !u!114 &-8127471808609410038
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42,10 +15,10 @@ MonoBehaviour:
   Path: ../Fmod/GatoSFX/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639232720136789269
+  lastModified: 639232737398783963
   FileSizes:
   - Name: Desktop
-    Value: 1922
+    Value: 2050
   Exists: 1
 --- !u!114 &-8029535666182773444
 MonoBehaviour:
@@ -180,60 +153,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &-5207393257010863133
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/caixaSons/Correto
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: event:/caixaSons/Correto
-  Guid:
-    Data1: 657321320
-    Data2: 1255049771
-    Data3: 1396871823
-    Data4: 1746883302
-  Banks:
-  - {fileID: 7553115357002063613}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 936
---- !u!114 &-4552694176171035292
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: "event:/M\xFAsicas/CutSceneFinal"
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: "event:/M\xFAsicas/CutSceneFinal"
-  Guid:
-    Data1: -410937342
-    Data2: 1146647037
-    Data3: -441741688
-    Data4: -1714284617
-  Banks:
-  - {fileID: 7553115357002063613}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 17005
 --- !u!114 &-3793241007664222063
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -289,33 +208,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &-2752014468988166104
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Botoes/Click
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: event:/Botoes/Click
-  Guid:
-    Data1: -371378505
-    Data2: 1317980742
-    Data3: 234738343
-    Data4: 934721342
-  Banks:
-  - {fileID: 7553115357002063613}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 230
 --- !u!114 &-2260979911949682490
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -506,6 +398,31 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 9200
+--- !u!114 &-684949433887996624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Quebra madeira/madeira
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
+  Name: madeira
+  StudioPath: 
+  Min: 0
+  Max: 0
+  Default: 0
+  ID:
+    data1: 1280465035
+    data2: 569125605
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Value A
+  Exists: 1
 --- !u!114 &-621265489152647406
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -568,16 +485,18 @@ MonoBehaviour:
   - {fileID: -2260979911949682490}
   - {fileID: 7922105778561578693}
   - {fileID: -2212307251802996572}
-  - {fileID: -5207393257010863133}
-  - {fileID: 3249834665141709195}
-  - {fileID: 4518504057577023822}
+  - {fileID: 1237369844296044887}
+  - {fileID: 5032329305425492393}
+  - {fileID: 2950407946039387938}
+  - {fileID: 8132143033762885346}
+  - {fileID: 7495526107973209078}
   EditorParameters: []
   MasterBanks:
   - {fileID: 7553115357002063613}
   StringsBanks:
   - {fileID: -8127471808609410038}
   cacheVersion: 131860
-  cacheTime: 639232720136789269
+  cacheTime: 639232737398783963
   SerializableEventsDict:
   - key: event:/pawsteps/patas
     index: 0
@@ -617,6 +536,16 @@ MonoBehaviour:
     index: 17
   - key: "event:/M\xFAsicas/Ambiente"
     index: 18
+  - key: event:/caixaSons/Correto
+    index: 19
+  - key: event:/caixaSons/Abrir
+    index: 20
+  - key: event:/caixaSons/Errado
+    index: 21
+  - key: event:/fios
+    index: 22
+  - key: event:/Quebra madeira
+    index: 23
 --- !u!114 &307909875913075056
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -699,6 +628,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &1237369844296044887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/caixaSons/Correto
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/caixaSons/Correto
+  Guid:
+    Data1: 657321320
+    Data2: 1255049771
+    Data3: 1396871823
+    Data4: 1746883302
+  Banks:
+  - {fileID: 7553115357002063613}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 936
 --- !u!114 &2193707098518536476
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -724,88 +680,7 @@ MonoBehaviour:
   Labels:
   - Value A
   Exists: 1
---- !u!114 &2200418299241696263
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: "event:/M\xFAsicas/Menu"
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: "event:/M\xFAsicas/Menu"
-  Guid:
-    Data1: 1840470944
-    Data2: 1224218979
-    Data3: 680086972
-    Data4: -284555827
-  Banks:
-  - {fileID: 7553115357002063613}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 29280
---- !u!114 &3249834665141709195
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/caixaSons/Abrir
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: event:/caixaSons/Abrir
-  Guid:
-    Data1: -1957673104
-    Data2: 1190863212
-    Data3: -1110959443
-    Data4: 1013563127
-  Banks:
-  - {fileID: 7553115357002063613}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 816
---- !u!114 &3408490889184162668
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: "event:/M\xFAsicas/Creditos"
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: "event:/M\xFAsicas/Creditos"
-  Guid:
-    Data1: 871951508
-    Data2: 1216956925
-    Data3: -2002422376
-    Data4: 443966987
-  Banks:
-  - {fileID: 7553115357002063613}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 214343
---- !u!114 &4518504057577023822
+--- !u!114 &2950407946039387938
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -832,6 +707,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 340
+--- !u!114 &5032329305425492393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/caixaSons/Abrir
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/caixaSons/Abrir
+  Guid:
+    Data1: -1957673104
+    Data2: 1190863212
+    Data3: -1110959443
+    Data4: 1013563127
+  Banks:
+  - {fileID: 7553115357002063613}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 816
 --- !u!114 &5251310348135156101
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -857,6 +759,34 @@ MonoBehaviour:
   Labels:
   - Value A
   Exists: 1
+--- !u!114 &7495526107973209078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Quebra madeira
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Quebra madeira
+  Guid:
+    Data1: -759395209
+    Data2: 1138340927
+    Data3: -889895283
+    Data4: -2135216493
+  Banks:
+  - {fileID: 7553115357002063613}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -684949433887996624}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &7553115357002063613
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -872,10 +802,10 @@ MonoBehaviour:
   Path: ../Fmod/GatoSFX/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639232720136718076
+  lastModified: 639232737398735736
   FileSizes:
   - Name: Desktop
-    Value: 4714144
+    Value: 4809952
   Exists: 1
 --- !u!114 &7922105778561578693
 MonoBehaviour:
@@ -904,6 +834,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 17005
+--- !u!114 &8132143033762885346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/fios
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/fios
+  Guid:
+    Data1: 1524048244
+    Data2: 1314704989
+    Data3: 1646581160
+    Data4: 218071254
+  Banks:
+  - {fileID: 7553115357002063613}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4800
 --- !u!114 &8299475637052771695
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -931,30 +888,3 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 29280
---- !u!114 &8952630572920020763
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: "event:/M\xFAsicas/Ambiente"
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: "event:/M\xFAsicas/Ambiente"
-  Guid:
-    Data1: 1120472061
-    Data2: 1283268358
-    Data3: -2099359299
-    Data4: 1500641882
-  Banks:
-  - {fileID: 7553115357002063613}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 111571
