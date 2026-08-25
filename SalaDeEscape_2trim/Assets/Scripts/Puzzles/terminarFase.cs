@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.Events;
 using Unity.VisualScripting;
 using UnityEngine.InputSystem;
 using FMODUnity;
@@ -17,6 +18,7 @@ public class terminarFase : MonoBehaviour
     bool podeAcabar = false;
     int quantia = 0;
     public EventReference somFinal;
+    public UnityEvent pararSons;
 
     void Awake()
     {
@@ -36,6 +38,7 @@ public class terminarFase : MonoBehaviour
         {
             if(podeAcabar == true)
             {
+                pararSons.Invoke();
                 print("Acabou a fase");
                 brinquedosFinais.SetActive(true);
                 FMODUnity.RuntimeManager.PlayOneShot(somFinal, transform.position);
