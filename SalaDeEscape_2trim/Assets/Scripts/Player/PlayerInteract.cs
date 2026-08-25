@@ -114,7 +114,20 @@ public class PlayerInteract : MonoBehaviour
                 {
                     return;
                 }
+
+                /*if (interactable.CompareTag("brinquedos"))
+                {
+                    ColetarBrinquedoDireto(interactable);
+                    return; // Cancela todo o resto do fluxo de inspeção
+                }*/
+
                 CurrInteractable = interactable;
+
+                if (interactable.CompareTag("brinquedos"))
+                {
+                    ColetarBrinquedoDireto(interactable);
+                    return; // Cancela todo o resto do fluxo de inspeção
+                }
 
                 bool hasPreviousItem = false;
                 for (int i = 0; i < CurrInteractable.PreviousItem.Length; i++)
@@ -162,6 +175,30 @@ public class PlayerInteract : MonoBehaviour
         else { GerentUI.instance.SetPawCursor(false); }
     }
         else { GerentUI.instance.SetPawCursor(false); }
+    }
+
+    private void ColetarBrinquedoDireto(Interactables interactable)
+    {
+        BrinquedoColetavel coletavel = interactable.GetComponent<BrinquedoColetavel>();
+        if (CurrInteractable.CompareTag("brinquedos"))
+        {
+            inventario.AdicionarItem(coletavel.dadosDoItem);
+            CurrInteractable.CollectItem.Invoke();
+            if (CurrInteractable.gameObject.name == "Trenzinho")
+            {
+                
+                abrate.tremPego(true);
+                if (ToyInvent != null)
+                {
+                    
+                    ToyInvent.ativarInventario(true);
+                }
+            }
+        }
+
+        // Opcional: Se o brinquedo precisa desaparecer da cena ao ser coletado:
+        // interactable.gameObject.SetActive(false); 
+        // ou Destroy(interactable.gameObject);
     }
 
     void CanFinish()
