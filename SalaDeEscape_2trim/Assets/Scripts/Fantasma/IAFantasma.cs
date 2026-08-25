@@ -50,6 +50,7 @@ public class IAFantasma : MonoBehaviour
 
         if (distanciaParaOPlayer <= raioVisao && TemLinhaDeVisaoDireta())
         {
+            print("eU TO TE VENDOOOOOOOOO");
             // Se o fantasma se assustar enquanto esperava no ponto, cancelamos a espera
             StopAllCoroutines();
             estaEsperandoNoPonto = false;
@@ -121,12 +122,11 @@ public class IAFantasma : MonoBehaviour
                 }
             }
 
-            //* Teletransporte físico
+            /* Teletransporte físico
             agent.enabled = false;
             transform.position = pontoMaisDistante.position;
             agent.enabled = true;// */
-
-            // agent.Warp(pontoMaisDistante.position);
+            agent.Warp(pontoMaisDistante.position);
         }
         
         // Reseta o contador ao se teletransportar para não travar sorteios novos
@@ -137,6 +137,7 @@ public class IAFantasma : MonoBehaviour
         agent.isStopped = false; 
         SortearProximoPonto();
 
+        yield return new WaitForEndOfFrame(); 
         estaSumindo = false; // Permite que ele se assuste novamente no futuro
     }
 
@@ -144,14 +145,20 @@ public class IAFantasma : MonoBehaviour
     {
         Vector3 direcaoParaOPlayer = (player.position - transform.position).normalized;
         float distanciaParaOPlayer = Vector3.Distance(transform.position, player.position);
-        Vector3 origemRaio = transform.position + Vector3.up * 1f; 
+        // Vector3 origemRaio = transform.position + Vector3.up * 1f; 
+        Vector3 origemRaio = transform.position + (Vector3.up * 0.3f) + (transform.forward * 0.5f);
+        Debug.DrawRay(origemRaio, direcaoParaOPlayer * distanciaParaOPlayer, Color.red);
 
         RaycastHit hit;
-        if (Physics.Raycast(origemRaio, direcaoParaOPlayer, out hit, distanciaParaOPlayer, camadasBloqueadoras))
+        if (Physics.Raycast(origemRaio, direcaoParaOPlayer, out hit, distanciaParaOPlayer, ~0, QueryTriggerInteraction.Ignore))
         {
-            return false; 
+            // Se acertou o player OU algum objeto filho do player
+            if (hit.transform == player || hit.transform.IsChildOf(player) || hit.transform.CompareTag("Player"))
+            {
+                return true;
+            }
         }
-        return true; 
+        return false; 
     }
 
     void SortearProximoPonto()
