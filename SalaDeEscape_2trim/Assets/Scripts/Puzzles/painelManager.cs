@@ -74,8 +74,8 @@ public class painelManager : MonoBehaviour
     {
         puzzleAtivo = true;
         if (look != null) look.enabled = false;
-        /*Cursor.lockState = CursorLockMode.None;
-        Cursor.visible = true;*/
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
 
         if (cartaNaParede != null && cartaItem != null && inventoryPlayer != null && inventoryPlayer.Itens.Contains(cartaItem)) // Revela a dica na parede caso o jogador possua o Item no inventario
         {
@@ -89,8 +89,8 @@ public class painelManager : MonoBehaviour
     {
         puzzleAtivo = false;
         if (look != null) look.enabled = true;
-        /*Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;*/
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
         Debug.Log("Painel desativado!");
     }
 

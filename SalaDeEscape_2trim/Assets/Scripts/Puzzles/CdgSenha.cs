@@ -53,7 +53,7 @@ public class CdgSenha : MonoBehaviour
             painelCdg.SetActive(false);
         }
 
-        if (cdgValor.Length >= 7)
+        if (cdgValor.Length >= senha.Length+1)
         {
             PlayErradoAudio();
             cdgValor = "";
@@ -70,14 +70,14 @@ public class CdgSenha : MonoBehaviour
 
         if (painelCdg.activeInHierarchy)
         {
-            /*Cursor.visible = true;
-            Cursor.lockState = CursorLockMode.None;*/
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
             if (look != null) look.enabled = false;
         }
         else if (!outroPuzzleAtivo)
         {
-            /*Cursor.visible = false;
-            Cursor.lockState = CursorLockMode.Locked;*/
+            Cursor.visible = false;
+            Cursor.lockState = CursorLockMode.Locked;
             if (look != null) look.enabled = true;
         }
 
@@ -87,7 +87,7 @@ public class CdgSenha : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Player")
+        if (other.CompareTag("Player"))
         {
             eInteragir.SetActive(true);
             emAlcance = true;
