@@ -93,7 +93,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: 661d22c86f87cae4f9e0e5d9ec30e82a, type: 2}
+  m_LightingDataAsset: {fileID: 112000000, guid: 8a2b5a9f59860e94aa00ead7a537e202, type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -2670,6 +2670,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: brinquedos
       objectReference: {fileID: 0}
+    - target: {fileID: 219373662910731972, guid: 0b54be0ec56da8547845dbfd0cc8a00a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7800837985915517131, guid: 0b54be0ec56da8547845dbfd0cc8a00a, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.20000002
@@ -3185,6 +3189,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: brinquedos
       objectReference: {fileID: 0}
+    - target: {fileID: 7807368074136856216, guid: 9457934fe0c66914a9b0e7dcadac76fc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6960381617523792855, guid: 9457934fe0c66914a9b0e7dcadac76fc, type: 3}
     - {fileID: -8549675909814129313, guid: 9457934fe0c66914a9b0e7dcadac76fc, type: 3}
@@ -3626,6 +3634,10 @@ PrefabInstance:
     - target: {fileID: 1146667409167664246, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1167625744734185788, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 1254311160406929818, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: m_Enabled
@@ -4234,6 +4246,10 @@ PrefabInstance:
     - target: {fileID: 3528967023475262762, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544637988422885280, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3586943789651820154, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: m_TagString
@@ -4987,6 +5003,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: SAPATEIRA
       objectReference: {fileID: 0}
+    - target: {fileID: 7642234834081036742, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7665044963170880014, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -5127,6 +5147,10 @@ PrefabInstance:
       propertyPath: m_Convex
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8350047994318684434, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8409359829708490856, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: m_Convex
       value: 0
@@ -5259,6 +5283,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: brinquedos
       objectReference: {fileID: 0}
+    - target: {fileID: 8889802642910567877, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8898530616961335594, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: m_Size.x
       value: 0.6000001
@@ -5282,6 +5310,10 @@ PrefabInstance:
     - target: {fileID: 8943853786762866477, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8958246750029390633, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8979095802984073422, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: m_Enabled
@@ -7387,6 +7419,10 @@ PrefabInstance:
       propertyPath: dadosDoItem
       value: 
       objectReference: {fileID: 11400000, guid: 02c6198f67652a147bcf5b210b8bc022, type: 2}
+    - target: {fileID: 24765887914361338, guid: b5f40a6ceb4236a4181fc206a64e1be8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 844799308071469504, guid: b5f40a6ceb4236a4181fc206a64e1be8, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.2
@@ -7526,6 +7562,30 @@ PrefabInstance:
     - target: {fileID: 3267064484395345313, guid: b5f40a6ceb4236a4181fc206a64e1be8, type: 3}
       propertyPath: m_TagString
       value: brinquedos
+      objectReference: {fileID: 0}
+    - target: {fileID: 3267064484395345313, guid: b5f40a6ceb4236a4181fc206a64e1be8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3628227106904172115, guid: b5f40a6ceb4236a4181fc206a64e1be8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4238849635118375914, guid: b5f40a6ceb4236a4181fc206a64e1be8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4639136280759535277, guid: b5f40a6ceb4236a4181fc206a64e1be8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6050812562997919307, guid: b5f40a6ceb4236a4181fc206a64e1be8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7344675728741562641, guid: b5f40a6ceb4236a4181fc206a64e1be8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -3241397655346511264, guid: b5f40a6ceb4236a4181fc206a64e1be8, type: 3}
@@ -8994,7 +9054,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1167068580
 Transform:
@@ -10286,6 +10346,10 @@ PrefabInstance:
     - target: {fileID: 4538858114342110109, guid: 05cdd40ea92f078498549cef979671cf, type: 3}
       propertyPath: m_TagString
       value: brinquedos
+      objectReference: {fileID: 0}
+    - target: {fileID: 4538858114342110109, guid: 05cdd40ea92f078498549cef979671cf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3619815178101587662, guid: 05cdd40ea92f078498549cef979671cf, type: 3}
@@ -12367,6 +12431,133 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.1919167, y: 2.2709224, z: 0.59916115}
   m_Center: {x: 0.0000000010904414, y: 1.1354612, z: 0.043827876}
+--- !u!1 &1632549773
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1632549776}
+  - component: {fileID: 1632549775}
+  - component: {fileID: 1632549774}
+  m_Layer: 0
+  m_Name: Area Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1632549774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1632549773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalLightData
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_CustomShadowLayers: 0
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
+  m_RenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_ShadowRenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_Version: 4
+  m_LightLayerMask: 1
+  m_ShadowLayerMask: 1
+  m_RenderingLayers: 1
+  m_ShadowRenderingLayers: 1
+--- !u!108 &1632549775
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1632549773}
+  m_Enabled: 1
+  serializedVersion: 12
+  m_Type: 3
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 5
+  m_Range: 20
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize2D: {x: 0.5, y: 0.5}
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 2
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1.4433894, y: 0.47575682}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ForceVisible: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+  m_LightUnit: 1
+  m_LuxAtDistance: 1
+  m_EnableSpotReflector: 1
+--- !u!4 &1632549776
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1632549773}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -5.416, y: 0.369, z: -0.889}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &1638758640 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4172795099610913415, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
@@ -14074,6 +14265,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: brinquedos
       objectReference: {fileID: 0}
+    - target: {fileID: 6706650782775994848, guid: d31028d0dd6372e45b4f507c06573807, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5822567545013192152, guid: d31028d0dd6372e45b4f507c06573807, type: 3}
     - {fileID: -6640129044637366834, guid: d31028d0dd6372e45b4f507c06573807, type: 3}
@@ -15113,3 +15308,4 @@ SceneRoots:
   - {fileID: 1117123883}
   - {fileID: 741154224}
   - {fileID: 140496019}
+  - {fileID: 1632549776}
