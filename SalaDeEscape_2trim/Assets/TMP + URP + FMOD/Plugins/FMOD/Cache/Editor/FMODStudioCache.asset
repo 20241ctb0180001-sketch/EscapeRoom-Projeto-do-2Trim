@@ -42,7 +42,7 @@ MonoBehaviour:
   Path: ../Fmod/GatoSFX/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639232716681419187
+  lastModified: 639232720136789269
   FileSizes:
   - Name: Desktop
     Value: 1922
@@ -180,6 +180,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-5207393257010863133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/caixaSons/Correto
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/caixaSons/Correto
+  Guid:
+    Data1: 657321320
+    Data2: 1255049771
+    Data3: 1396871823
+    Data4: 1746883302
+  Banks:
+  - {fileID: 7553115357002063613}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 936
 --- !u!114 &-4552694176171035292
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -207,33 +234,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 17005
---- !u!114 &-3983682382213511847
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/caixaSons/Correto
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: event:/caixaSons/Correto
-  Guid:
-    Data1: 657321320
-    Data2: 1255049771
-    Data3: 1396871823
-    Data4: 1746883302
-  Banks:
-  - {fileID: 7553115357002063613}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 936
 --- !u!114 &-3793241007664222063
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -568,16 +568,16 @@ MonoBehaviour:
   - {fileID: -2260979911949682490}
   - {fileID: 7922105778561578693}
   - {fileID: -2212307251802996572}
-  - {fileID: -3983682382213511847}
-  - {fileID: 4559734366791489546}
-  - {fileID: 3089666492058218054}
+  - {fileID: -5207393257010863133}
+  - {fileID: 3249834665141709195}
+  - {fileID: 4518504057577023822}
   EditorParameters: []
   MasterBanks:
   - {fileID: 7553115357002063613}
   StringsBanks:
   - {fileID: -8127471808609410038}
   cacheVersion: 131860
-  cacheTime: 639232716681419187
+  cacheTime: 639232720136789269
   SerializableEventsDict:
   - key: event:/pawsteps/patas
     index: 0
@@ -617,12 +617,6 @@ MonoBehaviour:
     index: 17
   - key: "event:/M\xFAsicas/Ambiente"
     index: 18
-  - key: event:/caixaSons/Correto
-    index: 19
-  - key: event:/caixaSons/Abrir
-    index: 20
-  - key: event:/caixaSons/Errado
-    index: 21
 --- !u!114 &307909875913075056
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -757,7 +751,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 29280
---- !u!114 &3089666492058218054
+--- !u!114 &3249834665141709195
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -767,14 +761,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/caixaSons/Errado
+  m_Name: event:/caixaSons/Abrir
   m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: event:/caixaSons/Errado
+  Path: event:/caixaSons/Abrir
   Guid:
-    Data1: 1912686503
-    Data2: 1326685388
-    Data3: -1648164432
-    Data4: -2040126155
+    Data1: -1957673104
+    Data2: 1190863212
+    Data3: -1110959443
+    Data4: 1013563127
   Banks:
   - {fileID: 7553115357002063613}
   IsStream: 0
@@ -783,7 +777,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 340
+  Length: 816
 --- !u!114 &3408490889184162668
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -811,7 +805,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 214343
---- !u!114 &4559734366791489546
+--- !u!114 &4518504057577023822
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -821,14 +815,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/caixaSons/Abrir
+  m_Name: event:/caixaSons/Errado
   m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: event:/caixaSons/Abrir
+  Path: event:/caixaSons/Errado
   Guid:
-    Data1: -1957673104
-    Data2: 1190863212
-    Data3: -1110959443
-    Data4: 1013563127
+    Data1: 1912686503
+    Data2: 1326685388
+    Data3: -1648164432
+    Data4: -2040126155
   Banks:
   - {fileID: 7553115357002063613}
   IsStream: 0
@@ -837,7 +831,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 816
+  Length: 340
 --- !u!114 &5251310348135156101
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -878,7 +872,7 @@ MonoBehaviour:
   Path: ../Fmod/GatoSFX/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639232716681409185
+  lastModified: 639232720136718076
   FileSizes:
   - Name: Desktop
     Value: 4714144
