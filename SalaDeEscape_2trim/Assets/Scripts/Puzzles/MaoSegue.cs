@@ -88,24 +88,6 @@ public class MaoSegue : MonoBehaviour
 
     private IEnumerator ProcessarToque()
     {
-        Debug.Log("Target: " + (target != null ? target.name : "NULL"));
-        Debug.Log("Respawn: " + (posicaoTeleporte != null ? posicaoTeleporte.name : "NULL"));
-        Debug.Log("Posição do respawn: " + posicaoTeleporte.position);
-
-        if (painelEscurece == null)
-        {
-            Debug.LogError("PainelEscurece não foi encontrado.", this);
-            Destroy(gameObject);
-            yield break;
-        }
-
-        if (posicaoTeleporte == null)
-        {
-            Debug.LogError("Respawn1 não foi encontrado.", this);
-            Destroy(gameObject);
-            yield break;
-        }
-
         float alphaAtual = painelEscurece.color.a;
         float proximoAlpha = Mathf.Clamp01(alphaAtual + aumentoAlpha);
         bool deveTeleportar = proximoAlpha >= alphaParaTeleportar;
