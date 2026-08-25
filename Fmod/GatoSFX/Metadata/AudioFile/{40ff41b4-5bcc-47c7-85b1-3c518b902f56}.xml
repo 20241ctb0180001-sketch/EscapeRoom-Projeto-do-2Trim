@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{4f826be7-fa7d-4eee-b930-b699730c2956}">
+	<object class="AudioFile" id="{40ff41b4-5bcc-47c7-85b1-3c518b902f56}">
 		<property name="assetPath">
-			<value>freesound_community-wood-break-40011.mp3</value>
+			<value>Madeira quebrando/freesound_community-wood-break-40016 - Trimmed.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
@@ -11,7 +11,7 @@
 			<value>1</value>
 		</property>
 		<property name="length">
-			<value>3.8138775510204082</value>
+			<value>0.41385487528344672</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{83930bb0-2fdb-4c40-8096-822ef381df7d}</destination>

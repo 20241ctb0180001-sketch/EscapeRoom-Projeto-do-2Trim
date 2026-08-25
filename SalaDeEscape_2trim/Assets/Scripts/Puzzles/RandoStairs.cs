@@ -36,8 +36,6 @@ public class RandoStairs : MonoBehaviour
                 case 3:
                     bool state = !Deco.activeInHierarchy;
                     SetActiveDeco(state);
-                    /*Debug.Log("easterEgg1");
-                    EE1.Invoke();*/
                     break;
 
                 case 4:
