@@ -4223,6 +4223,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: respawn1
       objectReference: {fileID: 0}
+    - target: {fileID: 6559237248094572627, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6592206503629728783, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.67
@@ -5883,7 +5887,7 @@ Transform:
   m_GameObject: {fileID: 853840892}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.145, y: -0.432, z: 1.176}
+  m_LocalPosition: {x: -6.145, y: 7.751, z: 39.951}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
