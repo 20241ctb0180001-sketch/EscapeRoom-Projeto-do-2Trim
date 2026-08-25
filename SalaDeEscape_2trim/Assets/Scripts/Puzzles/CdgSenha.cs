@@ -70,14 +70,14 @@ public class CdgSenha : MonoBehaviour
 
         if (painelCdg.activeInHierarchy)
         {
-            Cursor.visible = true;
-            Cursor.lockState = CursorLockMode.None;
+            /*Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;*/
             if (look != null) look.enabled = false;
         }
         else if (!outroPuzzleAtivo)
         {
-            Cursor.visible = false;
-            Cursor.lockState = CursorLockMode.Locked;
+            /*Cursor.visible = false;
+            Cursor.lockState = CursorLockMode.Locked;*/
             if (look != null) look.enabled = true;
         }
 

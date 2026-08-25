@@ -3346,7 +3346,7 @@ PrefabInstance:
     - target: {fileID: 399054645710423552, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: dadosDoItem
       value: 
-      objectReference: {fileID: 11400000, guid: 4e2d737456987aa4c8aa2e5a9e3b0aa8, type: 2}
+      objectReference: {fileID: 11400000, guid: b20468c2eb1b21a49862b0db94f0a5b6, type: 2}
     - target: {fileID: 447631786775185766, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -3359,6 +3359,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 560403173910960987, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
+      propertyPath: item
+      value: 
+      objectReference: {fileID: 11400000, guid: b20468c2eb1b21a49862b0db94f0a5b6, type: 2}
     - target: {fileID: 560403173910960987, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: CollectItem.m_PersistentCalls.m_Calls.Array.size
       value: 3
@@ -3450,7 +3454,7 @@ PrefabInstance:
     - target: {fileID: 613162594765269384, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: dadosDoItem
       value: 
-      objectReference: {fileID: 11400000, guid: 02c6198f67652a147bcf5b210b8bc022, type: 2}
+      objectReference: {fileID: 11400000, guid: 47f6c5ae95a458c4495b00020880e991, type: 2}
     - target: {fileID: 637234092644936764, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: m_LocalScale.z
       value: 1
@@ -3822,7 +3826,7 @@ PrefabInstance:
     - target: {fileID: 1696361478026023998, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: dadosDoItem
       value: 
-      objectReference: {fileID: 11400000, guid: e7242febf9ac3e643bbf781d04befc73, type: 2}
+      objectReference: {fileID: 11400000, guid: 3793e0e2673e73f45b09346867380d4e, type: 2}
     - target: {fileID: 1701138407231996805, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: m_LocalPosition.y
       value: 119.18
@@ -3887,6 +3891,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2124142968351585870, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
+      propertyPath: item
+      value: 
+      objectReference: {fileID: 11400000, guid: 3793e0e2673e73f45b09346867380d4e, type: 2}
     - target: {fileID: 2124142968351585870, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: CollectItem.m_PersistentCalls.m_Calls.Array.size
       value: 3
@@ -4010,7 +4018,7 @@ PrefabInstance:
     - target: {fileID: 2534826441664241259, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: dadosDoItem
       value: 
-      objectReference: {fileID: 11400000, guid: 69128ec56f9ee1d43883543d448a8eb5, type: 2}
+      objectReference: {fileID: 11400000, guid: 1ab9861dd5061f94b96639a0b66ee01c, type: 2}
     - target: {fileID: 2644236800257539312, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: m_LocalScale.z
       value: 1
@@ -4311,6 +4319,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4417012002657840945, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
+      propertyPath: item
+      value: 
+      objectReference: {fileID: 11400000, guid: 58af783747db0884ebd410d79bd7c3ee, type: 2}
     - target: {fileID: 4417012002657840945, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: OnInteract.m_PersistentCalls.m_Calls.Array.size
       value: 0
@@ -4910,7 +4922,7 @@ PrefabInstance:
     - target: {fileID: 6694772249435296064, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: dadosDoItem
       value: 
-      objectReference: {fileID: 11400000, guid: e312ee90d2eaee045a8a34ff4d807f49, type: 2}
+      objectReference: {fileID: 11400000, guid: 58af783747db0884ebd410d79bd7c3ee, type: 2}
     - target: {fileID: 6766317307565027909, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: m_TagString
       value: brinquedos
@@ -5056,6 +5068,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8161220858451504314, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
+      propertyPath: item
+      value: 
+      objectReference: {fileID: 11400000, guid: 1ab9861dd5061f94b96639a0b66ee01c, type: 2}
+    - target: {fileID: 8161220858451504314, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: CollectItem.m_PersistentCalls.m_Calls.Array.size
       value: 3
       objectReference: {fileID: 0}
@@ -5171,6 +5187,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: brinquedos
       objectReference: {fileID: 0}
+    - target: {fileID: 8659616015596817282, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
+      propertyPath: item
+      value: 
+      objectReference: {fileID: 11400000, guid: 47f6c5ae95a458c4495b00020880e991, type: 2}
     - target: {fileID: 8659616015596817282, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: CollectItem.m_PersistentCalls.m_Calls.Array.size
       value: 3
@@ -9343,6 +9363,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GerentScena
   PSair: {fileID: 0}
+  Controls: {fileID: 0}
   Confirm: {fileID: 657890950}
   nomeLvGame: 
 --- !u!1 &1214814530 stripped

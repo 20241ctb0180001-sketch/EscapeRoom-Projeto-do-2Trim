@@ -81,8 +81,8 @@ public class GerentUI : MonoBehaviour
         Pause = InputSystem.actions.FindAction("Pause");
         Time.timeScale = 0f;
 
-        Cursor.lockState = CursorLockMode.None;
-        Cursor.visible = true;
+        /*Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;*/
 
         if (PauseMenu != null)
             PauseMenu.SetActive(true);
@@ -99,8 +99,8 @@ public class GerentUI : MonoBehaviour
         // Se estiver fechando a pausa, verifica se a keypad/puzzle não está ativa antes de travar o cursor
         if (!IsPuzzleOuKeypadAtivo())
         {
-            Cursor.lockState = CursorLockMode.Locked;
-            Cursor.visible = false;
+            /*Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;*/
         }
 
         if (PauseMenu != null)
