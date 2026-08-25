@@ -1,6 +1,8 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
+using FMODUnity;
+using FMOD.Studio;
 
 public class RandoStairs : MonoBehaviour
 {
@@ -9,6 +11,7 @@ public class RandoStairs : MonoBehaviour
     //public UnityEvent EE1;
     public UnityEvent EE2;
     public GameObject Deco;
+    public string qMadeira = "event:/Quebra madeira";
 
     void Awake()
     {
@@ -25,6 +28,7 @@ public class RandoStairs : MonoBehaviour
                 case 1:
                     gameObject.GetComponent<Collider>().enabled = false;
                     gameObject.GetComponent<MeshRenderer>().enabled = false;
+                    PlayBreakAudio();
                     Debug.Log("Disaparece");
                     break;
 
@@ -68,4 +72,5 @@ public class RandoStairs : MonoBehaviour
     {
         Deco.SetActive(state);
     }
+    void PlayBreakAudio() => RuntimeManager.PlayOneShot(qMadeira, transform.position);
 }
