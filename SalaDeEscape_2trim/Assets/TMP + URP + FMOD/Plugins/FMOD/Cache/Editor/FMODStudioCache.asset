@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: ../Fmod/GatoSFX/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639232761569342686
+  lastModified: 639232737398783963
   FileSizes:
   - Name: Desktop
     Value: 2050
@@ -230,7 +230,7 @@ MonoBehaviour:
   - {fileID: 7553115357002063613}
   IsStream: 1
   Is3D: 0
-  IsOneShot: 0
+  IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
@@ -257,7 +257,7 @@ MonoBehaviour:
   - {fileID: 7553115357002063613}
   IsStream: 1
   Is3D: 0
-  IsOneShot: 0
+  IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
@@ -496,7 +496,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -8127471808609410038}
   cacheVersion: 131860
-  cacheTime: 639232761569342686
+  cacheTime: 639232770012043912
   SerializableEventsDict:
   - key: event:/pawsteps/patas
     index: 0
@@ -802,10 +802,10 @@ MonoBehaviour:
   Path: ../Fmod/GatoSFX/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639232761569332679
+  lastModified: 639232770012043912
   FileSizes:
   - Name: Desktop
-    Value: 4810912
+    Value: 4810400
   Exists: 1
 --- !u!114 &7922105778561578693
 MonoBehaviour:
@@ -829,7 +829,7 @@ MonoBehaviour:
   - {fileID: 7553115357002063613}
   IsStream: 1
   Is3D: 0
-  IsOneShot: 0
+  IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
@@ -883,7 +883,7 @@ MonoBehaviour:
   - {fileID: 7553115357002063613}
   IsStream: 1
   Is3D: 0
-  IsOneShot: 0
+  IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
