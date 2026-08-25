@@ -42,10 +42,10 @@ MonoBehaviour:
   Path: ../Fmod/GatoSFX/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639232720136789269
+  lastModified: 639232735859828893
   FileSizes:
   - Name: Desktop
-    Value: 1922
+    Value: 2050
   Exists: 1
 --- !u!114 &-8029535666182773444
 MonoBehaviour:
@@ -571,13 +571,15 @@ MonoBehaviour:
   - {fileID: -5207393257010863133}
   - {fileID: 3249834665141709195}
   - {fileID: 4518504057577023822}
+  - {fileID: 8130735835111602858}
+  - {fileID: 4474592389387167138}
   EditorParameters: []
   MasterBanks:
   - {fileID: 7553115357002063613}
   StringsBanks:
   - {fileID: -8127471808609410038}
   cacheVersion: 131860
-  cacheTime: 639232720136789269
+  cacheTime: 639232735859828893
   SerializableEventsDict:
   - key: event:/pawsteps/patas
     index: 0
@@ -617,6 +619,16 @@ MonoBehaviour:
     index: 17
   - key: "event:/M\xFAsicas/Ambiente"
     index: 18
+  - key: event:/caixaSons/Correto
+    index: 19
+  - key: event:/caixaSons/Abrir
+    index: 20
+  - key: event:/caixaSons/Errado
+    index: 21
+  - key: event:/fios
+    index: 22
+  - key: event:/Quebra madeira
+    index: 23
 --- !u!114 &307909875913075056
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -805,6 +817,34 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 214343
+--- !u!114 &4474592389387167138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Quebra madeira
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Quebra madeira
+  Guid:
+    Data1: -759395209
+    Data2: 1138340927
+    Data3: -889895283
+    Data4: -2135216493
+  Banks:
+  - {fileID: 7553115357002063613}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 4914087693074788247}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &4518504057577023822
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -832,6 +872,31 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 340
+--- !u!114 &4914087693074788247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Quebra madeira/madeira
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
+  Name: madeira
+  StudioPath: 
+  Min: 0
+  Max: 0
+  Default: 0
+  ID:
+    data1: 1280465035
+    data2: 569125605
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Value A
+  Exists: 1
 --- !u!114 &5251310348135156101
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -872,10 +937,10 @@ MonoBehaviour:
   Path: ../Fmod/GatoSFX/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639232720136718076
+  lastModified: 639232735859758643
   FileSizes:
   - Name: Desktop
-    Value: 4714144
+    Value: 4809952
   Exists: 1
 --- !u!114 &7922105778561578693
 MonoBehaviour:
@@ -904,6 +969,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 17005
+--- !u!114 &8130735835111602858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/fios
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/fios
+  Guid:
+    Data1: 1524048244
+    Data2: 1314704989
+    Data3: 1646581160
+    Data4: 218071254
+  Banks:
+  - {fileID: 7553115357002063613}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4800
 --- !u!114 &8299475637052771695
 MonoBehaviour:
   m_ObjectHideFlags: 0
