@@ -23,6 +23,7 @@ public class CdgSenha : MonoBehaviour
     [SerializeField] private TextMeshProUGUI cdgText;
     string cdgValor = "";
     private string senha = "111295";
+    private bool senhaResolvida = false;
     public GameObject painelCdg;
 
     public GerentUI bob;
@@ -44,8 +45,9 @@ public class CdgSenha : MonoBehaviour
     {
         cdgText.text = cdgValor;
         InteractAlcance = emAlcance;
-        if (cdgValor == senha)
+        if (cdgValor == senha && !senhaResolvida)
         {
+            senhaResolvida = true;
             PlayAbrirAudio();
             anim.SetTrigger("abrirTampa");
             painelCdg.SetActive(false);
