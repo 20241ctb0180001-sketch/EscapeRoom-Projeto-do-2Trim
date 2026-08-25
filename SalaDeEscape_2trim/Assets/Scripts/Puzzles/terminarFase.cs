@@ -3,6 +3,9 @@ using TMPro;
 using Unity.VisualScripting;
 using UnityEngine.InputSystem;
 using FMODUnity;
+using UnityEngine.SceneManagement;
+using System.Collections;
+using System.Collections.Generic;
 
 public class terminarFase : MonoBehaviour
 {
@@ -36,6 +39,7 @@ public class terminarFase : MonoBehaviour
                 print("Acabou a fase");
                 brinquedosFinais.SetActive(true);
                 FMODUnity.RuntimeManager.PlayOneShot(somFinal, transform.position);
+                StartCoroutine(EsperarEExecutar(1.5f));
             }
             else
             {
@@ -68,6 +72,15 @@ public class terminarFase : MonoBehaviour
         {
             podeAcabar = true;
         }
+    }
+
+    IEnumerator EsperarEExecutar(float tempoDeEspera)
+    {
+        // O script para aqui e espera a quantidade de segundos informada
+        yield return new WaitForSeconds(tempoDeEspera);
+
+        // Função que você quer chamar após o tempo
+        SceneManager.LoadScene("fim");
     }
 }
 
