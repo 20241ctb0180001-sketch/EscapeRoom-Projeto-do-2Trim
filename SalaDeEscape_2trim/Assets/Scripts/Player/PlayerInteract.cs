@@ -165,116 +165,118 @@ public class PlayerInteract : MonoBehaviour
     }
 
     void CanFinish()
-{
-    canFinish = true;
-    if (CurrInteractable.item.image == null && !CurrInteractable.item.pegavel)
     {
-        FinishView();
-    }
-    else
-    {
-        GerentUI.instance.SetbackImg(true);
-    }
-}
-
-void Interact(Item item)
-{
-    if (item.image != null)
-    {
-        GerentUI.instance.SetIntIMG(item.image);
-    }
-}
-void FinishView()
-{
-    canFinish = false;
-    estaaVer = false;
-    if (look != null) look.enabled = true;
-    if (movement != null) movement.enabled = true;
-    GerentUI.instance.SetbackImg(false);
-
-    BrinquedoColetavel coletavel = CurrInteractable.GetComponent<BrinquedoColetavel>();
-    if (CurrInteractable.item.InvetoryItem)
-    {
-        if (CurrInteractable.CompareTag("brinquedos"))
+        canFinish = true;
+        if (CurrInteractable.item.image == null && !CurrInteractable.item.pegavel)
         {
-            inventario.AdicionarItem(coletavel.dadosDoItem);
-            CurrInteractable.CollectItem.Invoke();
-            if (CurrInteractable.gameObject.name == "Trenzinho")
-            {
-                abrate.tremPego(true);
-                if (ToyInvent != null)
-                {
-                    ToyInvent.ativarInventario(true);
-                }
-            }
+            FinishView();
         }
         else
         {
-            inventory.AddItem(CurrInteractable.item);
-            CurrInteractable.CollectItem.Invoke();
+            GerentUI.instance.SetbackImg(true);
         }
-
     }
-    if (CurrInteractable.item.pegavel)
+
+    void Interact(Item item)
     {
-        CurrInteractable.transform.rotation = OiginRotat;
-        if (CurrInteractable.GetComponent<Collider>() != null)
+        if (item.image != null)
         {
-            CurrInteractable.GetComponent<Collider>().enabled = true;
+            GerentUI.instance.SetIntIMG(item.image);
         }
-        //StartCoroutine(MovendObj(CurrInteractable, OriginPos));
-
-        CurrInteractable.RestoreOriginalTransform();
-        StartCoroutine(MovendObj(CurrInteractable, CurrInteractable.GetOriginalPosition(), CurrInteractable.GetOriginalRotation()));
     }
-    OnFinishView.Invoke();
-}
-
-IEnumerator MovendObj(Interactables obj, Vector3 targetPos, Quaternion targetRot)
-{
-    obj.IsMoving = true;
-    float timer = 0f;
-    Vector3 startPos = obj.transform.position;
-    Quaternion startRot = obj.transform.rotation;
-
-    while (timer < animationDuration)
+    void FinishView()
     {
-        float progress = timer / animationDuration;
-        obj.transform.position = Vector3.Lerp(startPos, targetPos, progress);
-        obj.transform.rotation = Quaternion.Lerp(startRot, targetRot, progress);
-        timer += Time.deltaTime;
-        yield return null;
+        canFinish = false;
+        estaaVer = false;
+        if (look != null) look.enabled = true;
+        if (movement != null) movement.enabled = true;
+        GerentUI.instance.SetbackImg(false);
+
+        BrinquedoColetavel coletavel = CurrInteractable.GetComponent<BrinquedoColetavel>();
+        if (CurrInteractable.item.InvetoryItem)
+        {
+            if (CurrInteractable.CompareTag("brinquedos"))
+            {
+                inventario.AdicionarItem(coletavel.dadosDoItem);
+                CurrInteractable.CollectItem.Invoke();
+                if (CurrInteractable.gameObject.name == "Trenzinho")
+                {
+                    print("AI AI AI");
+                    abrate.tremPego(true);
+                    if (ToyInvent != null)
+                    {
+                        print("VAI, BOLSONARO!!");
+                        ToyInvent.ativarInventario(true);
+                    }
+                }
+            }
+            else
+            {
+                inventory.AddItem(CurrInteractable.item);
+                CurrInteractable.CollectItem.Invoke();
+            }
+
+        }
+        if (CurrInteractable.item.pegavel)
+        {
+            CurrInteractable.transform.rotation = OiginRotat;
+            if (CurrInteractable.GetComponent<Collider>() != null)
+            {
+                CurrInteractable.GetComponent<Collider>().enabled = true;
+            }
+            //StartCoroutine(MovendObj(CurrInteractable, OriginPos));
+
+            CurrInteractable.RestoreOriginalTransform();
+            StartCoroutine(MovendObj(CurrInteractable, CurrInteractable.GetOriginalPosition(), CurrInteractable.GetOriginalRotation()));
+        }
+        OnFinishView.Invoke();
     }
 
-    // Garante valores finais exatos
-    obj.transform.position = targetPos;
-    obj.transform.rotation = targetRot;
-    obj.IsMoving = false;
-}
-
-/*IEnumerator MovendObj(Interactables obj, Vector3 pos)
-{
-    obj.IsMoving = true;
-    float timer = 0f;
-    while (timer < 2f) //<--tava >
+    IEnumerator MovendObj(Interactables obj, Vector3 targetPos, Quaternion targetRot)
     {
-        obj.transform.position = Vector3.Lerp(OriginPos, pos, timer / 2f);
-        obj.transform.rotation = Quaternion.Lerp(OiginRotat, objViewer.rotation, timer / 2f);
-        timer += Time.deltaTime;
-        yield return null;
-    }
-    obj.transform.position = pos;
-    obj.transform.rotation = objViewer.rotation;
-    obj.IsMoving = false;
-}*/
+        obj.IsMoving = true;
+        float timer = 0f;
+        Vector3 startPos = obj.transform.position;
+        Quaternion startRot = obj.transform.rotation;
 
-void RodaObj()
-{
-    float x = RotateOb.ReadValue<Vector2>().x;
-    float y = RotateOb.ReadValue<Vector2>().y;
-    CurrInteractable.transform.Rotate(Mycam.transform.right, Mathf.Deg2Rad * y * rotatSpeed, Space.World);
-    CurrInteractable.transform.Rotate(Mycam.transform.up, -Mathf.Deg2Rad * x * rotatSpeed, Space.World);
-}
+        while (timer < animationDuration)
+        {
+            float progress = timer / animationDuration;
+            obj.transform.position = Vector3.Lerp(startPos, targetPos, progress);
+            obj.transform.rotation = Quaternion.Lerp(startRot, targetRot, progress);
+            timer += Time.deltaTime;
+            yield return null;
+        }
+
+        // Garante valores finais exatos
+        obj.transform.position = targetPos;
+        obj.transform.rotation = targetRot;
+        obj.IsMoving = false;
+    }
+
+    /*IEnumerator MovendObj(Interactables obj, Vector3 pos)
+    {
+        obj.IsMoving = true;
+        float timer = 0f;
+        while (timer < 2f) //<--tava >
+        {
+            obj.transform.position = Vector3.Lerp(OriginPos, pos, timer / 2f);
+            obj.transform.rotation = Quaternion.Lerp(OiginRotat, objViewer.rotation, timer / 2f);
+            timer += Time.deltaTime;
+            yield return null;
+        }
+        obj.transform.position = pos;
+        obj.transform.rotation = objViewer.rotation;
+        obj.IsMoving = false;
+    }*/
+
+    void RodaObj()
+    {
+        float x = RotateOb.ReadValue<Vector2>().x;
+        float y = RotateOb.ReadValue<Vector2>().y;
+        CurrInteractable.transform.Rotate(Mycam.transform.right, Mathf.Deg2Rad * y * rotatSpeed, Space.World);
+        CurrInteractable.transform.Rotate(Mycam.transform.up, -Mathf.Deg2Rad * x * rotatSpeed, Space.World);
+    }
 
 
 }

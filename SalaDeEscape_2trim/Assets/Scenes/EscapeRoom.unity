@@ -1320,6 +1320,7 @@ GameObject:
   - component: {fileID: 354100967}
   - component: {fileID: 354100966}
   - component: {fileID: 354100965}
+  - component: {fileID: 354100968}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -1431,6 +1432,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 354100963}
   m_CullTransparentMesh: 1
+--- !u!114 &354100968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 354100963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d53bd033dcaf56b42b7dbf58c2168a11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::inventarioBrinquedos
+  brinquedoInventario: {fileID: 1683793967}
 --- !u!1 &362465349 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1378573440241533675, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
@@ -4324,6 +4338,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8561531968061050441, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8561531968061050441, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: m_TagString
       value: brinquedos
       objectReference: {fileID: 0}
@@ -5699,7 +5717,7 @@ Transform:
   m_GameObject: {fileID: 853840892}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.49687, y: -0.52, z: 4.28}
+  m_LocalPosition: {x: -6.145, y: 7.756, z: 40.131}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -11258,7 +11276,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1683793968
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12066,6 +12084,10 @@ PrefabInstance:
       propertyPath: cameraAction.m_SingletonActionBindings.Array.data[0].m_Action
       value: Camera
       objectReference: {fileID: 0}
+    - target: {fileID: 4080635226365103983, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
+      propertyPath: BInv
+      value: 
+      objectReference: {fileID: 354100963}
     - target: {fileID: 4080635226365103983, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
       propertyPath: look
       value: 
