@@ -2191,7 +2191,7 @@ MonoBehaviour:
       Data2: 1152895199
       Data3: 217803151
       Data4: 1990069052
-    Path: "event:/M\xFAsicaMenu/Menu"
+    Path: "event:/M\xFAsicas/Menu"
   Event: 
   EventPlayTrigger: 1
   EventStopTrigger: 0
@@ -2236,14 +2236,14 @@ MonoBehaviour:
       Data2: 1152895199
       Data3: 217803151
       Data4: 1990069052
-    Path: "event:/M\xFAsicaMenu/Menu"
+    Path: "event:/M\xFAsicas/Menu"
   musicaEscapeRoom:
     Guid:
       Data1: 1120472061
       Data2: 1283268358
       Data3: -2099359299
       Data4: 1500641882
-    Path: "event:/M\xFAsicaAmbiente/Ambiente"
+    Path: "event:/M\xFAsicas/Ambiente"
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

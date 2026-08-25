@@ -1,65 +1,136 @@
-using UnityEngine;
 using System.Collections;
+using FMODUnity;
+using UnityEngine;
 using UnityEngine.UI;
 
 [RequireComponent(typeof(Rigidbody))]
 public class MaoSegue : MonoBehaviour
 {
-    public Transform target;
-    [SerializeField] private Rigidbody rb;
-    public float speed;
-    public float rotateSpeed;
-    public int playerSan = 3;
-    public Image painelEscurece;
-    //public PlayerLimit limit;
-    public float fadeDuration = 0.5f;
-    void Start()
+    [SerializeField] private float speed = 3f;
+    [SerializeField] private float rotateSpeed = 5f;
+    [SerializeField] private float fadeDuration = 0.5f;
+    [SerializeField, Range(0f, 1f)] private float aumentoAlpha = 0.67f;
+    [SerializeField, Range(0f, 1f)] private float alphaParaTeleportar = 0.9f;
+    [SerializeField] private GameObject particulaAoAparecer;
+    //[SerializeField] private Transform pontoParticula;
+    [SerializeField] private EventReference somAoAparecer;
+    [SerializeField] private Transform target;
+    [SerializeField] private Image painelEscurece;
+    [SerializeField] private Transform posicaoTeleporte;
+
+    private Rigidbody rb;
+    private bool processandoToque;
+
+    private void Start()
     {
-        target = GameObject.FindGameObjectWithTag("Player").transform;
         rb = GetComponent<Rigidbody>();
-        painelEscurece = GameObject.FindGameObjectWithTag("PainelEscurece").GetComponent<Image>();
-        
-        // Inicializa painel transparente
-        Color startColor = painelEscurece.color;
-        startColor.a = 0f;
-        painelEscurece.color = startColor;
+        rb.isKinematic = false;
+
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        if (player == null)
+        {
+            Debug.LogError("MaoSegue: nenhum objeto com a tag Player foi encontrado.", this);
+            enabled = false;
+            return;
+        }
+
+        target = player.transform;
+
+        GameObject painel = GameObject.FindGameObjectWithTag("PainelEscurece");
+        if (painel != null)
+            painelEscurece = painel.GetComponent<Image>();
+
+        GameObject respawn = GameObject.FindGameObjectWithTag("respawn1");
+        if (respawn != null)
+            posicaoTeleporte = respawn.transform;
+
+        if (particulaAoAparecer != null)
+        {
+            GameObject particula = Instantiate(particulaAoAparecer, transform.position, transform.rotation);
+            Destroy(particula, 1.5f);
+        }
+
+        if (!somAoAparecer.IsNull)
+            RuntimeManager.PlayOneShot(somAoAparecer, transform.position);
     }
 
-    void FixedUpdate()
+    private void FixedUpdate()
     {
+        if (target == null || rb == null || processandoToque)
+            return;
+
         Vector3 direction = target.position - rb.position;
+        if (direction.sqrMagnitude < 0.001f)
+        {
+            rb.linearVelocity = Vector3.zero;
+            return;
+        }
+
         direction.Normalize();
         rb.linearVelocity = direction * speed;
         Quaternion targetRotation = Quaternion.LookRotation(direction);
-        rb.rotation = Quaternion.Lerp(rb.rotation, targetRotation, Time.fixedDeltaTime * rotateSpeed);
+        rb.MoveRotation(Quaternion.Lerp(rb.rotation, targetRotation, rotateSpeed * Time.fixedDeltaTime));
     }
 
-    void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Player"))
-        {   
-            Destroy(gameObject);
-            playerSan--;
-            Debug.Log("Player Sanity: " + playerSan);
-            StartCoroutine(FadeIn());
+        if (processandoToque || !IsPlayer(other))
+            return;
+
+        processandoToque = true;
+
+        StartCoroutine(ProcessarToque());
+    }
+
+    private bool IsPlayer(Collider other)
+    {
+        return other.CompareTag("Player") || other.transform.root.CompareTag("Player");
+    }
+
+    private IEnumerator ProcessarToque()
+    {
+        float alphaAtual = painelEscurece != null ? painelEscurece.color.a : 0f;
+        float proximoAlpha = Mathf.Clamp01(alphaAtual + aumentoAlpha);
+        bool deveTeleportar = proximoAlpha >= alphaParaTeleportar;
+
+        yield return FadeTo(deveTeleportar ? 1f : proximoAlpha);
+
+        if (deveTeleportar)
+        {
+            if (target != null && posicaoTeleporte != null)
+                target.position = posicaoTeleporte.position;
+
+            SetAlpha(0f);
         }
+
+        Destroy(gameObject);
     }
 
-    private IEnumerator FadeIn()
+    private IEnumerator FadeTo(float alpha)
     {
-        float elapsed = 0f;
+        if (painelEscurece == null)
+            yield break;
+
         Color startColor = painelEscurece.color;
         Color endColor = startColor;
-        endColor.a = (3 - playerSan + 0.3f) / 3f * 85f; // Quanto mais dano, mais escuro
-        print("Alpha: " + endColor.a);
+        endColor.a = Mathf.Clamp01(alpha);
+        float duration = Mathf.Max(0.01f, fadeDuration);
+        float elapsed = 0f;
 
-        while (elapsed < fadeDuration)
+        while (elapsed < duration)
         {
             elapsed += Time.deltaTime;
-            painelEscurece.color = Color.Lerp(startColor, endColor, elapsed / fadeDuration);
+            painelEscurece.color = Color.Lerp(startColor, endColor, elapsed / duration);
             yield return null;
         }
 
         painelEscurece.color = endColor;
+    }
+
+    private void SetAlpha(float alpha)
+    {
+        Color color = painelEscurece.color;
+        color.a = alpha;
+        painelEscurece.color = color;
     }
 }

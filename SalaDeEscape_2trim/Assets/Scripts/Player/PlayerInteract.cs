@@ -33,6 +33,8 @@ public class PlayerInteract : MonoBehaviour
     private portaEscadaria abrate;
     private inventarioBrinquedos ToyInvent;
 
+    private bool isPaused;
+
     void Awake()
     {
         Mycam = Camera.main;
@@ -49,8 +51,31 @@ public class PlayerInteract : MonoBehaviour
 
     void Update()
     {
+        if (Keyboard.current != null && Keyboard.current.escapeKey.wasPressedThisFrame)
+        {
+            TogglePause();
+            //TPauseMenu();
+        }
+
+        if (isPaused)
+        {
+            return;
+        }
+
         CheckInteractables();
     }
+
+    public void TogglePause()
+    {
+        isPaused = !isPaused;
+        Time.timeScale = isPaused ? 0f : 1f;
+    }
+
+    private void OnDestroy()
+    {
+        Time.timeScale = 1f;
+    }
+
 
     void CheckInteractables()
     {

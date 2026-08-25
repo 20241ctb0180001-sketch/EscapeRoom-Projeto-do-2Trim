@@ -5,9 +5,8 @@ using UnityEngine.UI;
 
 public class FirstPersonMovement : MonoBehaviour
 {
-    public float speed = 5;
-
     [Header("Running")]
+    public float speed = 5;
     public bool canRun = true;
     public bool IsRunning { get; private set; }
     public float runSpeed = 9;

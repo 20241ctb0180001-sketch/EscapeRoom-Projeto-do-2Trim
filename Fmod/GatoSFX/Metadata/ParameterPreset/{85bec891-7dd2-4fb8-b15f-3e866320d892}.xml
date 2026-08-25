@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{85bec891-7dd2-4fb8-b15f-3e866320d892}">
+		<property name="name">
+			<value>Steam</value>
+		</property>
+		<relationship name="folder">
+			<destination>{7914cddc-15fb-4aa5-b2ed-f7f270cfc5c0}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{e47ec10e-54c5-4e3e-a11a-f02b6bc1d357}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{e47ec10e-54c5-4e3e-a11a-f02b6bc1d357}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Value A</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

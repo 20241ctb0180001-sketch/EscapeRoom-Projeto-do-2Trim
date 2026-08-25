@@ -132,6 +132,15 @@ MonoBehaviour:
   rotateSpeed: 10
   playerSan: 3
   painelEscurece: {fileID: 0}
+  particulaAoAparecer: {fileID: 6813416509558619124, guid: 3b7f2c753d435d647a80f1f047a113e3, type: 3}
+  pontoParticula: {fileID: 0}
+  somAoAparecer:
+    Guid:
+      Data1: -1738212735
+      Data2: 1296875647
+      Data3: -1350250590
+      Data4: -549680036
+    Path: "event:/M\xE3oAparece"
   fadeDuration: 1
 --- !u!65 &7871387233925618911
 BoxCollider:

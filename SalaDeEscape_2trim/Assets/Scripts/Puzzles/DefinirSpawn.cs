@@ -22,12 +22,12 @@ public class DefinirSpawn : MonoBehaviour
         }
     }
 
-    
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject == Player)
         {
-            print("EEEE");
+            print("Respawn Ativado");
             alvoScript.QualSpawnEsta(nuRespawn);
         }
     }
