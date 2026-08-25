@@ -8,7 +8,7 @@ public class MaoSegue : MonoBehaviour
 {
     [SerializeField] private float speed = 3f;
     [SerializeField] private float rotateSpeed = 5f;
-    [SerializeField] private float duracaoDirecaoCongelada = 3f;
+    [SerializeField] private float duracaoDirecaoCongelada = 2f;
     [SerializeField] private float fadeDuration = 0.5f;
     [SerializeField, Range(0f, 1f)] private float aumentoAlpha = 0.67f;
     [SerializeField, Range(0f, 1f)] private float alphaParaTeleportar = 0.6f;
