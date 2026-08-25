@@ -10,7 +10,7 @@ public class CdgSenha : MonoBehaviour
 
     public InputActionAsset inputAction;
     private InputAction topacoEs;
-
+    public GameObject eInteragir;
     private bool emAlcance = false;
     public bool InteractAlcance;
 
@@ -25,6 +25,7 @@ public class CdgSenha : MonoBehaviour
 
     void Awake()
     {
+        eInteragir.SetActive(false);
         topacoEs = InputSystem.actions.FindAction("InteractE");
     }
 
@@ -70,7 +71,7 @@ public class CdgSenha : MonoBehaviour
             if (look != null) look.enabled = true;
         }
 
-        bob.SetBoxInteract(emAlcance);
+        //bob.SetBoxInteract(emAlcance);
     }
 
 
@@ -78,12 +79,14 @@ public class CdgSenha : MonoBehaviour
     {
         if (other.tag == "Player")
         {
+            eInteragir.SetActive(true);
             emAlcance = true;
         }
     }
 
     private void OnTriggerExit(Collider other)
     {
+        eInteragir.SetActive(false);
         emAlcance = false;
         painelCdg.SetActive(false);
     }
