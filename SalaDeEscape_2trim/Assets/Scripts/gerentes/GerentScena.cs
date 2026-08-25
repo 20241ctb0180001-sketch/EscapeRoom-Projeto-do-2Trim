@@ -19,7 +19,7 @@ public class GerentScena : MonoBehaviour
     public void Play()
     {
         
-        SceneManager.LoadScene("EscapeRoom");
+        SceneManager.LoadScene("Cutscene");
         
     }
 
