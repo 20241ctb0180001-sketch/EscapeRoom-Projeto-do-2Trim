@@ -14,7 +14,7 @@ public class inventarioBrinquedos : MonoBehaviour
     void Start()
     {
         abrirInventario = InputSystem.actions.FindAction("abrirInventarioBrinquedos");
-        gameObject.SetActive(false);
+        // gameObject.SetActive(false);
         brinquedoInventario.SetActive(false);
     }
 
@@ -24,7 +24,7 @@ public class inventarioBrinquedos : MonoBehaviour
         if (inventarioLig)
         {
             gameObject.SetActive(true);
-            if (abrirInventario.IsPressed())
+            if (abrirInventario.WasReleasedThisFrame())
             {
                 MostrarInventario();
             }
@@ -44,6 +44,9 @@ public class inventarioBrinquedos : MonoBehaviour
 
     public void ativarInventario(bool taPodendo)
     {
+        if(taPodendo){
+            print("AI, meu bumbum");
+        }
         inventarioLig = taPodendo;
     }
 }
