@@ -8,6 +8,7 @@ public class MaoSegue : MonoBehaviour
 {
     [SerializeField] private float speed = 3f;
     [SerializeField] private float rotateSpeed = 5f;
+    [SerializeField] private float duracaoDirecaoCongelada = 2f;
     [SerializeField] private float fadeDuration = 0.5f;
     [SerializeField, Range(0f, 1f)] private float aumentoAlpha = 0.67f;
     [SerializeField, Range(0f, 1f)] private float alphaParaTeleportar = 0.6f;
@@ -19,6 +20,8 @@ public class MaoSegue : MonoBehaviour
 
     private Rigidbody rb;
     private bool processandoToque;
+    private bool seguindoDirecaoCongelada;
+    private Vector3 direcaoCongelada;
 
     private void Start()
     {
@@ -28,7 +31,6 @@ public class MaoSegue : MonoBehaviour
         GameObject player = GameObject.FindGameObjectWithTag("Player");
         if (player == null)
         {
-            Debug.LogError("MaoSegue: nenhum objeto com a tag Player foi encontrado.", this);
             enabled = false;
             return;
         }
@@ -55,7 +57,17 @@ public class MaoSegue : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (target == null || rb == null || processandoToque)
+        if (target == null || rb == null)
+            return;
+
+        if (seguindoDirecaoCongelada)
+        {
+            // Mantém a rotação atual e continua seguindo a direção capturada.
+            rb.linearVelocity = direcaoCongelada * speed;
+            return;
+        }
+
+        if (processandoToque)
             return;
 
         Vector3 direction = target.position - rb.position;
@@ -77,8 +89,17 @@ public class MaoSegue : MonoBehaviour
             return;
 
         processandoToque = true;
-
         StartCoroutine(ProcessarToque());
+        direcaoCongelada = rb.linearVelocity.sqrMagnitude > 0.001f
+            ? rb.linearVelocity.normalized
+            : (target.position - rb.position).normalized;
+
+        if (direcaoCongelada.sqrMagnitude < 0.001f)
+            direcaoCongelada = transform.forward;
+
+        seguindoDirecaoCongelada = true;
+
+        
     }
 
     private bool IsPlayer(Collider other)
@@ -88,6 +109,11 @@ public class MaoSegue : MonoBehaviour
 
     private IEnumerator ProcessarToque()
     {
+        yield return new WaitForSeconds(duracaoDirecaoCongelada);
+
+        seguindoDirecaoCongelada = false;
+        rb.linearVelocity = Vector3.zero;
+
         float alphaAtual = painelEscurece.color.a;
         float proximoAlpha = Mathf.Clamp01(alphaAtual + aumentoAlpha);
         bool deveTeleportar = proximoAlpha >= alphaParaTeleportar;

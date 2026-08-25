@@ -7,7 +7,7 @@ public class PlayerLimit : MonoBehaviour
     public Transform res1;
     public Transform res2;
     public GameObject Limitt;
-    private int currRespawn;
+    [SerializeField]private int currRespawn;
     private void Awake()
     {
         if (Player == null)
