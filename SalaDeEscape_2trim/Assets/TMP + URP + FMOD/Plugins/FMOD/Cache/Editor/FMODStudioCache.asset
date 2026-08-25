@@ -42,10 +42,10 @@ MonoBehaviour:
   Path: ../Fmod/GatoSFX/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639232597892295514
+  lastModified: 639232718557592245
   FileSizes:
   - Name: Desktop
-    Value: 1790
+    Value: 1922
   Exists: 1
 --- !u!114 &-8029535666182773444
 MonoBehaviour:
@@ -74,6 +74,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-7078372542420108221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/caixaSons/Correto
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/caixaSons/Correto
+  Guid:
+    Data1: 657321320
+    Data2: 1255049771
+    Data3: 1396871823
+    Data4: 1746883302
+  Banks:
+  - {fileID: 7553115357002063613}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 936
 --- !u!114 &-6750519154326870181
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -101,6 +128,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-6003888091232030964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/caixaSons/Abrir
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/caixaSons/Abrir
+  Guid:
+    Data1: -1957673104
+    Data2: 1190863212
+    Data3: -1110959443
+    Data4: 1013563127
+  Banks:
+  - {fileID: 7553115357002063613}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 816
 --- !u!114 &-5791688633188204525
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -128,6 +182,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-5720021826036239559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/caixaSons/Errado
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/caixaSons/Errado
+  Guid:
+    Data1: 1912686503
+    Data2: 1326685388
+    Data3: -1648164432
+    Data4: -2040126155
+  Banks:
+  - {fileID: 7553115357002063613}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 340
 --- !u!114 &-5507672069030167634
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -541,13 +622,16 @@ MonoBehaviour:
   - {fileID: -2260979911949682490}
   - {fileID: 7922105778561578693}
   - {fileID: -2212307251802996572}
+  - {fileID: -7078372542420108221}
+  - {fileID: -6003888091232030964}
+  - {fileID: -5720021826036239559}
   EditorParameters: []
   MasterBanks:
   - {fileID: 7553115357002063613}
   StringsBanks:
   - {fileID: -8127471808609410038}
   cacheVersion: 131860
-  cacheTime: 639232597892295514
+  cacheTime: 639232718557592245
   SerializableEventsDict:
   - key: event:/pawsteps/patas
     index: 0
@@ -587,6 +671,12 @@ MonoBehaviour:
     index: 17
   - key: "event:/M\xFAsicas/Ambiente"
     index: 18
+  - key: event:/caixaSons/Correto
+    index: 19
+  - key: event:/caixaSons/Abrir
+    index: 20
+  - key: event:/caixaSons/Errado
+    index: 21
 --- !u!114 &307909875913075056
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -788,10 +878,10 @@ MonoBehaviour:
   Path: ../Fmod/GatoSFX/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639232597892285517
+  lastModified: 639232718557520812
   FileSizes:
   - Name: Desktop
-    Value: 4681088
+    Value: 4714144
   Exists: 1
 --- !u!114 &7922105778561578693
 MonoBehaviour:
