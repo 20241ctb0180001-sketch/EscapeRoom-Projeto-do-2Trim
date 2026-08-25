@@ -9,10 +9,7 @@ public class terminarFase : MonoBehaviour
     private bool emAlcance = false;
     public bool InteractAlcance;
     public GameObject eInteragir;
-
-    public GerentUI bob;
-
-    public FirstPersonLook look;
+    bool podeAcabar = false;
 
     void Awake()
     {
@@ -26,11 +23,16 @@ public class terminarFase : MonoBehaviour
 
     void Update()
     {
-        InteractAlcance = emAlcance;
-
         if (topacoEs.WasPressedThisFrame() && emAlcance == true)
         {
-            
+            if(podeAcabar == true)
+            {
+                print("Acabou a fase");
+            }
+            else
+            {
+                print("Ainda falta pegar todos os brinquedos");
+            }
         }
 
     }
@@ -55,7 +57,7 @@ public class terminarFase : MonoBehaviour
     {
         if (toys == 5)
         {
-            
+            podeAcabar = true;
         }
     }
 }
