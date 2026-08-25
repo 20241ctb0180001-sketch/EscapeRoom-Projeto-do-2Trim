@@ -2,6 +2,8 @@ using UnityEngine;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine.InputSystem;
+using FMODUnity;
+using FMOD.Studio;
 
 public class CdgSenha : MonoBehaviour
 {
@@ -13,6 +15,10 @@ public class CdgSenha : MonoBehaviour
     public GameObject eInteragir;
     private bool emAlcance = false;
     public bool InteractAlcance;
+
+    //public string acerto = "event:/caixaSons/Correto";
+    public string erro = "event:/caixaSons/Errado";
+    public string abrindo = "event:/caixaSons/Abrir";
 
     [SerializeField] private TextMeshProUGUI cdgText;
     string cdgValor = "";
@@ -40,12 +46,14 @@ public class CdgSenha : MonoBehaviour
         InteractAlcance = emAlcance;
         if (cdgValor == senha)
         {
+            PlayAbrirAudio();
             anim.SetTrigger("abrirTampa");
             painelCdg.SetActive(false);
         }
 
         if (cdgValor.Length >= 7)
         {
+            PlayErradoAudio();
             cdgValor = "";
         }
 
@@ -96,4 +104,8 @@ public class CdgSenha : MonoBehaviour
         Debug.Log("Botão clicado! Dígito recebido: " + digito);
         cdgValor += digito;
     }
+
+    /*void PlayCorretoAudio() => RuntimeManager.PlayOneShot(acerto, transform.position);*/
+    void PlayErradoAudio() => RuntimeManager.PlayOneShot(erro, transform.position);
+    void PlayAbrirAudio() => RuntimeManager.PlayOneShot(abrindo, transform.position);
 }
