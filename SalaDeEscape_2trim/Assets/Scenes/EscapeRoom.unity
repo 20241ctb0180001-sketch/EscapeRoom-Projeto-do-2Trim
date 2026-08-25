@@ -6454,7 +6454,7 @@ Transform:
   m_GameObject: {fileID: 853840892}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.145, y: 7.751, z: 39.951}
+  m_LocalPosition: {x: -5.49687, y: -0.6499996, z: -2.591999}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -11815,7 +11815,7 @@ Transform:
   m_GameObject: {fileID: 1564449173}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.86399984, y: -8.265919, z: -42.116}
+  m_LocalPosition: {x: 0.86399984, y: -8.26592, z: -42.116}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12056,37 +12056,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.05869928, y: 0.009728744, z: 0.1894668}
   m_Center: {x: -0.00000044424087, y: 0.019945033, z: 0.019483512}
---- !u!1 &1617670466
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1617670467}
-  m_Layer: 0
-  m_Name: antiga posicao player
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1617670467
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1617670466}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.49687, y: -8.82, z: -39.701}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1627860208 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 691040228144894095, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
@@ -14852,10 +14821,9 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1354199300}
-  - {fileID: 1617670467}
+  - {fileID: 853840893}
   - {fileID: 61408528}
   - {fileID: 1206317740}
   - {fileID: 1117123883}
   - {fileID: 741154224}
-  - {fileID: 853840893}
   - {fileID: 140496019}
