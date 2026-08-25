@@ -22,13 +22,15 @@ public class FirstPersonLook : MonoBehaviour
     {
         cameraAction = InputSystem.actions.FindAction("giroCamera");
         // Lock the mouse cursor to the game screen.
-        Cursor.lockState = CursorLockMode.Locked;
+        // Cursor.lockState = CursorLockMode.Locked;
     }
 
     void Update()
     {
         if (cameraAction.IsPressed())
         {
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
             // Get smooth velocity.
             Vector2 mouseDelta = Mouse.current.delta != null ? Mouse.current.delta.ReadValue() : Vector2.zero;
             Vector2 rawFrameVelocity = Vector2.Scale(mouseDelta, Vector2.one * sensitivity);
@@ -39,6 +41,10 @@ public class FirstPersonLook : MonoBehaviour
             // Rotate camera up-down and controller left-right from velocity.
             transform.localRotation = Quaternion.AngleAxis(-velocity.y, Vector3.right);
             character.localRotation = Quaternion.AngleAxis(velocity.x, Vector3.up);
+        }else if (cameraAction.WasReleasedThisFrame())
+        {
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
         }
         
     }
