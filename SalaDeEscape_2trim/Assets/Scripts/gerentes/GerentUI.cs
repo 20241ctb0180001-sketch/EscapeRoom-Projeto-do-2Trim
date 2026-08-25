@@ -30,7 +30,6 @@ public class GerentUI : MonoBehaviour
         Inventory = InputSystem.actions.FindAction("Inventario");
         Pause = InputSystem.actions.FindAction("Pause");
         
-        //if (BoxInteract != null) BoxInteract.SetActive(false);
         if (PauseMenu != null) PauseMenu.SetActive(false);
     }
 
@@ -129,12 +128,6 @@ public class GerentUI : MonoBehaviour
             interactIMG.enabled = true;
         }
     }
-
-    /*public void SetBoxInteract(bool state)
-    {
-        if (BoxInteract != null) BoxInteract.SetActive(state);
-    }*/
-
     public void setItens(Item item, int index)
     {
         if (InventoryItens != null && index < InventoryItens.Length)
