@@ -1301,7 +1301,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1464856212}
         m_TargetAssemblyTypeName: GerentScena, Assembly-CSharp
-        m_MethodName: Exit
+        m_MethodName: Controles
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1510,7 +1510,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1464856212}
         m_TargetAssemblyTypeName: GerentScena, Assembly-CSharp
-        m_MethodName: ExitNo
+        m_MethodName: ControlesSair
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3064,6 +3064,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GerentScena
   PSair: {fileID: 1675006157}
+  Controls: {fileID: 2031160770}
   Confirm: {fileID: 1222852255}
   nomeLvGame: EscapeRoom
 --- !u!4 &1464856213
@@ -3733,7 +3734,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2031160771
 RectTransform:
   m_ObjectHideFlags: 0
