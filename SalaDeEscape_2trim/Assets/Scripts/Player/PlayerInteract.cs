@@ -89,12 +89,12 @@ public class PlayerInteract : MonoBehaviour
         if (Physics.Raycast(rayOrigin, Mycam.transform.forward, out hit, RayDistance))
         {
             PainelInteract painel = hit.collider.GetComponent<PainelInteract>();
-             if (painel != null)
-             {
-                 if (painelManager.instance != null && painelManager.instance.puzzleAtivo)
-                 {
-                     return;
-                 }
+            if (painel != null)
+            {
+                if (painelManager.instance != null && painelManager.instance.puzzleAtivo)
+                {
+                    return;
+                }
             GerentUI.instance.SetPawCursor(true);
             if (IM.WasPressedThisFrame())
             {
