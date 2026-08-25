@@ -2,6 +2,7 @@ using UnityEngine;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine.InputSystem;
+using FMODUnity;
 
 public class terminarFase : MonoBehaviour
 {
@@ -9,10 +10,15 @@ public class terminarFase : MonoBehaviour
     private bool emAlcance = false;
     public bool InteractAlcance;
     public GameObject eInteragir;
+    public GameObject brinquedosFinais;
     bool podeAcabar = false;
+    int quantia = 0;
+    public EventReference somFinal;
 
     void Awake()
     {
+        eInteragir.SetActive(false);
+        brinquedosFinais.SetActive(false);
         topacoEs = InputSystem.actions.FindAction("InteractE");
     }
 
@@ -28,6 +34,8 @@ public class terminarFase : MonoBehaviour
             if(podeAcabar == true)
             {
                 print("Acabou a fase");
+                brinquedosFinais.SetActive(true);
+                FMODUnity.RuntimeManager.PlayOneShot(somFinal, transform.position);
             }
             else
             {
@@ -55,7 +63,8 @@ public class terminarFase : MonoBehaviour
 
     public void todosAqui(int toys)
     {
-        if (toys == 5)
+        quantia = quantia + toys;
+        if (quantia == 5)
         {
             podeAcabar = true;
         }

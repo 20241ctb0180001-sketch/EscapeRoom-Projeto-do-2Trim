@@ -3,6 +3,8 @@ using UnityEngine;
 
 public class GerenciadorInventario : MonoBehaviour
 {
+    public GameObject sapateira;
+    terminarFase bonecos;
     [Header("Dados")]
     // Lista fixa com os 5 itens atuais do inventário (null = slot vazio)
     public List<Item> itensNoInventario = new List<Item>(5);
@@ -14,6 +16,7 @@ public class GerenciadorInventario : MonoBehaviour
     private void Start()
     {
         AtualizarTodaUI();
+        bonecos = sapateira.GetComponent<terminarFase>();
     }
 
     /// <summary>
@@ -44,6 +47,7 @@ public class GerenciadorInventario : MonoBehaviour
         {
             if (itensNoInventario[i] == null)
             {
+                
                 itensNoInventario[i] = novoItem;
                 AtualizarTodaUI();
                 return true; // Item adicionado com sucesso
