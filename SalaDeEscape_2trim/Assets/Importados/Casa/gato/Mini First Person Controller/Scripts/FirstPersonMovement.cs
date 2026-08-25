@@ -22,12 +22,10 @@ public class FirstPersonMovement : MonoBehaviour
     public float wallRadius = 0.25f;
 
     Rigidbody RB;
-    /// <summary> Functions to override movement speed. Will use the last added override. </summary>
     public List<System.Func<float>> speedOverrides = new List<System.Func<float>>();
 
     void Awake()
     {
-        // Get the rigidbody on this.
         RB = GetComponent<Rigidbody>();
         MoveAction = InputSystem.actions.FindAction("Move");
         CorreAction = InputSystem.actions.FindAction("Sprint");
@@ -50,24 +48,20 @@ public class FirstPersonMovement : MonoBehaviour
             }
         }
         return desiredVelocity;
-    } // muda a velocidade para não deixar o player andando na parede, usando um raycast em esfera para detectar a parede
+    }
 
     void FixedUpdate()
     {
-        // Update IsRunning from input.
         IsRunning = canRun && CorreAction != null && CorreAction.IsPressed();
 
-        // Get targetMovingSpeed.
         float targetMovingSpeed = IsRunning ? runSpeed : speed;
         if (speedOverrides.Count > 0)
         {
             targetMovingSpeed = speedOverrides[speedOverrides.Count - 1]();
         }
 
-        // Get targetVelocity from input.
         Vector2 movInput = MoveAction != null ? MoveAction.ReadValue<Vector2>() : Vector2.zero;
 
-        //  {
         bool isAirborne = Mathf.Abs(RB.linearVelocity.y) > 0.05f;
         float moveMultiplier = isAirborne ? 0.55f : 1f;
 
@@ -79,17 +73,13 @@ public class FirstPersonMovement : MonoBehaviour
         float smoothAmount = isAirborne ? 0.08f : 0.18f;
         Vector3 smoothedVelocity = new Vector3( Mathf.Lerp(currentVelocity.x, desiredVelocity.x, smoothAmount), currentVelocity.y, Mathf.Lerp(currentVelocity.z, desiredVelocity.z, smoothAmount));
 
-        // Extra damping when no movement input is being pressed.
         if (movInput == Vector2.zero)
         {
             float damping = isAirborne ? 0.12f : 0.2f;
             smoothedVelocity.x = Mathf.Lerp(currentVelocity.x, 0f, damping);
             smoothedVelocity.z = Mathf.Lerp(currentVelocity.z, 0f, damping);
         }
-        // Apply movement.
         RB.linearVelocity = smoothedVelocity;
         //   } // para impedir o player de ir muito rapido e "voar" quando pula
-
-        //RB.linearVelocity = transform.rotation * new Vector3(targetVelocity.x, RB.linearVelocity.y, targetVelocity.y); cod anterior.
     }
 }
