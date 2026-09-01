@@ -32,6 +32,11 @@ public class Jump : MonoBehaviour
 
     void LateUpdate()
     {
+        OnJump();
+    }
+
+    public void OnJump()
+    {
         // Jump when the Jump button is pressed and we are on the ground.
         if (PuloAction.WasPressedThisFrame() && (!groundCheck || groundCheck.isGrounded))
         {

@@ -6838,6 +6838,75 @@ Transform:
   - {fileID: 6185739272124513061}
   m_Father: {fileID: 2696124574119775352}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2114541849268367817
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 703068750740277535}
+  - component: {fileID: 1976633361758641100}
+  - component: {fileID: 7341792622178480495}
+  m_Layer: 0
+  m_Name: Respawn1 (1)
+  m_TagString: respawn2
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &703068750740277535
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2114541849268367817}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.088, y: 120, z: 0.02}
+  m_LocalScale: {x: 0.06, y: 2, z: 0.04}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6001203240778281185}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1976633361758641100
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2114541849268367817}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.5, y: 8, z: 0.3}
+  m_Center: {x: 0, y: 3.5, z: 0}
+--- !u!114 &7341792622178480495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2114541849268367817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0a032b76c75b2b4f838abead02e889f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DefinirSpawn
+  nuRespawn: 0
+  Player: {fileID: 0}
+  objetoAlvo: {fileID: 3887077902485526127}
 --- !u!1 &2124851645814335195
 GameObject:
   m_ObjectHideFlags: 0
@@ -8759,6 +8828,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7996098547865875357}
+  - {fileID: 703068750740277535}
   - {fileID: 1701138407231996805}
   m_Father: {fileID: 5154110198328298170}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8856,6 +8926,8 @@ MonoBehaviour:
   res1: {fileID: 7996098547865875357}
   res2: {fileID: 1701138407231996805}
   Limitt: {fileID: 3887077902485526127}
+  currRespawn1: 0
+  currRespawn2: 0
 --- !u!1 &4021622134417268064
 GameObject:
   m_ObjectHideFlags: 0
@@ -10552,6 +10624,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0a032b76c75b2b4f838abead02e889f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DefinirSpawn
+  nuRespawn: 0
   Player: {fileID: 0}
   objetoAlvo: {fileID: 3887077902485526127}
 --- !u!1 &5299430899799096703
@@ -17791,6 +17864,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0a032b76c75b2b4f838abead02e889f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DefinirSpawn
+  nuRespawn: 0
   Player: {fileID: 0}
   objetoAlvo: {fileID: 3887077902485526127}
 --- !u!1 &6525424358431162381
@@ -18127,7 +18201,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CdgSenha
   inputAction: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  eInteragir: {fileID: 0}
   InteractAlcance: 0
+  erro: event:/caixaSons/Errado
+  abrindo: event:/caixaSons/Abrir
   cdgText: {fileID: 0}
   painelCdg: {fileID: 0}
   bob: {fileID: 0}
@@ -22230,6 +22307,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   Deco: {fileID: 0}
+  qMadeira: event:/Quebra madeira
 --- !u!1 &7379760994065315106 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7124908285342860259, guid: 30d1f351ecdd31547838d832ad3df75a, type: 3}
@@ -22253,6 +22331,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   Deco: {fileID: 0}
+  qMadeira: event:/Quebra madeira
 --- !u!4 &8259609871282795241 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8514873934926857256, guid: 30d1f351ecdd31547838d832ad3df75a, type: 3}
@@ -23398,6 +23477,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   Deco: {fileID: 0}
+  qMadeira: event:/Quebra madeira
 --- !u!4 &8144852367260971707 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8514873934926857256, guid: 30d1f351ecdd31547838d832ad3df75a, type: 3}
@@ -23852,6 +23932,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   Deco: {fileID: 0}
+  qMadeira: event:/Quebra madeira
 --- !u!4 &9137744426598089148 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8514873934926857256, guid: 30d1f351ecdd31547838d832ad3df75a, type: 3}
@@ -24559,6 +24640,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   Deco: {fileID: 0}
+  qMadeira: event:/Quebra madeira
 --- !u!4 &9035434681712040754 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8514873934926857256, guid: 30d1f351ecdd31547838d832ad3df75a, type: 3}
@@ -24695,6 +24777,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   Deco: {fileID: 0}
+  qMadeira: event:/Quebra madeira
 --- !u!4 &9056633259160165783 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8514873934926857256, guid: 30d1f351ecdd31547838d832ad3df75a, type: 3}
@@ -25214,6 +25297,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   Deco: {fileID: 0}
+  qMadeira: event:/Quebra madeira
 --- !u!4 &8691792363358419134 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8514873934926857256, guid: 30d1f351ecdd31547838d832ad3df75a, type: 3}
@@ -28915,6 +28999,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   Deco: {fileID: 0}
+  qMadeira: event:/Quebra madeira
 --- !u!4 &5936912342619003066 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8514873934926857256, guid: 30d1f351ecdd31547838d832ad3df75a, type: 3}
@@ -29190,6 +29275,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   Deco: {fileID: 0}
+  qMadeira: event:/Quebra madeira
 --- !u!4 &5814620377538206803 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8514873934926857256, guid: 30d1f351ecdd31547838d832ad3df75a, type: 3}
@@ -30750,6 +30836,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   Deco: {fileID: 0}
+  qMadeira: event:/Quebra madeira
 --- !u!4 &6357063553500504475 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8514873934926857256, guid: 30d1f351ecdd31547838d832ad3df75a, type: 3}
@@ -31256,6 +31343,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   Deco: {fileID: 0}
+  qMadeira: event:/Quebra madeira
 --- !u!4 &5044974596117033299 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8514873934926857256, guid: 30d1f351ecdd31547838d832ad3df75a, type: 3}
@@ -36981,6 +37069,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   Deco: {fileID: 0}
+  qMadeira: event:/Quebra madeira
 --- !u!1001 &6333962869827463025
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40116,6 +40205,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   Deco: {fileID: 0}
+  qMadeira: event:/Quebra madeira
 --- !u!1001 &6845857441927061367
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41538,6 +41628,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   Deco: {fileID: 0}
+  qMadeira: event:/Quebra madeira
 --- !u!4 &1156207023379584819 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8514873934926857256, guid: 30d1f351ecdd31547838d832ad3df75a, type: 3}
@@ -41925,6 +42016,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   Deco: {fileID: 0}
+  qMadeira: event:/Quebra madeira
 --- !u!4 &1258929407843156373 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8514873934926857256, guid: 30d1f351ecdd31547838d832ad3df75a, type: 3}
@@ -44698,6 +44790,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   Deco: {fileID: 0}
+  qMadeira: event:/Quebra madeira
 --- !u!1001 &8313845241339790381
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45583,6 +45676,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   Deco: {fileID: 0}
+  qMadeira: event:/Quebra madeira
 --- !u!1001 &8787980392952050177
 PrefabInstance:
   m_ObjectHideFlags: 0
