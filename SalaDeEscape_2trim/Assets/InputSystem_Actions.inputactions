@@ -562,7 +562,7 @@
                 {
                     "name": "",
                     "id": "129fd78b-4359-4f2c-a304-9ed003c50661",
-                    "path": "<Gamepad>/buttonNorth",
+                    "path": "<Gamepad>/leftStick/down",
                     "interactions": "",
                     "processors": "",
                     "groups": "Gamepad",
@@ -584,7 +584,7 @@
                 {
                     "name": "",
                     "id": "e29a862d-4544-4315-8028-740520e4fc82",
-                    "path": "<Gamepad>/buttonNorth",
+                    "path": "<Touchscreen>/Press",
                     "interactions": "",
                     "processors": "",
                     "groups": "Gamepad",
