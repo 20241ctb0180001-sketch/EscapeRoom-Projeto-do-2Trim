@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: ../Fmod/GatoSFX/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639232737398783963
+  lastModified: 639238645560074589
   FileSizes:
   - Name: Desktop
     Value: 2050
@@ -496,7 +496,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -8127471808609410038}
   cacheVersion: 131860
-  cacheTime: 639232773674487816
+  cacheTime: 639238645560074589
   SerializableEventsDict:
   - key: event:/pawsteps/patas
     index: 0
@@ -802,7 +802,7 @@ MonoBehaviour:
   Path: ../Fmod/GatoSFX/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639232773674487816
+  lastModified: 639238645560064672
   FileSizes:
   - Name: Desktop
     Value: 4810912
