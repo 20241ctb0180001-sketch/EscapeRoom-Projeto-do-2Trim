@@ -2971,6 +2971,11 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.3542976, y: 1.573421, z: 2.2761326}
   m_Center: {x: -0.0021794443, y: 0.17549253, z: -0.0020678644}
+--- !u!4 &580598079 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 703068750740277535, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
+  m_PrefabInstance: {fileID: 741154224}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &585218497 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3866846070218088134, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
@@ -3646,6 +3651,14 @@ PrefabInstance:
       propertyPath: CollectItem.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 575647423535208240, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
+      propertyPath: m_Size.y
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 575647423535208240, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
+      propertyPath: m_Center.y
+      value: 3.5
+      objectReference: {fileID: 0}
     - target: {fileID: 581233215607061244, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.26
@@ -4320,11 +4333,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3038934185581720104, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: m_Size.y
-      value: 0.5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3038934185581720104, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: m_Size.z
-      value: 0.9
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3038934185581720104, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: m_Center.x
@@ -4332,7 +4345,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3038934185581720104, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: m_Center.y
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3038934185581720104, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: m_Center.z
@@ -4509,7 +4522,7 @@ PrefabInstance:
     - target: {fileID: 3684929318790165372, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: res2
       value: 
-      objectReference: {fileID: 1531824205}
+      objectReference: {fileID: 580598079}
     - target: {fileID: 3684929318790165372, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: Limitt
       value: 
@@ -5861,7 +5874,9 @@ PrefabInstance:
     - {fileID: 3207266402924273082, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
     - {fileID: 1482049251925897215, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
     - {fileID: 3575713269765996058, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
-    m_RemovedGameObjects: []
+    - {fileID: 9154535591813821318, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
+    m_RemovedGameObjects:
+    - {fileID: 5227555087852587594, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 6185739272124513061, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       insertIndex: 0
@@ -12220,11 +12235,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1525104255}
   m_CullTransparentMesh: 1
---- !u!4 &1531824205 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1701138407231996805, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
-  m_PrefabInstance: {fileID: 741154224}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1554843242
 GameObject:
   m_ObjectHideFlags: 0

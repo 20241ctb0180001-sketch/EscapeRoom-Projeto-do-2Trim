@@ -7,7 +7,8 @@ public class PlayerLimit : MonoBehaviour
     public Transform res1;
     public Transform res2;
     public GameObject Limitt;
-    [SerializeField]private int currRespawn;
+    [SerializeField]public bool currRespawn1;
+    [SerializeField]public bool currRespawn2;
     private void Awake()
     {
         if (Player == null)
@@ -17,21 +18,17 @@ public class PlayerLimit : MonoBehaviour
     {
         if (other.gameObject == Player)
         {
-            print("FFFFF");
-            if (currRespawn == 1 || currRespawn == 0)
-            {
-                Player.transform.position = res1.transform.position;
-            }
-            else if (currRespawn == 2)
+            print("respawn set");
+            if (currRespawn2 == true)
             {
                 Player.transform.position = res2.transform.position;
+                currRespawn1 = false;
+            }
+            else if (currRespawn1 == true)
+            {
+                Player.transform.position = res1.transform.position;
+                currRespawn2 = false;
             }
         }
-    }
-
-    public void QualSpawnEsta(int nRespawn)
-    {
-        currRespawn = nRespawn;
-        print("" + currRespawn);
     }
 }
