@@ -82,7 +82,7 @@
                     "name": "Jump",
                     "type": "Button",
                     "id": "f1ba0d36-48eb-4cd5-b651-1c94a6531f70",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -540,7 +540,7 @@
                 {
                     "name": "",
                     "id": "5e06f6bc-6f71-4813-b0fa-440dc7bcebc1",
-                    "path": "<Gamepad>/buttonNorth",
+                    "path": "<Gamepad>/dpad/down",
                     "interactions": "",
                     "processors": "",
                     "groups": "Gamepad",
@@ -562,7 +562,7 @@
                 {
                     "name": "",
                     "id": "129fd78b-4359-4f2c-a304-9ed003c50661",
-                    "path": "<Gamepad>/buttonNorth",
+                    "path": "<Gamepad>/leftStick/down",
                     "interactions": "",
                     "processors": "",
                     "groups": "Gamepad",
@@ -584,7 +584,7 @@
                 {
                     "name": "",
                     "id": "e29a862d-4544-4315-8028-740520e4fc82",
-                    "path": "<Gamepad>/buttonNorth",
+                    "path": "<Touchscreen>/Press",
                     "interactions": "",
                     "processors": "",
                     "groups": "Gamepad",
@@ -627,11 +627,33 @@
                 },
                 {
                     "name": "",
+                    "id": "551237c4-93e6-4824-9af0-1a368dd5ad45",
+                    "path": "<Touchscreen>/primaryTouch/press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "giroCamera",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "37dbce36-140e-44f9-9e32-a8a869adf7c7",
                     "path": "<Keyboard>/q",
                     "interactions": "",
                     "processors": "",
                     "groups": ";Keyboard&Mouse",
+                    "action": "abrirInventarioBrinquedos",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e85b8234-5eea-45c1-be41-3c429c5441f2",
+                    "path": "<Gamepad>/dpad/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
                     "action": "abrirInventarioBrinquedos",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -651,6 +673,17 @@
                     "name": "",
                     "id": "0e05b872-2feb-48bd-b64b-66c7ce4772d3",
                     "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SairPuzzle",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dfe0be05-cfe2-445e-8382-9e9f2e25f96a",
+                    "path": "<Gamepad>/dpad/right",
                     "interactions": "",
                     "processors": "",
                     "groups": "",

@@ -18,6 +18,8 @@ public class GerentUI : MonoBehaviour
     public InputActionAsset inputAction;
     private InputAction Inventory;
     private InputAction Pause;
+
+    public GameObject UICelular;
     public bool isPaused { get; private set; }
 
     // Referência direta para a keypad para validar estado do puzzle
@@ -32,6 +34,17 @@ public class GerentUI : MonoBehaviour
         Pause = InputSystem.actions.FindAction("Pause");
         
         if (PauseMenu != null) PauseMenu.SetActive(false);
+
+        if (SystemInfo.deviceType == DeviceType.Handheld)
+        {
+            Debug.Log("O dispositivo é um Celular ou Tablet.");
+            UICelular.SetActive(true);
+        }
+        else if (SystemInfo.deviceType == DeviceType.Desktop)
+        {
+            Debug.Log("O dispositivo é um Computador.");
+            UICelular.SetActive(false);
+        }
     }
 
     void Update()
