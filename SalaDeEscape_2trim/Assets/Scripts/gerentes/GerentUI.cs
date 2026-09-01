@@ -20,7 +20,7 @@ public class GerentUI : MonoBehaviour
     private InputAction Pause;
     public bool isPaused { get; private set; }
 
-    // Referência direta para a keypad da sua amiga para validar estado do puzzle
+    // Referência direta para a keypad para validar estado do puzzle
     [SerializeField] private CdgSenha keypadScript;
 
     private void Awake()
@@ -38,7 +38,6 @@ public class GerentUI : MonoBehaviour
     {
         if (Pause != null && Pause.WasPressedThisFrame())
         {
-            // Impede de abrir o menu de pausa se estiver dentro de um puzzle ou keypad
             if (!IsPuzzleOuKeypadAtivo())
             {
                 TogglePause();
@@ -57,7 +56,7 @@ public class GerentUI : MonoBehaviour
         }
     }
 
-    private bool IsPuzzleOuKeypadAtivo()
+    public bool IsPuzzleOuKeypadAtivo()
     {
         bool puzzleAtivo = painelManager.instance != null && painelManager.instance.puzzleAtivo;
         bool keypadAtiva = keypadScript != null && keypadScript.painelCdg != null && keypadScript.painelCdg.activeInHierarchy;
@@ -81,9 +80,6 @@ public class GerentUI : MonoBehaviour
         Pause = InputSystem.actions.FindAction("Pause");
         Time.timeScale = 0f;
 
-        /*Cursor.lockState = CursorLockMode.None;
-        Cursor.visible = true;*/
-
         if (PauseMenu != null)
             PauseMenu.SetActive(true);
     }
@@ -95,13 +91,6 @@ public class GerentUI : MonoBehaviour
         inputAction.FindActionMap("UI").Disable();
         Pause = InputSystem.actions.FindAction("Pause");
         Time.timeScale = 1f;
-
-        // Se estiver fechando a pausa, verifica se a keypad/puzzle não está ativa antes de travar o cursor
-        if (!IsPuzzleOuKeypadAtivo())
-        {
-            /*Cursor.lockState = CursorLockMode.Locked;
-            Cursor.visible = false;*/
-        }
 
         if (PauseMenu != null)
             PauseMenu.SetActive(false);
@@ -115,6 +104,13 @@ public class GerentUI : MonoBehaviour
 
     public void SetPawCursor(bool state)
     {
+        // Se qualquer puzzle/keypad estiver rodando, forçar desativado
+        if (IsPuzzleOuKeypadAtivo())
+        {
+            if (CursorPata != null) CursorPata.SetActive(false);
+            return;
+        }
+
         if (CursorPata != null) CursorPata.SetActive(state);
     }
 
@@ -135,6 +131,7 @@ public class GerentUI : MonoBehaviour
             interactIMG.enabled = true;
         }
     }
+
     public void setItens(Item item, int index)
     {
         if (InventoryItens != null && index < InventoryItens.Length)
@@ -170,4 +167,5 @@ public class GerentUI : MonoBehaviour
             yield return null;
         }
     }
+
 }

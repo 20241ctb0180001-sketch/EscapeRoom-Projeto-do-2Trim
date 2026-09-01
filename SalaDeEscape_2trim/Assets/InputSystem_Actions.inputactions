@@ -140,6 +140,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "SairPuzzle",
+                    "type": "Button",
+                    "id": "a4ce5dd7-d90e-42c1-9231-17a201a33ea0",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -624,6 +633,28 @@
                     "processors": "",
                     "groups": ";Keyboard&Mouse",
                     "action": "abrirInventarioBrinquedos",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cdd85f34-daf9-4152-96b5-05e4494bdc33",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SairPuzzle",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0e05b872-2feb-48bd-b64b-66c7ce4772d3",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SairPuzzle",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
