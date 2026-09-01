@@ -54,6 +54,13 @@ public class PlayerInteract : MonoBehaviour
 
     void CheckInteractables()
     {
+        // Se estiver com o puzzle do painel ativo, desativa a patinha e interrompe o Raycast
+        if (painelManager.instance != null && painelManager.instance.puzzleAtivo)
+        {
+            GerentUI.instance.SetPawCursor(false);
+            return;
+        }
+
         if (estaaVer == true)
         {
             if (CurrInteractable == null)
@@ -91,89 +98,79 @@ public class PlayerInteract : MonoBehaviour
             PainelInteract painel = hit.collider.GetComponent<PainelInteract>();
             if (painel != null)
             {
-                if (painelManager.instance != null && painelManager.instance.puzzleAtivo)
+                GerentUI.instance.SetPawCursor(true);
+                if (IM.WasPressedThisFrame())
                 {
-                    return;
+                    painel.Interact();
                 }
-            GerentUI.instance.SetPawCursor(true);
-            if (IM.WasPressedThisFrame())
-            {
-                painel.Interact();
+                return;
             }
-            return;
-        }
 
-        Interactables interactable = hit.collider.GetComponent<Interactables>();
+            Interactables interactable = hit.collider.GetComponent<Interactables>();
 
-        if (interactable != null)
-        {
-            GerentUI.instance.SetPawCursor(true);
-            if (IM.WasPressedThisFrame())
+            if (interactable != null)
             {
-                if (interactable.IsMoving)
+                GerentUI.instance.SetPawCursor(true);
+                if (IM.WasPressedThisFrame())
                 {
-                    return;
-                }
-
-                /*if (interactable.CompareTag("brinquedos"))
-                {
-                    ColetarBrinquedoDireto(interactable);
-                    return; // Cancela todo o resto do fluxo de inspeção
-                }*/
-
-                CurrInteractable = interactable;
-
-                if (interactable.CompareTag("brinquedos"))
-                {
-                    ColetarBrinquedoDireto(interactable);
-                    return; // Cancela todo o resto do fluxo de inspeção
-                }
-
-                bool hasPreviousItem = false;
-                for (int i = 0; i < CurrInteractable.PreviousItem.Length; i++)
-                {
-                    if (inventory.Itens.Contains(CurrInteractable.PreviousItem[i].requiredItem))
+                    if (interactable.IsMoving)
                     {
-                        Interact(CurrInteractable.PreviousItem[i].requiredItem);
-                        CurrInteractable.PreviousItem[i].OnInteract.Invoke();
-                        hasPreviousItem = true;
-                        break;
+                        return;
                     }
-                }
-                if (hasPreviousItem)
-                {
-                    return;
-                }
 
-                BloqueioDeItem bloqueio = CurrInteractable.GetComponent<BloqueioDeItem>();
-                if (bloqueio != null && !bloqueio.PodeInteragir(inventory))
-                {
-                    GerentUI.instance.ShowMessage(bloqueio.MensagemBloqueado);
-                    return;
-                }
+                    CurrInteractable = interactable;
 
-                CurrInteractable.OnInteract.Invoke();
-                if (CurrInteractable.item != null)
-                {
-                    Interact(CurrInteractable.item);
-                    OnView.Invoke();
-                    estaaVer = true;
-                    if (look != null) look.enabled = false;
-                    if (movement != null) movement.enabled = false;
-                    Invoke("CanFinish", 1f);
-                    if (CurrInteractable.item.pegavel)
+                    if (interactable.CompareTag("brinquedos"))
                     {
-                        OriginPos = CurrInteractable.transform.position;
-                        OiginRotat = CurrInteractable.transform.rotation;
+                        ColetarBrinquedoDireto(interactable);
+                        return;
+                    }
 
-                        CurrInteractable.StoreOriginalTransform();
-                        StartCoroutine(MovendObj(CurrInteractable, objViewer.position, objViewer.rotation));
+                    bool hasPreviousItem = false;
+                    for (int i = 0; i < CurrInteractable.PreviousItem.Length; i++)
+                    {
+                        if (inventory.Itens.Contains(CurrInteractable.PreviousItem[i].requiredItem))
+                        {
+                            Interact(CurrInteractable.PreviousItem[i].requiredItem);
+                            CurrInteractable.PreviousItem[i].OnInteract.Invoke();
+                            hasPreviousItem = true;
+                            break;
+                        }
+                    }
+                    if (hasPreviousItem)
+                    {
+                        return;
+                    }
+
+                    BloqueioDeItem bloqueio = CurrInteractable.GetComponent<BloqueioDeItem>();
+                    if (bloqueio != null && !bloqueio.PodeInteragir(inventory))
+                    {
+                        GerentUI.instance.ShowMessage(bloqueio.MensagemBloqueado);
+                        return;
+                    }
+
+                    CurrInteractable.OnInteract.Invoke();
+                    if (CurrInteractable.item != null)
+                    {
+                        Interact(CurrInteractable.item);
+                        OnView.Invoke();
+                        estaaVer = true;
+                        if (look != null) look.enabled = false;
+                        if (movement != null) movement.enabled = false;
+                        Invoke("CanFinish", 1f);
+                        if (CurrInteractable.item.pegavel)
+                        {
+                            OriginPos = CurrInteractable.transform.position;
+                            OiginRotat = CurrInteractable.transform.rotation;
+
+                            CurrInteractable.StoreOriginalTransform();
+                            StartCoroutine(MovendObj(CurrInteractable, objViewer.position, objViewer.rotation));
+                        }
                     }
                 }
             }
+            else { GerentUI.instance.SetPawCursor(false); }
         }
-        else { GerentUI.instance.SetPawCursor(false); }
-    }
         else { GerentUI.instance.SetPawCursor(false); }
     }
 
@@ -186,19 +183,13 @@ public class PlayerInteract : MonoBehaviour
             CurrInteractable.CollectItem.Invoke();
             if (CurrInteractable.gameObject.name == "Trenzinho")
             {
-                
                 abrate.tremPego(true);
                 if (ToyInvent != null)
                 {
-                    
                     ToyInvent.ativarInventario(true);
                 }
             }
         }
-
-        // Opcional: Se o brinquedo precisa desaparecer da cena ao ser coletado:
-        // interactable.gameObject.SetActive(false); 
-        // ou Destroy(interactable.gameObject);
     }
 
     void CanFinish()
@@ -221,6 +212,7 @@ public class PlayerInteract : MonoBehaviour
             GerentUI.instance.SetIntIMG(item.image);
         }
     }
+
     void FinishView()
     {
         canFinish = false;
@@ -238,11 +230,9 @@ public class PlayerInteract : MonoBehaviour
                 CurrInteractable.CollectItem.Invoke();
                 if (CurrInteractable.gameObject.name == "Trenzinho")
                 {
-                    
                     abrate.tremPego(true);
                     if (ToyInvent != null)
                     {
-                        
                         ToyInvent.ativarInventario(true);
                     }
                 }
@@ -252,8 +242,8 @@ public class PlayerInteract : MonoBehaviour
                 inventory.AddItem(CurrInteractable.item);
                 CurrInteractable.CollectItem.Invoke();
             }
-
         }
+
         if (CurrInteractable.item.pegavel)
         {
             CurrInteractable.transform.rotation = OiginRotat;
@@ -261,7 +251,6 @@ public class PlayerInteract : MonoBehaviour
             {
                 CurrInteractable.GetComponent<Collider>().enabled = true;
             }
-            //StartCoroutine(MovendObj(CurrInteractable, OriginPos));
 
             CurrInteractable.RestoreOriginalTransform();
             StartCoroutine(MovendObj(CurrInteractable, CurrInteractable.GetOriginalPosition(), CurrInteractable.GetOriginalRotation()));
@@ -285,27 +274,10 @@ public class PlayerInteract : MonoBehaviour
             yield return null;
         }
 
-        // Garante valores finais exatos
         obj.transform.position = targetPos;
         obj.transform.rotation = targetRot;
         obj.IsMoving = false;
     }
-
-    /*IEnumerator MovendObj(Interactables obj, Vector3 pos)
-    {
-        obj.IsMoving = true;
-        float timer = 0f;
-        while (timer < 2f) //<--tava >
-        {
-            obj.transform.position = Vector3.Lerp(OriginPos, pos, timer / 2f);
-            obj.transform.rotation = Quaternion.Lerp(OiginRotat, objViewer.rotation, timer / 2f);
-            timer += Time.deltaTime;
-            yield return null;
-        }
-        obj.transform.position = pos;
-        obj.transform.rotation = objViewer.rotation;
-        obj.IsMoving = false;
-    }*/
 
     void RodaObj()
     {
@@ -314,6 +286,4 @@ public class PlayerInteract : MonoBehaviour
         CurrInteractable.transform.Rotate(Mycam.transform.right, Mathf.Deg2Rad * y * rotatSpeed, Space.World);
         CurrInteractable.transform.Rotate(Mycam.transform.up, -Mathf.Deg2Rad * x * rotatSpeed, Space.World);
     }
-
-
 }
