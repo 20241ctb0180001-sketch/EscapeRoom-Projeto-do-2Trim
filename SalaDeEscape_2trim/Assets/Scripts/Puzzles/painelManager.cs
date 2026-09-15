@@ -8,6 +8,7 @@ public class painelManager : MonoBehaviour
 
     [Header("Estado do puzzle")]
     public bool puzzleAtivo = false;
+    public bool puzzleConcluido = false;
 
     [Header("Configuracoes de cores")]
     [SerializeField] private int corSelecionada = -1;
@@ -53,28 +54,56 @@ public class painelManager : MonoBehaviour
     private int totalLinhas;
     private int totalColunas;
 
-    void Awake()
+    private void Awake()
     {
-        instance = this; 
+        instance = this;
 
         totalLinhas = matrizGabarito.GetLength(0);
         totalColunas = matrizGabarito.GetLength(1);
         matrizAtual = new int[totalLinhas, totalColunas];
 
-        // Carrega ações do Input System sem dependência de hardware direto
+        // Busca o PlayerInput na cena se o asset não foi arrastado manualmente
+        PlayerInput playerInput = FindFirstObjectByType<PlayerInput>();
+
         if (inputActionsAsset != null)
         {
             acaoInteractMouse = inputActionsAsset.FindAction("InteractMouse");
             acaoSairPuzzle = inputActionsAsset.FindAction("SairPuzzle");
         }
-        else
+        else if (playerInput != null)
         {
-            PlayerInput playerInput = FindFirstObjectByType<PlayerInput>();
-            if (playerInput != null)
-            {
-                acaoInteractMouse = playerInput.actions.FindAction("InteractMouse");
-                acaoSairPuzzle = playerInput.actions.FindAction("SairPuzzle");
-            }
+            acaoInteractMouse = playerInput.actions.FindAction("InteractMouse");
+            acaoSairPuzzle = playerInput.actions.FindAction("SairPuzzle");
+        }
+
+        // OBRIGATÓRIO: Ativa as ações para receberem cliques/toques
+        if (acaoInteractMouse != null) acaoInteractMouse.Enable();
+        if (acaoSairPuzzle != null) acaoSairPuzzle.Enable();
+    }
+
+    void Update()
+    {
+        if (!puzzleAtivo) return;
+
+        // Checa Sair (suporta Input System + Fallback de Teclado/Mouse/Touch)
+        bool apertouSair = (acaoSairPuzzle != null && acaoSairPuzzle.WasPressedThisFrame()) ||
+                        (Keyboard.current != null && Keyboard.current.escapeKey.wasPressedThisFrame) ||
+                        (Mouse.current != null && Mouse.current.rightButton.wasPressedThisFrame);
+
+        if (apertouSair)
+        {
+            FecharPuzzle();
+            return;
+        }
+
+        // Checa Clique/Interação (suporta Input System + Fallback de Mouse/Touch)
+        bool apertouClique = (acaoInteractMouse != null && acaoInteractMouse.WasPressedThisFrame()) ||
+                            (Mouse.current != null && Mouse.current.leftButton.wasPressedThisFrame) ||
+                            (Touchscreen.current != null && Touchscreen.current.primaryTouch.press.wasPressedThisFrame);
+
+        if (apertouClique)
+        {
+            ProcessarCliqueOuToque();
         }
     }
 
@@ -121,23 +150,6 @@ public class painelManager : MonoBehaviour
         Cursor.visible = false;
     }
     
-    void Update()
-    {
-        if (!puzzleAtivo) return;
-
-        // Ação de Sair via Input System
-        if (acaoSairPuzzle != null && acaoSairPuzzle.WasPressedThisFrame())
-        {
-            FecharPuzzle();
-            return;
-        }
-
-        // Ação de Interagir via Input System (Touch, Mouse ou Gamepad)
-        if (acaoInteractMouse != null && acaoInteractMouse.WasPressedThisFrame())
-        {
-            ProcessarCliqueOuToque();
-        }
-    }
 
     void ProcessarCliqueOuToque()
     {
@@ -235,6 +247,8 @@ public class painelManager : MonoBehaviour
                 }
             }
         }
+        
+        puzzleConcluido = true;
         
         Debug.Log("VOCE GANHOU! Bandeira concluida perfeitamente!");
         if (fiosBloqueio != null) fiosBloqueio.SetActive(false);
