@@ -27,6 +27,8 @@ struct VirtualFuncInvoker0
 	}
 };
 
+struct Action_1_tC95790E55CF4D5C803FAD201917F7CB367351E3F;
+struct Action_1_tB4B0D0DB16148980518A9D58761727D77FA1F1D3;
 struct Action_1_tD5FA47F50DE964EA177B87ABF2576790239219A3;
 struct Action_1_tB93AB717F9D419A1BEC832FF76E74EAA32184CC1;
 struct Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E;
@@ -63,6 +65,8 @@ struct List_1_t71D216770F8F42F90C56C084BD1D59C5CAB2CD5A;
 struct TweenRunner_1_t5BB0582F926E75E2FE795492679A6CF55A4B4BC4;
 struct UnityAction_2_tF47D82C7E3C3B118B409866D926435B55A0675BD;
 struct UnityAction_2_t1C08AEB5AA4F72FEFAB7F303E33C8CFFF80A8C3A;
+struct Action_1U5BU5D_t525E90B5D1212F32F34CD47670B3553347DFB133;
+struct Action_1U5BU5D_t22E45C2BFF8C89B61E349730E6255288D35F6B88;
 struct Action_1U5BU5D_tDDE8F0E5F72CDCC3C9228F7F50484C0B41BAF4E0;
 struct Action_1U5BU5D_tB846E6FE2326CCD34124D1E5D70117C9D33DEE76;
 struct Func_1U5BU5D_t9DA6AF00D03864D2A6519555F6C6BCCBAB09A05F;
@@ -90,6 +94,7 @@ struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
 struct IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832;
 struct InternedStringU5BU5D_t0B851758733FC0B118D84BE83AED10A0404C18D5;
 struct ItemU5BU5D_t4DD3B0CDED4FDEE29D6C29225CED0468C194295B;
+struct KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA;
 struct MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D;
 struct MaterialReferenceU5BU5D_t7491D335AB3E3E13CE9C0F5E931F396F6A02E1F2;
 struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
@@ -120,6 +125,7 @@ struct TextProcessingElementU5BU5D_tC3E97D1672C8DB6E1F91DB2C0987D0ED9A2E7113;
 struct Int32U5BU2CU5D_t46F2694E7DAD7B2B05C940EC5B9DE04E40D0516F;
 struct Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07;
 struct Animator_t8A52E42AE54F76681838FE9E632683EF3952E883;
+struct AnyKeyControl_t88E59A594CAF1E3A432C3BEC2634C0CA462D8A14;
 struct AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20;
 struct AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7;
 struct BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F;
@@ -181,6 +187,8 @@ struct Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA;
 struct InvokableCallList_t309E1C8C7CE885A0D2F98C84CEA77A8935688382;
 struct Item_tFAF77888D49883A321EB596A7D93CB5615D37E95;
 struct Jump_t5984E7808773AD6C29ABDF6EF00972AEFA377F8F;
+struct KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0;
+struct Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43;
 struct LayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A;
 struct MaoSegue_tFE1B5F88A976C1B85BB39C806DBCEC9B1ED1EC38;
 struct Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3;
@@ -276,6 +284,7 @@ IL2CPP_EXTERN_C RuntimeClass* Func_1_t11C3830580201E0A3A3A2C76523B7905EF40BCF7_i
 IL2CPP_EXTERN_C RuntimeClass* GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* InputSystem_t4120CA4FE7DCFD56AF9391933FC3F1F485350164_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Int32U5BU2CU5D_t46F2694E7DAD7B2B05C940EC5B9DE04E40D0516F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* List_1_t6F64C3EC2C2C6614F0A241F3D022EC8745453001_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* List_1_tBB4BFB497BCF47BCBBEC63B4E8645B49487294C2_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* List_1_tF724808A23BE72B440E4CA829D96B207B712AD6A_il2cpp_TypeInfo_var;
@@ -332,7 +341,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteral378F2A2277727E3F33599E270749A10E7C2B55E1
 IL2CPP_EXTERN_C String_t* _stringLiteral38D7B1F87A2A9042DFA223F7ADE513758363292F;
 IL2CPP_EXTERN_C String_t* _stringLiteral3CBEC0B9AAD2D9326FD2A1F4E4C0B991B3157FA1;
 IL2CPP_EXTERN_C String_t* _stringLiteral3F3FD3EFA55E39E450A9A4CE66CD7B259403D44E;
-IL2CPP_EXTERN_C String_t* _stringLiteral4059A04FA7A1E61BEA2E2D845B2687AE60ECCFA8;
 IL2CPP_EXTERN_C String_t* _stringLiteral43D979D69F29ED5FC860529644A6E51254F4D4C3;
 IL2CPP_EXTERN_C String_t* _stringLiteral48EC141A1B7A4D12D33EA0820C63C2FB747FE700;
 IL2CPP_EXTERN_C String_t* _stringLiteral4D67F1336568AA8E5A92EED07252051528EE2483;
@@ -345,7 +353,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteral708D5714E07CDD35ACD938FD9FF35805F6E3811C
 IL2CPP_EXTERN_C String_t* _stringLiteral74454FE5907CE29A11EC64D9D21AF053E121E0D5;
 IL2CPP_EXTERN_C String_t* _stringLiteral878F995F0AA2C9F08593B9BCFA3E0303265BECE0;
 IL2CPP_EXTERN_C String_t* _stringLiteral8AAC3933C7E49B5D461E1F3EFA2618A7686D7EB7;
-IL2CPP_EXTERN_C String_t* _stringLiteral8C32BACCF499D6564407811F8DEF20A0E7A1AF6F;
 IL2CPP_EXTERN_C String_t* _stringLiteral8F02D824E32C446741D86FD6B9C9B9577BC0D237;
 IL2CPP_EXTERN_C String_t* _stringLiteral91A4C276E3B8A2C6FC2DCF9D1A5D29247B495DB3;
 IL2CPP_EXTERN_C String_t* _stringLiteral932B717A7A47AAF94347DAD0B6F778586C2FC880;
@@ -719,6 +726,18 @@ struct U3CEsperarEExecutarU3Ed__15_t6D136B0B0F28F6FEF19EB0960606CF185A5C68D6  : 
 	int32_t ___U3CU3E1__state;
 	RuntimeObject* ___U3CU3E2__current;
 	float ___tempoDeEspera;
+};
+struct InlinedArray_1_t031A607559EE9F23E8BC012CD9661BFB3EB2BFC1 
+{
+	int32_t ___length;
+	Action_1_tC95790E55CF4D5C803FAD201917F7CB367351E3F* ___firstValue;
+	Action_1U5BU5D_t525E90B5D1212F32F34CD47670B3553347DFB133* ___additionalValues;
+};
+struct InlinedArray_1_t8249EE706E2222F1A22F40FB70BEB230C11C5992 
+{
+	int32_t ___length;
+	Action_1_tB4B0D0DB16148980518A9D58761727D77FA1F1D3* ___firstValue;
+	Action_1U5BU5D_t22E45C2BFF8C89B61E349730E6255288D35F6B88* ___additionalValues;
 };
 struct InlinedArray_1_t8ACE9AAD82807AA2C2CD8030EB6420B3228CEF00 
 {
@@ -1522,6 +1541,10 @@ struct InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5
 	uint32_t ___m_ByteOffset;
 	uint32_t ___U3CbitOffsetU3Ek__BackingField;
 	uint32_t ___U3CsizeInBitsU3Ek__BackingField;
+};
+struct Key_tA157C0DCB2A0D2BE58B76B3BB836A1B2E4EAF387 
+{
+	int32_t ___value__;
 };
 struct LoadSceneMode_t3E17ADA25A3C4F14ECF6026741219437DA054963 
 {
@@ -3310,6 +3333,18 @@ struct Jump_t5984E7808773AD6C29ABDF6EF00972AEFA377F8F  : public MonoBehaviour_t5
 	InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* ___PuloAction;
 	GroundCheck_tD9F5EC450A9AE7916B1277C663AAD989F9031E44* ___groundCheck;
 };
+struct Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43  : public InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B
+{
+	AnyKeyControl_t88E59A594CAF1E3A432C3BEC2634C0CA462D8A14* ___U3CanyKeyU3Ek__BackingField;
+	ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* ___U3CshiftKeyU3Ek__BackingField;
+	ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* ___U3CctrlKeyU3Ek__BackingField;
+	ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* ___U3CaltKeyU3Ek__BackingField;
+	ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* ___U3CimeSelectedU3Ek__BackingField;
+	InlinedArray_1_t031A607559EE9F23E8BC012CD9661BFB3EB2BFC1 ___m_TextInputListeners;
+	String_t* ___m_KeyboardLayoutName;
+	KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* ___m_Keys;
+	InlinedArray_1_t8249EE706E2222F1A22F40FB70BEB230C11C5992 ___m_ImeCompositionListeners;
+};
 struct MaoSegue_tFE1B5F88A976C1B85BB39C806DBCEC9B1ED1EC38  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
 	float ___speed;
@@ -3479,6 +3514,7 @@ struct inventarioBrinquedos_t2272C83340A92F136A9BC574CD12F6775135E4B3  : public 
 struct painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
 	bool ___puzzleAtivo;
+	bool ___puzzleConcluido;
 	int32_t ___corSelecionada;
 	MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* ___materiaisCores;
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___fiosBloqueio;
@@ -3625,6 +3661,11 @@ struct Touchscreen_t5A3B494C10A53A822AEDB3508093860D142D84CE  : public Pointer_t
 {
 	TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* ___U3CprimaryTouchU3Ek__BackingField;
 	ReadOnlyArray_1_t1AB67C13630F5ECC78559C8BCEFFC00C4457333E ___U3CtouchesU3Ek__BackingField;
+};
+struct KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0  : public ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF
+{
+	int32_t ___U3CkeyCodeU3Ek__BackingField;
+	int32_t ___m_ScanCode;
 };
 struct MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E  : public Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931
 {
@@ -4019,6 +4060,10 @@ struct InputActionMap_tFCE82E0E014319D4DED9F8962B06655DD0420A09_StaticFields
 struct GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_StaticFields
 {
 	GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* ___instance;
+};
+struct Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43_StaticFields
+{
+	Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* ___U3CcurrentU3Ek__BackingField;
 };
 struct PlayerInput_t5155B6508FE1937D9B2380CBA545FABE36A6F81F_StaticFields
 {
@@ -4922,12 +4967,15 @@ inline PlayerInput_t5155B6508FE1937D9B2380CBA545FABE36A6F81F* Object_FindFirstOb
 	return ((  PlayerInput_t5155B6508FE1937D9B2380CBA545FABE36A6F81F* (*) (const RuntimeMethod*))Object_FindFirstObjectByType_TisRuntimeObject_mC5927319EB5B80095EFBA653D414D6F8AA87DC0A_gshared)(method);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* PlayerInput_get_actions_m7A85BC149F2EAE4E7BB0785A08D2AEA6B9F4E183 (PlayerInput_t5155B6508FE1937D9B2380CBA545FABE36A6F81F* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void painelManager_ResetarMatrizLimpa_m2BBC977C81A206EDC7388175E260116F3A461D7B (painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputAction_Enable_mB3897C0741409C033656E4566EC49135C3C8BC68 (InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* Keyboard_get_current_mDE773B54C9975CEFEAA469AD091C49E150A3FEC3_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* Keyboard_get_escapeKey_mA4371467E72AA14713681C30A9B3AC41F3C9D707 (Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void painelManager_FecharPuzzle_m58A548E6F63B638719F44924F29F9312D7D63B77 (painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void painelManager_ProcessarCliqueOuToque_mF82DF1ECBD9ABC37AAB48EF8E4A752589CED76DA (painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435* __this, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Touchscreen_t5A3B494C10A53A822AEDB3508093860D142D84CE* Touchscreen_get_current_m6D9CD2446B30224D18E695DF0ECC3A00E4F7B708_inline (const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* Touchscreen_get_primaryTouch_mABAC4C0F1DBA6A718B83682A91DF40FD3563F413_inline (Touchscreen_t5A3B494C10A53A822AEDB3508093860D142D84CE* __this, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* TouchControl_get_press_mFE6656905CFF085E99AE78F24FF71C0CA5DC5E81_inline (TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void painelManager_ProcessarCliqueOuToque_mF82DF1ECBD9ABC37AAB48EF8E4A752589CED76DA (painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void painelManager_ResetarMatrizLimpa_m2BBC977C81A206EDC7388175E260116F3A461D7B (painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435* __this, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* TouchControl_get_position_m362565B94CA1CF45F79F7EAB5FE75B9BCB1ACAAF_inline (TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* __this, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Pointer_t800EF2832B62E889AC9C182E3B18098AF220E32A* Pointer_get_current_m207443803344C305DEAAEBA56C445980D6C22CB3_inline (const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* Pointer_get_position_m4286004169788483EEDA6AF833CEFDB04FEDF3D8_inline (Pointer_t800EF2832B62E889AC9C182E3B18098AF220E32A* __this, const RuntimeMethod* method) ;
@@ -8145,10 +8193,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentScena_ExitYes_mF0600C507E671927CFD
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentScena.cs:65>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentScena.cs:64>
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		Application_Quit_mE304382DB9A6455C2A474C8F364C7387F37E9281(NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentScena.cs:68>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentScena.cs:67>
 		return;
 	}
 }
@@ -8193,12 +8241,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_Awake_m6B94D86760E7F53279BDEDD7
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputSystem_t4120CA4FE7DCFD56AF9391933FC3F1F485350164_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4059A04FA7A1E61BEA2E2D845B2687AE60ECCFA8);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8C32BACCF499D6564407811F8DEF20A0E7A1AF6F);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralAAAA401E86E41E6120BB9E96B9892141CF5A81F8);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralAC16B8F4DB62ADB766351F619739F1FB8664BBD1);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB93F5E13E0AD8E8044D7D80E771F9A55F393D87F);
@@ -8264,13 +8309,10 @@ IL_0078:
 		L_11 = SystemInfo_get_deviceType_m9BA3769FAC1102E252B5350FE208BF885E5F24D0(NULL);
 		if ((!(((uint32_t)L_11) == ((uint32_t)1))))
 		{
-			goto IL_0097;
+			goto IL_008d;
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:40>
-		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral8C32BACCF499D6564407811F8DEF20A0E7A1AF6F, NULL);
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:41>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = __this->___UICelular;
 		NullCheck(L_12);
@@ -8278,27 +8320,24 @@ IL_0078:
 		return;
 	}
 
-IL_0097:
+IL_008d:
 	{
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:43>
 		int32_t L_13;
 		L_13 = SystemInfo_get_deviceType_m9BA3769FAC1102E252B5350FE208BF885E5F24D0(NULL);
 		if ((!(((uint32_t)L_13) == ((uint32_t)3))))
 		{
-			goto IL_00b5;
+			goto IL_00a1;
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:45>
-		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral4059A04FA7A1E61BEA2E2D845B2687AE60ECCFA8, NULL);
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:46>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14 = __this->___UICelular;
 		NullCheck(L_14);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_14, (bool)0, NULL);
 	}
 
-IL_00b5:
+IL_00a1:
 	{
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:48>
 		return;
@@ -8542,23 +8581,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_PauseGame_m7FB8F14EDA7A0CBB9B1D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:90>
-		GerentUI_set_isPaused_mFB6779645616A04475C4DDBD29C65845C6E0F008_inline(__this, (bool)1, NULL);
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:91>
+		GerentUI_set_isPaused_mFB6779645616A04475C4DDBD29C65845C6E0F008_inline(__this, (bool)1, NULL);
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:92>
 		InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* L_0 = __this->___inputAction;
 		NullCheck(L_0);
 		InputActionMap_tFCE82E0E014319D4DED9F8962B06655DD0420A09* L_1;
 		L_1 = InputActionAsset_FindActionMap_mE04E63102310DA7662194A4D283E2E42D90CCC75(L_0, _stringLiteralCAF8804297181FF007CA835529DD4477CFD94A70, (bool)0, NULL);
 		NullCheck(L_1);
 		InputActionMap_Disable_m987468348648610F8B84D4F481592FF37AF5445C(L_1, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:92>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:93>
 		InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* L_2 = __this->___inputAction;
 		NullCheck(L_2);
 		InputActionMap_tFCE82E0E014319D4DED9F8962B06655DD0420A09* L_3;
 		L_3 = InputActionAsset_FindActionMap_mE04E63102310DA7662194A4D283E2E42D90CCC75(L_2, _stringLiteralB93F5E13E0AD8E8044D7D80E771F9A55F393D87F, (bool)0, NULL);
 		NullCheck(L_3);
 		InputActionMap_Enable_mAB23F0C4179D27C375F9FA335898B02E336CA4F6(L_3, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:93>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:94>
 		il2cpp_codegen_runtime_class_init_inline(InputSystem_t4120CA4FE7DCFD56AF9391933FC3F1F485350164_il2cpp_TypeInfo_var);
 		InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* L_4;
 		L_4 = InputSystem_get_actions_mE8D99B32AF6B8AB69DCF5DBBEC60C0F010C79B6C(NULL);
@@ -8567,28 +8606,45 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_PauseGame_m7FB8F14EDA7A0CBB9B1D
 		L_5 = InputActionAsset_FindAction_m50D07EAFAA8628B9793E7BBEEB2E89C2A9C45C00(L_4, _stringLiteralAAAA401E86E41E6120BB9E96B9892141CF5A81F8, (bool)0, NULL);
 		__this->___Pause = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Pause), (void*)L_5);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:94>
-		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((0.0f), NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:96>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = __this->___PauseMenu;
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_7;
-		L_7 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_6, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_7)
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:95>
+		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((0.100000001f), NULL);
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:97>
+		int32_t L_6;
+		L_6 = SystemInfo_get_deviceType_m9BA3769FAC1102E252B5350FE208BF885E5F24D0(NULL);
+		if ((!(((uint32_t)L_6) == ((uint32_t)1))))
 		{
-			goto IL_006d;
+			goto IL_0067;
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:97>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = __this->___PauseMenu;
-		NullCheck(L_8);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_8, (bool)1, NULL);
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:99>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = __this->___UICelular;
+		NullCheck(L_7);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_7, (bool)0, NULL);
 	}
 
-IL_006d:
+IL_0067:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:98>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:102>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = __this->___PauseMenu;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_9;
+		L_9 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_8, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_9)
+		{
+			goto IL_0081;
+		}
+	}
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:103>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = __this->___PauseMenu;
+		NullCheck(L_10);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_10, (bool)1, NULL);
+	}
+
+IL_0081:
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:104>
 		return;
 	}
 }
@@ -8606,23 +8662,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_ResumeGame_m2689237A5E9245209DE
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:102>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:108>
 		GerentUI_set_isPaused_mFB6779645616A04475C4DDBD29C65845C6E0F008_inline(__this, (bool)0, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:103>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:109>
 		InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* L_0 = __this->___inputAction;
 		NullCheck(L_0);
 		InputActionMap_tFCE82E0E014319D4DED9F8962B06655DD0420A09* L_1;
 		L_1 = InputActionAsset_FindActionMap_mE04E63102310DA7662194A4D283E2E42D90CCC75(L_0, _stringLiteralCAF8804297181FF007CA835529DD4477CFD94A70, (bool)0, NULL);
 		NullCheck(L_1);
 		InputActionMap_Enable_mAB23F0C4179D27C375F9FA335898B02E336CA4F6(L_1, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:104>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:110>
 		InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* L_2 = __this->___inputAction;
 		NullCheck(L_2);
 		InputActionMap_tFCE82E0E014319D4DED9F8962B06655DD0420A09* L_3;
 		L_3 = InputActionAsset_FindActionMap_mE04E63102310DA7662194A4D283E2E42D90CCC75(L_2, _stringLiteralB93F5E13E0AD8E8044D7D80E771F9A55F393D87F, (bool)0, NULL);
 		NullCheck(L_3);
 		InputActionMap_Disable_m987468348648610F8B84D4F481592FF37AF5445C(L_3, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:105>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:111>
 		il2cpp_codegen_runtime_class_init_inline(InputSystem_t4120CA4FE7DCFD56AF9391933FC3F1F485350164_il2cpp_TypeInfo_var);
 		InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* L_4;
 		L_4 = InputSystem_get_actions_mE8D99B32AF6B8AB69DCF5DBBEC60C0F010C79B6C(NULL);
@@ -8631,28 +8687,45 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_ResumeGame_m2689237A5E9245209DE
 		L_5 = InputActionAsset_FindAction_m50D07EAFAA8628B9793E7BBEEB2E89C2A9C45C00(L_4, _stringLiteralAAAA401E86E41E6120BB9E96B9892141CF5A81F8, (bool)0, NULL);
 		__this->___Pause = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Pause), (void*)L_5);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:106>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:112>
 		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((1.0f), NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:108>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = __this->___PauseMenu;
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_7;
-		L_7 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_6, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_7)
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:114>
+		int32_t L_6;
+		L_6 = SystemInfo_get_deviceType_m9BA3769FAC1102E252B5350FE208BF885E5F24D0(NULL);
+		if ((!(((uint32_t)L_6) == ((uint32_t)1))))
 		{
-			goto IL_006d;
+			goto IL_0067;
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:109>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = __this->___PauseMenu;
-		NullCheck(L_8);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_8, (bool)0, NULL);
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:116>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = __this->___UICelular;
+		NullCheck(L_7);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_7, (bool)1, NULL);
 	}
 
-IL_006d:
+IL_0067:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:110>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:119>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = __this->___PauseMenu;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_9;
+		L_9 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_8, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_9)
+		{
+			goto IL_0081;
+		}
+	}
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:120>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = __this->___PauseMenu;
+		NullCheck(L_10);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_10, (bool)0, NULL);
+	}
+
+IL_0081:
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:121>
 		return;
 	}
 }
@@ -8666,7 +8739,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_SetActivePauseMenu_m389C81882EC
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:114>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:125>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___PauseMenu;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -8677,7 +8750,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_SetActivePauseMenu_m389C81882EC
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:115>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:126>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___PauseMenu;
 		bool L_3 = ___0_state;
 		NullCheck(L_2);
@@ -8686,7 +8759,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_SetActivePauseMenu_m389C81882EC
 
 IL_001a:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:116>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:127>
 		return;
 	}
 }
@@ -8700,7 +8773,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_SetPawCursor_m9A66671706FA7B30C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:121>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:132>
 		bool L_0;
 		L_0 = GerentUI_IsPuzzleOuKeypadAtivo_m56C60D18AF618C7739607DCC74803394C8996058(__this, NULL);
 		if (!L_0)
@@ -8709,7 +8782,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_SetPawCursor_m9A66671706FA7B30C
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:123>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:134>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___CursorPata;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
@@ -8720,7 +8793,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_SetPawCursor_m9A66671706FA7B30C
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:123>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:134>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___CursorPata;
 		NullCheck(L_3);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)0, NULL);
@@ -8728,13 +8801,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_SetPawCursor_m9A66671706FA7B30C
 
 IL_0022:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:124>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:135>
 		return;
 	}
 
 IL_0023:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:127>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:138>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = __this->___CursorPata;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_5;
@@ -8745,7 +8818,7 @@ IL_0023:
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:127>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:138>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = __this->___CursorPata;
 		bool L_7 = ___0_state;
 		NullCheck(L_6);
@@ -8754,7 +8827,7 @@ IL_0023:
 
 IL_003d:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:128>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:139>
 		return;
 	}
 }
@@ -8768,7 +8841,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_SetbackImg_m0FD210A0DA3662126CB
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:132>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:143>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___saiinteract;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -8779,7 +8852,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_SetbackImg_m0FD210A0DA3662126CB
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:132>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:143>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___saiinteract;
 		bool L_3 = ___0_state;
 		NullCheck(L_2);
@@ -8788,7 +8861,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_SetbackImg_m0FD210A0DA3662126CB
 
 IL_001a:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:133>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:144>
 		bool L_4 = ___0_state;
 		if (L_4)
 		{
@@ -8806,7 +8879,7 @@ IL_001a:
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:135>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:146>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_7 = __this->___interactIMG;
 		NullCheck(L_7);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_7, (bool)0, NULL);
@@ -8814,7 +8887,7 @@ IL_001a:
 
 IL_0037:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:137>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:148>
 		return;
 	}
 }
@@ -8828,7 +8901,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_SetIntIMG_m36421E8D1DB0E85B6C76
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:141>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:152>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_0 = __this->___interactIMG;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -8839,12 +8912,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_SetIntIMG_m36421E8D1DB0E85B6C76
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:143>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:154>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_2 = __this->___interactIMG;
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_3 = ___0_img;
 		NullCheck(L_2);
 		Image_set_sprite_mC0C248340BA27AAEE56855A3FAFA0D8CA12956DE(L_2, L_3, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:144>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:155>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_4 = __this->___interactIMG;
 		NullCheck(L_4);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_4, (bool)1, NULL);
@@ -8852,7 +8925,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_SetIntIMG_m36421E8D1DB0E85B6C76
 
 IL_0026:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:146>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:157>
 		return;
 	}
 }
@@ -8860,7 +8933,7 @@ IL_0026:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_setItens_m90F7B5CD328462956E6230E9A5259F3651834567 (GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* __this, Item_tFAF77888D49883A321EB596A7D93CB5615D37E95* ___0_item, int32_t ___1_index, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:150>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:161>
 		TextMeshProUGUIU5BU5D_tCAB9404D43876DF686DFBB4613543479CC1CC24A* L_0 = __this->___InventoryItens;
 		if (!L_0)
 		{
@@ -8877,7 +8950,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_setItens_m90F7B5CD328462956E623
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:152>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:163>
 		TextMeshProUGUIU5BU5D_tCAB9404D43876DF686DFBB4613543479CC1CC24A* L_3 = __this->___InventoryItens;
 		int32_t L_4 = ___1_index;
 		NullCheck(L_3);
@@ -8888,7 +8961,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_setItens_m90F7B5CD328462956E623
 		String_t* L_8 = L_7->___InvetoryTxt;
 		NullCheck(L_6);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_6, L_8);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:153>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:164>
 		Item_tFAF77888D49883A321EB596A7D93CB5615D37E95* L_9 = ___0_item;
 		NullCheck(L_9);
 		String_t* L_10 = L_9->___CollectMsg;
@@ -8897,7 +8970,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_setItens_m90F7B5CD328462956E623
 
 IL_0032:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:155>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:166>
 		return;
 	}
 }
@@ -8911,7 +8984,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_ShowMessage_m212AAD1FBA4F36198C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:159>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:170>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_0 = __this->___InfoTxt;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -8922,12 +8995,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_ShowMessage_m212AAD1FBA4F36198C
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:161>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:172>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_2 = __this->___InfoTxt;
 		String_t* L_3 = ___0_msg;
 		NullCheck(L_2);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_2, L_3);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:162>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:173>
 		RuntimeObject* L_4;
 		L_4 = GerentUI_FadingText_mD62B13B2ACF8C4FD58604A8B1822E3C59E66027F(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_5;
@@ -8936,7 +9009,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_ShowMessage_m212AAD1FBA4F36198C
 
 IL_0027:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:164>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:175>
 		return;
 	}
 }
@@ -9036,7 +9109,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CFadingTextU3Ed__30_MoveNext_m956256B2
 IL_0026:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:168>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:179>
 		GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* L_3 = V_1;
 		NullCheck(L_3);
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_4 = L_3->___InfoTxt;
@@ -9049,7 +9122,7 @@ IL_0026:
 
 IL_0040:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:171>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:182>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* L_6 = (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)(&__this->___U3CnewColorU3E5__2);
 		float* L_7 = (float*)(&L_6->___a);
 		float* L_8 = L_7;
@@ -9057,14 +9130,14 @@ IL_0040:
 		float L_10;
 		L_10 = Time_get_unscaledDeltaTime_mF057EECA857E5C0F90A3F910D26D3EE59F27C4B5(NULL);
 		*((float*)L_8) = (float)((float)il2cpp_codegen_add(L_9, L_10));
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:172>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:183>
 		GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* L_11 = V_1;
 		NullCheck(L_11);
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_12 = L_11->___InfoTxt;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_13 = __this->___U3CnewColorU3E5__2;
 		NullCheck(L_12);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_12, L_13);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:173>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:184>
 		__this->___U3CU3E2__current = NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
 		__this->___U3CU3E1__state = 1;
@@ -9078,7 +9151,7 @@ IL_0075:
 
 IL_007c:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:169>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:180>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* L_14 = (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)(&__this->___U3CnewColorU3E5__2);
 		float L_15 = L_14->___a;
 		if ((((float)L_15) < ((float)(1.0f))))
@@ -9087,7 +9160,7 @@ IL_007c:
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:175>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:186>
 		WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01* L_16 = (WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01*)il2cpp_codegen_object_new(WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01_il2cpp_TypeInfo_var);
 		WaitForSecondsRealtime__ctor_mBFC1E4F0E042D5EC6E7EEB211A2FE5193A8F6D6F(L_16, (2.0f), NULL);
 		__this->___U3CU3E2__current = L_16;
@@ -9104,7 +9177,7 @@ IL_00a7:
 
 IL_00b0:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:178>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:189>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* L_17 = (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)(&__this->___U3CnewColorU3E5__2);
 		float* L_18 = (float*)(&L_17->___a);
 		float* L_19 = L_18;
@@ -9112,14 +9185,14 @@ IL_00b0:
 		float L_21;
 		L_21 = Time_get_unscaledDeltaTime_mF057EECA857E5C0F90A3F910D26D3EE59F27C4B5(NULL);
 		*((float*)L_19) = (float)((float)il2cpp_codegen_subtract(L_20, L_21));
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:179>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:190>
 		GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* L_22 = V_1;
 		NullCheck(L_22);
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_23 = L_22->___InfoTxt;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_24 = __this->___U3CnewColorU3E5__2;
 		NullCheck(L_23);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_23, L_24);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:180>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:191>
 		__this->___U3CU3E2__current = NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
 		__this->___U3CU3E1__state = 3;
@@ -9133,7 +9206,7 @@ IL_00e5:
 
 IL_00ec:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:176>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:187>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* L_25 = (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)(&__this->___U3CnewColorU3E5__2);
 		float L_26 = L_25->___a;
 		if ((((float)L_26) > ((float)(0.0f))))
@@ -9142,7 +9215,7 @@ IL_00ec:
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:182>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:193>
 		return (bool)0;
 	}
 }
@@ -10416,7 +10489,7 @@ IL_0138:
 		L_47 = Physics_Raycast_m011EA7022C33B2C499EF744E5AF3E01EEB8FBD33(L_42, L_45, (&V_0), L_46, NULL);
 		if (!L_47)
 		{
-			goto IL_03ca;
+			goto IL_03ef;
 		}
 	}
 	{
@@ -10434,393 +10507,423 @@ IL_0138:
 		L_51 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_50, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 		if (!L_51)
 		{
-			goto IL_01ae;
+			goto IL_01d3;
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:101>
-		GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* L_52 = ((GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_StaticFields*)il2cpp_codegen_static_fields_for(GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_il2cpp_TypeInfo_var))->___instance;
-		NullCheck(L_52);
-		GerentUI_SetPawCursor_m9A66671706FA7B30C3290D0046DEBAFB8169F688(L_52, (bool)1, NULL);
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:102>
-		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_53 = __this->___IM;
-		NullCheck(L_53);
-		bool L_54;
-		L_54 = InputAction_WasPressedThisFrame_m9D3F0284EB46EEB7F720DCC96BBDF027C9B6A75F(L_53, NULL);
-		if (!L_54)
+		painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435* L_52 = ((painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435_StaticFields*)il2cpp_codegen_static_fields_for(painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435_il2cpp_TypeInfo_var))->___instance;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_53;
+		L_53 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_52, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_53)
 		{
-			goto IL_01ad;
+			goto IL_01b4;
+		}
+	}
+	{
+		painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435* L_54 = ((painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435_StaticFields*)il2cpp_codegen_static_fields_for(painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435_il2cpp_TypeInfo_var))->___instance;
+		NullCheck(L_54);
+		bool L_55 = L_54->___puzzleConcluido;
+		if (!L_55)
+		{
+			goto IL_01b4;
 		}
 	}
 	{
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:104>
-		PainelInteract_t92D98337E6A931939ACB8C05DF26B47B6D2AACAC* L_55 = V_2;
-		NullCheck(L_55);
-		PainelInteract_Interact_m976AC65E8CDCD87F68041EC92698C3C81784BD8E(L_55, NULL);
-	}
-
-IL_01ad:
-	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:106>
+		GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* L_56 = ((GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_StaticFields*)il2cpp_codegen_static_fields_for(GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_il2cpp_TypeInfo_var))->___instance;
+		NullCheck(L_56);
+		GerentUI_SetPawCursor_m9A66671706FA7B30C3290D0046DEBAFB8169F688(L_56, (bool)0, NULL);
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:105>
 		return;
 	}
 
-IL_01ae:
+IL_01b4:
 	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:108>
+		GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* L_57 = ((GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_StaticFields*)il2cpp_codegen_static_fields_for(GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_il2cpp_TypeInfo_var))->___instance;
+		NullCheck(L_57);
+		GerentUI_SetPawCursor_m9A66671706FA7B30C3290D0046DEBAFB8169F688(L_57, (bool)1, NULL);
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:109>
-		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_56;
-		L_56 = RaycastHit_get_collider_m84B160439BBEAB6D9E94B799F720E25C9E2D444D((&V_0), NULL);
-		NullCheck(L_56);
-		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_57;
-		L_57 = Component_GetComponent_TisInteractables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA_mB6C8D520F7826578A8DF5893F564DFF39D95AB4E(L_56, Component_GetComponent_TisInteractables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA_mB6C8D520F7826578A8DF5893F564DFF39D95AB4E_RuntimeMethod_var);
-		V_3 = L_57;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:111>
-		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_58 = V_3;
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_58 = __this->___IM;
+		NullCheck(L_58);
 		bool L_59;
-		L_59 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_58, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		L_59 = InputAction_WasPressedThisFrame_m9D3F0284EB46EEB7F720DCC96BBDF027C9B6A75F(L_58, NULL);
 		if (!L_59)
 		{
-			goto IL_03be;
+			goto IL_01d2;
 		}
 	}
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:111>
+		PainelInteract_t92D98337E6A931939ACB8C05DF26B47B6D2AACAC* L_60 = V_2;
+		NullCheck(L_60);
+		PainelInteract_Interact_m976AC65E8CDCD87F68041EC92698C3C81784BD8E(L_60, NULL);
+	}
+
+IL_01d2:
 	{
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:113>
-		GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* L_60 = ((GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_StaticFields*)il2cpp_codegen_static_fields_for(GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_il2cpp_TypeInfo_var))->___instance;
-		NullCheck(L_60);
-		GerentUI_SetPawCursor_m9A66671706FA7B30C3290D0046DEBAFB8169F688(L_60, (bool)1, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:114>
-		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_61 = __this->___IM;
-		NullCheck(L_61);
-		bool L_62;
-		L_62 = InputAction_WasPressedThisFrame_m9D3F0284EB46EEB7F720DCC96BBDF027C9B6A75F(L_61, NULL);
-		if (!L_62)
-		{
-			goto IL_03d5;
-		}
-	}
-	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:116>
-		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_63 = V_3;
-		NullCheck(L_63);
-		bool L_64 = L_63->___IsMoving;
-		if (!L_64)
-		{
-			goto IL_01eb;
-		}
-	}
-	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:118>
 		return;
 	}
 
-IL_01eb:
+IL_01d3:
 	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:116>
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_61;
+		L_61 = RaycastHit_get_collider_m84B160439BBEAB6D9E94B799F720E25C9E2D444D((&V_0), NULL);
+		NullCheck(L_61);
+		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_62;
+		L_62 = Component_GetComponent_TisInteractables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA_mB6C8D520F7826578A8DF5893F564DFF39D95AB4E(L_61, Component_GetComponent_TisInteractables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA_mB6C8D520F7826578A8DF5893F564DFF39D95AB4E_RuntimeMethod_var);
+		V_3 = L_62;
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:118>
+		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_63 = V_3;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_64;
+		L_64 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_63, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_64)
+		{
+			goto IL_03e3;
+		}
+	}
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:120>
+		GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* L_65 = ((GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_StaticFields*)il2cpp_codegen_static_fields_for(GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_il2cpp_TypeInfo_var))->___instance;
+		NullCheck(L_65);
+		GerentUI_SetPawCursor_m9A66671706FA7B30C3290D0046DEBAFB8169F688(L_65, (bool)1, NULL);
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:121>
-		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_65 = V_3;
-		__this->___CurrInteractable = L_65;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___CurrInteractable), (void*)L_65);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:123>
-		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_66 = V_3;
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_66 = __this->___IM;
 		NullCheck(L_66);
 		bool L_67;
-		L_67 = Component_CompareTag_mE6F8897E84F12DF12D302FFC4D58204D51096FC5(L_66, _stringLiteralE79CDBA837D299C94D27134875EE5A166A669BB6, NULL);
+		L_67 = InputAction_WasPressedThisFrame_m9D3F0284EB46EEB7F720DCC96BBDF027C9B6A75F(L_66, NULL);
 		if (!L_67)
 		{
-			goto IL_0207;
+			goto IL_03fa;
+		}
+	}
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:123>
+		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_68 = V_3;
+		NullCheck(L_68);
+		bool L_69 = L_68->___IsMoving;
+		if (!L_69)
+		{
+			goto IL_0210;
 		}
 	}
 	{
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:125>
-		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_68 = V_3;
-		PlayerInteract_ColetarBrinquedoDireto_m7BF67E60CCD5573DB63EA2CC761939986F01B186(__this, L_68, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:126>
 		return;
 	}
 
-IL_0207:
+IL_0210:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:129>
-		V_4 = (bool)0;
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:128>
+		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_70 = V_3;
+		__this->___CurrInteractable = L_70;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___CurrInteractable), (void*)L_70);
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:130>
-		V_6 = 0;
-		goto IL_0270;
+		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_71 = V_3;
+		NullCheck(L_71);
+		bool L_72;
+		L_72 = Component_CompareTag_mE6F8897E84F12DF12D302FFC4D58204D51096FC5(L_71, _stringLiteralE79CDBA837D299C94D27134875EE5A166A669BB6, NULL);
+		if (!L_72)
+		{
+			goto IL_022c;
+		}
 	}
-
-IL_020f:
 	{
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:132>
-		PlayerInventory_t9DFF7303E6D77500C69210AA16F04634500D80E6* L_69 = __this->___inventory;
-		NullCheck(L_69);
-		List_1_tBB4BFB497BCF47BCBBEC63B4E8645B49487294C2* L_70;
-		L_70 = PlayerInventory_get_Itens_mC9E1F4FFEE65C7EAE19EB676775420B7044A434C_inline(L_69, NULL);
-		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_71 = __this->___CurrInteractable;
-		NullCheck(L_71);
-		PreviousItemU5BU5D_t79B18B2E47CD172D22692B2715DA01C5E3EFCB9E* L_72 = L_71->___PreviousItem;
-		int32_t L_73 = V_6;
-		NullCheck(L_72);
-		int32_t L_74 = L_73;
-		PreviousItem_tD4A84249D7725CDAAFD6448D317E777228FD736B* L_75 = (L_72)->GetAt(static_cast<il2cpp_array_size_t>(L_74));
-		NullCheck(L_75);
-		Item_tFAF77888D49883A321EB596A7D93CB5615D37E95* L_76 = L_75->___requiredItem;
-		NullCheck(L_70);
-		bool L_77;
-		L_77 = List_1_Contains_m46E95F7BDE7763E3FA1D0CD207C9BF5505B46E6F(L_70, L_76, List_1_Contains_m46E95F7BDE7763E3FA1D0CD207C9BF5505B46E6F_RuntimeMethod_var);
-		if (!L_77)
-		{
-			goto IL_026a;
-		}
-	}
-	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:134>
-		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_78 = __this->___CurrInteractable;
-		NullCheck(L_78);
-		PreviousItemU5BU5D_t79B18B2E47CD172D22692B2715DA01C5E3EFCB9E* L_79 = L_78->___PreviousItem;
-		int32_t L_80 = V_6;
-		NullCheck(L_79);
-		int32_t L_81 = L_80;
-		PreviousItem_tD4A84249D7725CDAAFD6448D317E777228FD736B* L_82 = (L_79)->GetAt(static_cast<il2cpp_array_size_t>(L_81));
-		NullCheck(L_82);
-		Item_tFAF77888D49883A321EB596A7D93CB5615D37E95* L_83 = L_82->___requiredItem;
-		PlayerInteract_Interact_mEA19B1C7409B5788ACAD0C3A7F68F0A074D8FF7F(__this, L_83, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:135>
-		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_84 = __this->___CurrInteractable;
-		NullCheck(L_84);
-		PreviousItemU5BU5D_t79B18B2E47CD172D22692B2715DA01C5E3EFCB9E* L_85 = L_84->___PreviousItem;
-		int32_t L_86 = V_6;
-		NullCheck(L_85);
-		int32_t L_87 = L_86;
-		PreviousItem_tD4A84249D7725CDAAFD6448D317E777228FD736B* L_88 = (L_85)->GetAt(static_cast<il2cpp_array_size_t>(L_87));
-		NullCheck(L_88);
-		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_89 = L_88->___OnInteract;
-		NullCheck(L_89);
-		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_89, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:136>
-		V_4 = (bool)1;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:137>
-		goto IL_0281;
-	}
-
-IL_026a:
-	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:130>
-		int32_t L_90 = V_6;
-		V_6 = ((int32_t)il2cpp_codegen_add(L_90, 1));
-	}
-
-IL_0270:
-	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:130>
-		int32_t L_91 = V_6;
-		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_92 = __this->___CurrInteractable;
-		NullCheck(L_92);
-		PreviousItemU5BU5D_t79B18B2E47CD172D22692B2715DA01C5E3EFCB9E* L_93 = L_92->___PreviousItem;
-		NullCheck(L_93);
-		if ((((int32_t)L_91) < ((int32_t)((int32_t)(((RuntimeArray*)L_93)->max_length)))))
-		{
-			goto IL_020f;
-		}
-	}
-
-IL_0281:
-	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:140>
-		bool L_94 = V_4;
-		if (!L_94)
-		{
-			goto IL_0286;
-		}
-	}
-	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:142>
+		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_73 = V_3;
+		PlayerInteract_ColetarBrinquedoDireto_m7BF67E60CCD5573DB63EA2CC761939986F01B186(__this, L_73, NULL);
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:133>
 		return;
 	}
 
-IL_0286:
+IL_022c:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:145>
-		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_95 = __this->___CurrInteractable;
-		NullCheck(L_95);
-		BloqueioDeItem_t13F737DA16883F4E44B6FF9FE4DD1A20B339B98D* L_96;
-		L_96 = Component_GetComponent_TisBloqueioDeItem_t13F737DA16883F4E44B6FF9FE4DD1A20B339B98D_mE2432F332A9EA4638C0A5DC07694774D781C519B(L_95, Component_GetComponent_TisBloqueioDeItem_t13F737DA16883F4E44B6FF9FE4DD1A20B339B98D_mE2432F332A9EA4638C0A5DC07694774D781C519B_RuntimeMethod_var);
-		V_5 = L_96;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:146>
-		BloqueioDeItem_t13F737DA16883F4E44B6FF9FE4DD1A20B339B98D* L_97 = V_5;
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_98;
-		L_98 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_97, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_98)
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:136>
+		V_4 = (bool)0;
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:137>
+		V_6 = 0;
+		goto IL_0295;
+	}
+
+IL_0234:
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:139>
+		PlayerInventory_t9DFF7303E6D77500C69210AA16F04634500D80E6* L_74 = __this->___inventory;
+		NullCheck(L_74);
+		List_1_tBB4BFB497BCF47BCBBEC63B4E8645B49487294C2* L_75;
+		L_75 = PlayerInventory_get_Itens_mC9E1F4FFEE65C7EAE19EB676775420B7044A434C_inline(L_74, NULL);
+		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_76 = __this->___CurrInteractable;
+		NullCheck(L_76);
+		PreviousItemU5BU5D_t79B18B2E47CD172D22692B2715DA01C5E3EFCB9E* L_77 = L_76->___PreviousItem;
+		int32_t L_78 = V_6;
+		NullCheck(L_77);
+		int32_t L_79 = L_78;
+		PreviousItem_tD4A84249D7725CDAAFD6448D317E777228FD736B* L_80 = (L_77)->GetAt(static_cast<il2cpp_array_size_t>(L_79));
+		NullCheck(L_80);
+		Item_tFAF77888D49883A321EB596A7D93CB5615D37E95* L_81 = L_80->___requiredItem;
+		NullCheck(L_75);
+		bool L_82;
+		L_82 = List_1_Contains_m46E95F7BDE7763E3FA1D0CD207C9BF5505B46E6F(L_75, L_81, List_1_Contains_m46E95F7BDE7763E3FA1D0CD207C9BF5505B46E6F_RuntimeMethod_var);
+		if (!L_82)
 		{
-			goto IL_02be;
+			goto IL_028f;
 		}
 	}
 	{
-		BloqueioDeItem_t13F737DA16883F4E44B6FF9FE4DD1A20B339B98D* L_99 = V_5;
-		PlayerInventory_t9DFF7303E6D77500C69210AA16F04634500D80E6* L_100 = __this->___inventory;
-		NullCheck(L_99);
-		bool L_101;
-		L_101 = BloqueioDeItem_PodeInteragir_m5CE2F595C965C0ED4B3259D49D5352598FC233BD(L_99, L_100, NULL);
-		if (L_101)
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:141>
+		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_83 = __this->___CurrInteractable;
+		NullCheck(L_83);
+		PreviousItemU5BU5D_t79B18B2E47CD172D22692B2715DA01C5E3EFCB9E* L_84 = L_83->___PreviousItem;
+		int32_t L_85 = V_6;
+		NullCheck(L_84);
+		int32_t L_86 = L_85;
+		PreviousItem_tD4A84249D7725CDAAFD6448D317E777228FD736B* L_87 = (L_84)->GetAt(static_cast<il2cpp_array_size_t>(L_86));
+		NullCheck(L_87);
+		Item_tFAF77888D49883A321EB596A7D93CB5615D37E95* L_88 = L_87->___requiredItem;
+		PlayerInteract_Interact_mEA19B1C7409B5788ACAD0C3A7F68F0A074D8FF7F(__this, L_88, NULL);
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:142>
+		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_89 = __this->___CurrInteractable;
+		NullCheck(L_89);
+		PreviousItemU5BU5D_t79B18B2E47CD172D22692B2715DA01C5E3EFCB9E* L_90 = L_89->___PreviousItem;
+		int32_t L_91 = V_6;
+		NullCheck(L_90);
+		int32_t L_92 = L_91;
+		PreviousItem_tD4A84249D7725CDAAFD6448D317E777228FD736B* L_93 = (L_90)->GetAt(static_cast<il2cpp_array_size_t>(L_92));
+		NullCheck(L_93);
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_94 = L_93->___OnInteract;
+		NullCheck(L_94);
+		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_94, NULL);
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:143>
+		V_4 = (bool)1;
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:144>
+		goto IL_02a6;
+	}
+
+IL_028f:
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:137>
+		int32_t L_95 = V_6;
+		V_6 = ((int32_t)il2cpp_codegen_add(L_95, 1));
+	}
+
+IL_0295:
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:137>
+		int32_t L_96 = V_6;
+		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_97 = __this->___CurrInteractable;
+		NullCheck(L_97);
+		PreviousItemU5BU5D_t79B18B2E47CD172D22692B2715DA01C5E3EFCB9E* L_98 = L_97->___PreviousItem;
+		NullCheck(L_98);
+		if ((((int32_t)L_96) < ((int32_t)((int32_t)(((RuntimeArray*)L_98)->max_length)))))
 		{
-			goto IL_02be;
+			goto IL_0234;
+		}
+	}
+
+IL_02a6:
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:147>
+		bool L_99 = V_4;
+		if (!L_99)
+		{
+			goto IL_02ab;
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:148>
-		GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* L_102 = ((GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_StaticFields*)il2cpp_codegen_static_fields_for(GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_il2cpp_TypeInfo_var))->___instance;
-		BloqueioDeItem_t13F737DA16883F4E44B6FF9FE4DD1A20B339B98D* L_103 = V_5;
-		NullCheck(L_103);
-		String_t* L_104;
-		L_104 = BloqueioDeItem_get_MensagemBloqueado_m613E1C4C6BDB51D44F4143D0207118F3246BD007_inline(L_103, NULL);
-		NullCheck(L_102);
-		GerentUI_ShowMessage_m212AAD1FBA4F36198CCABCD01F71AAC88974D2A9(L_102, L_104, NULL);
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:149>
 		return;
 	}
 
-IL_02be:
+IL_02ab:
 	{
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:152>
-		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_105 = __this->___CurrInteractable;
-		NullCheck(L_105);
-		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_106 = L_105->___OnInteract;
-		NullCheck(L_106);
-		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_106, NULL);
+		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_100 = __this->___CurrInteractable;
+		NullCheck(L_100);
+		BloqueioDeItem_t13F737DA16883F4E44B6FF9FE4DD1A20B339B98D* L_101;
+		L_101 = Component_GetComponent_TisBloqueioDeItem_t13F737DA16883F4E44B6FF9FE4DD1A20B339B98D_mE2432F332A9EA4638C0A5DC07694774D781C519B(L_100, Component_GetComponent_TisBloqueioDeItem_t13F737DA16883F4E44B6FF9FE4DD1A20B339B98D_mE2432F332A9EA4638C0A5DC07694774D781C519B_RuntimeMethod_var);
+		V_5 = L_101;
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:153>
-		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_107 = __this->___CurrInteractable;
-		NullCheck(L_107);
-		Item_tFAF77888D49883A321EB596A7D93CB5615D37E95* L_108 = L_107->___item;
+		BloqueioDeItem_t13F737DA16883F4E44B6FF9FE4DD1A20B339B98D* L_102 = V_5;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_109;
-		L_109 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_108, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_109)
+		bool L_103;
+		L_103 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_102, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_103)
 		{
-			goto IL_03d5;
+			goto IL_02e3;
+		}
+	}
+	{
+		BloqueioDeItem_t13F737DA16883F4E44B6FF9FE4DD1A20B339B98D* L_104 = V_5;
+		PlayerInventory_t9DFF7303E6D77500C69210AA16F04634500D80E6* L_105 = __this->___inventory;
+		NullCheck(L_104);
+		bool L_106;
+		L_106 = BloqueioDeItem_PodeInteragir_m5CE2F595C965C0ED4B3259D49D5352598FC233BD(L_104, L_105, NULL);
+		if (L_106)
+		{
+			goto IL_02e3;
 		}
 	}
 	{
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:155>
+		GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* L_107 = ((GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_StaticFields*)il2cpp_codegen_static_fields_for(GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_il2cpp_TypeInfo_var))->___instance;
+		BloqueioDeItem_t13F737DA16883F4E44B6FF9FE4DD1A20B339B98D* L_108 = V_5;
+		NullCheck(L_108);
+		String_t* L_109;
+		L_109 = BloqueioDeItem_get_MensagemBloqueado_m613E1C4C6BDB51D44F4143D0207118F3246BD007_inline(L_108, NULL);
+		NullCheck(L_107);
+		GerentUI_ShowMessage_m212AAD1FBA4F36198CCABCD01F71AAC88974D2A9(L_107, L_109, NULL);
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:156>
+		return;
+	}
+
+IL_02e3:
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:159>
 		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_110 = __this->___CurrInteractable;
 		NullCheck(L_110);
-		Item_tFAF77888D49883A321EB596A7D93CB5615D37E95* L_111 = L_110->___item;
-		PlayerInteract_Interact_mEA19B1C7409B5788ACAD0C3A7F68F0A074D8FF7F(__this, L_111, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:156>
-		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_112 = __this->___OnView;
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_111 = L_110->___OnInteract;
+		NullCheck(L_111);
+		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_111, NULL);
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:160>
+		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_112 = __this->___CurrInteractable;
 		NullCheck(L_112);
-		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_112, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:157>
-		__this->___estaaVer = (bool)1;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:158>
-		FirstPersonLook_tFFEABF55DC99B2EC1D6B5DAEE9864E5815F6B93C* L_113 = __this->___look;
+		Item_tFAF77888D49883A321EB596A7D93CB5615D37E95* L_113 = L_112->___item;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_114;
 		L_114 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_113, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 		if (!L_114)
 		{
-			goto IL_0321;
+			goto IL_03fa;
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:158>
-		FirstPersonLook_tFFEABF55DC99B2EC1D6B5DAEE9864E5815F6B93C* L_115 = __this->___look;
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:162>
+		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_115 = __this->___CurrInteractable;
 		NullCheck(L_115);
-		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_115, (bool)0, NULL);
-	}
-
-IL_0321:
-	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:159>
-		FirstPersonMovement_tA852887AB56569BDD01EA2BE85F9B39C349C5FFE* L_116 = __this->___movement;
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_117;
-		L_117 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_116, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_117)
-		{
-			goto IL_033b;
-		}
-	}
-	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:159>
-		FirstPersonMovement_tA852887AB56569BDD01EA2BE85F9B39C349C5FFE* L_118 = __this->___movement;
-		NullCheck(L_118);
-		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_118, (bool)0, NULL);
-	}
-
-IL_033b:
-	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:160>
-		MonoBehaviour_Invoke_mF724350C59362B0F1BFE26383209A274A29A63FB(__this, _stringLiteral1D2BDE3C4BB51E296BF37DE483B1A1091D9EDF82, (1.0f), NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:161>
-		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_119 = __this->___CurrInteractable;
-		NullCheck(L_119);
-		Item_tFAF77888D49883A321EB596A7D93CB5615D37E95* L_120 = L_119->___item;
-		NullCheck(L_120);
-		bool L_121 = L_120->___pegavel;
-		if (!L_121)
-		{
-			goto IL_03d5;
-		}
-	}
-	{
+		Item_tFAF77888D49883A321EB596A7D93CB5615D37E95* L_116 = L_115->___item;
+		PlayerInteract_Interact_mEA19B1C7409B5788ACAD0C3A7F68F0A074D8FF7F(__this, L_116, NULL);
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:163>
-		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_122 = __this->___CurrInteractable;
-		NullCheck(L_122);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_123;
-		L_123 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_122, NULL);
-		NullCheck(L_123);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_124;
-		L_124 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_123, NULL);
-		__this->___OriginPos = L_124;
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_117 = __this->___OnView;
+		NullCheck(L_117);
+		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_117, NULL);
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:164>
-		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_125 = __this->___CurrInteractable;
-		NullCheck(L_125);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_126;
-		L_126 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_125, NULL);
-		NullCheck(L_126);
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_127;
-		L_127 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_126, NULL);
-		__this->___OiginRotat = L_127;
+		__this->___estaaVer = (bool)1;
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:165>
+		FirstPersonLook_tFFEABF55DC99B2EC1D6B5DAEE9864E5815F6B93C* L_118 = __this->___look;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_119;
+		L_119 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_118, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_119)
+		{
+			goto IL_0346;
+		}
+	}
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:165>
+		FirstPersonLook_tFFEABF55DC99B2EC1D6B5DAEE9864E5815F6B93C* L_120 = __this->___look;
+		NullCheck(L_120);
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_120, (bool)0, NULL);
+	}
+
+IL_0346:
+	{
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:166>
-		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_128 = __this->___CurrInteractable;
-		NullCheck(L_128);
-		Interactables_StoreOriginalTransform_m931D5840ECE751B234DAE94CE260DDE68D2AD6EB(L_128, NULL);
+		FirstPersonMovement_tA852887AB56569BDD01EA2BE85F9B39C349C5FFE* L_121 = __this->___movement;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_122;
+		L_122 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_121, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_122)
+		{
+			goto IL_0360;
+		}
+	}
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:166>
+		FirstPersonMovement_tA852887AB56569BDD01EA2BE85F9B39C349C5FFE* L_123 = __this->___movement;
+		NullCheck(L_123);
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_123, (bool)0, NULL);
+	}
+
+IL_0360:
+	{
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:167>
-		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_129 = __this->___CurrInteractable;
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_130 = __this->___objViewer;
+		MonoBehaviour_Invoke_mF724350C59362B0F1BFE26383209A274A29A63FB(__this, _stringLiteral1D2BDE3C4BB51E296BF37DE483B1A1091D9EDF82, (1.0f), NULL);
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:168>
+		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_124 = __this->___CurrInteractable;
+		NullCheck(L_124);
+		Item_tFAF77888D49883A321EB596A7D93CB5615D37E95* L_125 = L_124->___item;
+		NullCheck(L_125);
+		bool L_126 = L_125->___pegavel;
+		if (!L_126)
+		{
+			goto IL_03fa;
+		}
+	}
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:170>
+		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_127 = __this->___CurrInteractable;
+		NullCheck(L_127);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_128;
+		L_128 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_127, NULL);
+		NullCheck(L_128);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_129;
+		L_129 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_128, NULL);
+		__this->___OriginPos = L_129;
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:171>
+		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_130 = __this->___CurrInteractable;
 		NullCheck(L_130);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_131;
-		L_131 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_130, NULL);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_132 = __this->___objViewer;
-		NullCheck(L_132);
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_133;
-		L_133 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_132, NULL);
-		RuntimeObject* L_134;
-		L_134 = PlayerInteract_MovendObj_mD60396EECACD82DAD5934BA594DE85866680C6CB(__this, L_129, L_131, L_133, NULL);
-		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_135;
-		L_135 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_134, NULL);
-		return;
-	}
-
-IL_03be:
-	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:172>
-		GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* L_136 = ((GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_StaticFields*)il2cpp_codegen_static_fields_for(GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_il2cpp_TypeInfo_var))->___instance;
-		NullCheck(L_136);
-		GerentUI_SetPawCursor_m9A66671706FA7B30C3290D0046DEBAFB8169F688(L_136, (bool)0, NULL);
-		return;
-	}
-
-IL_03ca:
-	{
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_131;
+		L_131 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_130, NULL);
+		NullCheck(L_131);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_132;
+		L_132 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_131, NULL);
+		__this->___OiginRotat = L_132;
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:173>
+		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_133 = __this->___CurrInteractable;
+		NullCheck(L_133);
+		Interactables_StoreOriginalTransform_m931D5840ECE751B234DAE94CE260DDE68D2AD6EB(L_133, NULL);
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:174>
-		GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* L_137 = ((GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_StaticFields*)il2cpp_codegen_static_fields_for(GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_il2cpp_TypeInfo_var))->___instance;
+		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_134 = __this->___CurrInteractable;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_135 = __this->___objViewer;
+		NullCheck(L_135);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_136;
+		L_136 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_135, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_137 = __this->___objViewer;
 		NullCheck(L_137);
-		GerentUI_SetPawCursor_m9A66671706FA7B30C3290D0046DEBAFB8169F688(L_137, (bool)0, NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_138;
+		L_138 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_137, NULL);
+		RuntimeObject* L_139;
+		L_139 = PlayerInteract_MovendObj_mD60396EECACD82DAD5934BA594DE85866680C6CB(__this, L_134, L_136, L_138, NULL);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_140;
+		L_140 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_139, NULL);
+		return;
 	}
 
-IL_03d5:
+IL_03e3:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:175>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:179>
+		GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* L_141 = ((GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_StaticFields*)il2cpp_codegen_static_fields_for(GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_il2cpp_TypeInfo_var))->___instance;
+		NullCheck(L_141);
+		GerentUI_SetPawCursor_m9A66671706FA7B30C3290D0046DEBAFB8169F688(L_141, (bool)0, NULL);
+		return;
+	}
+
+IL_03ef:
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:181>
+		GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* L_142 = ((GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_StaticFields*)il2cpp_codegen_static_fields_for(GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_il2cpp_TypeInfo_var))->___instance;
+		NullCheck(L_142);
+		GerentUI_SetPawCursor_m9A66671706FA7B30C3290D0046DEBAFB8169F688(L_142, (bool)0, NULL);
+	}
+
+IL_03fa:
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:182>
 		return;
 	}
 }
@@ -10838,13 +10941,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerInteract_ColetarBrinquedoDireto_m7
 	}
 	BrinquedoColetavel_tD8973E584735B2274E1B975EFA9080DDE8BDCF15* V_0 = NULL;
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:179>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:186>
 		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_0 = ___0_interactable;
 		NullCheck(L_0);
 		BrinquedoColetavel_tD8973E584735B2274E1B975EFA9080DDE8BDCF15* L_1;
 		L_1 = Component_GetComponent_TisBrinquedoColetavel_tD8973E584735B2274E1B975EFA9080DDE8BDCF15_m7603B21875BBDD2D490A297782855C8CDC39EE15(L_0, Component_GetComponent_TisBrinquedoColetavel_tD8973E584735B2274E1B975EFA9080DDE8BDCF15_m7603B21875BBDD2D490A297782855C8CDC39EE15_RuntimeMethod_var);
 		V_0 = L_1;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:180>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:187>
 		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_2 = __this->___CurrInteractable;
 		NullCheck(L_2);
 		bool L_3;
@@ -10855,7 +10958,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerInteract_ColetarBrinquedoDireto_m7
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:182>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:189>
 		GerenciadorInventario_t21D53B317861B5E68346739B1908EEBEE316510C* L_4 = __this->___inventario;
 		BrinquedoColetavel_tD8973E584735B2274E1B975EFA9080DDE8BDCF15* L_5 = V_0;
 		NullCheck(L_5);
@@ -10863,13 +10966,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerInteract_ColetarBrinquedoDireto_m7
 		NullCheck(L_4);
 		bool L_7;
 		L_7 = GerenciadorInventario_AdicionarItem_m6E2E04B809719F97148A6543F9E3D1285AB029FC(L_4, L_6, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:183>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:190>
 		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_8 = __this->___CurrInteractable;
 		NullCheck(L_8);
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_9 = L_8->___CollectItem;
 		NullCheck(L_9);
 		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_9, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:184>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:191>
 		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_10 = __this->___CurrInteractable;
 		NullCheck(L_10);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11;
@@ -10885,11 +10988,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerInteract_ColetarBrinquedoDireto_m7
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:186>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:193>
 		portaEscadaria_tF992F03B5AD15F6805B5DE513C763BFECBD8FCF0* L_14 = __this->___abrate;
 		NullCheck(L_14);
 		portaEscadaria_tremPego_mC59B101EBA7991D802373F03794FF8971734A73B(L_14, (bool)1, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:187>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:194>
 		inventarioBrinquedos_t2272C83340A92F136A9BC574CD12F6775135E4B3* L_15 = __this->___ToyInvent;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_16;
@@ -10900,7 +11003,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerInteract_ColetarBrinquedoDireto_m7
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:189>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:196>
 		inventarioBrinquedos_t2272C83340A92F136A9BC574CD12F6775135E4B3* L_17 = __this->___ToyInvent;
 		NullCheck(L_17);
 		inventarioBrinquedos_ativarInventario_mCC04B1CE8B4A74217CC21A4F5DC26D9FD730D3E6(L_17, (bool)1, NULL);
@@ -10908,7 +11011,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerInteract_ColetarBrinquedoDireto_m7
 
 IL_007d:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:193>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:200>
 		return;
 	}
 }
@@ -10923,9 +11026,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerInteract_CanFinish_mF4B92D64950784
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:197>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:204>
 		__this->___canFinish = (bool)1;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:198>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:205>
 		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_0 = __this->___CurrInteractable;
 		NullCheck(L_0);
 		Item_tFAF77888D49883A321EB596A7D93CB5615D37E95* L_1 = L_0->___item;
@@ -10951,18 +11054,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerInteract_CanFinish_mF4B92D64950784
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:200>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:207>
 		PlayerInteract_FinishView_m5399E822749BE9DE19A3525C9DC85ACC92B73636(__this, NULL);
 		return;
 	}
 
 IL_0038:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:204>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:211>
 		GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* L_7 = ((GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_StaticFields*)il2cpp_codegen_static_fields_for(GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_7);
 		GerentUI_SetbackImg_m0FD210A0DA3662126CB5ADBB5DDB84A2866FEF4F(L_7, (bool)1, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:206>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:213>
 		return;
 	}
 }
@@ -10977,7 +11080,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerInteract_Interact_mEA19B1C7409B578
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:210>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:217>
 		Item_tFAF77888D49883A321EB596A7D93CB5615D37E95* L_0 = ___0_item;
 		NullCheck(L_0);
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_1 = L_0->___image;
@@ -10990,7 +11093,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerInteract_Interact_mEA19B1C7409B578
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:212>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:219>
 		GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* L_3 = ((GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_StaticFields*)il2cpp_codegen_static_fields_for(GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_il2cpp_TypeInfo_var))->___instance;
 		Item_tFAF77888D49883A321EB596A7D93CB5615D37E95* L_4 = ___0_item;
 		NullCheck(L_4);
@@ -11001,7 +11104,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerInteract_Interact_mEA19B1C7409B578
 
 IL_001e:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:214>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:221>
 		return;
 	}
 }
@@ -11021,11 +11124,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerInteract_FinishView_m5399E822749BE
 	}
 	BrinquedoColetavel_tD8973E584735B2274E1B975EFA9080DDE8BDCF15* V_0 = NULL;
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:218>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:225>
 		__this->___canFinish = (bool)0;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:219>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:226>
 		__this->___estaaVer = (bool)0;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:220>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:227>
 		FirstPersonLook_tFFEABF55DC99B2EC1D6B5DAEE9864E5815F6B93C* L_0 = __this->___look;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -11036,7 +11139,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerInteract_FinishView_m5399E822749BE
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:220>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:227>
 		FirstPersonLook_tFFEABF55DC99B2EC1D6B5DAEE9864E5815F6B93C* L_2 = __this->___look;
 		NullCheck(L_2);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_2, (bool)1, NULL);
@@ -11044,7 +11147,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerInteract_FinishView_m5399E822749BE
 
 IL_0028:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:221>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:228>
 		FirstPersonMovement_tA852887AB56569BDD01EA2BE85F9B39C349C5FFE* L_3 = __this->___movement;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_4;
@@ -11055,7 +11158,7 @@ IL_0028:
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:221>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:228>
 		FirstPersonMovement_tA852887AB56569BDD01EA2BE85F9B39C349C5FFE* L_5 = __this->___movement;
 		NullCheck(L_5);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_5, (bool)1, NULL);
@@ -11063,17 +11166,17 @@ IL_0028:
 
 IL_0042:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:222>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:229>
 		GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* L_6 = ((GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_StaticFields*)il2cpp_codegen_static_fields_for(GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_6);
 		GerentUI_SetbackImg_m0FD210A0DA3662126CB5ADBB5DDB84A2866FEF4F(L_6, (bool)0, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:224>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:231>
 		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_7 = __this->___CurrInteractable;
 		NullCheck(L_7);
 		BrinquedoColetavel_tD8973E584735B2274E1B975EFA9080DDE8BDCF15* L_8;
 		L_8 = Component_GetComponent_TisBrinquedoColetavel_tD8973E584735B2274E1B975EFA9080DDE8BDCF15_m7603B21875BBDD2D490A297782855C8CDC39EE15(L_7, Component_GetComponent_TisBrinquedoColetavel_tD8973E584735B2274E1B975EFA9080DDE8BDCF15_m7603B21875BBDD2D490A297782855C8CDC39EE15_RuntimeMethod_var);
 		V_0 = L_8;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:225>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:232>
 		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_9 = __this->___CurrInteractable;
 		NullCheck(L_9);
 		Item_tFAF77888D49883A321EB596A7D93CB5615D37E95* L_10 = L_9->___item;
@@ -11085,7 +11188,7 @@ IL_0042:
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:227>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:234>
 		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_12 = __this->___CurrInteractable;
 		NullCheck(L_12);
 		bool L_13;
@@ -11096,7 +11199,7 @@ IL_0042:
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:229>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:236>
 		GerenciadorInventario_t21D53B317861B5E68346739B1908EEBEE316510C* L_14 = __this->___inventario;
 		BrinquedoColetavel_tD8973E584735B2274E1B975EFA9080DDE8BDCF15* L_15 = V_0;
 		NullCheck(L_15);
@@ -11104,13 +11207,13 @@ IL_0042:
 		NullCheck(L_14);
 		bool L_17;
 		L_17 = GerenciadorInventario_AdicionarItem_m6E2E04B809719F97148A6543F9E3D1285AB029FC(L_14, L_16, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:230>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:237>
 		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_18 = __this->___CurrInteractable;
 		NullCheck(L_18);
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_19 = L_18->___CollectItem;
 		NullCheck(L_19);
 		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_19, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:231>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:238>
 		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_20 = __this->___CurrInteractable;
 		NullCheck(L_20);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_21;
@@ -11126,11 +11229,11 @@ IL_0042:
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:233>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:240>
 		portaEscadaria_tF992F03B5AD15F6805B5DE513C763BFECBD8FCF0* L_24 = __this->___abrate;
 		NullCheck(L_24);
 		portaEscadaria_tremPego_mC59B101EBA7991D802373F03794FF8971734A73B(L_24, (bool)1, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:234>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:241>
 		inventarioBrinquedos_t2272C83340A92F136A9BC574CD12F6775135E4B3* L_25 = __this->___ToyInvent;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_26;
@@ -11141,7 +11244,7 @@ IL_0042:
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:236>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:243>
 		inventarioBrinquedos_t2272C83340A92F136A9BC574CD12F6775135E4B3* L_27 = __this->___ToyInvent;
 		NullCheck(L_27);
 		inventarioBrinquedos_ativarInventario_mCC04B1CE8B4A74217CC21A4F5DC26D9FD730D3E6(L_27, (bool)1, NULL);
@@ -11150,14 +11253,14 @@ IL_0042:
 
 IL_00e6:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:242>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:249>
 		PlayerInventory_t9DFF7303E6D77500C69210AA16F04634500D80E6* L_28 = __this->___inventory;
 		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_29 = __this->___CurrInteractable;
 		NullCheck(L_29);
 		Item_tFAF77888D49883A321EB596A7D93CB5615D37E95* L_30 = L_29->___item;
 		NullCheck(L_28);
 		PlayerInventory_AddItem_m80512292D1BBF706797CB939130328A961DC51B2(L_28, L_30, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:243>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:250>
 		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_31 = __this->___CurrInteractable;
 		NullCheck(L_31);
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_32 = L_31->___CollectItem;
@@ -11167,7 +11270,7 @@ IL_00e6:
 
 IL_010c:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:247>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:254>
 		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_33 = __this->___CurrInteractable;
 		NullCheck(L_33);
 		Item_tFAF77888D49883A321EB596A7D93CB5615D37E95* L_34 = L_33->___item;
@@ -11179,7 +11282,7 @@ IL_010c:
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:249>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:256>
 		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_36 = __this->___CurrInteractable;
 		NullCheck(L_36);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_37;
@@ -11187,7 +11290,7 @@ IL_010c:
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_38 = __this->___OiginRotat;
 		NullCheck(L_37);
 		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_37, L_38, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:250>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:257>
 		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_39 = __this->___CurrInteractable;
 		NullCheck(L_39);
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_40;
@@ -11201,7 +11304,7 @@ IL_010c:
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:252>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:259>
 		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_42 = __this->___CurrInteractable;
 		NullCheck(L_42);
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_43;
@@ -11212,11 +11315,11 @@ IL_010c:
 
 IL_0158:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:255>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:262>
 		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_44 = __this->___CurrInteractable;
 		NullCheck(L_44);
 		Interactables_RestoreOriginalTransform_m442426CCC11D243F2894D6D5D22C9FD6EDC0C8C3(L_44, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:256>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:263>
 		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_45 = __this->___CurrInteractable;
 		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_46 = __this->___CurrInteractable;
 		NullCheck(L_46);
@@ -11234,11 +11337,11 @@ IL_0158:
 
 IL_018c:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:258>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:265>
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_52 = __this->___OnFinishView;
 		NullCheck(L_52);
 		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_52, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:259>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:266>
 		return;
 	}
 }
@@ -11286,21 +11389,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerInteract_RodaObj_m3286D80A2EFF122E
 	float V_0 = 0.0f;
 	float V_1 = 0.0f;
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:284>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:291>
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_0 = __this->___RotateOb;
 		NullCheck(L_0);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1;
 		L_1 = InputAction_ReadValue_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m8D02BA85303ABD48D9963369E106B0C83A393FBF(L_0, InputAction_ReadValue_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m8D02BA85303ABD48D9963369E106B0C83A393FBF_RuntimeMethod_var);
 		float L_2 = L_1.___x;
 		V_0 = L_2;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:285>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:292>
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_3 = __this->___RotateOb;
 		NullCheck(L_3);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4;
 		L_4 = InputAction_ReadValue_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m8D02BA85303ABD48D9963369E106B0C83A393FBF(L_3, InputAction_ReadValue_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m8D02BA85303ABD48D9963369E106B0C83A393FBF_RuntimeMethod_var);
 		float L_5 = L_4.___y;
 		V_1 = L_5;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:286>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:293>
 		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_6 = __this->___CurrInteractable;
 		NullCheck(L_6);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7;
@@ -11316,7 +11419,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerInteract_RodaObj_m3286D80A2EFF122E
 		float L_12 = __this->___rotatSpeed;
 		NullCheck(L_7);
 		Transform_Rotate_m683E67853797040312868B69E963D0E97F433EEB(L_7, L_10, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply((0.0174532924f), L_11)), L_12)), 0, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:287>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:294>
 		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_13 = __this->___CurrInteractable;
 		NullCheck(L_13);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_14;
@@ -11332,7 +11435,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerInteract_RodaObj_m3286D80A2EFF122E
 		float L_19 = __this->___rotatSpeed;
 		NullCheck(L_14);
 		Transform_Rotate_m683E67853797040312868B69E963D0E97F433EEB(L_14, L_17, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply((-0.0174532924f), L_18)), L_19)), 0, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:288>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:295>
 		return;
 	}
 }
@@ -11402,13 +11505,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CMovendObjU3Ed__31_MoveNext_m757DFA451
 IL_001a:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:263>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:270>
 		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_4 = __this->___obj;
 		NullCheck(L_4);
 		L_4->___IsMoving = (bool)1;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:264>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:271>
 		__this->___U3CtimerU3E5__2 = (0.0f);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:265>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:272>
 		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_5 = __this->___obj;
 		NullCheck(L_5);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6;
@@ -11417,7 +11520,7 @@ IL_001a:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
 		L_7 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_6, NULL);
 		__this->___U3CstartPosU3E5__3 = L_7;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:266>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:273>
 		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_8 = __this->___obj;
 		NullCheck(L_8);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9;
@@ -11431,13 +11534,13 @@ IL_001a:
 
 IL_0066:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:270>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:277>
 		float L_11 = __this->___U3CtimerU3E5__2;
 		PlayerInteract_t1B2F2008321DEDEDDD394EF62CB3EFFE7A2EE8A0* L_12 = V_1;
 		NullCheck(L_12);
 		float L_13 = L_12->___animationDuration;
 		V_2 = ((float)(L_11/L_13));
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:271>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:278>
 		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_14 = __this->___obj;
 		NullCheck(L_14);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_15;
@@ -11449,7 +11552,7 @@ IL_0066:
 		L_19 = Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline(L_16, L_17, L_18, NULL);
 		NullCheck(L_15);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_15, L_19, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:272>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:279>
 		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_20 = __this->___obj;
 		NullCheck(L_20);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_21;
@@ -11461,12 +11564,12 @@ IL_0066:
 		L_25 = Quaternion_Lerp_m259606226726C2F46E079A5A688B9E24FF7E9A0D_inline(L_22, L_23, L_24, NULL);
 		NullCheck(L_21);
 		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_21, L_25, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:273>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:280>
 		float L_26 = __this->___U3CtimerU3E5__2;
 		float L_27;
 		L_27 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		__this->___U3CtimerU3E5__2 = ((float)il2cpp_codegen_add(L_26, L_27));
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:274>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:281>
 		__this->___U3CU3E2__current = NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
 		__this->___U3CU3E1__state = 1;
@@ -11480,7 +11583,7 @@ IL_00da:
 
 IL_00e1:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:268>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:275>
 		float L_28 = __this->___U3CtimerU3E5__2;
 		PlayerInteract_t1B2F2008321DEDEDDD394EF62CB3EFFE7A2EE8A0* L_29 = V_1;
 		NullCheck(L_29);
@@ -11491,7 +11594,7 @@ IL_00e1:
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:277>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:284>
 		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_31 = __this->___obj;
 		NullCheck(L_31);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_32;
@@ -11499,7 +11602,7 @@ IL_00e1:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_33 = __this->___targetPos;
 		NullCheck(L_32);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_32, L_33, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:278>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:285>
 		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_34 = __this->___obj;
 		NullCheck(L_34);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_35;
@@ -11507,11 +11610,11 @@ IL_00e1:
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_36 = __this->___targetRot;
 		NullCheck(L_35);
 		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_35, L_36, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:279>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:286>
 		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_37 = __this->___obj;
 		NullCheck(L_37);
 		L_37->___IsMoving = (bool)0;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:280>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:287>
 		return (bool)0;
 	}
 }
@@ -13177,7 +13280,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CdgSenha_Update_mDBDA8429CEE76A9F9DC02BA
 		s_Il2CppMethodInitialized = true;
 	}
 	bool V_0 = false;
-	int32_t G_B11_0 = 0;
+	int32_t G_B12_0 = 0;
 	{
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/CdgSenha.cs:46>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_0 = __this->___cdgText;
@@ -13252,59 +13355,66 @@ IL_008c:
 		L_14 = InputAction_WasPressedThisFrame_m9D3F0284EB46EEB7F720DCC96BBDF027C9B6A75F(L_13, NULL);
 		if (!L_14)
 		{
-			goto IL_00ad;
+			goto IL_00b5;
 		}
 	}
 	{
 		bool L_15 = __this->___emAlcance;
 		if (!L_15)
 		{
-			goto IL_00ad;
+			goto IL_00b5;
+		}
+	}
+	{
+		bool L_16 = __this->___senhaResolvida;
+		if (L_16)
+		{
+			goto IL_00b5;
 		}
 	}
 	{
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/CdgSenha.cs:64>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16 = __this->___painelCdg;
-		NullCheck(L_16);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_16, (bool)1, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17 = __this->___painelCdg;
+		NullCheck(L_17);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_17, (bool)1, NULL);
 	}
 
-IL_00ad:
+IL_00b5:
 	{
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/CdgSenha.cs:69>
-		painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435* L_17 = ((painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435_StaticFields*)il2cpp_codegen_static_fields_for(painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435_il2cpp_TypeInfo_var))->___instance;
+		painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435* L_18 = ((painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435_StaticFields*)il2cpp_codegen_static_fields_for(painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435_il2cpp_TypeInfo_var))->___instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_18;
-		L_18 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_17, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_18)
+		bool L_19;
+		L_19 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_18, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_19)
 		{
-			goto IL_00c6;
+			goto IL_00ce;
 		}
 	}
 	{
-		painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435* L_19 = ((painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435_StaticFields*)il2cpp_codegen_static_fields_for(painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435_il2cpp_TypeInfo_var))->___instance;
-		NullCheck(L_19);
-		bool L_20 = L_19->___puzzleAtivo;
-		G_B11_0 = ((int32_t)(L_20));
-		goto IL_00c7;
+		painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435* L_20 = ((painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435_StaticFields*)il2cpp_codegen_static_fields_for(painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435_il2cpp_TypeInfo_var))->___instance;
+		NullCheck(L_20);
+		bool L_21 = L_20->___puzzleAtivo;
+		G_B12_0 = ((int32_t)(L_21));
+		goto IL_00cf;
 	}
 
-IL_00c6:
+IL_00ce:
 	{
-		G_B11_0 = 0;
+		G_B12_0 = 0;
 	}
 
-IL_00c7:
+IL_00cf:
 	{
-		V_0 = (bool)G_B11_0;
+		V_0 = (bool)G_B12_0;
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/CdgSenha.cs:71>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_21 = __this->___painelCdg;
-		NullCheck(L_21);
-		bool L_22;
-		L_22 = GameObject_get_activeInHierarchy_m49250F4F168DCC5388D5BE4F6A5681386907B109(L_21, NULL);
-		if (!L_22)
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_22 = __this->___painelCdg;
+		NullCheck(L_22);
+		bool L_23;
+		L_23 = GameObject_get_activeInHierarchy_m49250F4F168DCC5388D5BE4F6A5681386907B109(L_22, NULL);
+		if (!L_23)
 		{
-			goto IL_00fc;
+			goto IL_0104;
 		}
 	}
 	{
@@ -13313,30 +13423,30 @@ IL_00c7:
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/CdgSenha.cs:74>
 		Cursor_set_lockState_mD81F6E5F3D86506FFB88567689A3A00A7AD242E9(0, NULL);
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/CdgSenha.cs:75>
-		FirstPersonLook_tFFEABF55DC99B2EC1D6B5DAEE9864E5815F6B93C* L_23 = __this->___look;
+		FirstPersonLook_tFFEABF55DC99B2EC1D6B5DAEE9864E5815F6B93C* L_24 = __this->___look;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_24;
-		L_24 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_23, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_24)
+		bool L_25;
+		L_25 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_24, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_25)
 		{
-			goto IL_0125;
+			goto IL_012d;
 		}
 	}
 	{
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/CdgSenha.cs:75>
-		FirstPersonLook_tFFEABF55DC99B2EC1D6B5DAEE9864E5815F6B93C* L_25 = __this->___look;
-		NullCheck(L_25);
-		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_25, (bool)0, NULL);
+		FirstPersonLook_tFFEABF55DC99B2EC1D6B5DAEE9864E5815F6B93C* L_26 = __this->___look;
+		NullCheck(L_26);
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_26, (bool)0, NULL);
 		return;
 	}
 
-IL_00fc:
+IL_0104:
 	{
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/CdgSenha.cs:77>
-		bool L_26 = V_0;
-		if (L_26)
+		bool L_27 = V_0;
+		if (L_27)
 		{
-			goto IL_0125;
+			goto IL_012d;
 		}
 	}
 	{
@@ -13345,25 +13455,25 @@ IL_00fc:
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/CdgSenha.cs:80>
 		Cursor_set_lockState_mD81F6E5F3D86506FFB88567689A3A00A7AD242E9(1, NULL);
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/CdgSenha.cs:81>
-		FirstPersonLook_tFFEABF55DC99B2EC1D6B5DAEE9864E5815F6B93C* L_27 = __this->___look;
+		FirstPersonLook_tFFEABF55DC99B2EC1D6B5DAEE9864E5815F6B93C* L_28 = __this->___look;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_28;
-		L_28 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_27, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_28)
+		bool L_29;
+		L_29 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_28, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_29)
 		{
-			goto IL_0125;
+			goto IL_012d;
 		}
 	}
 	{
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/CdgSenha.cs:81>
-		FirstPersonLook_tFFEABF55DC99B2EC1D6B5DAEE9864E5815F6B93C* L_29 = __this->___look;
-		NullCheck(L_29);
-		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_29, (bool)1, NULL);
+		FirstPersonLook_tFFEABF55DC99B2EC1D6B5DAEE9864E5815F6B93C* L_30 = __this->___look;
+		NullCheck(L_30);
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_30, (bool)1, NULL);
 	}
 
-IL_0125:
+IL_012d:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/CdgSenha.cs:85>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/CdgSenha.cs:84>
 		return;
 	}
 }
@@ -13384,19 +13494,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CdgSenha_OnTriggerEnter_m08F238E2CF2CC2C
 		L_1 = Component_CompareTag_mE6F8897E84F12DF12D302FFC4D58204D51096FC5(L_0, _stringLiteralCAF8804297181FF007CA835529DD4477CFD94A70, NULL);
 		if (!L_1)
 		{
-			goto IL_0020;
+			goto IL_0028;
+		}
+	}
+	{
+		bool L_2 = __this->___senhaResolvida;
+		if (L_2)
+		{
+			goto IL_0028;
 		}
 	}
 	{
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/CdgSenha.cs:92>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___eInteragir;
-		NullCheck(L_2);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)1, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___eInteragir;
+		NullCheck(L_3);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)1, NULL);
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/CdgSenha.cs:93>
 		__this->___emAlcance = (bool)1;
 	}
 
-IL_0020:
+IL_0028:
 	{
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/CdgSenha.cs:95>
 		return;
@@ -15811,70 +15928,70 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void painelManager_Awake_m5185CE3A7706B222D29
 	}
 	PlayerInput_t5155B6508FE1937D9B2380CBA545FABE36A6F81F* V_0 = NULL;
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:58>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:59>
 		((painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435_StaticFields*)il2cpp_codegen_static_fields_for(painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435_il2cpp_TypeInfo_var))->___instance = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&((painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435_StaticFields*)il2cpp_codegen_static_fields_for(painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435_il2cpp_TypeInfo_var))->___instance), (void*)__this);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:60>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:61>
 		Int32U5BU2CU5D_t46F2694E7DAD7B2B05C940EC5B9DE04E40D0516F* L_0 = __this->___matrizGabarito;
 		NullCheck((RuntimeArray*)L_0);
 		int32_t L_1;
 		L_1 = Array_GetLength_mFE7A9FE891DE1E07795230BE09854441CDD0E935((RuntimeArray*)L_0, 0, NULL);
 		__this->___totalLinhas = L_1;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:61>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:62>
 		Int32U5BU2CU5D_t46F2694E7DAD7B2B05C940EC5B9DE04E40D0516F* L_2 = __this->___matrizGabarito;
 		NullCheck((RuntimeArray*)L_2);
 		int32_t L_3;
 		L_3 = Array_GetLength_mFE7A9FE891DE1E07795230BE09854441CDD0E935((RuntimeArray*)L_2, 1, NULL);
 		__this->___totalColunas = L_3;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:62>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:63>
 		int32_t L_4 = __this->___totalLinhas;
 		int32_t L_5 = __this->___totalColunas;
 		il2cpp_array_size_t L_7[] = { (il2cpp_array_size_t)L_4, (il2cpp_array_size_t)L_5 };
 		Int32U5BU2CU5D_t46F2694E7DAD7B2B05C940EC5B9DE04E40D0516F* L_6 = (Int32U5BU2CU5D_t46F2694E7DAD7B2B05C940EC5B9DE04E40D0516F*)GenArrayNew(Int32U5BU2CU5D_t46F2694E7DAD7B2B05C940EC5B9DE04E40D0516F_il2cpp_TypeInfo_var, L_7);
 		__this->___matrizAtual = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___matrizAtual), (void*)L_6);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:65>
-		InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* L_8 = __this->___inputActionsAsset;
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:66>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_9;
-		L_9 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_8, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_9)
+		PlayerInput_t5155B6508FE1937D9B2380CBA545FABE36A6F81F* L_8;
+		L_8 = Object_FindFirstObjectByType_TisPlayerInput_t5155B6508FE1937D9B2380CBA545FABE36A6F81F_mBA59305FB805C0FB444993EC3CEC021A9A410B18(Object_FindFirstObjectByType_TisPlayerInput_t5155B6508FE1937D9B2380CBA545FABE36A6F81F_mBA59305FB805C0FB444993EC3CEC021A9A410B18_RuntimeMethod_var);
+		V_0 = L_8;
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:68>
+		InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* L_9 = __this->___inputActionsAsset;
+		bool L_10;
+		L_10 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_9, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_10)
 		{
-			goto IL_007e;
+			goto IL_0085;
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:67>
-		InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* L_10 = __this->___inputActionsAsset;
-		NullCheck(L_10);
-		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_11;
-		L_11 = InputActionAsset_FindAction_m50D07EAFAA8628B9793E7BBEEB2E89C2A9C45C00(L_10, _stringLiteralE2BDA750F51646D027D85E464AE2F5D327B7532B, (bool)0, NULL);
-		__this->___acaoInteractMouse = L_11;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___acaoInteractMouse), (void*)L_11);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:68>
-		InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* L_12 = __this->___inputActionsAsset;
-		NullCheck(L_12);
-		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_13;
-		L_13 = InputActionAsset_FindAction_m50D07EAFAA8628B9793E7BBEEB2E89C2A9C45C00(L_12, _stringLiteral16633B59D0EAB2620654C18BD407DC660EEB6149, (bool)0, NULL);
-		__this->___acaoSairPuzzle = L_13;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___acaoSairPuzzle), (void*)L_13);
-		return;
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:70>
+		InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* L_11 = __this->___inputActionsAsset;
+		NullCheck(L_11);
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_12;
+		L_12 = InputActionAsset_FindAction_m50D07EAFAA8628B9793E7BBEEB2E89C2A9C45C00(L_11, _stringLiteralE2BDA750F51646D027D85E464AE2F5D327B7532B, (bool)0, NULL);
+		__this->___acaoInteractMouse = L_12;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___acaoInteractMouse), (void*)L_12);
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:71>
+		InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* L_13 = __this->___inputActionsAsset;
+		NullCheck(L_13);
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_14;
+		L_14 = InputActionAsset_FindAction_m50D07EAFAA8628B9793E7BBEEB2E89C2A9C45C00(L_13, _stringLiteral16633B59D0EAB2620654C18BD407DC660EEB6149, (bool)0, NULL);
+		__this->___acaoSairPuzzle = L_14;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___acaoSairPuzzle), (void*)L_14);
+		goto IL_00bc;
 	}
 
-IL_007e:
+IL_0085:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:72>
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		PlayerInput_t5155B6508FE1937D9B2380CBA545FABE36A6F81F* L_14;
-		L_14 = Object_FindFirstObjectByType_TisPlayerInput_t5155B6508FE1937D9B2380CBA545FABE36A6F81F_mBA59305FB805C0FB444993EC3CEC021A9A410B18(Object_FindFirstObjectByType_TisPlayerInput_t5155B6508FE1937D9B2380CBA545FABE36A6F81F_mBA59305FB805C0FB444993EC3CEC021A9A410B18_RuntimeMethod_var);
-		V_0 = L_14;
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:73>
 		PlayerInput_t5155B6508FE1937D9B2380CBA545FABE36A6F81F* L_15 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_16;
 		L_16 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_15, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 		if (!L_16)
 		{
-			goto IL_00bb;
+			goto IL_00bc;
 		}
 	}
 	{
@@ -15900,61 +16017,314 @@ IL_007e:
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___acaoSairPuzzle), (void*)L_22);
 	}
 
-IL_00bb:
+IL_00bc:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:79>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:80>
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_23 = __this->___acaoInteractMouse;
+		if (!L_23)
+		{
+			goto IL_00cf;
+		}
+	}
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:80>
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_24 = __this->___acaoInteractMouse;
+		NullCheck(L_24);
+		InputAction_Enable_mB3897C0741409C033656E4566EC49135C3C8BC68(L_24, NULL);
+	}
+
+IL_00cf:
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:81>
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_25 = __this->___acaoSairPuzzle;
+		if (!L_25)
+		{
+			goto IL_00e2;
+		}
+	}
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:81>
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_26 = __this->___acaoSairPuzzle;
+		NullCheck(L_26);
+		InputAction_Enable_mB3897C0741409C033656E4566EC49135C3C8BC68(L_26, NULL);
+	}
+
+IL_00e2:
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:82>
 		return;
 	}
 }
 // Method Definition Index: 82202
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void painelManager_Start_mAF59DA87AFD7029409A1A9CD1CBDB5E3C398EF9E (painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void painelManager_Update_m0085B5F17B9F6265BBA536FD691A88F4A978C249 (painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:83>
-		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0;
-		L_0 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
-		__this->___mainCam = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___mainCam), (void*)L_0);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:84>
-		painelManager_ResetarMatrizLimpa_m2BBC977C81A206EDC7388175E260116F3A461D7B(__this, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:85>
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Touchscreen_t5A3B494C10A53A822AEDB3508093860D142D84CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t G_B10_0 = 0;
+	int32_t G_B20_0 = 0;
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:86>
+		bool L_0 = __this->___puzzleAtivo;
+		if (L_0)
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:86>
+		return;
+	}
+
+IL_0009:
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:89>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:90>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:91>
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_1 = __this->___acaoSairPuzzle;
+		if (!L_1)
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_2 = __this->___acaoSairPuzzle;
+		NullCheck(L_2);
+		bool L_3;
+		L_3 = InputAction_WasPressedThisFrame_m9D3F0284EB46EEB7F720DCC96BBDF027C9B6A75F(L_2, NULL);
+		if (L_3)
+		{
+			goto IL_0051;
+		}
+	}
+
+IL_001e:
+	{
+		Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* L_4;
+		L_4 = Keyboard_get_current_mDE773B54C9975CEFEAA469AD091C49E150A3FEC3_inline(NULL);
+		if (!L_4)
+		{
+			goto IL_0036;
+		}
+	}
+	{
+		Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* L_5;
+		L_5 = Keyboard_get_current_mDE773B54C9975CEFEAA469AD091C49E150A3FEC3_inline(NULL);
+		NullCheck(L_5);
+		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_6;
+		L_6 = Keyboard_get_escapeKey_mA4371467E72AA14713681C30A9B3AC41F3C9D707(L_5, NULL);
+		NullCheck(L_6);
+		bool L_7;
+		L_7 = ButtonControl_get_wasPressedThisFrame_m6ED1DB185035A406B0659A055C3096A5058DBD5B(L_6, NULL);
+		if (L_7)
+		{
+			goto IL_0051;
+		}
+	}
+
+IL_0036:
+	{
+		Mouse_t9A9CC4636FA9CDBAD7FB7A02DB0D6395EDCC338F* L_8;
+		L_8 = Mouse_get_current_m410C1F9ABC5AA77353574E8815F7E63289707986_inline(NULL);
+		if (!L_8)
+		{
+			goto IL_004e;
+		}
+	}
+	{
+		Mouse_t9A9CC4636FA9CDBAD7FB7A02DB0D6395EDCC338F* L_9;
+		L_9 = Mouse_get_current_m410C1F9ABC5AA77353574E8815F7E63289707986_inline(NULL);
+		NullCheck(L_9);
+		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_10;
+		L_10 = Mouse_get_rightButton_mFA0FD700624C0DE1B858F9516426414767F09D98_inline(L_9, NULL);
+		NullCheck(L_10);
+		bool L_11;
+		L_11 = ButtonControl_get_wasPressedThisFrame_m6ED1DB185035A406B0659A055C3096A5058DBD5B(L_10, NULL);
+		G_B10_0 = ((int32_t)(L_11));
+		goto IL_0052;
+	}
+
+IL_004e:
+	{
+		G_B10_0 = 0;
+		goto IL_0052;
+	}
+
+IL_0051:
+	{
+		G_B10_0 = 1;
+	}
+
+IL_0052:
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:93>
+		if (!G_B10_0)
+		{
+			goto IL_005b;
+		}
+	}
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:95>
+		painelManager_FecharPuzzle_m58A548E6F63B638719F44924F29F9312D7D63B77(__this, NULL);
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:96>
+		return;
+	}
+
+IL_005b:
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:100>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:101>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:102>
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_12 = __this->___acaoInteractMouse;
+		if (!L_12)
+		{
+			goto IL_0070;
+		}
+	}
+	{
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_13 = __this->___acaoInteractMouse;
+		NullCheck(L_13);
+		bool L_14;
+		L_14 = InputAction_WasPressedThisFrame_m9D3F0284EB46EEB7F720DCC96BBDF027C9B6A75F(L_13, NULL);
+		if (L_14)
+		{
+			goto IL_00a8;
+		}
+	}
+
+IL_0070:
+	{
+		Mouse_t9A9CC4636FA9CDBAD7FB7A02DB0D6395EDCC338F* L_15;
+		L_15 = Mouse_get_current_m410C1F9ABC5AA77353574E8815F7E63289707986_inline(NULL);
+		if (!L_15)
+		{
+			goto IL_0088;
+		}
+	}
+	{
+		Mouse_t9A9CC4636FA9CDBAD7FB7A02DB0D6395EDCC338F* L_16;
+		L_16 = Mouse_get_current_m410C1F9ABC5AA77353574E8815F7E63289707986_inline(NULL);
+		NullCheck(L_16);
+		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_17;
+		L_17 = Mouse_get_leftButton_m1015BCBE6BE30B1D1D2702736A4E64120F6B5DFB_inline(L_16, NULL);
+		NullCheck(L_17);
+		bool L_18;
+		L_18 = ButtonControl_get_wasPressedThisFrame_m6ED1DB185035A406B0659A055C3096A5058DBD5B(L_17, NULL);
+		if (L_18)
+		{
+			goto IL_00a8;
+		}
+	}
+
+IL_0088:
+	{
+		il2cpp_codegen_runtime_class_init_inline(Touchscreen_t5A3B494C10A53A822AEDB3508093860D142D84CE_il2cpp_TypeInfo_var);
+		Touchscreen_t5A3B494C10A53A822AEDB3508093860D142D84CE* L_19;
+		L_19 = Touchscreen_get_current_m6D9CD2446B30224D18E695DF0ECC3A00E4F7B708_inline(NULL);
+		if (!L_19)
+		{
+			goto IL_00a5;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Touchscreen_t5A3B494C10A53A822AEDB3508093860D142D84CE_il2cpp_TypeInfo_var);
+		Touchscreen_t5A3B494C10A53A822AEDB3508093860D142D84CE* L_20;
+		L_20 = Touchscreen_get_current_m6D9CD2446B30224D18E695DF0ECC3A00E4F7B708_inline(NULL);
+		NullCheck(L_20);
+		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_21;
+		L_21 = Touchscreen_get_primaryTouch_mABAC4C0F1DBA6A718B83682A91DF40FD3563F413_inline(L_20, NULL);
+		NullCheck(L_21);
+		TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* L_22;
+		L_22 = TouchControl_get_press_mFE6656905CFF085E99AE78F24FF71C0CA5DC5E81_inline(L_21, NULL);
+		NullCheck(L_22);
+		bool L_23;
+		L_23 = ButtonControl_get_wasPressedThisFrame_m6ED1DB185035A406B0659A055C3096A5058DBD5B(L_22, NULL);
+		G_B20_0 = ((int32_t)(L_23));
+		goto IL_00a9;
+	}
+
+IL_00a5:
+	{
+		G_B20_0 = 0;
+		goto IL_00a9;
+	}
+
+IL_00a8:
+	{
+		G_B20_0 = 1;
+	}
+
+IL_00a9:
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:104>
+		if (!G_B20_0)
+		{
+			goto IL_00b1;
+		}
+	}
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:106>
+		painelManager_ProcessarCliqueOuToque_mF82DF1ECBD9ABC37AAB48EF8E4A752589CED76DA(__this, NULL);
+	}
+
+IL_00b1:
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:108>
 		return;
 	}
 }
 // Method Definition Index: 82203
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void painelManager_Start_mAF59DA87AFD7029409A1A9CD1CBDB5E3C398EF9E (painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:112>
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0;
+		L_0 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
+		__this->___mainCam = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___mainCam), (void*)L_0);
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:113>
+		painelManager_ResetarMatrizLimpa_m2BBC977C81A206EDC7388175E260116F3A461D7B(__this, NULL);
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:114>
+		return;
+	}
+}
+// Method Definition Index: 82204
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void painelManager_ResetarMatrizLimpa_m2BBC977C81A206EDC7388175E260116F3A461D7B (painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:89>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:118>
 		V_0 = 0;
 		goto IL_0027;
 	}
 
 IL_0004:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:91>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:120>
 		V_1 = 0;
 		goto IL_001a;
 	}
 
 IL_0008:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:93>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:122>
 		Int32U5BU2CU5D_t46F2694E7DAD7B2B05C940EC5B9DE04E40D0516F* L_0 = __this->___matrizAtual;
 		int32_t L_1 = V_0;
 		int32_t L_2 = V_1;
 		NullCheck(L_0);
 		(L_0)->SetAt(L_1, L_2, (-1));
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:91>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:120>
 		int32_t L_3 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_3, 1));
 	}
 
 IL_001a:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:91>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:120>
 		int32_t L_4 = V_1;
 		int32_t L_5 = __this->___totalColunas;
 		if ((((int32_t)L_4) < ((int32_t)L_5)))
@@ -15963,14 +16333,14 @@ IL_001a:
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:89>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:118>
 		int32_t L_6 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_6, 1));
 	}
 
 IL_0027:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:89>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:118>
 		int32_t L_7 = V_0;
 		int32_t L_8 = __this->___totalLinhas;
 		if ((((int32_t)L_7) < ((int32_t)L_8)))
@@ -15979,11 +16349,11 @@ IL_0027:
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:96>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:125>
 		return;
 	}
 }
-// Method Definition Index: 82204
+// Method Definition Index: 82205
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void painelManager_AbrirPuzzle_mCB7D6B1A20B6ADE8051BC32D1725E8FA9B3C1BDC (painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15995,9 +16365,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void painelManager_AbrirPuzzle_mCB7D6B1A20B6A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:100>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:129>
 		__this->___puzzleAtivo = (bool)1;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:101>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:130>
 		FirstPersonLook_tFFEABF55DC99B2EC1D6B5DAEE9864E5815F6B93C* L_0 = __this->___look;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -16008,7 +16378,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void painelManager_AbrirPuzzle_mCB7D6B1A20B6A
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:101>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:130>
 		FirstPersonLook_tFFEABF55DC99B2EC1D6B5DAEE9864E5815F6B93C* L_2 = __this->___look;
 		NullCheck(L_2);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_2, (bool)0, NULL);
@@ -16016,7 +16386,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void painelManager_AbrirPuzzle_mCB7D6B1A20B6A
 
 IL_0021:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:103>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:132>
 		GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* L_3 = ((GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_StaticFields*)il2cpp_codegen_static_fields_for(GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_il2cpp_TypeInfo_var))->___instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_4;
@@ -16027,7 +16397,7 @@ IL_0021:
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:104>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:133>
 		GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* L_5 = ((GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_StaticFields*)il2cpp_codegen_static_fields_for(GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_5);
 		GerentUI_SetPawCursor_m9A66671706FA7B30C3290D0046DEBAFB8169F688(L_5, (bool)0, NULL);
@@ -16035,11 +16405,11 @@ IL_0021:
 
 IL_0039:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:106>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:135>
 		Cursor_set_lockState_mD81F6E5F3D86506FFB88567689A3A00A7AD242E9(0, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:107>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:136>
 		Cursor_set_visible_m612FCB2E86C15F91CE2E6148D1B556667954A2B7((bool)1, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:109>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:138>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = __this->___cartaNaParede;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_7;
@@ -16084,7 +16454,7 @@ IL_0039:
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:111>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:140>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16 = __this->___cartaNaParede;
 		NullCheck(L_16);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_16, (bool)1, NULL);
@@ -16092,11 +16462,11 @@ IL_0039:
 
 IL_0093:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:113>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:142>
 		return;
 	}
 }
-// Method Definition Index: 82205
+// Method Definition Index: 82206
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void painelManager_FecharPuzzle_m58A548E6F63B638719F44924F29F9312D7D63B77 (painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16106,9 +16476,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void painelManager_FecharPuzzle_m58A548E6F63B
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:117>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:146>
 		__this->___puzzleAtivo = (bool)0;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:118>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:147>
 		FirstPersonLook_tFFEABF55DC99B2EC1D6B5DAEE9864E5815F6B93C* L_0 = __this->___look;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -16119,7 +16489,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void painelManager_FecharPuzzle_m58A548E6F63B
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:118>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:147>
 		FirstPersonLook_tFFEABF55DC99B2EC1D6B5DAEE9864E5815F6B93C* L_2 = __this->___look;
 		NullCheck(L_2);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_2, (bool)1, NULL);
@@ -16127,83 +16497,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void painelManager_FecharPuzzle_m58A548E6F63B
 
 IL_0021:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:120>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:149>
 		Cursor_set_lockState_mD81F6E5F3D86506FFB88567689A3A00A7AD242E9(1, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:121>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:150>
 		Cursor_set_visible_m612FCB2E86C15F91CE2E6148D1B556667954A2B7((bool)0, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:122>
-		return;
-	}
-}
-// Method Definition Index: 82206
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void painelManager_Update_m0085B5F17B9F6265BBA536FD691A88F4A978C249 (painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435* __this, const RuntimeMethod* method) 
-{
-	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:126>
-		bool L_0 = __this->___puzzleAtivo;
-		if (L_0)
-		{
-			goto IL_0009;
-		}
-	}
-	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:126>
-		return;
-	}
-
-IL_0009:
-	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:129>
-		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_1 = __this->___acaoSairPuzzle;
-		if (!L_1)
-		{
-			goto IL_0025;
-		}
-	}
-	{
-		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_2 = __this->___acaoSairPuzzle;
-		NullCheck(L_2);
-		bool L_3;
-		L_3 = InputAction_WasPressedThisFrame_m9D3F0284EB46EEB7F720DCC96BBDF027C9B6A75F(L_2, NULL);
-		if (!L_3)
-		{
-			goto IL_0025;
-		}
-	}
-	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:131>
-		painelManager_FecharPuzzle_m58A548E6F63B638719F44924F29F9312D7D63B77(__this, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:132>
-		return;
-	}
-
-IL_0025:
-	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:136>
-		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_4 = __this->___acaoInteractMouse;
-		if (!L_4)
-		{
-			goto IL_0040;
-		}
-	}
-	{
-		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_5 = __this->___acaoInteractMouse;
-		NullCheck(L_5);
-		bool L_6;
-		L_6 = InputAction_WasPressedThisFrame_m9D3F0284EB46EEB7F720DCC96BBDF027C9B6A75F(L_5, NULL);
-		if (!L_6)
-		{
-			goto IL_0040;
-		}
-	}
-	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:138>
-		painelManager_ProcessarCliqueOuToque_mF82DF1ECBD9ABC37AAB48EF8E4A752589CED76DA(__this, NULL);
-	}
-
-IL_0040:
-	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:140>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:151>
 		return;
 	}
 }
@@ -16236,11 +16534,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void painelManager_ProcessarCliqueOuToque_mF8
 	int32_t V_5 = 0;
 	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* V_6 = NULL;
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:144>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:156>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0;
 		L_0 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
 		V_0 = L_0;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:147>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:159>
 		il2cpp_codegen_runtime_class_init_inline(Touchscreen_t5A3B494C10A53A822AEDB3508093860D142D84CE_il2cpp_TypeInfo_var);
 		Touchscreen_t5A3B494C10A53A822AEDB3508093860D142D84CE* L_1;
 		L_1 = Touchscreen_get_current_m6D9CD2446B30224D18E695DF0ECC3A00E4F7B708_inline(NULL);
@@ -16268,7 +16566,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void painelManager_ProcessarCliqueOuToque_mF8
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:149>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:161>
 		il2cpp_codegen_runtime_class_init_inline(Touchscreen_t5A3B494C10A53A822AEDB3508093860D142D84CE_il2cpp_TypeInfo_var);
 		Touchscreen_t5A3B494C10A53A822AEDB3508093860D142D84CE* L_6;
 		L_6 = Touchscreen_get_current_m6D9CD2446B30224D18E695DF0ECC3A00E4F7B708_inline(NULL);
@@ -16287,7 +16585,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void painelManager_ProcessarCliqueOuToque_mF8
 
 IL_003a:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:151>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:163>
 		Pointer_t800EF2832B62E889AC9C182E3B18098AF220E32A* L_10;
 		L_10 = Pointer_get_current_m207443803344C305DEAAEBA56C445980D6C22CB3_inline(NULL);
 		if (!L_10)
@@ -16296,7 +16594,7 @@ IL_003a:
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:153>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:165>
 		Pointer_t800EF2832B62E889AC9C182E3B18098AF220E32A* L_11;
 		L_11 = Pointer_get_current_m207443803344C305DEAAEBA56C445980D6C22CB3_inline(NULL);
 		NullCheck(L_11);
@@ -16310,7 +16608,7 @@ IL_003a:
 
 IL_0051:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:156>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:168>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_14 = __this->___mainCam;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_15 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16;
@@ -16318,7 +16616,7 @@ IL_0051:
 		NullCheck(L_14);
 		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 L_17;
 		L_17 = Camera_ScreenPointToRay_m2887B9A49880B7AB670C57D66B67D6A6689FE315(L_14, L_16, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:159>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:171>
 		il2cpp_codegen_runtime_class_init_inline(Physics_t1244C2983AEAFA149425AFFC3DF53BC91C18ED56_il2cpp_TypeInfo_var);
 		bool L_18;
 		L_18 = Physics_Raycast_m839BA104A76B928A03F075C622923C6FCD2F8685(L_17, (&V_1), (10.0f), NULL);
@@ -16328,20 +16626,20 @@ IL_0051:
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:161>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:173>
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_19;
 		L_19 = RaycastHit_get_collider_m84B160439BBEAB6D9E94B799F720E25C9E2D444D((&V_1), NULL);
 		NullCheck(L_19);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_20;
 		L_20 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_19, NULL);
 		V_2 = L_20;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:164>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:176>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_21 = V_2;
 		NullCheck(L_21);
 		BotaoCor_tCCE7E3B7321F92E9B3E054A0D734C2691F6B72C9* L_22;
 		L_22 = GameObject_GetComponent_TisBotaoCor_tCCE7E3B7321F92E9B3E054A0D734C2691F6B72C9_mC6F4BF7FE6DB28F7E5F1FC4363842E8CAEE61DC4(L_21, GameObject_GetComponent_TisBotaoCor_tCCE7E3B7321F92E9B3E054A0D734C2691F6B72C9_mC6F4BF7FE6DB28F7E5F1FC4363842E8CAEE61DC4_RuntimeMethod_var);
 		V_3 = L_22;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:165>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:177>
 		BotaoCor_tCCE7E3B7321F92E9B3E054A0D734C2691F6B72C9* L_23 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_24;
@@ -16352,13 +16650,13 @@ IL_0051:
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:167>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:179>
 		BotaoCor_tCCE7E3B7321F92E9B3E054A0D734C2691F6B72C9* L_25 = V_3;
 		NullCheck(L_25);
 		int32_t L_26;
 		L_26 = BotaoCor_get_CorId_m0425A2D3BF2DFA7540A562FF7EEBD326477998EC_inline(L_25, NULL);
 		painelManager_SelecionarCor_m8EB7932031332778BA5E867F2E6913C71DA2D98A(__this, L_26, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:168>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:180>
 		EventReference_tA4CA1F882DC447E6B50F989D1FC08F065C91FB51* L_27 = (EventReference_tA4CA1F882DC447E6B50F989D1FC08F065C91FB51*)(&__this->___somBotao);
 		bool L_28;
 		L_28 = EventReference_get_IsNull_m5EE7DC533D829CE452CEAA0234A817BDE4B989BB(L_27, NULL);
@@ -16368,7 +16666,7 @@ IL_0051:
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:168>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:180>
 		EventReference_tA4CA1F882DC447E6B50F989D1FC08F065C91FB51 L_29 = __this->___somBotao;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_30;
 		L_30 = RaycastHit_get_point_m02B764612562AFE0F998CC7CFB2EEDE41BA47F39((&V_1), NULL);
@@ -16378,13 +16676,13 @@ IL_0051:
 
 IL_00bb:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:169>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:181>
 		return;
 	}
 
 IL_00bc:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:173>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:185>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_31 = V_2;
 		NullCheck(L_31);
 		String_t* L_32;
@@ -16426,7 +16724,7 @@ IL_00bc:
 
 IL_00f2:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:175>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:187>
 		int32_t L_40 = __this->___corSelecionada;
 		if ((!(((uint32_t)L_40) == ((uint32_t)(-1)))))
 		{
@@ -16434,20 +16732,20 @@ IL_00f2:
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:177>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:189>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralC5D7C3F964FD0CD450828C4C152924CDEF46A689, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:178>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:190>
 		return;
 	}
 
 IL_0106:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:181>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:193>
 		V_4 = 0;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:182>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:194>
 		V_5 = 0;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:184>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:196>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_41 = V_2;
 		NullCheck(L_41);
 		String_t* L_42;
@@ -16456,7 +16754,7 @@ IL_0106:
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_43;
 		L_43 = String_Split_m9530B73D02054692283BF35C3A27C8F2230946F4(L_42, ((int32_t)32), 0, NULL);
 		V_6 = L_43;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:186>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:198>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_44 = V_6;
 		NullCheck(L_44);
 		if ((((int32_t)((int32_t)(((RuntimeArray*)L_44)->max_length))) < ((int32_t)2)))
@@ -16465,14 +16763,14 @@ IL_0106:
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:188>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:200>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_45 = V_6;
 		NullCheck(L_45);
 		int32_t L_46 = 1;
 		String_t* L_47 = (L_45)->GetAt(static_cast<il2cpp_array_size_t>(L_46));
 		bool L_48;
 		L_48 = Int32_TryParse_mC928DE2FEC1C35ED5298BDDCA9868076E94B8A21(L_47, (&V_4), NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:189>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:201>
 		int32_t L_49 = V_4;
 		int32_t L_50;
 		L_50 = Mathf_Max_m7FA442918DE37E3A00106D1F2E789D65829792B8_inline(0, ((int32_t)il2cpp_codegen_subtract(L_49, 1)), NULL);
@@ -16481,7 +16779,7 @@ IL_0106:
 
 IL_013b:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:192>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:204>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_51 = V_6;
 		NullCheck(L_51);
 		if ((((int32_t)((int32_t)(((RuntimeArray*)L_51)->max_length))) < ((int32_t)3)))
@@ -16490,14 +16788,14 @@ IL_013b:
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:194>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:206>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_52 = V_6;
 		NullCheck(L_52);
 		int32_t L_53 = 2;
 		String_t* L_54 = (L_52)->GetAt(static_cast<il2cpp_array_size_t>(L_53));
 		bool L_55;
 		L_55 = Int32_TryParse_mC928DE2FEC1C35ED5298BDDCA9868076E94B8A21(L_54, (&V_5), NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:195>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:207>
 		int32_t L_56 = V_5;
 		int32_t L_57;
 		L_57 = Mathf_Max_m7FA442918DE37E3A00106D1F2E789D65829792B8_inline(0, ((int32_t)il2cpp_codegen_subtract(L_56, 1)), NULL);
@@ -16506,7 +16804,7 @@ IL_013b:
 
 IL_015a:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:198>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:210>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_58 = V_2;
 		int32_t L_59 = V_4;
 		int32_t L_60 = V_5;
@@ -16515,7 +16813,7 @@ IL_015a:
 
 IL_0165:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:201>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:213>
 		return;
 	}
 }
@@ -16530,17 +16828,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void painelManager_SelecionarCor_m8EB79320313
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:205>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:217>
 		int32_t L_0 = ___0_idCor;
 		__this->___corSelecionada = L_0;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:206>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:218>
 		String_t* L_1;
 		L_1 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&___0_idCor), NULL);
 		String_t* L_2;
 		L_2 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral38D7B1F87A2A9042DFA223F7ADE513758363292F, L_1, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_2, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:207>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:219>
 		return;
 	}
 }
@@ -16557,32 +16855,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void painelManager_PintarBolinha_m69E9B215725
 	}
 	MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* V_0 = NULL;
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:211>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:223>
 		int32_t L_0 = ___1_linha;
 		int32_t L_1 = __this->___totalLinhas;
 		int32_t L_2;
 		L_2 = Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline(L_0, 0, ((int32_t)il2cpp_codegen_subtract(L_1, 1)), NULL);
 		___1_linha = L_2;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:212>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:224>
 		int32_t L_3 = ___2_coluna;
 		int32_t L_4 = __this->___totalColunas;
 		int32_t L_5;
 		L_5 = Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline(L_3, 0, ((int32_t)il2cpp_codegen_subtract(L_4, 1)), NULL);
 		___2_coluna = L_5;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:214>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:226>
 		Int32U5BU2CU5D_t46F2694E7DAD7B2B05C940EC5B9DE04E40D0516F* L_6 = __this->___matrizAtual;
 		int32_t L_7 = ___1_linha;
 		int32_t L_8 = ___2_coluna;
 		int32_t L_9 = __this->___corSelecionada;
 		NullCheck(L_6);
 		(L_6)->SetAt(L_7, L_8, L_9);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:216>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:228>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = ___0_objetoBolinha;
 		NullCheck(L_10);
 		MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* L_11;
 		L_11 = GameObject_GetComponent_TisMeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_m7FF948365C38BC39333D82B235A7C4EAD219960D(L_10, GameObject_GetComponent_TisMeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_m7FF948365C38BC39333D82B235A7C4EAD219960D_RuntimeMethod_var);
 		V_0 = L_11;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:217>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:229>
 		MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* L_12 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_13;
@@ -16609,7 +16907,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void painelManager_PintarBolinha_m69E9B215725
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:219>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:231>
 		MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* L_17 = V_0;
 		MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* L_18 = __this->___materiaisCores;
 		int32_t L_19 = __this->___corSelecionada;
@@ -16618,7 +16916,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void painelManager_PintarBolinha_m69E9B215725
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_21 = (L_18)->GetAt(static_cast<il2cpp_array_size_t>(L_20));
 		NullCheck(L_17);
 		Renderer_set_material_m21E88977071E0A914D62F3D9CFF0193B3117C45A(L_17, L_21, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:220>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:232>
 		EventReference_tA4CA1F882DC447E6B50F989D1FC08F065C91FB51* L_22 = (EventReference_tA4CA1F882DC447E6B50F989D1FC08F065C91FB51*)(&__this->___somBolinha);
 		bool L_23;
 		L_23 = EventReference_get_IsNull_m5EE7DC533D829CE452CEAA0234A817BDE4B989BB(L_22, NULL);
@@ -16628,7 +16926,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void painelManager_PintarBolinha_m69E9B215725
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:220>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:232>
 		EventReference_tA4CA1F882DC447E6B50F989D1FC08F065C91FB51 L_24 = __this->___somBolinha;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_25 = ___0_objetoBolinha;
 		NullCheck(L_25);
@@ -16643,9 +16941,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void painelManager_PintarBolinha_m69E9B215725
 
 IL_0094:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:223>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:235>
 		painelManager_VerificarVitoria_mAC2017CB2C5EB6FB70D6EF286FE3964D6684A40D(__this, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:224>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:236>
 		return;
 	}
 }
@@ -16663,21 +16961,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void painelManager_VerificarVitoria_mAC2017CB
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:228>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:240>
 		V_0 = 0;
 		goto IL_0036;
 	}
 
 IL_0004:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:230>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:242>
 		V_1 = 0;
 		goto IL_0029;
 	}
 
 IL_0008:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:232>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:244>
 		Int32U5BU2CU5D_t46F2694E7DAD7B2B05C940EC5B9DE04E40D0516F* L_0 = __this->___matrizAtual;
 		int32_t L_1 = V_0;
 		int32_t L_2 = V_1;
@@ -16696,20 +16994,20 @@ IL_0008:
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:234>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:246>
 		return;
 	}
 
 IL_0025:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:230>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:242>
 		int32_t L_8 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_8, 1));
 	}
 
 IL_0029:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:230>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:242>
 		int32_t L_9 = V_1;
 		int32_t L_10 = __this->___totalColunas;
 		if ((((int32_t)L_9) < ((int32_t)L_10)))
@@ -16718,14 +17016,14 @@ IL_0029:
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:228>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:240>
 		int32_t L_11 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_11, 1));
 	}
 
 IL_0036:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:228>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:240>
 		int32_t L_12 = V_0;
 		int32_t L_13 = __this->___totalLinhas;
 		if ((((int32_t)L_12) < ((int32_t)L_13)))
@@ -16734,31 +17032,33 @@ IL_0036:
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:239>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:251>
+		__this->___puzzleConcluido = (bool)1;
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:253>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralF1EF1E22F83EAED9F17E5242A570179C21FD9314, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:240>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:254>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14 = __this->___fiosBloqueio;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_15;
 		L_15 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_14, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 		if (!L_15)
 		{
-			goto IL_0063;
+			goto IL_006a;
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:240>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:254>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16 = __this->___fiosBloqueio;
 		NullCheck(L_16);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_16, (bool)0, NULL);
 	}
 
-IL_0063:
+IL_006a:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:242>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:256>
 		painelManager_FecharPuzzle_m58A548E6F63B638719F44924F29F9312D7D63B77(__this, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:243>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:257>
 		return;
 	}
 }
@@ -16773,9 +17073,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void painelManager__ctor_mF1149E9603E36418944
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:13>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:14>
 		__this->___corSelecionada = (-1);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:42>
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:43>
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:44>
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:45>
@@ -16785,6 +17084,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void painelManager__ctor_mF1149E9603E36418944
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:49>
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:50>
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:51>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/painelManager.cs:52>
 		il2cpp_array_size_t L_1[] = { (il2cpp_array_size_t)8, (il2cpp_array_size_t)8 };
 		Int32U5BU2CU5D_t46F2694E7DAD7B2B05C940EC5B9DE04E40D0516F* L_0 = (Int32U5BU2CU5D_t46F2694E7DAD7B2B05C940EC5B9DE04E40D0516F*)GenArrayNew(Int32U5BU2CU5D_t46F2694E7DAD7B2B05C940EC5B9DE04E40D0516F_il2cpp_TypeInfo_var, L_1);
 		Int32U5BU2CU5D_t46F2694E7DAD7B2B05C940EC5B9DE04E40D0516F* L_2 = L_0;
@@ -19077,6 +19377,21 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* Vector3_ToString_m6C24B
 	{
 		String_t* L_0;
 		L_0 = Vector3_ToString_mA8DA39B6324392BB93203A4D4CB85AF87231CB62_inline(__this, (String_t*)NULL, (RuntimeObject*)NULL, NULL);
+		return L_0;
+	}
+}
+// Method Definition Index: 29322
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* Keyboard_get_current_mDE773B54C9975CEFEAA469AD091C49E150A3FEC3_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.inputsystem@57d0e36f6123/InputSystem/Devices/Keyboard.cs:2389>
+		Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* L_0 = ((Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43_StaticFields*)il2cpp_codegen_static_fields_for(Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43_il2cpp_TypeInfo_var))->___U3CcurrentU3Ek__BackingField;
 		return L_0;
 	}
 }

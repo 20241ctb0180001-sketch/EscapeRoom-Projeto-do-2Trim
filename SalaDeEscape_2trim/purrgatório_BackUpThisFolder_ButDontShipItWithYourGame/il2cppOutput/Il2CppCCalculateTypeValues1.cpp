@@ -48811,6 +48811,7 @@ struct inventarioBrinquedos_t2272C83340A92F136A9BC574CD12F6775135E4B3  : public 
 struct painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
 	bool ___puzzleAtivo;
+	bool ___puzzleConcluido;
 	int32_t ___corSelecionada;
 	MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* ___materiaisCores;
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___fiosBloqueio;
