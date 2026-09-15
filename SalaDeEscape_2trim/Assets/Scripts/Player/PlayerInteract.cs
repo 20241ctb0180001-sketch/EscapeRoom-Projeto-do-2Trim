@@ -98,6 +98,13 @@ public class PlayerInteract : MonoBehaviour
             PainelInteract painel = hit.collider.GetComponent<PainelInteract>();
             if (painel != null)
             {
+                // Se o puzzle das cores já foi terminado, ignora o destaque do cursor
+                if (painelManager.instance != null && painelManager.instance.puzzleConcluido)
+                {
+                    GerentUI.instance.SetPawCursor(false);
+                    return;
+                }
+
                 GerentUI.instance.SetPawCursor(true);
                 if (IM.WasPressedThisFrame())
                 {

@@ -59,7 +59,7 @@ public class CdgSenha : MonoBehaviour
             cdgValor = "";
         }
 
-        if (topacoEs.WasPressedThisFrame() && emAlcance == true)
+        if (topacoEs.WasPressedThisFrame() && emAlcance == true && !senhaResolvida)
         {
             painelCdg.SetActive(true);
         }
@@ -81,13 +81,13 @@ public class CdgSenha : MonoBehaviour
             if (look != null) look.enabled = true;
         }
 
-        //bob.SetBoxInteract(emAlcance);
     }
 
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
+        // Só ativa o aviso visual se a senha ainda NÃO tiver sido resolvida
+        if (other.CompareTag("Player") && !senhaResolvida)
         {
             eInteragir.SetActive(true);
             emAlcance = true;

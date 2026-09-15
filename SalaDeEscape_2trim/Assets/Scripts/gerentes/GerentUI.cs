@@ -37,12 +37,12 @@ public class GerentUI : MonoBehaviour
 
         if (SystemInfo.deviceType == DeviceType.Handheld)
         {
-            Debug.Log("O dispositivo é um Celular ou Tablet.");
+            //Debug.Log("O dispositivo é um Celular ou Tablet.");
             UICelular.SetActive(true);
         }
         else if (SystemInfo.deviceType == DeviceType.Desktop)
         {
-            Debug.Log("O dispositivo é um Computador.");
+            //Debug.Log("O dispositivo é um Computador.");
             UICelular.SetActive(false);
         }
     }
