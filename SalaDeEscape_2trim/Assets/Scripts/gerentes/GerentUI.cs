@@ -99,6 +99,12 @@ public class GerentUI : MonoBehaviour
             UICelular.SetActive(false);
         }
 
+        if (SystemInfo.deviceType == DeviceType.Desktop)
+        {
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+        }
+
         if (PauseMenu != null)
             PauseMenu.SetActive(true);
     }
@@ -110,6 +116,12 @@ public class GerentUI : MonoBehaviour
         inputAction.FindActionMap("UI").Disable();
         Pause = InputSystem.actions.FindAction("Pause");
         Time.timeScale = 1f;
+
+        if (SystemInfo.deviceType == DeviceType.Desktop)
+        {
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
+        }
 
         if (SystemInfo.deviceType == DeviceType.Handheld)
         {

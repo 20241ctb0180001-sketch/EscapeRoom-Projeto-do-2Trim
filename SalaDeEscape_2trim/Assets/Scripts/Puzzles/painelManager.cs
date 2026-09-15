@@ -146,8 +146,8 @@ public class painelManager : MonoBehaviour
         puzzleAtivo = false;
         if (look != null) look.enabled = true;
         
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        /*Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;*/
     }
     
 
