@@ -70,9 +70,18 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "InteractMouse",
+                    "name": "InteractMouseVe",
                     "type": "Button",
                     "id": "dc3b0af8-f1b9-4461-a5d2-8c75f8826fca",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Hold",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "InteractMouseSaiVe",
+                    "type": "Button",
+                    "id": "2bc4951e-2e9c-4dbe-be86-98a31981d7b8",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "Hold",
@@ -577,7 +586,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard&Mouse",
-                    "action": "InteractMouse",
+                    "action": "InteractMouseVe",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -588,7 +597,29 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Gamepad",
-                    "action": "InteractMouse",
+                    "action": "InteractMouseVe",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3b13c0f7-ffc8-4afe-a418-bda2d42a7d07",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "InteractMouseSaiVe",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b67f63ec-d6a5-4463-800e-3511b37e183b",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "InteractMouseSaiVe",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },

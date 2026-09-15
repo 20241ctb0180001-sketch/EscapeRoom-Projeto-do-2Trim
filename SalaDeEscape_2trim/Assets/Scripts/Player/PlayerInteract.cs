@@ -15,7 +15,8 @@ public class PlayerInteract : MonoBehaviour
     public UnityEvent OnView;
     public UnityEvent OnFinishView;
     public InputActionAsset inputAction;
-    private InputAction IM;
+    private InputAction IMinterage;
+    private InputAction IMsai;
     private InputAction RotateOb;
     private Interactables CurrInteractable;
     private bool estaaVer;
@@ -36,7 +37,8 @@ public class PlayerInteract : MonoBehaviour
     void Awake()
     {
         Mycam = Camera.main;
-        IM = InputSystem.actions.FindAction("InteractMouse");
+        IMinterage = InputSystem.actions.FindAction("InteractMouseVe");
+        IMsai = InputSystem.actions.FindAction("InteractMouseSaiVe");
         RotateOb = InputSystem.actions.FindAction("Look");
         inventory = GetComponent<PlayerInventory>();
         abrate = portinha.GetComponent<portaEscadaria>();
@@ -75,18 +77,9 @@ public class PlayerInteract : MonoBehaviour
             Vector3 targetPos = objViewer.position;
             CurrInteractable.transform.position = targetPos;
 
-            if (CurrInteractable.item.pegavel && Mouse.current.leftButton.isPressed)
-            {
-                if (look != null) look.enabled = false;
-                if (movement != null) movement.enabled = false;
-                RodaObj();
-            }
-            if (canFinish && Mouse.current.rightButton.isPressed)
-            {
-                FinishView();
-                if (look != null) look.enabled = true;
-                if (movement != null) movement.enabled = true;
-            }
+            //interag();
+            //saiInterag();
+
             return;
         }
 
@@ -106,7 +99,7 @@ public class PlayerInteract : MonoBehaviour
                 }
 
                 GerentUI.instance.SetPawCursor(true);
-                if (IM.WasPressedThisFrame())
+                if (IMinterage.WasPressedThisFrame())
                 {
                     painel.Interact();
                 }
@@ -118,7 +111,7 @@ public class PlayerInteract : MonoBehaviour
             if (interactable != null)
             {
                 GerentUI.instance.SetPawCursor(true);
-                if (IM.WasPressedThisFrame())
+                if (IMinterage.WasPressedThisFrame())
                 {
                     if (interactable.IsMoving)
                     {
@@ -181,6 +174,25 @@ public class PlayerInteract : MonoBehaviour
         else { GerentUI.instance.SetPawCursor(false); }
     }
 
+    public void interag()
+    {
+        if (CurrInteractable.item.pegavel && IMinterage.WasPressedThisFrame())
+            {
+                if (look != null) look.enabled = false;
+                if (movement != null) movement.enabled = false;
+                RodaObj();
+            }
+    }
+
+    public void saiInterag()
+    {
+        if (canFinish && IMsai.WasPressedThisFrame())
+            {
+                FinishView();
+                if (look != null) look.enabled = true;
+                if (movement != null) movement.enabled = true;
+            }
+    }
     private void ColetarBrinquedoDireto(Interactables interactable)
     {
         BrinquedoColetavel coletavel = interactable.GetComponent<BrinquedoColetavel>();

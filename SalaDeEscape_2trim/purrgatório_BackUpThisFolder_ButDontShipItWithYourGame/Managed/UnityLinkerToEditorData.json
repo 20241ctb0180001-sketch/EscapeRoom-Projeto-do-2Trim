@@ -149,7 +149,6 @@
             "scenes": [
               "Assets/Scenes/Cutscene.unity",
               "Assets/Scenes/CutsceneFinal.unity",
-              "Assets/Scenes/EscapeRoom.unity",
               "Assets/Scenes/fim.unity",
               "Assets/Scenes/Menu.unity"
             ],
@@ -158,9 +157,7 @@
           },
           {
             "name": "AudioClip",
-            "scenes": [
-              "Assets/Scenes/EscapeRoom.unity"
-            ],
+            "scenes": [],
             "dependencyType": 0,
             "icon": null
           },
@@ -183,17 +180,13 @@
           },
           {
             "name": "AudioResource",
-            "scenes": [
-              "Assets/Scenes/EscapeRoom.unity"
-            ],
-            "dependencyType": 0,
+            "scenes": [],
+            "dependencyType": 1,
             "icon": null
           },
           {
             "name": "AudioSource",
-            "scenes": [
-              "Assets/Scenes/EscapeRoom.unity"
-            ],
+            "scenes": [],
             "dependencyType": 0,
             "icon": null
           },

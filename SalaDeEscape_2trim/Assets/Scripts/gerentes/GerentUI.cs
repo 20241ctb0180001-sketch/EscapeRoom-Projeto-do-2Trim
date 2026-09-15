@@ -62,11 +62,7 @@ public class GerentUI : MonoBehaviour
             return;
         }
 
-        if (Inventory != null && Inventory.WasPressedThisFrame())
-        {
-            if (InventoryIMG != null)
-                InventoryIMG.SetActive(!InventoryIMG.activeInHierarchy);
-        }
+        inventario();
     }
 
     public bool IsPuzzleOuKeypadAtivo()
@@ -83,6 +79,14 @@ public class GerentUI : MonoBehaviour
             ResumeGame();
         else
             PauseGame();
+    }
+    public void inventario()
+    {
+        if (Inventory != null && Inventory.WasPressedThisFrame())
+        {
+            if (InventoryIMG != null)
+                InventoryIMG.SetActive(!InventoryIMG.activeInHierarchy);
+        }
     }
 
     public void PauseGame()

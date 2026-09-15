@@ -27,6 +27,11 @@ public class FirstPersonLook : MonoBehaviour
 
     void Update()
     {
+        OlharEmVolta();
+    }
+
+    public void OlharEmVolta()
+    {
         if (cameraAction.IsPressed())
         {
             Cursor.lockState = CursorLockMode.Locked;
@@ -46,6 +51,5 @@ public class FirstPersonLook : MonoBehaviour
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
         }
-        
     }
 }

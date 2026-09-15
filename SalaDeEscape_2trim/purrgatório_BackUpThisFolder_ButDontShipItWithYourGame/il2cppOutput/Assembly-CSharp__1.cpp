@@ -260,7 +260,7 @@ struct terminarFase_tF2F890E18757557ECF9ECC4A9B0A6DC242CE04D2;
 struct teste_tA6153A787EB15F25ED3B0050C332EDDD84588CBB;
 struct tocarSonsDePorta_t3D2F9E35EDE95EFF8E1098010C02681C7CE3BC73;
 struct CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD;
-struct U3CFadingTextU3Ed__30_t227C7C313E7CE646CBE44ECF4A8FE3D1DE2ED734;
+struct U3CFadingTextU3Ed__31_t0C17AD9CBAE8CF4686E2B932025BB0F085199A29;
 struct U3CEsperaNoPontoU3Ed__18_tFB65639C2F1685FEA2C3714C3039DE5ED05FA1F7;
 struct U3CRotinaTeletransporteU3Ed__19_t78902AEC0A5C9219D3A1219B4155FFD7B7673533;
 struct U3CFadeToU3Ed__17_tD77185D51D121CBB95F3C1CB19BDCE74E64329DC;
@@ -269,7 +269,7 @@ struct CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8;
 struct ControlsChangedEvent_t24A5BA4AB8034B3C662F956A4C85ECC6B8332B48;
 struct DeviceLostEvent_tDD8832F14B7DA15569261EFEBC47E67CF4E1B9D4;
 struct DeviceRegainedEvent_t24153E8876417F010AA4C0C1C25D6CB792EC01D1;
-struct U3CMovendObjU3Ed__31_tEA1ED5F7FA2A2329D80304721BDBD2F363A38263;
+struct U3CMovendObjU3Ed__34_t40980D53BE59881878FB386222C799E54CD87310;
 struct U3CInvokeEE2U3Ed__10_t3ED599ECB803C2D0FC480F937BF71817222BACD6;
 struct U3CMostrarEasterEggUIU3Ed__11_tD859CE479676FA38727485B5D3D6AE5DFF94EC09;
 struct Section_t50C894D0A717C2368EBAAE5477D4E8626D0B5401;
@@ -306,11 +306,11 @@ IL2CPP_EXTERN_C RuntimeClass* Touchscreen_t5A3B494C10A53A822AEDB3508093860D142D8
 IL2CPP_EXTERN_C RuntimeClass* U3CEsperaNoPontoU3Ed__18_tFB65639C2F1685FEA2C3714C3039DE5ED05FA1F7_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CEsperarEExecutarU3Ed__15_t6D136B0B0F28F6FEF19EB0960606CF185A5C68D6_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CFadeToU3Ed__17_tD77185D51D121CBB95F3C1CB19BDCE74E64329DC_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* U3CFadingTextU3Ed__30_t227C7C313E7CE646CBE44ECF4A8FE3D1DE2ED734_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CFadingTextU3Ed__31_t0C17AD9CBAE8CF4686E2B932025BB0F085199A29_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CInvokeEE2U3Ed__10_t3ED599ECB803C2D0FC480F937BF71817222BACD6_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CMostrarEasterEggUIU3Ed__11_tD859CE479676FA38727485B5D3D6AE5DFF94EC09_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CMovendObjU3Ed__26_t10BC4A5C4D53D682A94F995250FC91B464732BAB_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* U3CMovendObjU3Ed__31_tEA1ED5F7FA2A2329D80304721BDBD2F363A38263_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CMovendObjU3Ed__34_t40980D53BE59881878FB386222C799E54CD87310_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CProcessarToqueU3Ed__16_tA74D8AEE99FCCCE7726F597B43DF3CA5D66AF669_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CRotinaTeletransporteU3Ed__19_t78902AEC0A5C9219D3A1219B4155FFD7B7673533_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* UnityAction_2_t1C08AEB5AA4F72FEFAB7F303E33C8CFFF80A8C3A_il2cpp_TypeInfo_var;
@@ -335,22 +335,24 @@ IL2CPP_EXTERN_C String_t* _stringLiteral16FEEEB1F025BB5EA0CB7E074E82A421EC16B2FF
 IL2CPP_EXTERN_C String_t* _stringLiteral1AF86C075016C2964191FBC2DBAB75B0EE112248;
 IL2CPP_EXTERN_C String_t* _stringLiteral1C5E5259F570AC9C252538FCF19DE24456341E0D;
 IL2CPP_EXTERN_C String_t* _stringLiteral1D2BDE3C4BB51E296BF37DE483B1A1091D9EDF82;
+IL2CPP_EXTERN_C String_t* _stringLiteral22B25A446CB3BFCB168478518D499A32E3573232;
 IL2CPP_EXTERN_C String_t* _stringLiteral2409165FB90CD4A8B916FCA75790766B82C91748;
 IL2CPP_EXTERN_C String_t* _stringLiteral288B53F014E2C53296CBC94785B0521CC621D509;
 IL2CPP_EXTERN_C String_t* _stringLiteral28ABCB07CCCBEA55CB27B8277C2AFB63D4174FFD;
 IL2CPP_EXTERN_C String_t* _stringLiteral2C3CCF39764CBF394CD22A0E9FF67DFC1CADECC7;
 IL2CPP_EXTERN_C String_t* _stringLiteral31E3505D1BEBA4A2F454A259E5AE2510E613027F;
-IL2CPP_EXTERN_C String_t* _stringLiteral377AC518645381BAC3EB323AFD4F0572A8BF387A;
 IL2CPP_EXTERN_C String_t* _stringLiteral378F2A2277727E3F33599E270749A10E7C2B55E1;
+IL2CPP_EXTERN_C String_t* _stringLiteral386D6A27C7FD3F0FC0845B481A76CBEE3EC54DAB;
 IL2CPP_EXTERN_C String_t* _stringLiteral38D7B1F87A2A9042DFA223F7ADE513758363292F;
 IL2CPP_EXTERN_C String_t* _stringLiteral3CBEC0B9AAD2D9326FD2A1F4E4C0B991B3157FA1;
 IL2CPP_EXTERN_C String_t* _stringLiteral3F3FD3EFA55E39E450A9A4CE66CD7B259403D44E;
 IL2CPP_EXTERN_C String_t* _stringLiteral43D979D69F29ED5FC860529644A6E51254F4D4C3;
+IL2CPP_EXTERN_C String_t* _stringLiteral455A43B8FA4C97529FA7EA3FFA45EB494670D117;
 IL2CPP_EXTERN_C String_t* _stringLiteral48EC141A1B7A4D12D33EA0820C63C2FB747FE700;
 IL2CPP_EXTERN_C String_t* _stringLiteral4D67F1336568AA8E5A92EED07252051528EE2483;
+IL2CPP_EXTERN_C String_t* _stringLiteral5809A1DB0CCE9D550169A2EEF28B66A3536F0AB8;
 IL2CPP_EXTERN_C String_t* _stringLiteral5D63594A519BED5A2843D34B9E1571495B5F894C;
 IL2CPP_EXTERN_C String_t* _stringLiteral662CB231370E3E77669CBF24B58F0DF1E288E47B;
-IL2CPP_EXTERN_C String_t* _stringLiteral66A5FB67D21DC593DB6AE6A7219C4905C29D3414;
 IL2CPP_EXTERN_C String_t* _stringLiteral6998B2EE60186CAF3B32781BAE5898B496B41F57;
 IL2CPP_EXTERN_C String_t* _stringLiteral70253F929BCE7F81DF1A5A1C0900BED744E86C9C;
 IL2CPP_EXTERN_C String_t* _stringLiteral708D5714E07CDD35ACD938FD9FF35805F6E3811C;
@@ -361,8 +363,8 @@ IL2CPP_EXTERN_C String_t* _stringLiteral8F02D824E32C446741D86FD6B9C9B9577BC0D237
 IL2CPP_EXTERN_C String_t* _stringLiteral91A4C276E3B8A2C6FC2DCF9D1A5D29247B495DB3;
 IL2CPP_EXTERN_C String_t* _stringLiteral932B717A7A47AAF94347DAD0B6F778586C2FC880;
 IL2CPP_EXTERN_C String_t* _stringLiteral98122EB1414A61DA48087C05AAB39EF23EC24A4F;
-IL2CPP_EXTERN_C String_t* _stringLiteral9A5AA4C3F1D63BAD2EC81D0BEAF4A1082466AA9E;
 IL2CPP_EXTERN_C String_t* _stringLiteral9C4A8F36D47461093D071849F4F65F18B04E2ACA;
+IL2CPP_EXTERN_C String_t* _stringLiteralA2F7573D28143E93366AAAF6CDED51777BACC2B3;
 IL2CPP_EXTERN_C String_t* _stringLiteralA93D64966123EE3F60DF3053D80797534CB52A32;
 IL2CPP_EXTERN_C String_t* _stringLiteralAAAA401E86E41E6120BB9E96B9892141CF5A81F8;
 IL2CPP_EXTERN_C String_t* _stringLiteralAB57FC8110EF09A32F65FEAFD6B3269557F4AB7D;
@@ -387,6 +389,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralC701B48D591EBACD9262865D707A1A4B32B39124
 IL2CPP_EXTERN_C String_t* _stringLiteralC92A92F93A43659775EB2BEA983057022B00ADC8;
 IL2CPP_EXTERN_C String_t* _stringLiteralCAF8804297181FF007CA835529DD4477CFD94A70;
 IL2CPP_EXTERN_C String_t* _stringLiteralCD0A5D9504BF90C3CE40703BCA32B37D4065CD37;
+IL2CPP_EXTERN_C String_t* _stringLiteralCD7C38A7C650369E7858E41840BC1EEF0E7B5F26;
 IL2CPP_EXTERN_C String_t* _stringLiteralCF02937C2C4149E4359EF22080E67EBA597CC414;
 IL2CPP_EXTERN_C String_t* _stringLiteralD1D36ADAEF4F736835998E0789F391CCF4CB80BC;
 IL2CPP_EXTERN_C String_t* _stringLiteralD25A8C8A4056572371676FC74BFE36FFD66D859D;
@@ -458,11 +461,11 @@ IL2CPP_EXTERN_C const RuntimeMethod* Object_Instantiate_TisGameObject_t76FEDD663
 IL2CPP_EXTERN_C const RuntimeMethod* U3CEsperaNoPontoU3Ed__18_System_Collections_IEnumerator_Reset_m4AC07C9344D9CE797A10788935F3860B77DA37AA_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CEsperarEExecutarU3Ed__15_System_Collections_IEnumerator_Reset_mB41F170E7DFF49E4AFC297E32BE35CA14251CB02_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CFadeToU3Ed__17_System_Collections_IEnumerator_Reset_mD45AF65C0D72ED30195CF720878D05C04DB38FB3_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CFadingTextU3Ed__30_System_Collections_IEnumerator_Reset_m2264F0B2411F91E7E32A06D788212522F1A4BD88_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CFadingTextU3Ed__31_System_Collections_IEnumerator_Reset_m203F2C180F3035C7C6A68CAF40E9658444D0ADBD_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CInvokeEE2U3Ed__10_System_Collections_IEnumerator_Reset_mAB3B76F92B289044CAD21068DF18993CD4C98373_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CMostrarEasterEggUIU3Ed__11_System_Collections_IEnumerator_Reset_m835D410E4A222F15463B2EF858B6D198B37DD218_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CMovendObjU3Ed__26_System_Collections_IEnumerator_Reset_m70405E32805530025319A652787D9E18BABE7D24_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CMovendObjU3Ed__31_System_Collections_IEnumerator_Reset_mA184C321F33948846BA8F5AE5629DF564D3D4325_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CMovendObjU3Ed__34_System_Collections_IEnumerator_Reset_m70D28064559636B0A5963D04A9C02926D4F9216D_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CProcessarToqueU3Ed__16_System_Collections_IEnumerator_Reset_m9A18D626B4896843AC992BF4F89706AE7577B25E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CRotinaTeletransporteU3Ed__19_System_Collections_IEnumerator_Reset_m02542EA89B498C03D549A9046822D166FF27A13F_RuntimeMethod_var;
 struct CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D_marshaled_com;
@@ -1848,7 +1851,7 @@ struct StandbyUpdateMode_tBDA2ED3E70445A356C7948D960E3FFBA22AC54E5
 {
 	int32_t ___value__;
 };
-struct U3CFadingTextU3Ed__30_t227C7C313E7CE646CBE44ECF4A8FE3D1DE2ED734  : public RuntimeObject
+struct U3CFadingTextU3Ed__31_t0C17AD9CBAE8CF4686E2B932025BB0F085199A29  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	RuntimeObject* ___U3CU3E2__current;
@@ -1898,7 +1901,7 @@ struct U3CFadeToU3Ed__17_tD77185D51D121CBB95F3C1CB19BDCE74E64329DC  : public Run
 	float ___U3CdurationU3E5__4;
 	float ___U3CelapsedU3E5__5;
 };
-struct U3CMovendObjU3Ed__31_tEA1ED5F7FA2A2329D80304721BDBD2F363A38263  : public RuntimeObject
+struct U3CMovendObjU3Ed__34_t40980D53BE59881878FB386222C799E54CD87310  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	RuntimeObject* ___U3CU3E2__current;
@@ -3435,7 +3438,8 @@ struct PlayerInteract_t1B2F2008321DEDEDDD394EF62CB3EFFE7A2EE8A0  : public MonoBe
 	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___OnView;
 	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___OnFinishView;
 	InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* ___inputAction;
-	InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* ___IM;
+	InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* ___IMinterage;
+	InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* ___IMsai;
 	InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* ___RotateOb;
 	Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* ___CurrInteractable;
 	bool ___estaaVer;
@@ -3532,6 +3536,7 @@ struct inventarioBrinquedos_t2272C83340A92F136A9BC574CD12F6775135E4B3  : public 
 {
 	InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* ___abrirInventario;
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___brinquedoInventario;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___inventarioNormal;
 	bool ___inventarioLig;
 };
 struct painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
@@ -4679,6 +4684,7 @@ inline Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 InputAction_ReadValue_T
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline (float ___0_value, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline (float ___0_a, float ___1_b, float ___2_t, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FirstPersonLook_OlharEmVolta_m1D2BA9D5B13E69A30ED55E6DDD73654D2AF3BD37 (FirstPersonLook_tFFEABF55DC99B2EC1D6B5DAEE9864E5815F6B93C* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputAction_IsPressed_m40DF920F0E7D18170B62666DA2A2131AD336A301 (InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Cursor_set_lockState_mD81F6E5F3D86506FFB88567689A3A00A7AD242E9 (int32_t ___0_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Cursor_set_visible_m612FCB2E86C15F91CE2E6148D1B556667954A2B7 (bool ___0_value, const RuntimeMethod* method) ;
@@ -4706,6 +4712,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_Dot_mBB86BB940AA0A32FA7D3C02AC42E5BC7095A5D52_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_lhs, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_rhs, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_ProjectOnPlane_m68FB895F6E9FCC45676BB8B95857D091C0D78794_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_vector, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_planeNormal, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FirstPersonMovement_set_IsRunning_mADC233CB94F50A40278FACBAA8940A4CB114EA78_inline (FirstPersonMovement_tA852887AB56569BDD01EA2BE85F9B39C349C5FFE* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FirstPersonMovement_correr_m12DB5DFEC5CC35B73F6457DC61FB031B2A361E90 (FirstPersonMovement_tA852887AB56569BDD01EA2BE85F9B39C349C5FFE* __this, const RuntimeMethod* method) ;
 inline int32_t List_1_get_Count_m1321940B939A317AFAAE8AD59F740B8981351E62_inline (List_1_t6F64C3EC2C2C6614F0A241F3D022EC8745453001* __this, const RuntimeMethod* method)
 {
 	return ((  int32_t (*) (List_1_t6F64C3EC2C2C6614F0A241F3D022EC8745453001*, const RuntimeMethod*))List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline)(__this, method);
@@ -4751,6 +4758,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SystemInfo_get_deviceType_m9BA3769FAC
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GerentUI_IsPuzzleOuKeypadAtivo_m56C60D18AF618C7739607DCC74803394C8996058 (GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_TogglePause_m0FF3E6C365914FB014EF07BF7AB0B1D5125239CF (GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* __this, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool GerentUI_get_isPaused_m74A634825E5479FB3884B4D7B2218F179C075490_inline (GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_inventario_mECDD3F6C8DD18171999BE6BBED370B297F8FB1DF (GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GameObject_get_activeInHierarchy_m49250F4F168DCC5388D5BE4F6A5681386907B109 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_ResumeGame_m2689237A5E9245209DEF075BD163CFEF87019D10 (GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_PauseGame_m7FB8F14EDA7A0CBB9B1D23DA8A02C10A6AB7E35A (GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* __this, const RuntimeMethod* method) ;
@@ -4761,7 +4769,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Image_set_sprite_mC0C248340BA27AAEE56855
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_ShowMessage_m212AAD1FBA4F36198CCABCD01F71AAC88974D2A9 (GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* __this, String_t* ___0_msg, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GerentUI_FadingText_mD62B13B2ACF8C4FD58604A8B1822E3C59E66027F (GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812 (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, RuntimeObject* ___0_routine, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFadingTextU3Ed__30__ctor_mAF917F67B9B901EF83339CE0DDB32EA9E558471F (U3CFadingTextU3Ed__30_t227C7C313E7CE646CBE44ECF4A8FE3D1DE2ED734* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFadingTextU3Ed__31__ctor_m038BD1649FE8AF4EB12755D92624E2C2CFF9CE9D (U3CFadingTextU3Ed__31_t0C17AD9CBAE8CF4686E2B932025BB0F085199A29* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_unscaledDeltaTime_mF057EECA857E5C0F90A3F910D26D3EE59F27C4B5 (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaitForSecondsRealtime__ctor_mBFC1E4F0E042D5EC6E7EEB211A2FE5193A8F6D6F (WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01* __this, float ___0_time, const RuntimeMethod* method) ;
@@ -4846,10 +4854,6 @@ inline Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* Component_GetComponen
 	return ((  Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Collider_set_enabled_m8D5C3B5047592D227A52560FC9723D176E209F70 (Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* __this, bool ___0_value, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ButtonControl_get_isPressed_m947621402F6EC1B957C2DE984806A6500D422EA6 (ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerInteract_RodaObj_m3286D80A2EFF122E97B4A9707C8C30C1D18D10F7 (PlayerInteract_t1B2F2008321DEDEDDD394EF62CB3EFFE7A2EE8A0* __this, const RuntimeMethod* method) ;
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* Mouse_get_rightButton_mFA0FD700624C0DE1B858F9516426414767F09D98_inline (Mouse_t9A9CC4636FA9CDBAD7FB7A02DB0D6395EDCC338F* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerInteract_FinishView_m5399E822749BE9DE19A3525C9DC85ACC92B73636 (PlayerInteract_t1B2F2008321DEDEDDD394EF62CB3EFFE7A2EE8A0* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Camera_ScreenToWorldPoint_m5EA3148F070985EC72127AAC3448D8D6ABE6E7E5 (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_position, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_get_forward_mFCFACF7165FDAB21E80E384C494DF278386CEE2F (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Physics_Raycast_m011EA7022C33B2C499EF744E5AF3E01EEB8FBD33 (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_origin, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_direction, RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5* ___2_hitInfo, float ___3_maxDistance, const RuntimeMethod* method) ;
@@ -4876,6 +4880,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* BloqueioDeItem_get_Mens
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour_Invoke_mF724350C59362B0F1BFE26383209A274A29A63FB (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, String_t* ___0_methodName, float ___1_time, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Interactables_StoreOriginalTransform_m931D5840ECE751B234DAE94CE260DDE68D2AD6EB (Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PlayerInteract_MovendObj_mD60396EECACD82DAD5934BA594DE85866680C6CB (PlayerInteract_t1B2F2008321DEDEDDD394EF62CB3EFFE7A2EE8A0* __this, Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* ___0_obj, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_targetPos, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___2_targetRot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerInteract_RodaObj_m3286D80A2EFF122E97B4A9707C8C30C1D18D10F7 (PlayerInteract_t1B2F2008321DEDEDDD394EF62CB3EFFE7A2EE8A0* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerInteract_FinishView_m5399E822749BE9DE19A3525C9DC85ACC92B73636 (PlayerInteract_t1B2F2008321DEDEDDD394EF62CB3EFFE7A2EE8A0* __this, const RuntimeMethod* method) ;
 inline BrinquedoColetavel_tD8973E584735B2274E1B975EFA9080DDE8BDCF15* Component_GetComponent_TisBrinquedoColetavel_tD8973E584735B2274E1B975EFA9080DDE8BDCF15_m7603B21875BBDD2D490A297782855C8CDC39EE15 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
 {
 	return ((  BrinquedoColetavel_tD8973E584735B2274E1B975EFA9080DDE8BDCF15* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
@@ -4889,7 +4895,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerInventory_AddItem_m80512292D1BBF70
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Interactables_RestoreOriginalTransform_m442426CCC11D243F2894D6D5D22C9FD6EDC0C8C3 (Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* __this, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Interactables_GetOriginalPosition_m6DD8AA6DD1F68DE9B8F68A9427F7D753A805476E_inline (Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* __this, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Interactables_GetOriginalRotation_mD389EB6E86B2FADED0B8D38E68EF13C3EE31CC1B_inline (Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CMovendObjU3Ed__31__ctor_mB75D48A4E619C39CFE8508459EABA5477E8EAFBB (U3CMovendObjU3Ed__31_tEA1ED5F7FA2A2329D80304721BDBD2F363A38263* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CMovendObjU3Ed__34__ctor_mD8B9BFA7186A6FBAF0B1B1A89209CB4A8E0C2117 (U3CMovendObjU3Ed__34_t40980D53BE59881878FB386222C799E54CD87310* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_get_right_mC6DC057C23313802E2186A9E0DB760D795A758A4 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_Rotate_m683E67853797040312868B69E963D0E97F433EEB (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_axis, float ___1_angle, int32_t ___2_relativeTo, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_get_up_mE47A9D9D96422224DD0539AA5524DA5440145BB2 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
@@ -4903,7 +4909,9 @@ inline void List_1_Add_mEFF978F1EE45936A0DB9A4710667A807F7007228_inline (List_1_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* GameObject_FindGameObjectWithTag_mF0229BC2074CE9EEA72FAB1E5A4BC2AEC3D2CDBE (String_t* ___0_tag, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void teste_CheckInteractables_m41D5A80028FF145162E38B777A65B9F9F7D25EB9 (teste_tA6153A787EB15F25ED3B0050C332EDDD84588CBB* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ButtonControl_get_isPressed_m947621402F6EC1B957C2DE984806A6500D422EA6 (ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void teste_RodaObj_m48B3B5E6810B38368A5744A31083FE73DD63D09B (teste_tA6153A787EB15F25ED3B0050C332EDDD84588CBB* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* Mouse_get_rightButton_mFA0FD700624C0DE1B858F9516426414767F09D98_inline (Mouse_t9A9CC4636FA9CDBAD7FB7A02DB0D6395EDCC338F* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void teste_FinishView_m54252F1167866FE4D7370CB93CC4B1BE86B1B86B (teste_tA6153A787EB15F25ED3B0050C332EDDD84588CBB* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void teste_Interact_mC9E75BA844EEE7C265C77193DBDA85F6727CA41C (teste_tA6153A787EB15F25ED3B0050C332EDDD84588CBB* __this, Item_tFAF77888D49883A321EB596A7D93CB5615D37E95* ___0_item, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* teste_MovendObj_mAF306FB555327FAA995665F32D8E8251D6774F84 (teste_tA6153A787EB15F25ED3B0050C332EDDD84588CBB* __this, Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* ___0_obj, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_targetPos, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___2_targetRot, const RuntimeMethod* method) ;
@@ -7193,6 +7201,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FirstPersonLook_Start_mBB349CEB628665204
 // Method Definition Index: 82037
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FirstPersonLook_Update_mC9D2857AABF9B4BEEC6CE1A4F277002D37BAADF4 (FirstPersonLook_tFFEABF55DC99B2EC1D6B5DAEE9864E5815F6B93C* __this, const RuntimeMethod* method) 
 {
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonLook.cs:30>
+		FirstPersonLook_OlharEmVolta_m1D2BA9D5B13E69A30ED55E6DDD73654D2AF3BD37(__this, NULL);
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonLook.cs:31>
+		return;
+	}
+}
+// Method Definition Index: 82038
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FirstPersonLook_OlharEmVolta_m1D2BA9D5B13E69A30ED55E6DDD73654D2AF3BD37 (FirstPersonLook_tFFEABF55DC99B2EC1D6B5DAEE9864E5815F6B93C* __this, const RuntimeMethod* method) 
+{
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
@@ -7204,7 +7222,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FirstPersonLook_Update_mC9D2857AABF9B4BE
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 G_B4_0;
 	memset((&G_B4_0), 0, sizeof(G_B4_0));
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonLook.cs:30>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonLook.cs:35>
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_0 = __this->___cameraAction;
 		NullCheck(L_0);
 		bool L_1;
@@ -7215,11 +7233,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FirstPersonLook_Update_mC9D2857AABF9B4BE
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonLook.cs:32>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonLook.cs:37>
 		Cursor_set_lockState_mD81F6E5F3D86506FFB88567689A3A00A7AD242E9(1, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonLook.cs:33>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonLook.cs:38>
 		Cursor_set_visible_m612FCB2E86C15F91CE2E6148D1B556667954A2B7((bool)0, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonLook.cs:35>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonLook.cs:40>
 		Mouse_t9A9CC4636FA9CDBAD7FB7A02DB0D6395EDCC338F* L_2;
 		L_2 = Mouse_get_current_m410C1F9ABC5AA77353574E8815F7E63289707986_inline(NULL);
 		NullCheck(L_2);
@@ -7252,7 +7270,7 @@ IL_002f:
 
 IL_003e:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonLook.cs:36>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonLook.cs:41>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_8;
 		L_8 = Vector2_get_one_m9097EB8DC23C26118A591AF16702796C3EF51DFB_inline(NULL);
 		float L_9 = __this->___sensitivity;
@@ -7261,27 +7279,27 @@ IL_003e:
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_11;
 		L_11 = Vector2_Scale_m8D61A8D2272549F1EF41256F7E8A206C6500EA6C_inline(G_B4_0, L_10, NULL);
 		V_0 = L_11;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonLook.cs:37>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonLook.cs:42>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_12 = __this->___frameVelocity;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_13 = V_0;
 		float L_14 = __this->___smoothing;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_15;
 		L_15 = Vector2_Lerp_m1A36103F7967F653A929556E26E6D052C298C00C_inline(L_12, L_13, ((float)((1.0f)/L_14)), NULL);
 		__this->___frameVelocity = L_15;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonLook.cs:38>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonLook.cs:43>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_16 = __this->___velocity;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_17 = __this->___frameVelocity;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_18;
 		L_18 = Vector2_op_Addition_m8136742CE6EE33BA4EB81C5F584678455917D2AE_inline(L_16, L_17, NULL);
 		__this->___velocity = L_18;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonLook.cs:39>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonLook.cs:44>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_19 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___velocity);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_20 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___velocity);
 		float L_21 = L_20->___y;
 		float L_22;
 		L_22 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(L_21, (-90.0f), (90.0f), NULL);
 		L_19->___y = L_22;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonLook.cs:42>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonLook.cs:47>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_23;
 		L_23 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_24 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___velocity);
@@ -7292,7 +7310,7 @@ IL_003e:
 		L_27 = Quaternion_AngleAxis_mF37022977B297E63AA70D69EA1C4C922FF22CC80_inline(((-L_25)), L_26, NULL);
 		NullCheck(L_23);
 		Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA(L_23, L_27, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonLook.cs:43>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonLook.cs:48>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_28 = __this->___character;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_29 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___velocity);
 		float L_30 = L_29->___x;
@@ -7307,7 +7325,7 @@ IL_003e:
 
 IL_00f0:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonLook.cs:44>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonLook.cs:49>
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_33 = __this->___cameraAction;
 		NullCheck(L_33);
 		bool L_34;
@@ -7318,19 +7336,19 @@ IL_00f0:
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonLook.cs:46>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonLook.cs:51>
 		Cursor_set_lockState_mD81F6E5F3D86506FFB88567689A3A00A7AD242E9(0, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonLook.cs:47>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonLook.cs:52>
 		Cursor_set_visible_m612FCB2E86C15F91CE2E6148D1B556667954A2B7((bool)1, NULL);
 	}
 
 IL_0109:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonLook.cs:50>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonLook.cs:54>
 		return;
 	}
 }
-// Method Definition Index: 82038
+// Method Definition Index: 82039
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FirstPersonLook__ctor_m30C53AE3BE07B7A39AC3019F6D017B4596DF8E2D (FirstPersonLook_tFFEABF55DC99B2EC1D6B5DAEE9864E5815F6B93C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7350,26 +7368,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FirstPersonLook__ctor_m30C53AE3BE07B7A39
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82039
+// Method Definition Index: 82040
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FirstPersonMovement_get_IsRunning_m58CAF98A09A5CE86F21EE8DC8A1ACBF5A655681E (FirstPersonMovement_tA852887AB56569BDD01EA2BE85F9B39C349C5FFE* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:11>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:12>
 		bool L_0 = __this->___U3CIsRunningU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 82040
+// Method Definition Index: 82041
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FirstPersonMovement_set_IsRunning_mADC233CB94F50A40278FACBAA8940A4CB114EA78 (FirstPersonMovement_tA852887AB56569BDD01EA2BE85F9B39C349C5FFE* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:11>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:12>
 		bool L_0 = ___0_value;
 		__this->___U3CIsRunningU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 82041
+// Method Definition Index: 82042
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FirstPersonMovement_Awake_m990DD91BA764F975B869F740F58CD17190E2D108 (FirstPersonMovement_tA852887AB56569BDD01EA2BE85F9B39C349C5FFE* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7382,12 +7400,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FirstPersonMovement_Awake_m990DD91BA764F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:29>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:30>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_0;
 		L_0 = Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8(__this, Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8_RuntimeMethod_var);
 		__this->___RB = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___RB), (void*)L_0);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:30>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:31>
 		il2cpp_codegen_runtime_class_init_inline(InputSystem_t4120CA4FE7DCFD56AF9391933FC3F1F485350164_il2cpp_TypeInfo_var);
 		InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* L_1;
 		L_1 = InputSystem_get_actions_mE8D99B32AF6B8AB69DCF5DBBEC60C0F010C79B6C(NULL);
@@ -7396,7 +7414,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FirstPersonMovement_Awake_m990DD91BA764F
 		L_2 = InputActionAsset_FindAction_m50D07EAFAA8628B9793E7BBEEB2E89C2A9C45C00(L_1, _stringLiteral378F2A2277727E3F33599E270749A10E7C2B55E1, (bool)0, NULL);
 		__this->___MoveAction = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___MoveAction), (void*)L_2);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:31>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:32>
 		InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* L_3;
 		L_3 = InputSystem_get_actions_mE8D99B32AF6B8AB69DCF5DBBEC60C0F010C79B6C(NULL);
 		NullCheck(L_3);
@@ -7404,11 +7422,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FirstPersonMovement_Awake_m990DD91BA764F
 		L_4 = InputActionAsset_FindAction_m50D07EAFAA8628B9793E7BBEEB2E89C2A9C45C00(L_3, _stringLiteral163DCC8E458A1FCC2E86F0FD61BE2BCE27195238, (bool)0, NULL);
 		__this->___CorreAction = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___CorreAction), (void*)L_4);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:32>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:33>
 		return;
 	}
 }
-// Method Definition Index: 82042
+// Method Definition Index: 82043
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 FirstPersonMovement_GetWallSafeVelocity_m3B046F31CAC7522659A6700AF7FF3F2DFBB0D71C (FirstPersonMovement_tA852887AB56569BDD01EA2BE85F9B39C349C5FFE* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_desiredVelocity, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7422,7 +7440,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 	RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:36>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:37>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_desiredVelocity;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
 		L_1 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
@@ -7434,7 +7452,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:37>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:38>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
 		L_3 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		return L_3;
@@ -7442,7 +7460,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 
 IL_0013:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:39>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:40>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
 		L_4 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_4);
@@ -7454,11 +7472,11 @@ IL_0013:
 		L_7 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_6, (0.5f), NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8;
 		L_8 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_5, L_7, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:40>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:41>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
 		L_9 = Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline((&___0_desiredVelocity), NULL);
 		V_0 = L_9;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:42>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:43>
 		float L_10 = __this->___wallRadius;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11 = V_0;
 		float L_12 = __this->___wallCheckDistance;
@@ -7474,20 +7492,20 @@ IL_0013:
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:44>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:45>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16;
 		L_16 = RaycastHit_get_normal_mD8741B70D2039C5CAFC4368D4CE59D89562040B5((&V_1), NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17 = V_0;
 		float L_18;
 		L_18 = Vector3_Dot_mBB86BB940AA0A32FA7D3C02AC42E5BC7095A5D52_inline(L_16, L_17, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:45>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:46>
 		if ((!(((float)L_18) < ((float)(0.0f)))))
 		{
 			goto IL_007e;
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:47>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:48>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19 = ___0_desiredVelocity;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20;
 		L_20 = RaycastHit_get_normal_mD8741B70D2039C5CAFC4368D4CE59D89562040B5((&V_1), NULL);
@@ -7498,48 +7516,21 @@ IL_0013:
 
 IL_007e:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:50>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:51>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22 = ___0_desiredVelocity;
 		return L_22;
 	}
 }
-// Method Definition Index: 82043
+// Method Definition Index: 82044
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FirstPersonMovement_FixedUpdate_m4A242C7CBF7936CE3CF56223AF24A44E910ED74F (FirstPersonMovement_tA852887AB56569BDD01EA2BE85F9B39C349C5FFE* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputAction_ReadValue_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m8D02BA85303ABD48D9963369E106B0C83A393FBF_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_m1321940B939A317AFAAE8AD59F740B8981351E62_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_mEE8528015DEAADFAD394CB7EFC7CAF0E57F3517F_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	float V_0 = 0.0f;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_1;
-	memset((&V_1), 0, sizeof(V_1));
-	bool V_2 = false;
-	float V_3 = 0.0f;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_4;
-	memset((&V_4), 0, sizeof(V_4));
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_5;
-	memset((&V_5), 0, sizeof(V_5));
-	float V_6 = 0.0f;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_7;
-	memset((&V_7), 0, sizeof(V_7));
-	float V_8 = 0.0f;
 	FirstPersonMovement_tA852887AB56569BDD01EA2BE85F9B39C349C5FFE* G_B3_0 = NULL;
 	FirstPersonMovement_tA852887AB56569BDD01EA2BE85F9B39C349C5FFE* G_B1_0 = NULL;
 	FirstPersonMovement_tA852887AB56569BDD01EA2BE85F9B39C349C5FFE* G_B2_0 = NULL;
 	int32_t G_B4_0 = 0;
 	FirstPersonMovement_tA852887AB56569BDD01EA2BE85F9B39C349C5FFE* G_B4_1 = NULL;
-	float G_B7_0 = 0.0f;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 G_B12_0;
-	memset((&G_B12_0), 0, sizeof(G_B12_0));
-	float G_B15_0 = 0.0f;
-	float G_B18_0 = 0.0f;
-	float G_B22_0 = 0.0f;
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:55>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:56>
 		bool L_0 = __this->___canRun;
 		if (!L_0)
 		{
@@ -7578,240 +7569,277 @@ IL_001f:
 		NullCheck(G_B4_1);
 		FirstPersonMovement_set_IsRunning_mADC233CB94F50A40278FACBAA8940A4CB114EA78_inline(G_B4_1, (bool)G_B4_0, NULL);
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:57>
-		bool L_4;
-		L_4 = FirstPersonMovement_get_IsRunning_m58CAF98A09A5CE86F21EE8DC8A1ACBF5A655681E_inline(__this, NULL);
-		if (L_4)
-		{
-			goto IL_0034;
-		}
-	}
-	{
-		float L_5 = __this->___speed;
-		G_B7_0 = L_5;
-		goto IL_003a;
-	}
-
-IL_0034:
-	{
-		float L_6 = __this->___runSpeed;
-		G_B7_0 = L_6;
-	}
-
-IL_003a:
-	{
-		V_0 = G_B7_0;
+		FirstPersonMovement_correr_m12DB5DFEC5CC35B73F6457DC61FB031B2A361E90(__this, NULL);
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:58>
-		List_1_t6F64C3EC2C2C6614F0A241F3D022EC8745453001* L_7 = __this->___speedOverrides;
-		NullCheck(L_7);
-		int32_t L_8;
-		L_8 = List_1_get_Count_m1321940B939A317AFAAE8AD59F740B8981351E62_inline(L_7, List_1_get_Count_m1321940B939A317AFAAE8AD59F740B8981351E62_RuntimeMethod_var);
-		if ((((int32_t)L_8) <= ((int32_t)0)))
-		{
-			goto IL_0067;
-		}
-	}
-	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:60>
-		List_1_t6F64C3EC2C2C6614F0A241F3D022EC8745453001* L_9 = __this->___speedOverrides;
-		List_1_t6F64C3EC2C2C6614F0A241F3D022EC8745453001* L_10 = __this->___speedOverrides;
-		NullCheck(L_10);
-		int32_t L_11;
-		L_11 = List_1_get_Count_m1321940B939A317AFAAE8AD59F740B8981351E62_inline(L_10, List_1_get_Count_m1321940B939A317AFAAE8AD59F740B8981351E62_RuntimeMethod_var);
-		NullCheck(L_9);
-		Func_1_t11C3830580201E0A3A3A2C76523B7905EF40BCF7* L_12;
-		L_12 = List_1_get_Item_mEE8528015DEAADFAD394CB7EFC7CAF0E57F3517F(L_9, ((int32_t)il2cpp_codegen_subtract(L_11, 1)), List_1_get_Item_mEE8528015DEAADFAD394CB7EFC7CAF0E57F3517F_RuntimeMethod_var);
-		NullCheck(L_12);
-		float L_13;
-		L_13 = Func_1_Invoke_m6EC66204056853EDE42F634FECB2D7D4685B54B0_inline(L_12, NULL);
-		V_0 = L_13;
-	}
-
-IL_0067:
-	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:63>
-		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_14 = __this->___MoveAction;
-		if (L_14)
-		{
-			goto IL_0076;
-		}
-	}
-	{
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_15;
-		L_15 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
-		G_B12_0 = L_15;
-		goto IL_0081;
-	}
-
-IL_0076:
-	{
-		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_16 = __this->___MoveAction;
-		NullCheck(L_16);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_17;
-		L_17 = InputAction_ReadValue_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m8D02BA85303ABD48D9963369E106B0C83A393FBF(L_16, InputAction_ReadValue_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m8D02BA85303ABD48D9963369E106B0C83A393FBF_RuntimeMethod_var);
-		G_B12_0 = L_17;
-	}
-
-IL_0081:
-	{
-		V_1 = G_B12_0;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:65>
-		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_18 = __this->___RB;
-		NullCheck(L_18);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19;
-		L_19 = Rigidbody_get_linearVelocity_m367F5415641E5FB968440A91BAE2FCB8CAEA2C8C(L_18, NULL);
-		float L_20 = L_19.___y;
-		float L_21;
-		L_21 = fabsf(L_20);
-		V_2 = (bool)((((float)L_21) > ((float)(0.0500000007f)))? 1 : 0);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:66>
-		bool L_22 = V_2;
-		if (L_22)
-		{
-			goto IL_00a9;
-		}
-	}
-	{
-		G_B15_0 = (1.0f);
-		goto IL_00ae;
-	}
-
-IL_00a9:
-	{
-		G_B15_0 = (0.550000012f);
-	}
-
-IL_00ae:
-	{
-		V_3 = G_B15_0;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:68>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_23;
-		L_23 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
-		NullCheck(L_23);
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_24;
-		L_24 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_23, NULL);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_25 = V_1;
-		float L_26 = L_25.___x;
-		float L_27 = V_0;
-		float L_28 = V_3;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_29 = V_1;
-		float L_30 = L_29.___y;
-		float L_31 = V_0;
-		float L_32 = V_3;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_33;
-		memset((&L_33), 0, sizeof(L_33));
-		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_33), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_26, L_27)), L_28)), (0.0f), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_30, L_31)), L_32)), NULL);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_34;
-		L_34 = Quaternion_op_Multiply_mE1EBA73F9173432B50F8F17CE8190C5A7986FB8C(L_24, L_33, NULL);
-		V_4 = L_34;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:69>
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_35 = V_4;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_36;
-		L_36 = FirstPersonMovement_GetWallSafeVelocity_m3B046F31CAC7522659A6700AF7FF3F2DFBB0D71C(__this, L_35, NULL);
-		V_4 = L_36;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:71>
-		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_37 = __this->___RB;
-		NullCheck(L_37);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_38;
-		L_38 = Rigidbody_get_linearVelocity_m367F5415641E5FB968440A91BAE2FCB8CAEA2C8C(L_37, NULL);
-		V_5 = L_38;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:73>
-		bool L_39 = V_2;
-		if (L_39)
-		{
-			goto IL_0100;
-		}
-	}
-	{
-		G_B18_0 = (0.180000007f);
-		goto IL_0105;
-	}
-
-IL_0100:
-	{
-		G_B18_0 = (0.0799999982f);
-	}
-
-IL_0105:
-	{
-		V_6 = G_B18_0;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:74>
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_40 = V_5;
-		float L_41 = L_40.___x;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_42 = V_4;
-		float L_43 = L_42.___x;
-		float L_44 = V_6;
-		float L_45;
-		L_45 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_41, L_43, L_44, NULL);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_46 = V_5;
-		float L_47 = L_46.___y;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_48 = V_5;
-		float L_49 = L_48.___z;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_50 = V_4;
-		float L_51 = L_50.___z;
-		float L_52 = V_6;
-		float L_53;
-		L_53 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_49, L_51, L_52, NULL);
-		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_7), L_45, L_47, L_53, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:76>
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_54 = V_1;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_55;
-		L_55 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
-		bool L_56;
-		L_56 = Vector2_op_Equality_m6F2E069A50E787D131261E5CB25FC9E03F95B5E1_inline(L_54, L_55, NULL);
-		if (!L_56)
-		{
-			goto IL_0191;
-		}
-	}
-	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:78>
-		bool L_57 = V_2;
-		if (L_57)
-		{
-			goto IL_0156;
-		}
-	}
-	{
-		G_B22_0 = (0.200000003f);
-		goto IL_015b;
-	}
-
-IL_0156:
-	{
-		G_B22_0 = (0.119999997f);
-	}
-
-IL_015b:
-	{
-		V_8 = G_B22_0;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:79>
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_58 = V_5;
-		float L_59 = L_58.___x;
-		float L_60 = V_8;
-		float L_61;
-		L_61 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_59, (0.0f), L_60, NULL);
-		(&V_7)->___x = L_61;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:80>
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_62 = V_5;
-		float L_63 = L_62.___z;
-		float L_64 = V_8;
-		float L_65;
-		L_65 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_63, (0.0f), L_64, NULL);
-		(&V_7)->___z = L_65;
-	}
-
-IL_0191:
-	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:82>
-		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_66 = __this->___RB;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_67 = V_7;
-		NullCheck(L_66);
-		Rigidbody_set_linearVelocity_m29AE03D5FC079EAD4202FCF72E2AEBDC19363985(L_66, L_67, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:84>
 		return;
 	}
 }
-// Method Definition Index: 82044
+// Method Definition Index: 82045
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FirstPersonMovement_correr_m12DB5DFEC5CC35B73F6457DC61FB031B2A361E90 (FirstPersonMovement_tA852887AB56569BDD01EA2BE85F9B39C349C5FFE* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputAction_ReadValue_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m8D02BA85303ABD48D9963369E106B0C83A393FBF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_m1321940B939A317AFAAE8AD59F740B8981351E62_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_mEE8528015DEAADFAD394CB7EFC7CAF0E57F3517F_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	bool V_2 = false;
+	float V_3 = 0.0f;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float V_6 = 0.0f;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	float V_8 = 0.0f;
+	float G_B3_0 = 0.0f;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 G_B8_0;
+	memset((&G_B8_0), 0, sizeof(G_B8_0));
+	float G_B11_0 = 0.0f;
+	float G_B14_0 = 0.0f;
+	float G_B18_0 = 0.0f;
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:62>
+		bool L_0;
+		L_0 = FirstPersonMovement_get_IsRunning_m58CAF98A09A5CE86F21EE8DC8A1ACBF5A655681E_inline(__this, NULL);
+		if (L_0)
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		float L_1 = __this->___speed;
+		G_B3_0 = L_1;
+		goto IL_0016;
+	}
+
+IL_0010:
+	{
+		float L_2 = __this->___runSpeed;
+		G_B3_0 = L_2;
+	}
+
+IL_0016:
+	{
+		V_0 = G_B3_0;
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:63>
+		List_1_t6F64C3EC2C2C6614F0A241F3D022EC8745453001* L_3 = __this->___speedOverrides;
+		NullCheck(L_3);
+		int32_t L_4;
+		L_4 = List_1_get_Count_m1321940B939A317AFAAE8AD59F740B8981351E62_inline(L_3, List_1_get_Count_m1321940B939A317AFAAE8AD59F740B8981351E62_RuntimeMethod_var);
+		if ((((int32_t)L_4) <= ((int32_t)0)))
+		{
+			goto IL_0043;
+		}
+	}
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:65>
+		List_1_t6F64C3EC2C2C6614F0A241F3D022EC8745453001* L_5 = __this->___speedOverrides;
+		List_1_t6F64C3EC2C2C6614F0A241F3D022EC8745453001* L_6 = __this->___speedOverrides;
+		NullCheck(L_6);
+		int32_t L_7;
+		L_7 = List_1_get_Count_m1321940B939A317AFAAE8AD59F740B8981351E62_inline(L_6, List_1_get_Count_m1321940B939A317AFAAE8AD59F740B8981351E62_RuntimeMethod_var);
+		NullCheck(L_5);
+		Func_1_t11C3830580201E0A3A3A2C76523B7905EF40BCF7* L_8;
+		L_8 = List_1_get_Item_mEE8528015DEAADFAD394CB7EFC7CAF0E57F3517F(L_5, ((int32_t)il2cpp_codegen_subtract(L_7, 1)), List_1_get_Item_mEE8528015DEAADFAD394CB7EFC7CAF0E57F3517F_RuntimeMethod_var);
+		NullCheck(L_8);
+		float L_9;
+		L_9 = Func_1_Invoke_m6EC66204056853EDE42F634FECB2D7D4685B54B0_inline(L_8, NULL);
+		V_0 = L_9;
+	}
+
+IL_0043:
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:68>
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_10 = __this->___MoveAction;
+		if (L_10)
+		{
+			goto IL_0052;
+		}
+	}
+	{
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_11;
+		L_11 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
+		G_B8_0 = L_11;
+		goto IL_005d;
+	}
+
+IL_0052:
+	{
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_12 = __this->___MoveAction;
+		NullCheck(L_12);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_13;
+		L_13 = InputAction_ReadValue_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m8D02BA85303ABD48D9963369E106B0C83A393FBF(L_12, InputAction_ReadValue_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m8D02BA85303ABD48D9963369E106B0C83A393FBF_RuntimeMethod_var);
+		G_B8_0 = L_13;
+	}
+
+IL_005d:
+	{
+		V_1 = G_B8_0;
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:70>
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_14 = __this->___RB;
+		NullCheck(L_14);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15;
+		L_15 = Rigidbody_get_linearVelocity_m367F5415641E5FB968440A91BAE2FCB8CAEA2C8C(L_14, NULL);
+		float L_16 = L_15.___y;
+		float L_17;
+		L_17 = fabsf(L_16);
+		V_2 = (bool)((((float)L_17) > ((float)(0.0500000007f)))? 1 : 0);
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:71>
+		bool L_18 = V_2;
+		if (L_18)
+		{
+			goto IL_0085;
+		}
+	}
+	{
+		G_B11_0 = (1.0f);
+		goto IL_008a;
+	}
+
+IL_0085:
+	{
+		G_B11_0 = (0.550000012f);
+	}
+
+IL_008a:
+	{
+		V_3 = G_B11_0;
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:73>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_19;
+		L_19 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_19);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_20;
+		L_20 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_19, NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_21 = V_1;
+		float L_22 = L_21.___x;
+		float L_23 = V_0;
+		float L_24 = V_3;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_25 = V_1;
+		float L_26 = L_25.___y;
+		float L_27 = V_0;
+		float L_28 = V_3;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_29;
+		memset((&L_29), 0, sizeof(L_29));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_29), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_22, L_23)), L_24)), (0.0f), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_26, L_27)), L_28)), NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_30;
+		L_30 = Quaternion_op_Multiply_mE1EBA73F9173432B50F8F17CE8190C5A7986FB8C(L_20, L_29, NULL);
+		V_4 = L_30;
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:74>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_31 = V_4;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_32;
+		L_32 = FirstPersonMovement_GetWallSafeVelocity_m3B046F31CAC7522659A6700AF7FF3F2DFBB0D71C(__this, L_31, NULL);
+		V_4 = L_32;
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:76>
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_33 = __this->___RB;
+		NullCheck(L_33);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_34;
+		L_34 = Rigidbody_get_linearVelocity_m367F5415641E5FB968440A91BAE2FCB8CAEA2C8C(L_33, NULL);
+		V_5 = L_34;
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:78>
+		bool L_35 = V_2;
+		if (L_35)
+		{
+			goto IL_00dc;
+		}
+	}
+	{
+		G_B14_0 = (0.180000007f);
+		goto IL_00e1;
+	}
+
+IL_00dc:
+	{
+		G_B14_0 = (0.0799999982f);
+	}
+
+IL_00e1:
+	{
+		V_6 = G_B14_0;
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:79>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_36 = V_5;
+		float L_37 = L_36.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_38 = V_4;
+		float L_39 = L_38.___x;
+		float L_40 = V_6;
+		float L_41;
+		L_41 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_37, L_39, L_40, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_42 = V_5;
+		float L_43 = L_42.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_44 = V_5;
+		float L_45 = L_44.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_46 = V_4;
+		float L_47 = L_46.___z;
+		float L_48 = V_6;
+		float L_49;
+		L_49 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_45, L_47, L_48, NULL);
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_7), L_41, L_43, L_49, NULL);
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:81>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_50 = V_1;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_51;
+		L_51 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
+		bool L_52;
+		L_52 = Vector2_op_Equality_m6F2E069A50E787D131261E5CB25FC9E03F95B5E1_inline(L_50, L_51, NULL);
+		if (!L_52)
+		{
+			goto IL_016d;
+		}
+	}
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:83>
+		bool L_53 = V_2;
+		if (L_53)
+		{
+			goto IL_0132;
+		}
+	}
+	{
+		G_B18_0 = (0.200000003f);
+		goto IL_0137;
+	}
+
+IL_0132:
+	{
+		G_B18_0 = (0.119999997f);
+	}
+
+IL_0137:
+	{
+		V_8 = G_B18_0;
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:84>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_54 = V_5;
+		float L_55 = L_54.___x;
+		float L_56 = V_8;
+		float L_57;
+		L_57 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_55, (0.0f), L_56, NULL);
+		(&V_7)->___x = L_57;
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:85>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_58 = V_5;
+		float L_59 = L_58.___z;
+		float L_60 = V_8;
+		float L_61;
+		L_61 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_59, (0.0f), L_60, NULL);
+		(&V_7)->___z = L_61;
+	}
+
+IL_016d:
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:87>
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_62 = __this->___RB;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_63 = V_7;
+		NullCheck(L_62);
+		Rigidbody_set_linearVelocity_m29AE03D5FC079EAD4202FCF72E2AEBDC19363985(L_62, L_63, NULL);
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:89>
+		return;
+	}
+}
+// Method Definition Index: 82046
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FirstPersonMovement__ctor_mD1305896B698A089ECA24F8DB3E11052FE675C0A (FirstPersonMovement_tA852887AB56569BDD01EA2BE85F9B39C349C5FFE* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7822,17 +7850,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FirstPersonMovement__ctor_mD1305896B698A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:9>
-		__this->___speed = (5.0f);
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:10>
+		__this->___speed = (5.0f);
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:11>
 		__this->___canRun = (bool)1;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:12>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:13>
 		__this->___runSpeed = (9.0f);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:21>
-		__this->___wallCheckDistance = (0.349999994f);
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:22>
+		__this->___wallCheckDistance = (0.349999994f);
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:23>
 		__this->___wallRadius = (0.25f);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:25>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:26>
 		List_1_t6F64C3EC2C2C6614F0A241F3D022EC8745453001* L_0 = (List_1_t6F64C3EC2C2C6614F0A241F3D022EC8745453001*)il2cpp_codegen_object_new(List_1_t6F64C3EC2C2C6614F0A241F3D022EC8745453001_il2cpp_TypeInfo_var);
 		List_1__ctor_m26C8AB45C83E1904BEC2C2394CB7EB89675F088F(L_0, List_1__ctor_m26C8AB45C83E1904BEC2C2394CB7EB89675F088F_RuntimeMethod_var);
 		__this->___speedOverrides = L_0;
@@ -7849,7 +7877,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FirstPersonMovement__ctor_mD1305896B698A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82045
+// Method Definition Index: 82047
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CreditosRolagem_Update_mEFDCD2AB175A98F5E71F0165AC1256122EC28C96 (CreditosRolagem_tF030E9CB2796AB96D24ADDCC5B865CE5CD3CDBF8* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7900,7 +7928,7 @@ IL_003e:
 		return;
 	}
 }
-// Method Definition Index: 82046
+// Method Definition Index: 82048
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CreditosRolagem__ctor_mD4731D683A08AFE01F75CBC9A8405433C9C59C60 (CreditosRolagem_tF030E9CB2796AB96D24ADDCC5B865CE5CD3CDBF8* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7929,7 +7957,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CreditosRolagem__ctor_mD4731D683A08AFE01
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82047
+// Method Definition Index: 82049
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void debug_Update_mA7FE038F788B350FFEC9AF8530D78F9732C07A7A (debug_t06406A36BE56E46F9283ADE6BD21F273652221BD* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8046,7 +8074,7 @@ IL_0070:
 		return;
 	}
 }
-// Method Definition Index: 82048
+// Method Definition Index: 82050
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void debug__ctor_mB746F918327FF528AB878B4F55B135D0C7635CDF (debug_t06406A36BE56E46F9283ADE6BD21F273652221BD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8062,7 +8090,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void debug__ctor_mB746F918327FF528AB878B4F55B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82049
+// Method Definition Index: 82051
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void destroiObjeto_Start_m33E7E4EE124BAFC23C4F38DD94D416DEF54EE276 (destroiObjeto_t60944ED791FB272C4EDC22AF76370FF7A40B5EF2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8070,7 +8098,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void destroiObjeto_Start_m33E7E4EE124BAFC23C4
 		return;
 	}
 }
-// Method Definition Index: 82050
+// Method Definition Index: 82052
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void destroiObjeto_Update_m37A2F185F9B57C7D89FF54D8F223FD8057053080 (destroiObjeto_t60944ED791FB272C4EDC22AF76370FF7A40B5EF2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8078,7 +8106,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void destroiObjeto_Update_m37A2F185F9B57C7D89
 		return;
 	}
 }
-// Method Definition Index: 82051
+// Method Definition Index: 82053
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void destroiObjeto_DestroiObjeto_mF2139F3AD7F2F1305FAC400932CEE25B6607E5D0 (destroiObjeto_t60944ED791FB272C4EDC22AF76370FF7A40B5EF2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8097,7 +8125,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void destroiObjeto_DestroiObjeto_mF2139F3AD7F
 		return;
 	}
 }
-// Method Definition Index: 82052
+// Method Definition Index: 82054
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void destroiObjeto__ctor_m2284DED8E769D2F7AFBA8EFD40C02EAA58A48E53 (destroiObjeto_t60944ED791FB272C4EDC22AF76370FF7A40B5EF2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8113,7 +8141,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void destroiObjeto__ctor_m2284DED8E769D2F7AFB
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82053
+// Method Definition Index: 82055
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentCutscene_Update_mC589FD4E2DEC466F89BB74F43F137FD3B93C29F0 (GerentCutscene_t3C691240C732B03EAB24E6744405679875FFDA5F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8148,7 +8176,7 @@ IL_002a:
 		return;
 	}
 }
-// Method Definition Index: 82054
+// Method Definition Index: 82056
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentCutscene__ctor_m1C179A64D1E6F2BC1D45727DC13E81E95077093E (GerentCutscene_t3C691240C732B03EAB24E6744405679875FFDA5F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8164,7 +8192,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentCutscene__ctor_m1C179A64D1E6F2BC1D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82055
+// Method Definition Index: 82057
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentScena_ReturnToMainMenu_mA33DE3AE29115BC1CA709BE3E7E033F19518025F (GerentScena_t477DC182EB089772B7D84B078828AB3823A753A9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8182,7 +8210,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentScena_ReturnToMainMenu_mA33DE3AE29
 		return;
 	}
 }
-// Method Definition Index: 82056
+// Method Definition Index: 82058
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentScena_Play_mA0386EC25139DB6F9CFCFB78347FE77E9F6926F7 (GerentScena_t477DC182EB089772B7D84B078828AB3823A753A9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8200,7 +8228,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentScena_Play_mA0386EC25139DB6F9CFCFB
 		return;
 	}
 }
-// Method Definition Index: 82057
+// Method Definition Index: 82059
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentScena_Controles_m0A504D1E5C667370CA318697776D220E10D7BDB7 (GerentScena_t477DC182EB089772B7D84B078828AB3823A753A9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8216,7 +8244,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentScena_Controles_m0A504D1E5C667370C
 		return;
 	}
 }
-// Method Definition Index: 82058
+// Method Definition Index: 82060
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentScena_ControlesSair_mD58CDB6412229990C72FBB92853BA17843E4698D (GerentScena_t477DC182EB089772B7D84B078828AB3823A753A9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8232,7 +8260,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentScena_ControlesSair_mD58CDB6412229
 		return;
 	}
 }
-// Method Definition Index: 82059
+// Method Definition Index: 82061
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentScena_Exit_mE86E09174290AE3B7E30A38A0DAA4989B3978692 (GerentScena_t477DC182EB089772B7D84B078828AB3823A753A9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8248,7 +8276,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentScena_Exit_mE86E09174290AE3B7E30A3
 		return;
 	}
 }
-// Method Definition Index: 82060
+// Method Definition Index: 82062
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentScena_ExitNo_m9F16ED6BFE5E0E9AF87E78FE381B8D251C06416C (GerentScena_t477DC182EB089772B7D84B078828AB3823A753A9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8264,7 +8292,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentScena_ExitNo_m9F16ED6BFE5E0E9AF87E
 		return;
 	}
 }
-// Method Definition Index: 82061
+// Method Definition Index: 82063
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentScena_ExitYes_mF0600C507E671927CFDB94AADFFDA8715683FBC6 (GerentScena_t477DC182EB089772B7D84B078828AB3823A753A9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8281,7 +8309,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentScena_ExitYes_mF0600C507E671927CFD
 		return;
 	}
 }
-// Method Definition Index: 82062
+// Method Definition Index: 82064
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentScena__ctor_mD45C6A98974457BADD48180F791E940C1890EFA4 (GerentScena_t477DC182EB089772B7D84B078828AB3823A753A9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8297,7 +8325,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentScena__ctor_mD45C6A98974457BADD481
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82063
+// Method Definition Index: 82065
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GerentUI_get_isPaused_m74A634825E5479FB3884B4D7B2218F179C075490 (GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8306,7 +8334,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GerentUI_get_isPaused_m74A634825E5479FB3
 		return L_0;
 	}
 }
-// Method Definition Index: 82064
+// Method Definition Index: 82066
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_set_isPaused_mFB6779645616A04475C4DDBD29C65845C6E0F008 (GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -8316,7 +8344,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_set_isPaused_mFB6779645616A0447
 		return;
 	}
 }
-// Method Definition Index: 82065
+// Method Definition Index: 82067
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_Awake_m6B94D86760E7F53279BDEDD7B4BAD74A949FA97D (GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8424,15 +8452,9 @@ IL_00a1:
 		return;
 	}
 }
-// Method Definition Index: 82066
+// Method Definition Index: 82068
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_Update_mC5160B09570DB8D7A08911F6954E929A4F2D09D1 (GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	{
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:52>
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_0 = __this->___Pause;
@@ -8483,51 +8505,12 @@ IL_0023:
 IL_002c:
 	{
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:65>
-		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_5 = __this->___Inventory;
-		if (!L_5)
-		{
-			goto IL_0068;
-		}
-	}
-	{
-		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_6 = __this->___Inventory;
-		NullCheck(L_6);
-		bool L_7;
-		L_7 = InputAction_WasPressedThisFrame_m9D3F0284EB46EEB7F720DCC96BBDF027C9B6A75F(L_6, NULL);
-		if (!L_7)
-		{
-			goto IL_0068;
-		}
-	}
-	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:67>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = __this->___InventoryIMG;
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_9;
-		L_9 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_8, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_9)
-		{
-			goto IL_0068;
-		}
-	}
-	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:68>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = __this->___InventoryIMG;
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = __this->___InventoryIMG;
-		NullCheck(L_11);
-		bool L_12;
-		L_12 = GameObject_get_activeInHierarchy_m49250F4F168DCC5388D5BE4F6A5681386907B109(L_11, NULL);
-		NullCheck(L_10);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_10, (bool)((((int32_t)L_12) == ((int32_t)0))? 1 : 0), NULL);
-	}
-
-IL_0068:
-	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:70>
+		GerentUI_inventario_mECDD3F6C8DD18171999BE6BBED370B297F8FB1DF(__this, NULL);
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:66>
 		return;
 	}
 }
-// Method Definition Index: 82067
+// Method Definition Index: 82069
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GerentUI_IsPuzzleOuKeypadAtivo_m56C60D18AF618C7739607DCC74803394C8996058 (GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8545,7 +8528,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GerentUI_IsPuzzleOuKeypadAtivo_m56C60D18
 	int32_t G_B7_0 = 0;
 	int32_t G_B7_1 = 0;
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:74>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:70>
 		painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435* L_0 = ((painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435_StaticFields*)il2cpp_codegen_static_fields_for(painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435_il2cpp_TypeInfo_var))->___instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -8570,7 +8553,7 @@ IL_0019:
 
 IL_001a:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:75>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:71>
 		CdgSenha_t6F36A32FE45D5B3BE2A0642F5F1E22BFFF5379CD* L_4 = __this->___keypadScript;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_5;
@@ -8617,16 +8600,16 @@ IL_004d:
 IL_004e:
 	{
 		V_0 = (bool)G_B7_0;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:77>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:73>
 		bool L_12 = V_0;
 		return (bool)((int32_t)(G_B7_1|(int32_t)L_12));
 	}
 }
-// Method Definition Index: 82068
+// Method Definition Index: 82070
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_TogglePause_m0FF3E6C365914FB014EF07BF7AB0B1D5125239CF (GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:82>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:78>
 		bool L_0;
 		L_0 = GerentUI_get_isPaused_m74A634825E5479FB3884B4D7B2218F179C075490_inline(__this, NULL);
 		if (!L_0)
@@ -8635,20 +8618,75 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_TogglePause_m0FF3E6C365914FB014
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:83>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:79>
 		GerentUI_ResumeGame_m2689237A5E9245209DEF075BD163CFEF87019D10(__this, NULL);
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:85>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:81>
 		GerentUI_PauseGame_m7FB8F14EDA7A0CBB9B1D23DA8A02C10A6AB7E35A(__this, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:86>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:82>
 		return;
 	}
 }
-// Method Definition Index: 82069
+// Method Definition Index: 82071
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_inventario_mECDD3F6C8DD18171999BE6BBED370B297F8FB1DF (GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:85>
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_0 = __this->___Inventory;
+		if (!L_0)
+		{
+			goto IL_003c;
+		}
+	}
+	{
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_1 = __this->___Inventory;
+		NullCheck(L_1);
+		bool L_2;
+		L_2 = InputAction_WasPressedThisFrame_m9D3F0284EB46EEB7F720DCC96BBDF027C9B6A75F(L_1, NULL);
+		if (!L_2)
+		{
+			goto IL_003c;
+		}
+	}
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:87>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___InventoryIMG;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_4;
+		L_4 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_3, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_4)
+		{
+			goto IL_003c;
+		}
+	}
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:88>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___InventoryIMG;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = __this->___InventoryIMG;
+		NullCheck(L_6);
+		bool L_7;
+		L_7 = GameObject_get_activeInHierarchy_m49250F4F168DCC5388D5BE4F6A5681386907B109(L_6, NULL);
+		NullCheck(L_5);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)((((int32_t)L_7) == ((int32_t)0))? 1 : 0), NULL);
+	}
+
+IL_003c:
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:90>
+		return;
+	}
+}
+// Method Definition Index: 82072
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_PauseGame_m7FB8F14EDA7A0CBB9B1D23DA8A02C10A6AB7E35A (GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8662,23 +8700,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_PauseGame_m7FB8F14EDA7A0CBB9B1D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:91>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:95>
 		GerentUI_set_isPaused_mFB6779645616A04475C4DDBD29C65845C6E0F008_inline(__this, (bool)1, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:92>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:96>
 		InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* L_0 = __this->___inputAction;
 		NullCheck(L_0);
 		InputActionMap_tFCE82E0E014319D4DED9F8962B06655DD0420A09* L_1;
 		L_1 = InputActionAsset_FindActionMap_mE04E63102310DA7662194A4D283E2E42D90CCC75(L_0, _stringLiteralCAF8804297181FF007CA835529DD4477CFD94A70, (bool)0, NULL);
 		NullCheck(L_1);
 		InputActionMap_Disable_m987468348648610F8B84D4F481592FF37AF5445C(L_1, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:93>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:97>
 		InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* L_2 = __this->___inputAction;
 		NullCheck(L_2);
 		InputActionMap_tFCE82E0E014319D4DED9F8962B06655DD0420A09* L_3;
 		L_3 = InputActionAsset_FindActionMap_mE04E63102310DA7662194A4D283E2E42D90CCC75(L_2, _stringLiteralB93F5E13E0AD8E8044D7D80E771F9A55F393D87F, (bool)0, NULL);
 		NullCheck(L_3);
 		InputActionMap_Enable_mAB23F0C4179D27C375F9FA335898B02E336CA4F6(L_3, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:94>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:98>
 		il2cpp_codegen_runtime_class_init_inline(InputSystem_t4120CA4FE7DCFD56AF9391933FC3F1F485350164_il2cpp_TypeInfo_var);
 		InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* L_4;
 		L_4 = InputSystem_get_actions_mE8D99B32AF6B8AB69DCF5DBBEC60C0F010C79B6C(NULL);
@@ -8687,9 +8725,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_PauseGame_m7FB8F14EDA7A0CBB9B1D
 		L_5 = InputActionAsset_FindAction_m50D07EAFAA8628B9793E7BBEEB2E89C2A9C45C00(L_4, _stringLiteralAAAA401E86E41E6120BB9E96B9892141CF5A81F8, (bool)0, NULL);
 		__this->___Pause = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Pause), (void*)L_5);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:95>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:99>
 		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((0.100000001f), NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:97>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:101>
 		int32_t L_6;
 		L_6 = SystemInfo_get_deviceType_m9BA3769FAC1102E252B5350FE208BF885E5F24D0(NULL);
 		if ((!(((uint32_t)L_6) == ((uint32_t)1))))
@@ -8698,7 +8736,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_PauseGame_m7FB8F14EDA7A0CBB9B1D
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:99>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:103>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = __this->___UICelular;
 		NullCheck(L_7);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_7, (bool)0, NULL);
@@ -8706,7 +8744,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_PauseGame_m7FB8F14EDA7A0CBB9B1D
 
 IL_0067:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:102>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:106>
 		int32_t L_8;
 		L_8 = SystemInfo_get_deviceType_m9BA3769FAC1102E252B5350FE208BF885E5F24D0(NULL);
 		if ((!(((uint32_t)L_8) == ((uint32_t)3))))
@@ -8715,15 +8753,15 @@ IL_0067:
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:104>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:108>
 		Cursor_set_lockState_mD81F6E5F3D86506FFB88567689A3A00A7AD242E9(0, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:105>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:109>
 		Cursor_set_visible_m612FCB2E86C15F91CE2E6148D1B556667954A2B7((bool)1, NULL);
 	}
 
 IL_007b:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:108>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:112>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = __this->___PauseMenu;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_10;
@@ -8734,7 +8772,7 @@ IL_007b:
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:109>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:113>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = __this->___PauseMenu;
 		NullCheck(L_11);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_11, (bool)1, NULL);
@@ -8742,11 +8780,11 @@ IL_007b:
 
 IL_0095:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:110>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:114>
 		return;
 	}
 }
-// Method Definition Index: 82070
+// Method Definition Index: 82073
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_ResumeGame_m2689237A5E9245209DEF075BD163CFEF87019D10 (GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8760,23 +8798,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_ResumeGame_m2689237A5E9245209DE
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:114>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:118>
 		GerentUI_set_isPaused_mFB6779645616A04475C4DDBD29C65845C6E0F008_inline(__this, (bool)0, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:115>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:119>
 		InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* L_0 = __this->___inputAction;
 		NullCheck(L_0);
 		InputActionMap_tFCE82E0E014319D4DED9F8962B06655DD0420A09* L_1;
 		L_1 = InputActionAsset_FindActionMap_mE04E63102310DA7662194A4D283E2E42D90CCC75(L_0, _stringLiteralCAF8804297181FF007CA835529DD4477CFD94A70, (bool)0, NULL);
 		NullCheck(L_1);
 		InputActionMap_Enable_mAB23F0C4179D27C375F9FA335898B02E336CA4F6(L_1, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:116>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:120>
 		InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* L_2 = __this->___inputAction;
 		NullCheck(L_2);
 		InputActionMap_tFCE82E0E014319D4DED9F8962B06655DD0420A09* L_3;
 		L_3 = InputActionAsset_FindActionMap_mE04E63102310DA7662194A4D283E2E42D90CCC75(L_2, _stringLiteralB93F5E13E0AD8E8044D7D80E771F9A55F393D87F, (bool)0, NULL);
 		NullCheck(L_3);
 		InputActionMap_Disable_m987468348648610F8B84D4F481592FF37AF5445C(L_3, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:117>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:121>
 		il2cpp_codegen_runtime_class_init_inline(InputSystem_t4120CA4FE7DCFD56AF9391933FC3F1F485350164_il2cpp_TypeInfo_var);
 		InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* L_4;
 		L_4 = InputSystem_get_actions_mE8D99B32AF6B8AB69DCF5DBBEC60C0F010C79B6C(NULL);
@@ -8785,9 +8823,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_ResumeGame_m2689237A5E9245209DE
 		L_5 = InputActionAsset_FindAction_m50D07EAFAA8628B9793E7BBEEB2E89C2A9C45C00(L_4, _stringLiteralAAAA401E86E41E6120BB9E96B9892141CF5A81F8, (bool)0, NULL);
 		__this->___Pause = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Pause), (void*)L_5);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:118>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:122>
 		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((1.0f), NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:120>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:124>
 		int32_t L_6;
 		L_6 = SystemInfo_get_deviceType_m9BA3769FAC1102E252B5350FE208BF885E5F24D0(NULL);
 		if ((!(((uint32_t)L_6) == ((uint32_t)3))))
@@ -8796,15 +8834,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_ResumeGame_m2689237A5E9245209DE
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:122>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:126>
 		Cursor_set_lockState_mD81F6E5F3D86506FFB88567689A3A00A7AD242E9(1, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:123>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:127>
 		Cursor_set_visible_m612FCB2E86C15F91CE2E6148D1B556667954A2B7((bool)0, NULL);
 	}
 
 IL_0067:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:126>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:130>
 		int32_t L_7;
 		L_7 = SystemInfo_get_deviceType_m9BA3769FAC1102E252B5350FE208BF885E5F24D0(NULL);
 		if ((!(((uint32_t)L_7) == ((uint32_t)1))))
@@ -8813,7 +8851,7 @@ IL_0067:
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:128>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:132>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = __this->___UICelular;
 		NullCheck(L_8);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_8, (bool)1, NULL);
@@ -8821,7 +8859,7 @@ IL_0067:
 
 IL_007b:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:131>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:135>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = __this->___PauseMenu;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_10;
@@ -8832,7 +8870,7 @@ IL_007b:
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:132>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:136>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = __this->___PauseMenu;
 		NullCheck(L_11);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_11, (bool)0, NULL);
@@ -8840,11 +8878,11 @@ IL_007b:
 
 IL_0095:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:133>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:137>
 		return;
 	}
 }
-// Method Definition Index: 82071
+// Method Definition Index: 82074
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_SetActivePauseMenu_m389C81882ECC8ECC401B0E47B7507B3156DFFC72 (GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* __this, bool ___0_state, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8854,7 +8892,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_SetActivePauseMenu_m389C81882EC
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:137>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:141>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___PauseMenu;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -8865,7 +8903,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_SetActivePauseMenu_m389C81882EC
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:138>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:142>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___PauseMenu;
 		bool L_3 = ___0_state;
 		NullCheck(L_2);
@@ -8874,11 +8912,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_SetActivePauseMenu_m389C81882EC
 
 IL_001a:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:139>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:143>
 		return;
 	}
 }
-// Method Definition Index: 82072
+// Method Definition Index: 82075
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_SetPawCursor_m9A66671706FA7B30C3290D0046DEBAFB8169F688 (GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* __this, bool ___0_state, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8888,7 +8926,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_SetPawCursor_m9A66671706FA7B30C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:144>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:148>
 		bool L_0;
 		L_0 = GerentUI_IsPuzzleOuKeypadAtivo_m56C60D18AF618C7739607DCC74803394C8996058(__this, NULL);
 		if (!L_0)
@@ -8897,7 +8935,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_SetPawCursor_m9A66671706FA7B30C
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:146>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:150>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___CursorPata;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
@@ -8908,7 +8946,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_SetPawCursor_m9A66671706FA7B30C
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:146>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:150>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___CursorPata;
 		NullCheck(L_3);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)0, NULL);
@@ -8916,13 +8954,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_SetPawCursor_m9A66671706FA7B30C
 
 IL_0022:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:147>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:151>
 		return;
 	}
 
 IL_0023:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:150>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:154>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = __this->___CursorPata;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_5;
@@ -8933,7 +8971,7 @@ IL_0023:
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:150>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:154>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = __this->___CursorPata;
 		bool L_7 = ___0_state;
 		NullCheck(L_6);
@@ -8942,11 +8980,11 @@ IL_0023:
 
 IL_003d:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:151>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:155>
 		return;
 	}
 }
-// Method Definition Index: 82073
+// Method Definition Index: 82076
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_SetbackImg_m0FD210A0DA3662126CB5ADBB5DDB84A2866FEF4F (GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* __this, bool ___0_state, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8956,7 +8994,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_SetbackImg_m0FD210A0DA3662126CB
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:155>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:159>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___saiinteract;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -8967,7 +9005,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_SetbackImg_m0FD210A0DA3662126CB
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:155>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:159>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___saiinteract;
 		bool L_3 = ___0_state;
 		NullCheck(L_2);
@@ -8976,7 +9014,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_SetbackImg_m0FD210A0DA3662126CB
 
 IL_001a:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:156>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:160>
 		bool L_4 = ___0_state;
 		if (L_4)
 		{
@@ -8994,7 +9032,7 @@ IL_001a:
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:158>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:162>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_7 = __this->___interactIMG;
 		NullCheck(L_7);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_7, (bool)0, NULL);
@@ -9002,11 +9040,11 @@ IL_001a:
 
 IL_0037:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:160>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:164>
 		return;
 	}
 }
-// Method Definition Index: 82074
+// Method Definition Index: 82077
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_SetIntIMG_m36421E8D1DB0E85B6C7673D0FB9242EB6F9A0280 (GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* __this, Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___0_img, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9016,7 +9054,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_SetIntIMG_m36421E8D1DB0E85B6C76
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:164>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:168>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_0 = __this->___interactIMG;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -9027,12 +9065,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_SetIntIMG_m36421E8D1DB0E85B6C76
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:166>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:170>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_2 = __this->___interactIMG;
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_3 = ___0_img;
 		NullCheck(L_2);
 		Image_set_sprite_mC0C248340BA27AAEE56855A3FAFA0D8CA12956DE(L_2, L_3, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:167>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:171>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_4 = __this->___interactIMG;
 		NullCheck(L_4);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_4, (bool)1, NULL);
@@ -9040,15 +9078,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_SetIntIMG_m36421E8D1DB0E85B6C76
 
 IL_0026:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:169>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:173>
 		return;
 	}
 }
-// Method Definition Index: 82075
+// Method Definition Index: 82078
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_setItens_m90F7B5CD328462956E6230E9A5259F3651834567 (GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* __this, Item_tFAF77888D49883A321EB596A7D93CB5615D37E95* ___0_item, int32_t ___1_index, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:173>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:177>
 		TextMeshProUGUIU5BU5D_tCAB9404D43876DF686DFBB4613543479CC1CC24A* L_0 = __this->___InventoryItens;
 		if (!L_0)
 		{
@@ -9065,7 +9103,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_setItens_m90F7B5CD328462956E623
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:175>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:179>
 		TextMeshProUGUIU5BU5D_tCAB9404D43876DF686DFBB4613543479CC1CC24A* L_3 = __this->___InventoryItens;
 		int32_t L_4 = ___1_index;
 		NullCheck(L_3);
@@ -9076,7 +9114,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_setItens_m90F7B5CD328462956E623
 		String_t* L_8 = L_7->___InvetoryTxt;
 		NullCheck(L_6);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_6, L_8);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:176>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:180>
 		Item_tFAF77888D49883A321EB596A7D93CB5615D37E95* L_9 = ___0_item;
 		NullCheck(L_9);
 		String_t* L_10 = L_9->___CollectMsg;
@@ -9085,11 +9123,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_setItens_m90F7B5CD328462956E623
 
 IL_0032:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:178>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:182>
 		return;
 	}
 }
-// Method Definition Index: 82076
+// Method Definition Index: 82079
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_ShowMessage_m212AAD1FBA4F36198CCABCD01F71AAC88974D2A9 (GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* __this, String_t* ___0_msg, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9099,7 +9137,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_ShowMessage_m212AAD1FBA4F36198C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:182>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:186>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_0 = __this->___InfoTxt;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -9110,12 +9148,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_ShowMessage_m212AAD1FBA4F36198C
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:184>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:188>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_2 = __this->___InfoTxt;
 		String_t* L_3 = ___0_msg;
 		NullCheck(L_2);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_2, L_3);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:185>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:189>
 		RuntimeObject* L_4;
 		L_4 = GerentUI_FadingText_mD62B13B2ACF8C4FD58604A8B1822E3C59E66027F(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_5;
@@ -9124,30 +9162,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI_ShowMessage_m212AAD1FBA4F36198C
 
 IL_0027:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:187>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:191>
 		return;
 	}
 }
-// Method Definition Index: 82077
+// Method Definition Index: 82080
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GerentUI_FadingText_mD62B13B2ACF8C4FD58604A8B1822E3C59E66027F (GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CFadingTextU3Ed__30_t227C7C313E7CE646CBE44ECF4A8FE3D1DE2ED734_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CFadingTextU3Ed__31_t0C17AD9CBAE8CF4686E2B932025BB0F085199A29_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		U3CFadingTextU3Ed__30_t227C7C313E7CE646CBE44ECF4A8FE3D1DE2ED734* L_0 = (U3CFadingTextU3Ed__30_t227C7C313E7CE646CBE44ECF4A8FE3D1DE2ED734*)il2cpp_codegen_object_new(U3CFadingTextU3Ed__30_t227C7C313E7CE646CBE44ECF4A8FE3D1DE2ED734_il2cpp_TypeInfo_var);
-		U3CFadingTextU3Ed__30__ctor_mAF917F67B9B901EF83339CE0DDB32EA9E558471F(L_0, 0, NULL);
-		U3CFadingTextU3Ed__30_t227C7C313E7CE646CBE44ECF4A8FE3D1DE2ED734* L_1 = L_0;
+		U3CFadingTextU3Ed__31_t0C17AD9CBAE8CF4686E2B932025BB0F085199A29* L_0 = (U3CFadingTextU3Ed__31_t0C17AD9CBAE8CF4686E2B932025BB0F085199A29*)il2cpp_codegen_object_new(U3CFadingTextU3Ed__31_t0C17AD9CBAE8CF4686E2B932025BB0F085199A29_il2cpp_TypeInfo_var);
+		U3CFadingTextU3Ed__31__ctor_m038BD1649FE8AF4EB12755D92624E2C2CFF9CE9D(L_0, 0, NULL);
+		U3CFadingTextU3Ed__31_t0C17AD9CBAE8CF4686E2B932025BB0F085199A29* L_1 = L_0;
 		NullCheck(L_1);
 		L_1->___U3CU3E4__this = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
 		return L_1;
 	}
 }
-// Method Definition Index: 82078
+// Method Definition Index: 82081
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI__ctor_mB7BFCBE5C7E3F5069C47FA941238C706721BA1C3 (GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9163,8 +9201,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerentUI__ctor_mB7BFCBE5C7E3F5069C47FA94
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82079
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFadingTextU3Ed__30__ctor_mAF917F67B9B901EF83339CE0DDB32EA9E558471F (U3CFadingTextU3Ed__30_t227C7C313E7CE646CBE44ECF4A8FE3D1DE2ED734* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+// Method Definition Index: 82082
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFadingTextU3Ed__31__ctor_m038BD1649FE8AF4EB12755D92624E2C2CFF9CE9D (U3CFadingTextU3Ed__31_t0C17AD9CBAE8CF4686E2B932025BB0F085199A29* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
@@ -9173,15 +9211,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFadingTextU3Ed__30__ctor_mAF917F67B9B
 		return;
 	}
 }
-// Method Definition Index: 82080
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFadingTextU3Ed__30_System_IDisposable_Dispose_mEDFEBF11DD4A35846054D59FCA771B8D09900A87 (U3CFadingTextU3Ed__30_t227C7C313E7CE646CBE44ECF4A8FE3D1DE2ED734* __this, const RuntimeMethod* method) 
+// Method Definition Index: 82083
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFadingTextU3Ed__31_System_IDisposable_Dispose_mFA299DB4D0FF0D1493DF18512F6C44BAD6EDBB3F (U3CFadingTextU3Ed__31_t0C17AD9CBAE8CF4686E2B932025BB0F085199A29* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 82081
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CFadingTextU3Ed__30_MoveNext_m956256B2F9EE99D1CD837455E60FA66CD9D6F55D (U3CFadingTextU3Ed__30_t227C7C313E7CE646CBE44ECF4A8FE3D1DE2ED734* __this, const RuntimeMethod* method) 
+// Method Definition Index: 82084
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CFadingTextU3Ed__31_MoveNext_m9ED3EB88A6E74952A4364A5199028075AEBBF333 (U3CFadingTextU3Ed__31_t0C17AD9CBAE8CF4686E2B932025BB0F085199A29* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -9224,7 +9262,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CFadingTextU3Ed__30_MoveNext_m956256B2
 IL_0026:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:191>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:195>
 		GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* L_3 = V_1;
 		NullCheck(L_3);
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_4 = L_3->___InfoTxt;
@@ -9237,7 +9275,7 @@ IL_0026:
 
 IL_0040:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:194>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:198>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* L_6 = (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)(&__this->___U3CnewColorU3E5__2);
 		float* L_7 = (float*)(&L_6->___a);
 		float* L_8 = L_7;
@@ -9245,14 +9283,14 @@ IL_0040:
 		float L_10;
 		L_10 = Time_get_unscaledDeltaTime_mF057EECA857E5C0F90A3F910D26D3EE59F27C4B5(NULL);
 		*((float*)L_8) = (float)((float)il2cpp_codegen_add(L_9, L_10));
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:195>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:199>
 		GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* L_11 = V_1;
 		NullCheck(L_11);
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_12 = L_11->___InfoTxt;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_13 = __this->___U3CnewColorU3E5__2;
 		NullCheck(L_12);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_12, L_13);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:196>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:200>
 		__this->___U3CU3E2__current = NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
 		__this->___U3CU3E1__state = 1;
@@ -9266,7 +9304,7 @@ IL_0075:
 
 IL_007c:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:192>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:196>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* L_14 = (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)(&__this->___U3CnewColorU3E5__2);
 		float L_15 = L_14->___a;
 		if ((((float)L_15) < ((float)(1.0f))))
@@ -9275,7 +9313,7 @@ IL_007c:
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:198>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:202>
 		WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01* L_16 = (WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01*)il2cpp_codegen_object_new(WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01_il2cpp_TypeInfo_var);
 		WaitForSecondsRealtime__ctor_mBFC1E4F0E042D5EC6E7EEB211A2FE5193A8F6D6F(L_16, (2.0f), NULL);
 		__this->___U3CU3E2__current = L_16;
@@ -9292,7 +9330,7 @@ IL_00a7:
 
 IL_00b0:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:201>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:205>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* L_17 = (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)(&__this->___U3CnewColorU3E5__2);
 		float* L_18 = (float*)(&L_17->___a);
 		float* L_19 = L_18;
@@ -9300,14 +9338,14 @@ IL_00b0:
 		float L_21;
 		L_21 = Time_get_unscaledDeltaTime_mF057EECA857E5C0F90A3F910D26D3EE59F27C4B5(NULL);
 		*((float*)L_19) = (float)((float)il2cpp_codegen_subtract(L_20, L_21));
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:202>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:206>
 		GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* L_22 = V_1;
 		NullCheck(L_22);
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_23 = L_22->___InfoTxt;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_24 = __this->___U3CnewColorU3E5__2;
 		NullCheck(L_23);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_23, L_24);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:203>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:207>
 		__this->___U3CU3E2__current = NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
 		__this->___U3CU3E1__state = 3;
@@ -9321,7 +9359,7 @@ IL_00e5:
 
 IL_00ec:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:199>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:203>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* L_25 = (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)(&__this->___U3CnewColorU3E5__2);
 		float L_26 = L_25->___a;
 		if ((((float)L_26) > ((float)(0.0f))))
@@ -9330,29 +9368,29 @@ IL_00ec:
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:205>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/gerentes/GerentUI.cs:209>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 82082
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CFadingTextU3Ed__30_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m6D48BC77096C40EF22A0081A185E4DEC382DAF6C (U3CFadingTextU3Ed__30_t227C7C313E7CE646CBE44ECF4A8FE3D1DE2ED734* __this, const RuntimeMethod* method) 
+// Method Definition Index: 82085
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CFadingTextU3Ed__31_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mE342F5CDB9792704C807B32BC1F344E1F22F2A10 (U3CFadingTextU3Ed__31_t0C17AD9CBAE8CF4686E2B932025BB0F085199A29* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current;
 		return L_0;
 	}
 }
-// Method Definition Index: 82083
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFadingTextU3Ed__30_System_Collections_IEnumerator_Reset_m2264F0B2411F91E7E32A06D788212522F1A4BD88 (U3CFadingTextU3Ed__30_t227C7C313E7CE646CBE44ECF4A8FE3D1DE2ED734* __this, const RuntimeMethod* method) 
+// Method Definition Index: 82086
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFadingTextU3Ed__31_System_Collections_IEnumerator_Reset_m203F2C180F3035C7C6A68CAF40E9658444D0ADBD (U3CFadingTextU3Ed__31_t0C17AD9CBAE8CF4686E2B932025BB0F085199A29* __this, const RuntimeMethod* method) 
 {
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CFadingTextU3Ed__30_System_Collections_IEnumerator_Reset_m2264F0B2411F91E7E32A06D788212522F1A4BD88_RuntimeMethod_var)));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CFadingTextU3Ed__31_System_Collections_IEnumerator_Reset_m203F2C180F3035C7C6A68CAF40E9658444D0ADBD_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 82084
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CFadingTextU3Ed__30_System_Collections_IEnumerator_get_Current_mB10A678CB464489D05A25D6046445D6EC344F355 (U3CFadingTextU3Ed__30_t227C7C313E7CE646CBE44ECF4A8FE3D1DE2ED734* __this, const RuntimeMethod* method) 
+// Method Definition Index: 82087
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CFadingTextU3Ed__31_System_Collections_IEnumerator_get_Current_mBDC92EE556CF21BC8DB3A6998740F025462B8300 (U3CFadingTextU3Ed__31_t0C17AD9CBAE8CF4686E2B932025BB0F085199A29* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current;
@@ -9367,7 +9405,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CFadingTextU3Ed__30_System_C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82085
+// Method Definition Index: 82088
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BrinquedoColetavel__ctor_m0A7D6E070FBF290D2224B591F799584EB428AC4D (BrinquedoColetavel_tD8973E584735B2274E1B975EFA9080DDE8BDCF15* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9383,7 +9421,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BrinquedoColetavel__ctor_m0A7D6E070FBF29
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82086
+// Method Definition Index: 82089
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerenciadorInventario_Start_m21A32A357EE28D36869521B89FB0BE0441178144 (GerenciadorInventario_t21D53B317861B5E68346739B1908EEBEE316510C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9406,7 +9444,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerenciadorInventario_Start_m21A32A357EE
 		return;
 	}
 }
-// Method Definition Index: 82087
+// Method Definition Index: 82090
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerenciadorInventario_AtualizarTodaUI_m0ADCC1FA53987F61D5D06F6BE4F572C9D28B850A (GerenciadorInventario_t21D53B317861B5E68346739B1908EEBEE316510C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9495,7 +9533,7 @@ IL_0051:
 		return;
 	}
 }
-// Method Definition Index: 82088
+// Method Definition Index: 82091
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GerenciadorInventario_AdicionarItem_m6E2E04B809719F97148A6543F9E3D1285AB029FC (GerenciadorInventario_t21D53B317861B5E68346739B1908EEBEE316510C* __this, Item_tFAF77888D49883A321EB596A7D93CB5615D37E95* ___0_novoItem, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9573,7 +9611,7 @@ IL_0031:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 82089
+// Method Definition Index: 82092
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerenciadorInventario__ctor_m673C37DD319FEC9916392D4363AB1429BED45DBC (GerenciadorInventario_t21D53B317861B5E68346739B1908EEBEE316510C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9608,7 +9646,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GerenciadorInventario__ctor_m673C37DD319
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82090
+// Method Definition Index: 82093
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SlotInventario_AtualizarSlot_m074ED0D1238917EEDD29589394AE103AF686A9D6 (SlotInventario_t3E2198FC9C3711F7265D7EDE1115E7AA579CD7EC* __this, Item_tFAF77888D49883A321EB596A7D93CB5615D37E95* ___0_item, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9674,7 +9712,7 @@ IL_0035:
 		return;
 	}
 }
-// Method Definition Index: 82091
+// Method Definition Index: 82094
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SlotInventario__ctor_m10DED78DBF90F8F0261772BB9A8B27FC83B2F382 (SlotInventario_t3E2198FC9C3711F7265D7EDE1115E7AA579CD7EC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9690,7 +9728,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SlotInventario__ctor_m10DED78DBF90F8F026
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82092
+// Method Definition Index: 82095
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* BloqueioDeItem_get_MensagemBloqueado_m613E1C4C6BDB51D44F4143D0207118F3246BD007 (BloqueioDeItem_t13F737DA16883F4E44B6FF9FE4DD1A20B339B98D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9699,7 +9737,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* BloqueioDeItem_get_MensagemBloquead
 		return L_0;
 	}
 }
-// Method Definition Index: 82093
+// Method Definition Index: 82096
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BloqueioDeItem_PodeInteragir_m5CE2F595C965C0ED4B3259D49D5352598FC233BD (BloqueioDeItem_t13F737DA16883F4E44B6FF9FE4DD1A20B339B98D* __this, PlayerInventory_t9DFF7303E6D77500C69210AA16F04634500D80E6* ___0_inventory, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9763,7 +9801,7 @@ IL_0033:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 82094
+// Method Definition Index: 82097
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BloqueioDeItem__ctor_m01F8412ED7A98417B13EE29CFC292D0098602C35 (BloqueioDeItem_t13F737DA16883F4E44B6FF9FE4DD1A20B339B98D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9788,7 +9826,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BloqueioDeItem__ctor_m01F8412ED7A98417B1
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82095
+// Method Definition Index: 82098
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Interactables_StoreOriginalTransform_m931D5840ECE751B234DAE94CE260DDE68D2AD6EB (Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9810,7 +9848,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Interactables_StoreOriginalTransform_m93
 		return;
 	}
 }
-// Method Definition Index: 82096
+// Method Definition Index: 82099
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Interactables_RestoreOriginalTransform_m442426CCC11D243F2894D6D5D22C9FD6EDC0C8C3 (Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9830,7 +9868,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Interactables_RestoreOriginalTransform_m
 		return;
 	}
 }
-// Method Definition Index: 82097
+// Method Definition Index: 82100
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Interactables_GetOriginalPosition_m6DD8AA6DD1F68DE9B8F68A9427F7D753A805476E (Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9839,7 +9877,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		return L_0;
 	}
 }
-// Method Definition Index: 82098
+// Method Definition Index: 82101
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Interactables_GetOriginalRotation_mD389EB6E86B2FADED0B8D38E68EF13C3EE31CC1B (Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9848,7 +9886,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF
 		return L_0;
 	}
 }
-// Method Definition Index: 82099
+// Method Definition Index: 82102
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Interactables__ctor_m650DFD5365162EA76871A27B525A62F7A3C7BAC0 (Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9864,7 +9902,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Interactables__ctor_m650DFD5365162EA7687
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82100
+// Method Definition Index: 82103
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PreviousItem__ctor_m144DC008327EA9A571F7E59F6ABECAF96166E370 (PreviousItem_tD4A84249D7725CDAAFD6448D317E777228FD736B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9880,7 +9918,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PreviousItem__ctor_m144DC008327EA9A571F7
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82101
+// Method Definition Index: 82104
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Item__ctor_m741D59B05082743C60D2F1149112B571E89CAFAF (Item_tFAF77888D49883A321EB596A7D93CB5615D37E95* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9896,7 +9934,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Item__ctor_m741D59B05082743C60D2F1149112
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82102
+// Method Definition Index: 82105
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MusicaBG_Awake_m164D616EDCE3E5DDEE07DF20E6F6F9B096DAFF79 (MusicaBG_t4A339C1117EC166029C80084267C41E4997BEB5B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9932,7 +9970,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MusicaBG_Awake_m164D616EDCE3E5DDEE07DF20
 		return;
 	}
 }
-// Method Definition Index: 82103
+// Method Definition Index: 82106
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MusicaBG_AoCarregarCena_m908783A12D7F59E779A8A363FEE34BBB2C9484B7 (MusicaBG_t4A339C1117EC166029C80084267C41E4997BEB5B* __this, Scene_tA1DC762B79745EB5140F054C884855B922318356 ___0_cena, int32_t ___1__, const RuntimeMethod* method) 
 {
 	{
@@ -9944,7 +9982,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MusicaBG_AoCarregarCena_m908783A12D7F59E
 		return;
 	}
 }
-// Method Definition Index: 82104
+// Method Definition Index: 82107
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MusicaBG_TocarMusica_m64D59DEC4ACB8DAC7A355E771CFE1C402EA5772F (MusicaBG_t4A339C1117EC166029C80084267C41E4997BEB5B* __this, String_t* ___0_nomeCena, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10036,7 +10074,7 @@ IL_004e:
 		return;
 	}
 }
-// Method Definition Index: 82105
+// Method Definition Index: 82108
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MusicaBG_OnDestroy_m2DA3B51152C2A3AFCABA85CBB4910B7CC36AFFAF (MusicaBG_t4A339C1117EC166029C80084267C41E4997BEB5B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10077,7 +10115,7 @@ IL_0032:
 		return;
 	}
 }
-// Method Definition Index: 82106
+// Method Definition Index: 82109
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MusicaBG__ctor_m8ACC85C3DC5AE1074EFC791D20F32014CF85A82B (MusicaBG_t4A339C1117EC166029C80084267C41E4997BEB5B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10093,7 +10131,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MusicaBG__ctor_m8ACC85C3DC5AE1074EFC791D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82107
+// Method Definition Index: 82110
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void inventarioBrinquedos_Start_m00D4639E06ECDE77CC16748B6AB8C4CB1562A189 (inventarioBrinquedos_t2272C83340A92F136A9BC574CD12F6775135E4B3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10104,7 +10142,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void inventarioBrinquedos_Start_m00D4639E06EC
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/inventarioBrinquedos.cs:16>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/inventarioBrinquedos.cs:17>
 		il2cpp_codegen_runtime_class_init_inline(InputSystem_t4120CA4FE7DCFD56AF9391933FC3F1F485350164_il2cpp_TypeInfo_var);
 		InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* L_0;
 		L_0 = InputSystem_get_actions_mE8D99B32AF6B8AB69DCF5DBBEC60C0F010C79B6C(NULL);
@@ -10113,62 +10151,70 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void inventarioBrinquedos_Start_m00D4639E06EC
 		L_1 = InputActionAsset_FindAction_m50D07EAFAA8628B9793E7BBEEB2E89C2A9C45C00(L_0, _stringLiteral31E3505D1BEBA4A2F454A259E5AE2510E613027F, (bool)0, NULL);
 		__this->___abrirInventario = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___abrirInventario), (void*)L_1);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/inventarioBrinquedos.cs:17>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/inventarioBrinquedos.cs:18>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
 		L_2 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_2);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)0, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/inventarioBrinquedos.cs:18>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/inventarioBrinquedos.cs:19>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___brinquedoInventario;
 		NullCheck(L_3);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)0, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/inventarioBrinquedos.cs:19>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/inventarioBrinquedos.cs:20>
 		return;
 	}
 }
-// Method Definition Index: 82108
+// Method Definition Index: 82111
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void inventarioBrinquedos_Update_m9423D404CEBA4280F094C62785FFC593584BD1DE (inventarioBrinquedos_t2272C83340A92F136A9BC574CD12F6775135E4B3* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/inventarioBrinquedos.cs:24>
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA2F7573D28143E93366AAAF6CDED51777BACC2B3);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/inventarioBrinquedos.cs:25>
 		bool L_0 = __this->___inventarioLig;
 		if (!L_0)
 		{
-			goto IL_0027;
+			goto IL_0031;
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/inventarioBrinquedos.cs:26>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/inventarioBrinquedos.cs:27>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
 		L_1 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_1);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)1, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/inventarioBrinquedos.cs:27>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/inventarioBrinquedos.cs:28>
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_2 = __this->___abrirInventario;
 		NullCheck(L_2);
 		bool L_3;
 		L_3 = InputAction_WasReleasedThisFrame_mF694B7E4116DBBA186CC8828F7C36ADCC351F409(L_2, NULL);
 		if (!L_3)
 		{
-			goto IL_0027;
+			goto IL_0031;
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/inventarioBrinquedos.cs:29>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/inventarioBrinquedos.cs:30>
+		MonoBehaviour_print_m9E6FF71C673B651F35DD418C293CFC50C46803B6(_stringLiteralA2F7573D28143E93366AAAF6CDED51777BACC2B3, NULL);
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/inventarioBrinquedos.cs:31>
 		inventarioBrinquedos_MostrarInventario_m0E1E68D8CBC50F10B2A1C2DF68CF0D33A961E4AA(__this, NULL);
 	}
 
-IL_0027:
+IL_0031:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/inventarioBrinquedos.cs:32>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/inventarioBrinquedos.cs:34>
 		return;
 	}
 }
-// Method Definition Index: 82109
+// Method Definition Index: 82112
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void inventarioBrinquedos_MostrarInventario_m0E1E68D8CBC50F10B2A1C2DF68CF0D33A961E4AA (inventarioBrinquedos_t2272C83340A92F136A9BC574CD12F6775135E4B3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/inventarioBrinquedos.cs:36>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/inventarioBrinquedos.cs:38>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___brinquedoInventario;
 		NullCheck(L_0);
 		bool L_1;
@@ -10179,7 +10225,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void inventarioBrinquedos_MostrarInventario_m
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/inventarioBrinquedos.cs:38>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/inventarioBrinquedos.cs:40>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___brinquedoInventario;
 		NullCheck(L_2);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)0, NULL);
@@ -10188,28 +10234,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void inventarioBrinquedos_MostrarInventario_m
 
 IL_001a:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/inventarioBrinquedos.cs:41>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/inventarioBrinquedos.cs:43>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___brinquedoInventario;
 		NullCheck(L_3);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)1, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/inventarioBrinquedos.cs:43>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/inventarioBrinquedos.cs:45>
 		return;
 	}
 }
-// Method Definition Index: 82110
+// Method Definition Index: 82113
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void inventarioBrinquedos_ativarInventario_mCC04B1CE8B4A74217CC21A4F5DC26D9FD730D3E6 (inventarioBrinquedos_t2272C83340A92F136A9BC574CD12F6775135E4B3* __this, bool ___0_taPodendo, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/inventarioBrinquedos.cs:47>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/inventarioBrinquedos.cs:49>
 		bool L_0 = ___0_taPodendo;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/inventarioBrinquedos.cs:50>
-		bool L_1 = ___0_taPodendo;
-		__this->___inventarioLig = L_1;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/inventarioBrinquedos.cs:51>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/inventarioBrinquedos.cs:52>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___inventarioNormal;
+		NullCheck(L_1);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)0, NULL);
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/inventarioBrinquedos.cs:53>
+		bool L_2 = ___0_taPodendo;
+		__this->___inventarioLig = L_2;
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/inventarioBrinquedos.cs:54>
 		return;
 	}
 }
-// Method Definition Index: 82111
+// Method Definition Index: 82114
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void inventarioBrinquedos__ctor_m123D13DD5D286DB6FA50BDEC6239CCFB51E7AA14 (inventarioBrinquedos_t2272C83340A92F136A9BC574CD12F6775135E4B3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10225,7 +10275,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void inventarioBrinquedos__ctor_m123D13DD5D28
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82112
+// Method Definition Index: 82115
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerInteract_Awake_m49E6BE968467594607FE3FD3E62666A1685B84FE (PlayerInteract_t1B2F2008321DEDEDDD394EF62CB3EFFE7A2EE8A0* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10237,89 +10287,98 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerInteract_Awake_m49E6BE968467594607
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisportaEscadaria_tF992F03B5AD15F6805B5DE513C763BFECBD8FCF0_m2E4F9F401BD92DA82BF5CDE8EF373C531CD4DE25_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputSystem_t4120CA4FE7DCFD56AF9391933FC3F1F485350164_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE2BDA750F51646D027D85E464AE2F5D327B7532B);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral386D6A27C7FD3F0FC0845B481A76CBEE3EC54DAB);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCD7C38A7C650369E7858E41840BC1EEF0E7B5F26);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFBA9CEB43D14830BEAAF5F87C6AAAD1A8A36A67F);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:38>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:39>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0;
 		L_0 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
 		__this->___Mycam = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Mycam), (void*)L_0);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:39>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:40>
 		il2cpp_codegen_runtime_class_init_inline(InputSystem_t4120CA4FE7DCFD56AF9391933FC3F1F485350164_il2cpp_TypeInfo_var);
 		InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* L_1;
 		L_1 = InputSystem_get_actions_mE8D99B32AF6B8AB69DCF5DBBEC60C0F010C79B6C(NULL);
 		NullCheck(L_1);
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_2;
-		L_2 = InputActionAsset_FindAction_m50D07EAFAA8628B9793E7BBEEB2E89C2A9C45C00(L_1, _stringLiteralE2BDA750F51646D027D85E464AE2F5D327B7532B, (bool)0, NULL);
-		__this->___IM = L_2;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___IM), (void*)L_2);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:40>
+		L_2 = InputActionAsset_FindAction_m50D07EAFAA8628B9793E7BBEEB2E89C2A9C45C00(L_1, _stringLiteral386D6A27C7FD3F0FC0845B481A76CBEE3EC54DAB, (bool)0, NULL);
+		__this->___IMinterage = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___IMinterage), (void*)L_2);
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:41>
 		InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* L_3;
 		L_3 = InputSystem_get_actions_mE8D99B32AF6B8AB69DCF5DBBEC60C0F010C79B6C(NULL);
 		NullCheck(L_3);
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_4;
-		L_4 = InputActionAsset_FindAction_m50D07EAFAA8628B9793E7BBEEB2E89C2A9C45C00(L_3, _stringLiteralFBA9CEB43D14830BEAAF5F87C6AAAD1A8A36A67F, (bool)0, NULL);
-		__this->___RotateOb = L_4;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___RotateOb), (void*)L_4);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:41>
-		PlayerInventory_t9DFF7303E6D77500C69210AA16F04634500D80E6* L_5;
-		L_5 = Component_GetComponent_TisPlayerInventory_t9DFF7303E6D77500C69210AA16F04634500D80E6_mEB7E5A14602995E13F89B99983540CD3B8622011(__this, Component_GetComponent_TisPlayerInventory_t9DFF7303E6D77500C69210AA16F04634500D80E6_mEB7E5A14602995E13F89B99983540CD3B8622011_RuntimeMethod_var);
-		__this->___inventory = L_5;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___inventory), (void*)L_5);
+		L_4 = InputActionAsset_FindAction_m50D07EAFAA8628B9793E7BBEEB2E89C2A9C45C00(L_3, _stringLiteralCD7C38A7C650369E7858E41840BC1EEF0E7B5F26, (bool)0, NULL);
+		__this->___IMsai = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___IMsai), (void*)L_4);
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:42>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = __this->___portinha;
-		NullCheck(L_6);
-		portaEscadaria_tF992F03B5AD15F6805B5DE513C763BFECBD8FCF0* L_7;
-		L_7 = GameObject_GetComponent_TisportaEscadaria_tF992F03B5AD15F6805B5DE513C763BFECBD8FCF0_m2E4F9F401BD92DA82BF5CDE8EF373C531CD4DE25(L_6, GameObject_GetComponent_TisportaEscadaria_tF992F03B5AD15F6805B5DE513C763BFECBD8FCF0_m2E4F9F401BD92DA82BF5CDE8EF373C531CD4DE25_RuntimeMethod_var);
-		__this->___abrate = L_7;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___abrate), (void*)L_7);
+		InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* L_5;
+		L_5 = InputSystem_get_actions_mE8D99B32AF6B8AB69DCF5DBBEC60C0F010C79B6C(NULL);
+		NullCheck(L_5);
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_6;
+		L_6 = InputActionAsset_FindAction_m50D07EAFAA8628B9793E7BBEEB2E89C2A9C45C00(L_5, _stringLiteralFBA9CEB43D14830BEAAF5F87C6AAAD1A8A36A67F, (bool)0, NULL);
+		__this->___RotateOb = L_6;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___RotateOb), (void*)L_6);
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:43>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = __this->___bricador;
-		NullCheck(L_8);
-		GerenciadorInventario_t21D53B317861B5E68346739B1908EEBEE316510C* L_9;
-		L_9 = GameObject_GetComponent_TisGerenciadorInventario_t21D53B317861B5E68346739B1908EEBEE316510C_m167D651767D927656FA83C6BCCE9AA113BB519DF(L_8, GameObject_GetComponent_TisGerenciadorInventario_t21D53B317861B5E68346739B1908EEBEE316510C_m167D651767D927656FA83C6BCCE9AA113BB519DF_RuntimeMethod_var);
-		__this->___inventario = L_9;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___inventario), (void*)L_9);
+		PlayerInventory_t9DFF7303E6D77500C69210AA16F04634500D80E6* L_7;
+		L_7 = Component_GetComponent_TisPlayerInventory_t9DFF7303E6D77500C69210AA16F04634500D80E6_mEB7E5A14602995E13F89B99983540CD3B8622011(__this, Component_GetComponent_TisPlayerInventory_t9DFF7303E6D77500C69210AA16F04634500D80E6_mEB7E5A14602995E13F89B99983540CD3B8622011_RuntimeMethod_var);
+		__this->___inventory = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___inventory), (void*)L_7);
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:44>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = __this->___BInv;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = __this->___portinha;
+		NullCheck(L_8);
+		portaEscadaria_tF992F03B5AD15F6805B5DE513C763BFECBD8FCF0* L_9;
+		L_9 = GameObject_GetComponent_TisportaEscadaria_tF992F03B5AD15F6805B5DE513C763BFECBD8FCF0_m2E4F9F401BD92DA82BF5CDE8EF373C531CD4DE25(L_8, GameObject_GetComponent_TisportaEscadaria_tF992F03B5AD15F6805B5DE513C763BFECBD8FCF0_m2E4F9F401BD92DA82BF5CDE8EF373C531CD4DE25_RuntimeMethod_var);
+		__this->___abrate = L_9;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___abrate), (void*)L_9);
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:45>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = __this->___bricador;
+		NullCheck(L_10);
+		GerenciadorInventario_t21D53B317861B5E68346739B1908EEBEE316510C* L_11;
+		L_11 = GameObject_GetComponent_TisGerenciadorInventario_t21D53B317861B5E68346739B1908EEBEE316510C_m167D651767D927656FA83C6BCCE9AA113BB519DF(L_10, GameObject_GetComponent_TisGerenciadorInventario_t21D53B317861B5E68346739B1908EEBEE316510C_m167D651767D927656FA83C6BCCE9AA113BB519DF_RuntimeMethod_var);
+		__this->___inventario = L_11;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___inventario), (void*)L_11);
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:46>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = __this->___BInv;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_11;
-		L_11 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_10, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_11)
+		bool L_13;
+		L_13 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_12, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_13)
 		{
-			goto IL_0084;
+			goto IL_009a;
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:46>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = __this->___BInv;
-		NullCheck(L_12);
-		inventarioBrinquedos_t2272C83340A92F136A9BC574CD12F6775135E4B3* L_13;
-		L_13 = GameObject_GetComponent_TisinventarioBrinquedos_t2272C83340A92F136A9BC574CD12F6775135E4B3_m8DD9F2309163BBD7F1233A71BE28147A6FD7B9EB(L_12, GameObject_GetComponent_TisinventarioBrinquedos_t2272C83340A92F136A9BC574CD12F6775135E4B3_m8DD9F2309163BBD7F1233A71BE28147A6FD7B9EB_RuntimeMethod_var);
-		__this->___ToyInvent = L_13;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___ToyInvent), (void*)L_13);
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:48>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14 = __this->___BInv;
+		NullCheck(L_14);
+		inventarioBrinquedos_t2272C83340A92F136A9BC574CD12F6775135E4B3* L_15;
+		L_15 = GameObject_GetComponent_TisinventarioBrinquedos_t2272C83340A92F136A9BC574CD12F6775135E4B3_m8DD9F2309163BBD7F1233A71BE28147A6FD7B9EB(L_14, GameObject_GetComponent_TisinventarioBrinquedos_t2272C83340A92F136A9BC574CD12F6775135E4B3_m8DD9F2309163BBD7F1233A71BE28147A6FD7B9EB_RuntimeMethod_var);
+		__this->___ToyInvent = L_15;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___ToyInvent), (void*)L_15);
 	}
 
-IL_0084:
+IL_009a:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:48>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:50>
 		return;
 	}
 }
-// Method Definition Index: 82113
+// Method Definition Index: 82116
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerInteract_Update_m54BBCF88465AE2651A2AB063F487F2B334D5B13A (PlayerInteract_t1B2F2008321DEDEDDD394EF62CB3EFFE7A2EE8A0* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:52>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:54>
 		PlayerInteract_CheckInteractables_mD63CFFA2ACB8A4224DA85C43BA8829A42E9D4493(__this, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:53>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:55>
 		return;
 	}
 }
-// Method Definition Index: 82114
+// Method Definition Index: 82117
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerInteract_CheckInteractables_mD63CFFA2ACB8A4224DA85C43BA8829A42E9D4493 (PlayerInteract_t1B2F2008321DEDEDDD394EF62CB3EFFE7A2EE8A0* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10348,7 +10407,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerInteract_CheckInteractables_mD63CF
 	BloqueioDeItem_t13F737DA16883F4E44B6FF9FE4DD1A20B339B98D* V_5 = NULL;
 	int32_t V_6 = 0;
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:58>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:60>
 		painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435* L_0 = ((painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435_StaticFields*)il2cpp_codegen_static_fields_for(painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435_il2cpp_TypeInfo_var))->___instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -10368,44 +10427,44 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerInteract_CheckInteractables_mD63CF
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:60>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:62>
 		GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* L_4 = ((GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_StaticFields*)il2cpp_codegen_static_fields_for(GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_4);
 		GerentUI_SetPawCursor_m9A66671706FA7B30C3290D0046DEBAFB8169F688(L_4, (bool)0, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:61>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:63>
 		return;
 	}
 
 IL_0025:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:64>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:66>
 		bool L_5 = __this->___estaaVer;
 		if (!L_5)
 		{
-			goto IL_0138;
+			goto IL_0085;
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:66>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:68>
 		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_6 = __this->___CurrInteractable;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_7;
 		L_7 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_6, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 		if (!L_7)
 		{
-			goto IL_0046;
+			goto IL_0043;
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:68>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:70>
 		__this->___estaaVer = (bool)0;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:69>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:71>
 		return;
 	}
 
-IL_0046:
+IL_0043:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:72>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:74>
 		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_8 = __this->___CurrInteractable;
 		NullCheck(L_8);
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_9;
@@ -10415,11 +10474,11 @@ IL_0046:
 		L_10 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_9, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 		if (!L_10)
 		{
-			goto IL_006a;
+			goto IL_0067;
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:73>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:75>
 		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_11 = __this->___CurrInteractable;
 		NullCheck(L_11);
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_12;
@@ -10428,15 +10487,15 @@ IL_0046:
 		Collider_set_enabled_m8D5C3B5047592D227A52560FC9723D176E209F70(L_12, (bool)0, NULL);
 	}
 
-IL_006a:
+IL_0067:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:75>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:77>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_13 = __this->___objViewer;
 		NullCheck(L_13);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14;
 		L_14 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_13, NULL);
 		V_1 = L_14;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:76>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:78>
 		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_15 = __this->___CurrInteractable;
 		NullCheck(L_15);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_16;
@@ -10444,605 +10503,625 @@ IL_006a:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17 = V_1;
 		NullCheck(L_16);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_16, L_17, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:78>
-		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_18 = __this->___CurrInteractable;
-		NullCheck(L_18);
-		Item_tFAF77888D49883A321EB596A7D93CB5615D37E95* L_19 = L_18->___item;
-		NullCheck(L_19);
-		bool L_20 = L_19->___pegavel;
-		if (!L_20)
-		{
-			goto IL_00e4;
-		}
-	}
-	{
-		Mouse_t9A9CC4636FA9CDBAD7FB7A02DB0D6395EDCC338F* L_21;
-		L_21 = Mouse_get_current_m410C1F9ABC5AA77353574E8815F7E63289707986_inline(NULL);
-		NullCheck(L_21);
-		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_22;
-		L_22 = Mouse_get_leftButton_m1015BCBE6BE30B1D1D2702736A4E64120F6B5DFB_inline(L_21, NULL);
-		NullCheck(L_22);
-		bool L_23;
-		L_23 = ButtonControl_get_isPressed_m947621402F6EC1B957C2DE984806A6500D422EA6(L_22, NULL);
-		if (!L_23)
-		{
-			goto IL_00e4;
-		}
-	}
-	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:80>
-		FirstPersonLook_tFFEABF55DC99B2EC1D6B5DAEE9864E5815F6B93C* L_24 = __this->___look;
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_25;
-		L_25 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_24, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_25)
-		{
-			goto IL_00c4;
-		}
-	}
-	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:80>
-		FirstPersonLook_tFFEABF55DC99B2EC1D6B5DAEE9864E5815F6B93C* L_26 = __this->___look;
-		NullCheck(L_26);
-		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_26, (bool)0, NULL);
-	}
-
-IL_00c4:
-	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:81>
-		FirstPersonMovement_tA852887AB56569BDD01EA2BE85F9B39C349C5FFE* L_27 = __this->___movement;
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_28;
-		L_28 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_27, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_28)
-		{
-			goto IL_00de;
-		}
-	}
-	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:81>
-		FirstPersonMovement_tA852887AB56569BDD01EA2BE85F9B39C349C5FFE* L_29 = __this->___movement;
-		NullCheck(L_29);
-		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_29, (bool)0, NULL);
-	}
-
-IL_00de:
-	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:82>
-		PlayerInteract_RodaObj_m3286D80A2EFF122E97B4A9707C8C30C1D18D10F7(__this, NULL);
-	}
-
-IL_00e4:
-	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:84>
-		bool L_30 = __this->___canFinish;
-		if (!L_30)
-		{
-			goto IL_0137;
-		}
-	}
-	{
-		Mouse_t9A9CC4636FA9CDBAD7FB7A02DB0D6395EDCC338F* L_31;
-		L_31 = Mouse_get_current_m410C1F9ABC5AA77353574E8815F7E63289707986_inline(NULL);
-		NullCheck(L_31);
-		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_32;
-		L_32 = Mouse_get_rightButton_mFA0FD700624C0DE1B858F9516426414767F09D98_inline(L_31, NULL);
-		NullCheck(L_32);
-		bool L_33;
-		L_33 = ButtonControl_get_isPressed_m947621402F6EC1B957C2DE984806A6500D422EA6(L_32, NULL);
-		if (!L_33)
-		{
-			goto IL_0137;
-		}
-	}
-	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:86>
-		PlayerInteract_FinishView_m5399E822749BE9DE19A3525C9DC85ACC92B73636(__this, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:87>
-		FirstPersonLook_tFFEABF55DC99B2EC1D6B5DAEE9864E5815F6B93C* L_34 = __this->___look;
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_35;
-		L_35 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_34, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_35)
-		{
-			goto IL_011d;
-		}
-	}
-	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:87>
-		FirstPersonLook_tFFEABF55DC99B2EC1D6B5DAEE9864E5815F6B93C* L_36 = __this->___look;
-		NullCheck(L_36);
-		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_36, (bool)1, NULL);
-	}
-
-IL_011d:
-	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:88>
-		FirstPersonMovement_tA852887AB56569BDD01EA2BE85F9B39C349C5FFE* L_37 = __this->___movement;
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_38;
-		L_38 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_37, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_38)
-		{
-			goto IL_0137;
-		}
-	}
-	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:88>
-		FirstPersonMovement_tA852887AB56569BDD01EA2BE85F9B39C349C5FFE* L_39 = __this->___movement;
-		NullCheck(L_39);
-		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_39, (bool)1, NULL);
-	}
-
-IL_0137:
-	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:90>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:83>
 		return;
 	}
 
-IL_0138:
+IL_0085:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:94>
-		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_40 = __this->___Mycam;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_41;
-		memset((&L_41), 0, sizeof(L_41));
-		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_41), (0.0f), (0.0f), (0.0f), NULL);
-		NullCheck(L_40);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_42;
-		L_42 = Camera_ScreenToWorldPoint_m5EA3148F070985EC72127AAC3448D8D6ABE6E7E5(L_40, L_41, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:96>
-		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_43 = __this->___Mycam;
-		NullCheck(L_43);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_44;
-		L_44 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_43, NULL);
-		NullCheck(L_44);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_45;
-		L_45 = Transform_get_forward_mFCFACF7165FDAB21E80E384C494DF278386CEE2F(L_44, NULL);
-		float L_46 = __this->___RayDistance;
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:87>
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_18 = __this->___Mycam;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19;
+		memset((&L_19), 0, sizeof(L_19));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_19), (0.0f), (0.0f), (0.0f), NULL);
+		NullCheck(L_18);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20;
+		L_20 = Camera_ScreenToWorldPoint_m5EA3148F070985EC72127AAC3448D8D6ABE6E7E5(L_18, L_19, NULL);
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:89>
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_21 = __this->___Mycam;
+		NullCheck(L_21);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_22;
+		L_22 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_21, NULL);
+		NullCheck(L_22);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23;
+		L_23 = Transform_get_forward_mFCFACF7165FDAB21E80E384C494DF278386CEE2F(L_22, NULL);
+		float L_24 = __this->___RayDistance;
 		il2cpp_codegen_runtime_class_init_inline(Physics_t1244C2983AEAFA149425AFFC3DF53BC91C18ED56_il2cpp_TypeInfo_var);
-		bool L_47;
-		L_47 = Physics_Raycast_m011EA7022C33B2C499EF744E5AF3E01EEB8FBD33(L_42, L_45, (&V_0), L_46, NULL);
-		if (!L_47)
+		bool L_25;
+		L_25 = Physics_Raycast_m011EA7022C33B2C499EF744E5AF3E01EEB8FBD33(L_20, L_23, (&V_0), L_24, NULL);
+		if (!L_25)
 		{
-			goto IL_03ef;
+			goto IL_033c;
 		}
 	}
 	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:91>
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_26;
+		L_26 = RaycastHit_get_collider_m84B160439BBEAB6D9E94B799F720E25C9E2D444D((&V_0), NULL);
+		NullCheck(L_26);
+		PainelInteract_t92D98337E6A931939ACB8C05DF26B47B6D2AACAC* L_27;
+		L_27 = Component_GetComponent_TisPainelInteract_t92D98337E6A931939ACB8C05DF26B47B6D2AACAC_mAC104598A55780161A3019490DF581A5E8F084F0(L_26, Component_GetComponent_TisPainelInteract_t92D98337E6A931939ACB8C05DF26B47B6D2AACAC_mAC104598A55780161A3019490DF581A5E8F084F0_RuntimeMethod_var);
+		V_2 = L_27;
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:92>
+		PainelInteract_t92D98337E6A931939ACB8C05DF26B47B6D2AACAC* L_28 = V_2;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_29;
+		L_29 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_28, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_29)
+		{
+			goto IL_0120;
+		}
+	}
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:95>
+		painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435* L_30 = ((painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435_StaticFields*)il2cpp_codegen_static_fields_for(painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435_il2cpp_TypeInfo_var))->___instance;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_31;
+		L_31 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_30, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_31)
+		{
+			goto IL_0101;
+		}
+	}
+	{
+		painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435* L_32 = ((painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435_StaticFields*)il2cpp_codegen_static_fields_for(painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435_il2cpp_TypeInfo_var))->___instance;
+		NullCheck(L_32);
+		bool L_33 = L_32->___puzzleConcluido;
+		if (!L_33)
+		{
+			goto IL_0101;
+		}
+	}
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:97>
+		GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* L_34 = ((GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_StaticFields*)il2cpp_codegen_static_fields_for(GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_il2cpp_TypeInfo_var))->___instance;
+		NullCheck(L_34);
+		GerentUI_SetPawCursor_m9A66671706FA7B30C3290D0046DEBAFB8169F688(L_34, (bool)0, NULL);
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:98>
-		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_48;
-		L_48 = RaycastHit_get_collider_m84B160439BBEAB6D9E94B799F720E25C9E2D444D((&V_0), NULL);
-		NullCheck(L_48);
-		PainelInteract_t92D98337E6A931939ACB8C05DF26B47B6D2AACAC* L_49;
-		L_49 = Component_GetComponent_TisPainelInteract_t92D98337E6A931939ACB8C05DF26B47B6D2AACAC_mAC104598A55780161A3019490DF581A5E8F084F0(L_48, Component_GetComponent_TisPainelInteract_t92D98337E6A931939ACB8C05DF26B47B6D2AACAC_mAC104598A55780161A3019490DF581A5E8F084F0_RuntimeMethod_var);
-		V_2 = L_49;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:99>
-		PainelInteract_t92D98337E6A931939ACB8C05DF26B47B6D2AACAC* L_50 = V_2;
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_51;
-		L_51 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_50, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_51)
-		{
-			goto IL_01d3;
-		}
+		return;
 	}
+
+IL_0101:
 	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:101>
+		GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* L_35 = ((GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_StaticFields*)il2cpp_codegen_static_fields_for(GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_il2cpp_TypeInfo_var))->___instance;
+		NullCheck(L_35);
+		GerentUI_SetPawCursor_m9A66671706FA7B30C3290D0046DEBAFB8169F688(L_35, (bool)1, NULL);
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:102>
-		painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435* L_52 = ((painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435_StaticFields*)il2cpp_codegen_static_fields_for(painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435_il2cpp_TypeInfo_var))->___instance;
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_53;
-		L_53 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_52, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_53)
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_36 = __this->___IMinterage;
+		NullCheck(L_36);
+		bool L_37;
+		L_37 = InputAction_WasPressedThisFrame_m9D3F0284EB46EEB7F720DCC96BBDF027C9B6A75F(L_36, NULL);
+		if (!L_37)
 		{
-			goto IL_01b4;
-		}
-	}
-	{
-		painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435* L_54 = ((painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435_StaticFields*)il2cpp_codegen_static_fields_for(painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435_il2cpp_TypeInfo_var))->___instance;
-		NullCheck(L_54);
-		bool L_55 = L_54->___puzzleConcluido;
-		if (!L_55)
-		{
-			goto IL_01b4;
+			goto IL_011f;
 		}
 	}
 	{
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:104>
-		GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* L_56 = ((GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_StaticFields*)il2cpp_codegen_static_fields_for(GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_il2cpp_TypeInfo_var))->___instance;
-		NullCheck(L_56);
-		GerentUI_SetPawCursor_m9A66671706FA7B30C3290D0046DEBAFB8169F688(L_56, (bool)0, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:105>
+		PainelInteract_t92D98337E6A931939ACB8C05DF26B47B6D2AACAC* L_38 = V_2;
+		NullCheck(L_38);
+		PainelInteract_Interact_m976AC65E8CDCD87F68041EC92698C3C81784BD8E(L_38, NULL);
+	}
+
+IL_011f:
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:106>
 		return;
 	}
 
-IL_01b4:
+IL_0120:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:108>
-		GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* L_57 = ((GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_StaticFields*)il2cpp_codegen_static_fields_for(GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_il2cpp_TypeInfo_var))->___instance;
-		NullCheck(L_57);
-		GerentUI_SetPawCursor_m9A66671706FA7B30C3290D0046DEBAFB8169F688(L_57, (bool)1, NULL);
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:109>
-		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_58 = __this->___IM;
-		NullCheck(L_58);
-		bool L_59;
-		L_59 = InputAction_WasPressedThisFrame_m9D3F0284EB46EEB7F720DCC96BBDF027C9B6A75F(L_58, NULL);
-		if (!L_59)
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_39;
+		L_39 = RaycastHit_get_collider_m84B160439BBEAB6D9E94B799F720E25C9E2D444D((&V_0), NULL);
+		NullCheck(L_39);
+		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_40;
+		L_40 = Component_GetComponent_TisInteractables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA_mB6C8D520F7826578A8DF5893F564DFF39D95AB4E(L_39, Component_GetComponent_TisInteractables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA_mB6C8D520F7826578A8DF5893F564DFF39D95AB4E_RuntimeMethod_var);
+		V_3 = L_40;
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:111>
+		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_41 = V_3;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_42;
+		L_42 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_41, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_42)
 		{
-			goto IL_01d2;
+			goto IL_0330;
 		}
 	}
-	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:111>
-		PainelInteract_t92D98337E6A931939ACB8C05DF26B47B6D2AACAC* L_60 = V_2;
-		NullCheck(L_60);
-		PainelInteract_Interact_m976AC65E8CDCD87F68041EC92698C3C81784BD8E(L_60, NULL);
-	}
-
-IL_01d2:
 	{
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:113>
+		GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* L_43 = ((GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_StaticFields*)il2cpp_codegen_static_fields_for(GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_il2cpp_TypeInfo_var))->___instance;
+		NullCheck(L_43);
+		GerentUI_SetPawCursor_m9A66671706FA7B30C3290D0046DEBAFB8169F688(L_43, (bool)1, NULL);
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:114>
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_44 = __this->___IMinterage;
+		NullCheck(L_44);
+		bool L_45;
+		L_45 = InputAction_WasPressedThisFrame_m9D3F0284EB46EEB7F720DCC96BBDF027C9B6A75F(L_44, NULL);
+		if (!L_45)
+		{
+			goto IL_0347;
+		}
+	}
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:116>
+		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_46 = V_3;
+		NullCheck(L_46);
+		bool L_47 = L_46->___IsMoving;
+		if (!L_47)
+		{
+			goto IL_015d;
+		}
+	}
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:118>
 		return;
 	}
 
-IL_01d3:
+IL_015d:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:116>
-		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_61;
-		L_61 = RaycastHit_get_collider_m84B160439BBEAB6D9E94B799F720E25C9E2D444D((&V_0), NULL);
-		NullCheck(L_61);
-		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_62;
-		L_62 = Component_GetComponent_TisInteractables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA_mB6C8D520F7826578A8DF5893F564DFF39D95AB4E(L_61, Component_GetComponent_TisInteractables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA_mB6C8D520F7826578A8DF5893F564DFF39D95AB4E_RuntimeMethod_var);
-		V_3 = L_62;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:118>
-		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_63 = V_3;
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_64;
-		L_64 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_63, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_64)
-		{
-			goto IL_03e3;
-		}
-	}
-	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:120>
-		GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* L_65 = ((GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_StaticFields*)il2cpp_codegen_static_fields_for(GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_il2cpp_TypeInfo_var))->___instance;
-		NullCheck(L_65);
-		GerentUI_SetPawCursor_m9A66671706FA7B30C3290D0046DEBAFB8169F688(L_65, (bool)1, NULL);
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:121>
-		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_66 = __this->___IM;
-		NullCheck(L_66);
-		bool L_67;
-		L_67 = InputAction_WasPressedThisFrame_m9D3F0284EB46EEB7F720DCC96BBDF027C9B6A75F(L_66, NULL);
-		if (!L_67)
-		{
-			goto IL_03fa;
-		}
-	}
-	{
+		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_48 = V_3;
+		__this->___CurrInteractable = L_48;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___CurrInteractable), (void*)L_48);
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:123>
-		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_68 = V_3;
-		NullCheck(L_68);
-		bool L_69 = L_68->___IsMoving;
-		if (!L_69)
+		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_49 = V_3;
+		NullCheck(L_49);
+		bool L_50;
+		L_50 = Component_CompareTag_mE6F8897E84F12DF12D302FFC4D58204D51096FC5(L_49, _stringLiteralE79CDBA837D299C94D27134875EE5A166A669BB6, NULL);
+		if (!L_50)
 		{
-			goto IL_0210;
+			goto IL_0179;
 		}
 	}
 	{
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:125>
+		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_51 = V_3;
+		PlayerInteract_ColetarBrinquedoDireto_m7BF67E60CCD5573DB63EA2CC761939986F01B186(__this, L_51, NULL);
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:126>
 		return;
 	}
 
-IL_0210:
+IL_0179:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:128>
-		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_70 = V_3;
-		__this->___CurrInteractable = L_70;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___CurrInteractable), (void*)L_70);
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:129>
+		V_4 = (bool)0;
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:130>
-		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_71 = V_3;
-		NullCheck(L_71);
-		bool L_72;
-		L_72 = Component_CompareTag_mE6F8897E84F12DF12D302FFC4D58204D51096FC5(L_71, _stringLiteralE79CDBA837D299C94D27134875EE5A166A669BB6, NULL);
-		if (!L_72)
-		{
-			goto IL_022c;
-		}
+		V_6 = 0;
+		goto IL_01e2;
 	}
+
+IL_0181:
 	{
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:132>
-		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_73 = V_3;
-		PlayerInteract_ColetarBrinquedoDireto_m7BF67E60CCD5573DB63EA2CC761939986F01B186(__this, L_73, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:133>
+		PlayerInventory_t9DFF7303E6D77500C69210AA16F04634500D80E6* L_52 = __this->___inventory;
+		NullCheck(L_52);
+		List_1_tBB4BFB497BCF47BCBBEC63B4E8645B49487294C2* L_53;
+		L_53 = PlayerInventory_get_Itens_mC9E1F4FFEE65C7EAE19EB676775420B7044A434C_inline(L_52, NULL);
+		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_54 = __this->___CurrInteractable;
+		NullCheck(L_54);
+		PreviousItemU5BU5D_t79B18B2E47CD172D22692B2715DA01C5E3EFCB9E* L_55 = L_54->___PreviousItem;
+		int32_t L_56 = V_6;
+		NullCheck(L_55);
+		int32_t L_57 = L_56;
+		PreviousItem_tD4A84249D7725CDAAFD6448D317E777228FD736B* L_58 = (L_55)->GetAt(static_cast<il2cpp_array_size_t>(L_57));
+		NullCheck(L_58);
+		Item_tFAF77888D49883A321EB596A7D93CB5615D37E95* L_59 = L_58->___requiredItem;
+		NullCheck(L_53);
+		bool L_60;
+		L_60 = List_1_Contains_m46E95F7BDE7763E3FA1D0CD207C9BF5505B46E6F(L_53, L_59, List_1_Contains_m46E95F7BDE7763E3FA1D0CD207C9BF5505B46E6F_RuntimeMethod_var);
+		if (!L_60)
+		{
+			goto IL_01dc;
+		}
+	}
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:134>
+		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_61 = __this->___CurrInteractable;
+		NullCheck(L_61);
+		PreviousItemU5BU5D_t79B18B2E47CD172D22692B2715DA01C5E3EFCB9E* L_62 = L_61->___PreviousItem;
+		int32_t L_63 = V_6;
+		NullCheck(L_62);
+		int32_t L_64 = L_63;
+		PreviousItem_tD4A84249D7725CDAAFD6448D317E777228FD736B* L_65 = (L_62)->GetAt(static_cast<il2cpp_array_size_t>(L_64));
+		NullCheck(L_65);
+		Item_tFAF77888D49883A321EB596A7D93CB5615D37E95* L_66 = L_65->___requiredItem;
+		PlayerInteract_Interact_mEA19B1C7409B5788ACAD0C3A7F68F0A074D8FF7F(__this, L_66, NULL);
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:135>
+		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_67 = __this->___CurrInteractable;
+		NullCheck(L_67);
+		PreviousItemU5BU5D_t79B18B2E47CD172D22692B2715DA01C5E3EFCB9E* L_68 = L_67->___PreviousItem;
+		int32_t L_69 = V_6;
+		NullCheck(L_68);
+		int32_t L_70 = L_69;
+		PreviousItem_tD4A84249D7725CDAAFD6448D317E777228FD736B* L_71 = (L_68)->GetAt(static_cast<il2cpp_array_size_t>(L_70));
+		NullCheck(L_71);
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_72 = L_71->___OnInteract;
+		NullCheck(L_72);
+		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_72, NULL);
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:136>
+		V_4 = (bool)1;
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:137>
+		goto IL_01f3;
+	}
+
+IL_01dc:
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:130>
+		int32_t L_73 = V_6;
+		V_6 = ((int32_t)il2cpp_codegen_add(L_73, 1));
+	}
+
+IL_01e2:
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:130>
+		int32_t L_74 = V_6;
+		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_75 = __this->___CurrInteractable;
+		NullCheck(L_75);
+		PreviousItemU5BU5D_t79B18B2E47CD172D22692B2715DA01C5E3EFCB9E* L_76 = L_75->___PreviousItem;
+		NullCheck(L_76);
+		if ((((int32_t)L_74) < ((int32_t)((int32_t)(((RuntimeArray*)L_76)->max_length)))))
+		{
+			goto IL_0181;
+		}
+	}
+
+IL_01f3:
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:140>
+		bool L_77 = V_4;
+		if (!L_77)
+		{
+			goto IL_01f8;
+		}
+	}
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:142>
 		return;
 	}
 
-IL_022c:
+IL_01f8:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:136>
-		V_4 = (bool)0;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:137>
-		V_6 = 0;
-		goto IL_0295;
-	}
-
-IL_0234:
-	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:139>
-		PlayerInventory_t9DFF7303E6D77500C69210AA16F04634500D80E6* L_74 = __this->___inventory;
-		NullCheck(L_74);
-		List_1_tBB4BFB497BCF47BCBBEC63B4E8645B49487294C2* L_75;
-		L_75 = PlayerInventory_get_Itens_mC9E1F4FFEE65C7EAE19EB676775420B7044A434C_inline(L_74, NULL);
-		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_76 = __this->___CurrInteractable;
-		NullCheck(L_76);
-		PreviousItemU5BU5D_t79B18B2E47CD172D22692B2715DA01C5E3EFCB9E* L_77 = L_76->___PreviousItem;
-		int32_t L_78 = V_6;
-		NullCheck(L_77);
-		int32_t L_79 = L_78;
-		PreviousItem_tD4A84249D7725CDAAFD6448D317E777228FD736B* L_80 = (L_77)->GetAt(static_cast<il2cpp_array_size_t>(L_79));
-		NullCheck(L_80);
-		Item_tFAF77888D49883A321EB596A7D93CB5615D37E95* L_81 = L_80->___requiredItem;
-		NullCheck(L_75);
-		bool L_82;
-		L_82 = List_1_Contains_m46E95F7BDE7763E3FA1D0CD207C9BF5505B46E6F(L_75, L_81, List_1_Contains_m46E95F7BDE7763E3FA1D0CD207C9BF5505B46E6F_RuntimeMethod_var);
-		if (!L_82)
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:145>
+		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_78 = __this->___CurrInteractable;
+		NullCheck(L_78);
+		BloqueioDeItem_t13F737DA16883F4E44B6FF9FE4DD1A20B339B98D* L_79;
+		L_79 = Component_GetComponent_TisBloqueioDeItem_t13F737DA16883F4E44B6FF9FE4DD1A20B339B98D_mE2432F332A9EA4638C0A5DC07694774D781C519B(L_78, Component_GetComponent_TisBloqueioDeItem_t13F737DA16883F4E44B6FF9FE4DD1A20B339B98D_mE2432F332A9EA4638C0A5DC07694774D781C519B_RuntimeMethod_var);
+		V_5 = L_79;
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:146>
+		BloqueioDeItem_t13F737DA16883F4E44B6FF9FE4DD1A20B339B98D* L_80 = V_5;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_81;
+		L_81 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_80, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_81)
 		{
-			goto IL_028f;
+			goto IL_0230;
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:141>
-		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_83 = __this->___CurrInteractable;
-		NullCheck(L_83);
-		PreviousItemU5BU5D_t79B18B2E47CD172D22692B2715DA01C5E3EFCB9E* L_84 = L_83->___PreviousItem;
-		int32_t L_85 = V_6;
-		NullCheck(L_84);
-		int32_t L_86 = L_85;
-		PreviousItem_tD4A84249D7725CDAAFD6448D317E777228FD736B* L_87 = (L_84)->GetAt(static_cast<il2cpp_array_size_t>(L_86));
-		NullCheck(L_87);
-		Item_tFAF77888D49883A321EB596A7D93CB5615D37E95* L_88 = L_87->___requiredItem;
-		PlayerInteract_Interact_mEA19B1C7409B5788ACAD0C3A7F68F0A074D8FF7F(__this, L_88, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:142>
-		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_89 = __this->___CurrInteractable;
-		NullCheck(L_89);
-		PreviousItemU5BU5D_t79B18B2E47CD172D22692B2715DA01C5E3EFCB9E* L_90 = L_89->___PreviousItem;
-		int32_t L_91 = V_6;
-		NullCheck(L_90);
-		int32_t L_92 = L_91;
-		PreviousItem_tD4A84249D7725CDAAFD6448D317E777228FD736B* L_93 = (L_90)->GetAt(static_cast<il2cpp_array_size_t>(L_92));
-		NullCheck(L_93);
-		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_94 = L_93->___OnInteract;
-		NullCheck(L_94);
-		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_94, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:143>
-		V_4 = (bool)1;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:144>
-		goto IL_02a6;
-	}
-
-IL_028f:
-	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:137>
-		int32_t L_95 = V_6;
-		V_6 = ((int32_t)il2cpp_codegen_add(L_95, 1));
-	}
-
-IL_0295:
-	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:137>
-		int32_t L_96 = V_6;
-		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_97 = __this->___CurrInteractable;
-		NullCheck(L_97);
-		PreviousItemU5BU5D_t79B18B2E47CD172D22692B2715DA01C5E3EFCB9E* L_98 = L_97->___PreviousItem;
-		NullCheck(L_98);
-		if ((((int32_t)L_96) < ((int32_t)((int32_t)(((RuntimeArray*)L_98)->max_length)))))
+		BloqueioDeItem_t13F737DA16883F4E44B6FF9FE4DD1A20B339B98D* L_82 = V_5;
+		PlayerInventory_t9DFF7303E6D77500C69210AA16F04634500D80E6* L_83 = __this->___inventory;
+		NullCheck(L_82);
+		bool L_84;
+		L_84 = BloqueioDeItem_PodeInteragir_m5CE2F595C965C0ED4B3259D49D5352598FC233BD(L_82, L_83, NULL);
+		if (L_84)
 		{
-			goto IL_0234;
-		}
-	}
-
-IL_02a6:
-	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:147>
-		bool L_99 = V_4;
-		if (!L_99)
-		{
-			goto IL_02ab;
+			goto IL_0230;
 		}
 	}
 	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:148>
+		GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* L_85 = ((GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_StaticFields*)il2cpp_codegen_static_fields_for(GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_il2cpp_TypeInfo_var))->___instance;
+		BloqueioDeItem_t13F737DA16883F4E44B6FF9FE4DD1A20B339B98D* L_86 = V_5;
+		NullCheck(L_86);
+		String_t* L_87;
+		L_87 = BloqueioDeItem_get_MensagemBloqueado_m613E1C4C6BDB51D44F4143D0207118F3246BD007_inline(L_86, NULL);
+		NullCheck(L_85);
+		GerentUI_ShowMessage_m212AAD1FBA4F36198CCABCD01F71AAC88974D2A9(L_85, L_87, NULL);
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:149>
 		return;
 	}
 
-IL_02ab:
+IL_0230:
 	{
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:152>
-		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_100 = __this->___CurrInteractable;
-		NullCheck(L_100);
-		BloqueioDeItem_t13F737DA16883F4E44B6FF9FE4DD1A20B339B98D* L_101;
-		L_101 = Component_GetComponent_TisBloqueioDeItem_t13F737DA16883F4E44B6FF9FE4DD1A20B339B98D_mE2432F332A9EA4638C0A5DC07694774D781C519B(L_100, Component_GetComponent_TisBloqueioDeItem_t13F737DA16883F4E44B6FF9FE4DD1A20B339B98D_mE2432F332A9EA4638C0A5DC07694774D781C519B_RuntimeMethod_var);
-		V_5 = L_101;
+		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_88 = __this->___CurrInteractable;
+		NullCheck(L_88);
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_89 = L_88->___OnInteract;
+		NullCheck(L_89);
+		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_89, NULL);
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:153>
-		BloqueioDeItem_t13F737DA16883F4E44B6FF9FE4DD1A20B339B98D* L_102 = V_5;
+		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_90 = __this->___CurrInteractable;
+		NullCheck(L_90);
+		Item_tFAF77888D49883A321EB596A7D93CB5615D37E95* L_91 = L_90->___item;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_103;
-		L_103 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_102, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_103)
+		bool L_92;
+		L_92 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_91, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_92)
 		{
-			goto IL_02e3;
-		}
-	}
-	{
-		BloqueioDeItem_t13F737DA16883F4E44B6FF9FE4DD1A20B339B98D* L_104 = V_5;
-		PlayerInventory_t9DFF7303E6D77500C69210AA16F04634500D80E6* L_105 = __this->___inventory;
-		NullCheck(L_104);
-		bool L_106;
-		L_106 = BloqueioDeItem_PodeInteragir_m5CE2F595C965C0ED4B3259D49D5352598FC233BD(L_104, L_105, NULL);
-		if (L_106)
-		{
-			goto IL_02e3;
+			goto IL_0347;
 		}
 	}
 	{
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:155>
-		GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* L_107 = ((GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_StaticFields*)il2cpp_codegen_static_fields_for(GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_il2cpp_TypeInfo_var))->___instance;
-		BloqueioDeItem_t13F737DA16883F4E44B6FF9FE4DD1A20B339B98D* L_108 = V_5;
-		NullCheck(L_108);
-		String_t* L_109;
-		L_109 = BloqueioDeItem_get_MensagemBloqueado_m613E1C4C6BDB51D44F4143D0207118F3246BD007_inline(L_108, NULL);
-		NullCheck(L_107);
-		GerentUI_ShowMessage_m212AAD1FBA4F36198CCABCD01F71AAC88974D2A9(L_107, L_109, NULL);
+		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_93 = __this->___CurrInteractable;
+		NullCheck(L_93);
+		Item_tFAF77888D49883A321EB596A7D93CB5615D37E95* L_94 = L_93->___item;
+		PlayerInteract_Interact_mEA19B1C7409B5788ACAD0C3A7F68F0A074D8FF7F(__this, L_94, NULL);
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:156>
-		return;
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_95 = __this->___OnView;
+		NullCheck(L_95);
+		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_95, NULL);
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:157>
+		__this->___estaaVer = (bool)1;
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:158>
+		FirstPersonLook_tFFEABF55DC99B2EC1D6B5DAEE9864E5815F6B93C* L_96 = __this->___look;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_97;
+		L_97 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_96, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_97)
+		{
+			goto IL_0293;
+		}
+	}
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:158>
+		FirstPersonLook_tFFEABF55DC99B2EC1D6B5DAEE9864E5815F6B93C* L_98 = __this->___look;
+		NullCheck(L_98);
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_98, (bool)0, NULL);
 	}
 
-IL_02e3:
+IL_0293:
 	{
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:159>
-		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_110 = __this->___CurrInteractable;
-		NullCheck(L_110);
-		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_111 = L_110->___OnInteract;
-		NullCheck(L_111);
-		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_111, NULL);
+		FirstPersonMovement_tA852887AB56569BDD01EA2BE85F9B39C349C5FFE* L_99 = __this->___movement;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_100;
+		L_100 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_99, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_100)
+		{
+			goto IL_02ad;
+		}
+	}
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:159>
+		FirstPersonMovement_tA852887AB56569BDD01EA2BE85F9B39C349C5FFE* L_101 = __this->___movement;
+		NullCheck(L_101);
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_101, (bool)0, NULL);
+	}
+
+IL_02ad:
+	{
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:160>
-		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_112 = __this->___CurrInteractable;
-		NullCheck(L_112);
-		Item_tFAF77888D49883A321EB596A7D93CB5615D37E95* L_113 = L_112->___item;
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_114;
-		L_114 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_113, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_114)
-		{
-			goto IL_03fa;
-		}
-	}
-	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:162>
-		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_115 = __this->___CurrInteractable;
-		NullCheck(L_115);
-		Item_tFAF77888D49883A321EB596A7D93CB5615D37E95* L_116 = L_115->___item;
-		PlayerInteract_Interact_mEA19B1C7409B5788ACAD0C3A7F68F0A074D8FF7F(__this, L_116, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:163>
-		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_117 = __this->___OnView;
-		NullCheck(L_117);
-		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_117, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:164>
-		__this->___estaaVer = (bool)1;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:165>
-		FirstPersonLook_tFFEABF55DC99B2EC1D6B5DAEE9864E5815F6B93C* L_118 = __this->___look;
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_119;
-		L_119 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_118, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_119)
-		{
-			goto IL_0346;
-		}
-	}
-	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:165>
-		FirstPersonLook_tFFEABF55DC99B2EC1D6B5DAEE9864E5815F6B93C* L_120 = __this->___look;
-		NullCheck(L_120);
-		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_120, (bool)0, NULL);
-	}
-
-IL_0346:
-	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:166>
-		FirstPersonMovement_tA852887AB56569BDD01EA2BE85F9B39C349C5FFE* L_121 = __this->___movement;
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_122;
-		L_122 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_121, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_122)
-		{
-			goto IL_0360;
-		}
-	}
-	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:166>
-		FirstPersonMovement_tA852887AB56569BDD01EA2BE85F9B39C349C5FFE* L_123 = __this->___movement;
-		NullCheck(L_123);
-		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_123, (bool)0, NULL);
-	}
-
-IL_0360:
-	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:167>
 		MonoBehaviour_Invoke_mF724350C59362B0F1BFE26383209A274A29A63FB(__this, _stringLiteral1D2BDE3C4BB51E296BF37DE483B1A1091D9EDF82, (1.0f), NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:168>
-		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_124 = __this->___CurrInteractable;
-		NullCheck(L_124);
-		Item_tFAF77888D49883A321EB596A7D93CB5615D37E95* L_125 = L_124->___item;
-		NullCheck(L_125);
-		bool L_126 = L_125->___pegavel;
-		if (!L_126)
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:161>
+		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_102 = __this->___CurrInteractable;
+		NullCheck(L_102);
+		Item_tFAF77888D49883A321EB596A7D93CB5615D37E95* L_103 = L_102->___item;
+		NullCheck(L_103);
+		bool L_104 = L_103->___pegavel;
+		if (!L_104)
 		{
-			goto IL_03fa;
+			goto IL_0347;
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:170>
-		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_127 = __this->___CurrInteractable;
-		NullCheck(L_127);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_128;
-		L_128 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_127, NULL);
-		NullCheck(L_128);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_129;
-		L_129 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_128, NULL);
-		__this->___OriginPos = L_129;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:171>
-		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_130 = __this->___CurrInteractable;
-		NullCheck(L_130);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_131;
-		L_131 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_130, NULL);
-		NullCheck(L_131);
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_132;
-		L_132 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_131, NULL);
-		__this->___OiginRotat = L_132;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:173>
-		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_133 = __this->___CurrInteractable;
-		NullCheck(L_133);
-		Interactables_StoreOriginalTransform_m931D5840ECE751B234DAE94CE260DDE68D2AD6EB(L_133, NULL);
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:163>
+		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_105 = __this->___CurrInteractable;
+		NullCheck(L_105);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_106;
+		L_106 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_105, NULL);
+		NullCheck(L_106);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_107;
+		L_107 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_106, NULL);
+		__this->___OriginPos = L_107;
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:164>
+		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_108 = __this->___CurrInteractable;
+		NullCheck(L_108);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_109;
+		L_109 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_108, NULL);
+		NullCheck(L_109);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_110;
+		L_110 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_109, NULL);
+		__this->___OiginRotat = L_110;
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:166>
+		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_111 = __this->___CurrInteractable;
+		NullCheck(L_111);
+		Interactables_StoreOriginalTransform_m931D5840ECE751B234DAE94CE260DDE68D2AD6EB(L_111, NULL);
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:167>
+		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_112 = __this->___CurrInteractable;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_113 = __this->___objViewer;
+		NullCheck(L_113);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_114;
+		L_114 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_113, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_115 = __this->___objViewer;
+		NullCheck(L_115);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_116;
+		L_116 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_115, NULL);
+		RuntimeObject* L_117;
+		L_117 = PlayerInteract_MovendObj_mD60396EECACD82DAD5934BA594DE85866680C6CB(__this, L_112, L_114, L_116, NULL);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_118;
+		L_118 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_117, NULL);
+		return;
+	}
+
+IL_0330:
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:172>
+		GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* L_119 = ((GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_StaticFields*)il2cpp_codegen_static_fields_for(GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_il2cpp_TypeInfo_var))->___instance;
+		NullCheck(L_119);
+		GerentUI_SetPawCursor_m9A66671706FA7B30C3290D0046DEBAFB8169F688(L_119, (bool)0, NULL);
+		return;
+	}
+
+IL_033c:
+	{
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:174>
-		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_134 = __this->___CurrInteractable;
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_135 = __this->___objViewer;
-		NullCheck(L_135);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_136;
-		L_136 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_135, NULL);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_137 = __this->___objViewer;
-		NullCheck(L_137);
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_138;
-		L_138 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_137, NULL);
-		RuntimeObject* L_139;
-		L_139 = PlayerInteract_MovendObj_mD60396EECACD82DAD5934BA594DE85866680C6CB(__this, L_134, L_136, L_138, NULL);
-		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_140;
-		L_140 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_139, NULL);
-		return;
+		GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* L_120 = ((GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_StaticFields*)il2cpp_codegen_static_fields_for(GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_il2cpp_TypeInfo_var))->___instance;
+		NullCheck(L_120);
+		GerentUI_SetPawCursor_m9A66671706FA7B30C3290D0046DEBAFB8169F688(L_120, (bool)0, NULL);
 	}
 
-IL_03e3:
+IL_0347:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:179>
-		GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* L_141 = ((GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_StaticFields*)il2cpp_codegen_static_fields_for(GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_il2cpp_TypeInfo_var))->___instance;
-		NullCheck(L_141);
-		GerentUI_SetPawCursor_m9A66671706FA7B30C3290D0046DEBAFB8169F688(L_141, (bool)0, NULL);
-		return;
-	}
-
-IL_03ef:
-	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:181>
-		GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* L_142 = ((GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_StaticFields*)il2cpp_codegen_static_fields_for(GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_il2cpp_TypeInfo_var))->___instance;
-		NullCheck(L_142);
-		GerentUI_SetPawCursor_m9A66671706FA7B30C3290D0046DEBAFB8169F688(L_142, (bool)0, NULL);
-	}
-
-IL_03fa:
-	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:182>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:175>
 		return;
 	}
 }
-// Method Definition Index: 82115
+// Method Definition Index: 82118
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerInteract_interag_m6ACC60E629C24FBE7877BED3D2E0EACC35E60B81 (PlayerInteract_t1B2F2008321DEDEDDD394EF62CB3EFFE7A2EE8A0* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:179>
+		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_0 = __this->___CurrInteractable;
+		NullCheck(L_0);
+		Item_tFAF77888D49883A321EB596A7D93CB5615D37E95* L_1 = L_0->___item;
+		NullCheck(L_1);
+		bool L_2 = L_1->___pegavel;
+		if (!L_2)
+		{
+			goto IL_0059;
+		}
+	}
+	{
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_3 = __this->___IMinterage;
+		NullCheck(L_3);
+		bool L_4;
+		L_4 = InputAction_WasPressedThisFrame_m9D3F0284EB46EEB7F720DCC96BBDF027C9B6A75F(L_3, NULL);
+		if (!L_4)
+		{
+			goto IL_0059;
+		}
+	}
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:181>
+		FirstPersonLook_tFFEABF55DC99B2EC1D6B5DAEE9864E5815F6B93C* L_5 = __this->___look;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_6;
+		L_6 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_5, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_6)
+		{
+			goto IL_0039;
+		}
+	}
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:181>
+		FirstPersonLook_tFFEABF55DC99B2EC1D6B5DAEE9864E5815F6B93C* L_7 = __this->___look;
+		NullCheck(L_7);
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_7, (bool)0, NULL);
+	}
+
+IL_0039:
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:182>
+		FirstPersonMovement_tA852887AB56569BDD01EA2BE85F9B39C349C5FFE* L_8 = __this->___movement;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_9;
+		L_9 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_8, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_9)
+		{
+			goto IL_0053;
+		}
+	}
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:182>
+		FirstPersonMovement_tA852887AB56569BDD01EA2BE85F9B39C349C5FFE* L_10 = __this->___movement;
+		NullCheck(L_10);
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_10, (bool)0, NULL);
+	}
+
+IL_0053:
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:183>
+		PlayerInteract_RodaObj_m3286D80A2EFF122E97B4A9707C8C30C1D18D10F7(__this, NULL);
+	}
+
+IL_0059:
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:185>
+		return;
+	}
+}
+// Method Definition Index: 82119
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerInteract_saiInterag_m1979A0AC49B75A3A9BE0F1AA74456D2D911A2F24 (PlayerInteract_t1B2F2008321DEDEDDD394EF62CB3EFFE7A2EE8A0* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:189>
+		bool L_0 = __this->___canFinish;
+		if (!L_0)
+		{
+			goto IL_004f;
+		}
+	}
+	{
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_1 = __this->___IMsai;
+		NullCheck(L_1);
+		bool L_2;
+		L_2 = InputAction_WasPressedThisFrame_m9D3F0284EB46EEB7F720DCC96BBDF027C9B6A75F(L_1, NULL);
+		if (!L_2)
+		{
+			goto IL_004f;
+		}
+	}
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:191>
+		PlayerInteract_FinishView_m5399E822749BE9DE19A3525C9DC85ACC92B73636(__this, NULL);
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:192>
+		FirstPersonLook_tFFEABF55DC99B2EC1D6B5DAEE9864E5815F6B93C* L_3 = __this->___look;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_4;
+		L_4 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_3, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_4)
+		{
+			goto IL_0035;
+		}
+	}
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:192>
+		FirstPersonLook_tFFEABF55DC99B2EC1D6B5DAEE9864E5815F6B93C* L_5 = __this->___look;
+		NullCheck(L_5);
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_5, (bool)1, NULL);
+	}
+
+IL_0035:
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:193>
+		FirstPersonMovement_tA852887AB56569BDD01EA2BE85F9B39C349C5FFE* L_6 = __this->___movement;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_7;
+		L_7 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_6, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_7)
+		{
+			goto IL_004f;
+		}
+	}
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:193>
+		FirstPersonMovement_tA852887AB56569BDD01EA2BE85F9B39C349C5FFE* L_8 = __this->___movement;
+		NullCheck(L_8);
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_8, (bool)1, NULL);
+	}
+
+IL_004f:
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:195>
+		return;
+	}
+}
+// Method Definition Index: 82120
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerInteract_ColetarBrinquedoDireto_m7BF67E60CCD5573DB63EA2CC761939986F01B186 (PlayerInteract_t1B2F2008321DEDEDDD394EF62CB3EFFE7A2EE8A0* __this, Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* ___0_interactable, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11056,13 +11135,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerInteract_ColetarBrinquedoDireto_m7
 	}
 	BrinquedoColetavel_tD8973E584735B2274E1B975EFA9080DDE8BDCF15* V_0 = NULL;
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:186>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:198>
 		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_0 = ___0_interactable;
 		NullCheck(L_0);
 		BrinquedoColetavel_tD8973E584735B2274E1B975EFA9080DDE8BDCF15* L_1;
 		L_1 = Component_GetComponent_TisBrinquedoColetavel_tD8973E584735B2274E1B975EFA9080DDE8BDCF15_m7603B21875BBDD2D490A297782855C8CDC39EE15(L_0, Component_GetComponent_TisBrinquedoColetavel_tD8973E584735B2274E1B975EFA9080DDE8BDCF15_m7603B21875BBDD2D490A297782855C8CDC39EE15_RuntimeMethod_var);
 		V_0 = L_1;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:187>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:199>
 		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_2 = __this->___CurrInteractable;
 		NullCheck(L_2);
 		bool L_3;
@@ -11073,7 +11152,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerInteract_ColetarBrinquedoDireto_m7
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:189>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:201>
 		GerenciadorInventario_t21D53B317861B5E68346739B1908EEBEE316510C* L_4 = __this->___inventario;
 		BrinquedoColetavel_tD8973E584735B2274E1B975EFA9080DDE8BDCF15* L_5 = V_0;
 		NullCheck(L_5);
@@ -11081,13 +11160,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerInteract_ColetarBrinquedoDireto_m7
 		NullCheck(L_4);
 		bool L_7;
 		L_7 = GerenciadorInventario_AdicionarItem_m6E2E04B809719F97148A6543F9E3D1285AB029FC(L_4, L_6, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:190>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:202>
 		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_8 = __this->___CurrInteractable;
 		NullCheck(L_8);
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_9 = L_8->___CollectItem;
 		NullCheck(L_9);
 		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_9, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:191>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:203>
 		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_10 = __this->___CurrInteractable;
 		NullCheck(L_10);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11;
@@ -11103,11 +11182,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerInteract_ColetarBrinquedoDireto_m7
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:193>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:205>
 		portaEscadaria_tF992F03B5AD15F6805B5DE513C763BFECBD8FCF0* L_14 = __this->___abrate;
 		NullCheck(L_14);
 		portaEscadaria_tremPego_mC59B101EBA7991D802373F03794FF8971734A73B(L_14, (bool)1, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:194>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:206>
 		inventarioBrinquedos_t2272C83340A92F136A9BC574CD12F6775135E4B3* L_15 = __this->___ToyInvent;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_16;
@@ -11118,7 +11197,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerInteract_ColetarBrinquedoDireto_m7
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:196>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:208>
 		inventarioBrinquedos_t2272C83340A92F136A9BC574CD12F6775135E4B3* L_17 = __this->___ToyInvent;
 		NullCheck(L_17);
 		inventarioBrinquedos_ativarInventario_mCC04B1CE8B4A74217CC21A4F5DC26D9FD730D3E6(L_17, (bool)1, NULL);
@@ -11126,11 +11205,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerInteract_ColetarBrinquedoDireto_m7
 
 IL_007d:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:200>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:212>
 		return;
 	}
 }
-// Method Definition Index: 82116
+// Method Definition Index: 82121
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerInteract_CanFinish_mF4B92D649507842D6A7CD8454BA9F6682E68C692 (PlayerInteract_t1B2F2008321DEDEDDD394EF62CB3EFFE7A2EE8A0* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11141,9 +11220,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerInteract_CanFinish_mF4B92D64950784
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:204>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:216>
 		__this->___canFinish = (bool)1;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:205>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:217>
 		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_0 = __this->___CurrInteractable;
 		NullCheck(L_0);
 		Item_tFAF77888D49883A321EB596A7D93CB5615D37E95* L_1 = L_0->___item;
@@ -11169,22 +11248,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerInteract_CanFinish_mF4B92D64950784
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:207>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:219>
 		PlayerInteract_FinishView_m5399E822749BE9DE19A3525C9DC85ACC92B73636(__this, NULL);
 		return;
 	}
 
 IL_0038:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:211>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:223>
 		GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* L_7 = ((GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_StaticFields*)il2cpp_codegen_static_fields_for(GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_7);
 		GerentUI_SetbackImg_m0FD210A0DA3662126CB5ADBB5DDB84A2866FEF4F(L_7, (bool)1, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:213>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:225>
 		return;
 	}
 }
-// Method Definition Index: 82117
+// Method Definition Index: 82122
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerInteract_Interact_mEA19B1C7409B5788ACAD0C3A7F68F0A074D8FF7F (PlayerInteract_t1B2F2008321DEDEDDD394EF62CB3EFFE7A2EE8A0* __this, Item_tFAF77888D49883A321EB596A7D93CB5615D37E95* ___0_item, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11195,7 +11274,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerInteract_Interact_mEA19B1C7409B578
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:217>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:229>
 		Item_tFAF77888D49883A321EB596A7D93CB5615D37E95* L_0 = ___0_item;
 		NullCheck(L_0);
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_1 = L_0->___image;
@@ -11208,7 +11287,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerInteract_Interact_mEA19B1C7409B578
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:219>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:231>
 		GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* L_3 = ((GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_StaticFields*)il2cpp_codegen_static_fields_for(GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_il2cpp_TypeInfo_var))->___instance;
 		Item_tFAF77888D49883A321EB596A7D93CB5615D37E95* L_4 = ___0_item;
 		NullCheck(L_4);
@@ -11219,11 +11298,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerInteract_Interact_mEA19B1C7409B578
 
 IL_001e:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:221>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:233>
 		return;
 	}
 }
-// Method Definition Index: 82118
+// Method Definition Index: 82123
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerInteract_FinishView_m5399E822749BE9DE19A3525C9DC85ACC92B73636 (PlayerInteract_t1B2F2008321DEDEDDD394EF62CB3EFFE7A2EE8A0* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11239,11 +11318,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerInteract_FinishView_m5399E822749BE
 	}
 	BrinquedoColetavel_tD8973E584735B2274E1B975EFA9080DDE8BDCF15* V_0 = NULL;
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:225>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:237>
 		__this->___canFinish = (bool)0;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:226>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:238>
 		__this->___estaaVer = (bool)0;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:227>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:239>
 		FirstPersonLook_tFFEABF55DC99B2EC1D6B5DAEE9864E5815F6B93C* L_0 = __this->___look;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -11254,7 +11333,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerInteract_FinishView_m5399E822749BE
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:227>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:239>
 		FirstPersonLook_tFFEABF55DC99B2EC1D6B5DAEE9864E5815F6B93C* L_2 = __this->___look;
 		NullCheck(L_2);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_2, (bool)1, NULL);
@@ -11262,7 +11341,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerInteract_FinishView_m5399E822749BE
 
 IL_0028:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:228>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:240>
 		FirstPersonMovement_tA852887AB56569BDD01EA2BE85F9B39C349C5FFE* L_3 = __this->___movement;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_4;
@@ -11273,7 +11352,7 @@ IL_0028:
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:228>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:240>
 		FirstPersonMovement_tA852887AB56569BDD01EA2BE85F9B39C349C5FFE* L_5 = __this->___movement;
 		NullCheck(L_5);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_5, (bool)1, NULL);
@@ -11281,17 +11360,17 @@ IL_0028:
 
 IL_0042:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:229>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:241>
 		GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* L_6 = ((GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_StaticFields*)il2cpp_codegen_static_fields_for(GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_6);
 		GerentUI_SetbackImg_m0FD210A0DA3662126CB5ADBB5DDB84A2866FEF4F(L_6, (bool)0, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:231>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:243>
 		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_7 = __this->___CurrInteractable;
 		NullCheck(L_7);
 		BrinquedoColetavel_tD8973E584735B2274E1B975EFA9080DDE8BDCF15* L_8;
 		L_8 = Component_GetComponent_TisBrinquedoColetavel_tD8973E584735B2274E1B975EFA9080DDE8BDCF15_m7603B21875BBDD2D490A297782855C8CDC39EE15(L_7, Component_GetComponent_TisBrinquedoColetavel_tD8973E584735B2274E1B975EFA9080DDE8BDCF15_m7603B21875BBDD2D490A297782855C8CDC39EE15_RuntimeMethod_var);
 		V_0 = L_8;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:232>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:244>
 		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_9 = __this->___CurrInteractable;
 		NullCheck(L_9);
 		Item_tFAF77888D49883A321EB596A7D93CB5615D37E95* L_10 = L_9->___item;
@@ -11303,7 +11382,7 @@ IL_0042:
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:234>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:246>
 		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_12 = __this->___CurrInteractable;
 		NullCheck(L_12);
 		bool L_13;
@@ -11314,7 +11393,7 @@ IL_0042:
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:236>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:248>
 		GerenciadorInventario_t21D53B317861B5E68346739B1908EEBEE316510C* L_14 = __this->___inventario;
 		BrinquedoColetavel_tD8973E584735B2274E1B975EFA9080DDE8BDCF15* L_15 = V_0;
 		NullCheck(L_15);
@@ -11322,13 +11401,13 @@ IL_0042:
 		NullCheck(L_14);
 		bool L_17;
 		L_17 = GerenciadorInventario_AdicionarItem_m6E2E04B809719F97148A6543F9E3D1285AB029FC(L_14, L_16, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:237>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:249>
 		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_18 = __this->___CurrInteractable;
 		NullCheck(L_18);
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_19 = L_18->___CollectItem;
 		NullCheck(L_19);
 		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_19, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:238>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:250>
 		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_20 = __this->___CurrInteractable;
 		NullCheck(L_20);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_21;
@@ -11344,11 +11423,11 @@ IL_0042:
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:240>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:252>
 		portaEscadaria_tF992F03B5AD15F6805B5DE513C763BFECBD8FCF0* L_24 = __this->___abrate;
 		NullCheck(L_24);
 		portaEscadaria_tremPego_mC59B101EBA7991D802373F03794FF8971734A73B(L_24, (bool)1, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:241>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:253>
 		inventarioBrinquedos_t2272C83340A92F136A9BC574CD12F6775135E4B3* L_25 = __this->___ToyInvent;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_26;
@@ -11359,7 +11438,7 @@ IL_0042:
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:243>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:255>
 		inventarioBrinquedos_t2272C83340A92F136A9BC574CD12F6775135E4B3* L_27 = __this->___ToyInvent;
 		NullCheck(L_27);
 		inventarioBrinquedos_ativarInventario_mCC04B1CE8B4A74217CC21A4F5DC26D9FD730D3E6(L_27, (bool)1, NULL);
@@ -11368,14 +11447,14 @@ IL_0042:
 
 IL_00e6:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:249>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:261>
 		PlayerInventory_t9DFF7303E6D77500C69210AA16F04634500D80E6* L_28 = __this->___inventory;
 		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_29 = __this->___CurrInteractable;
 		NullCheck(L_29);
 		Item_tFAF77888D49883A321EB596A7D93CB5615D37E95* L_30 = L_29->___item;
 		NullCheck(L_28);
 		PlayerInventory_AddItem_m80512292D1BBF706797CB939130328A961DC51B2(L_28, L_30, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:250>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:262>
 		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_31 = __this->___CurrInteractable;
 		NullCheck(L_31);
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_32 = L_31->___CollectItem;
@@ -11385,7 +11464,7 @@ IL_00e6:
 
 IL_010c:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:254>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:266>
 		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_33 = __this->___CurrInteractable;
 		NullCheck(L_33);
 		Item_tFAF77888D49883A321EB596A7D93CB5615D37E95* L_34 = L_33->___item;
@@ -11397,7 +11476,7 @@ IL_010c:
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:256>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:268>
 		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_36 = __this->___CurrInteractable;
 		NullCheck(L_36);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_37;
@@ -11405,7 +11484,7 @@ IL_010c:
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_38 = __this->___OiginRotat;
 		NullCheck(L_37);
 		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_37, L_38, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:257>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:269>
 		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_39 = __this->___CurrInteractable;
 		NullCheck(L_39);
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_40;
@@ -11419,7 +11498,7 @@ IL_010c:
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:259>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:271>
 		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_42 = __this->___CurrInteractable;
 		NullCheck(L_42);
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_43;
@@ -11430,11 +11509,11 @@ IL_010c:
 
 IL_0158:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:262>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:274>
 		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_44 = __this->___CurrInteractable;
 		NullCheck(L_44);
 		Interactables_RestoreOriginalTransform_m442426CCC11D243F2894D6D5D22C9FD6EDC0C8C3(L_44, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:263>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:275>
 		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_45 = __this->___CurrInteractable;
 		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_46 = __this->___CurrInteractable;
 		NullCheck(L_46);
@@ -11452,47 +11531,47 @@ IL_0158:
 
 IL_018c:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:265>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:277>
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_52 = __this->___OnFinishView;
 		NullCheck(L_52);
 		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_52, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:266>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:278>
 		return;
 	}
 }
-// Method Definition Index: 82119
+// Method Definition Index: 82124
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PlayerInteract_MovendObj_mD60396EECACD82DAD5934BA594DE85866680C6CB (PlayerInteract_t1B2F2008321DEDEDDD394EF62CB3EFFE7A2EE8A0* __this, Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* ___0_obj, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_targetPos, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___2_targetRot, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CMovendObjU3Ed__31_tEA1ED5F7FA2A2329D80304721BDBD2F363A38263_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CMovendObjU3Ed__34_t40980D53BE59881878FB386222C799E54CD87310_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		U3CMovendObjU3Ed__31_tEA1ED5F7FA2A2329D80304721BDBD2F363A38263* L_0 = (U3CMovendObjU3Ed__31_tEA1ED5F7FA2A2329D80304721BDBD2F363A38263*)il2cpp_codegen_object_new(U3CMovendObjU3Ed__31_tEA1ED5F7FA2A2329D80304721BDBD2F363A38263_il2cpp_TypeInfo_var);
-		U3CMovendObjU3Ed__31__ctor_mB75D48A4E619C39CFE8508459EABA5477E8EAFBB(L_0, 0, NULL);
-		U3CMovendObjU3Ed__31_tEA1ED5F7FA2A2329D80304721BDBD2F363A38263* L_1 = L_0;
+		U3CMovendObjU3Ed__34_t40980D53BE59881878FB386222C799E54CD87310* L_0 = (U3CMovendObjU3Ed__34_t40980D53BE59881878FB386222C799E54CD87310*)il2cpp_codegen_object_new(U3CMovendObjU3Ed__34_t40980D53BE59881878FB386222C799E54CD87310_il2cpp_TypeInfo_var);
+		U3CMovendObjU3Ed__34__ctor_mD8B9BFA7186A6FBAF0B1B1A89209CB4A8E0C2117(L_0, 0, NULL);
+		U3CMovendObjU3Ed__34_t40980D53BE59881878FB386222C799E54CD87310* L_1 = L_0;
 		NullCheck(L_1);
 		L_1->___U3CU3E4__this = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
-		U3CMovendObjU3Ed__31_tEA1ED5F7FA2A2329D80304721BDBD2F363A38263* L_2 = L_1;
+		U3CMovendObjU3Ed__34_t40980D53BE59881878FB386222C799E54CD87310* L_2 = L_1;
 		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_3 = ___0_obj;
 		NullCheck(L_2);
 		L_2->___obj = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&L_2->___obj), (void*)L_3);
-		U3CMovendObjU3Ed__31_tEA1ED5F7FA2A2329D80304721BDBD2F363A38263* L_4 = L_2;
+		U3CMovendObjU3Ed__34_t40980D53BE59881878FB386222C799E54CD87310* L_4 = L_2;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = ___1_targetPos;
 		NullCheck(L_4);
 		L_4->___targetPos = L_5;
-		U3CMovendObjU3Ed__31_tEA1ED5F7FA2A2329D80304721BDBD2F363A38263* L_6 = L_4;
+		U3CMovendObjU3Ed__34_t40980D53BE59881878FB386222C799E54CD87310* L_6 = L_4;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_7 = ___2_targetRot;
 		NullCheck(L_6);
 		L_6->___targetRot = L_7;
 		return L_6;
 	}
 }
-// Method Definition Index: 82120
+// Method Definition Index: 82125
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerInteract_RodaObj_m3286D80A2EFF122E97B4A9707C8C30C1D18D10F7 (PlayerInteract_t1B2F2008321DEDEDDD394EF62CB3EFFE7A2EE8A0* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11504,21 +11583,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerInteract_RodaObj_m3286D80A2EFF122E
 	float V_0 = 0.0f;
 	float V_1 = 0.0f;
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:291>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:303>
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_0 = __this->___RotateOb;
 		NullCheck(L_0);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1;
 		L_1 = InputAction_ReadValue_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m8D02BA85303ABD48D9963369E106B0C83A393FBF(L_0, InputAction_ReadValue_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m8D02BA85303ABD48D9963369E106B0C83A393FBF_RuntimeMethod_var);
 		float L_2 = L_1.___x;
 		V_0 = L_2;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:292>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:304>
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_3 = __this->___RotateOb;
 		NullCheck(L_3);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4;
 		L_4 = InputAction_ReadValue_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m8D02BA85303ABD48D9963369E106B0C83A393FBF(L_3, InputAction_ReadValue_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m8D02BA85303ABD48D9963369E106B0C83A393FBF_RuntimeMethod_var);
 		float L_5 = L_4.___y;
 		V_1 = L_5;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:293>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:305>
 		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_6 = __this->___CurrInteractable;
 		NullCheck(L_6);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7;
@@ -11534,7 +11613,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerInteract_RodaObj_m3286D80A2EFF122E
 		float L_12 = __this->___rotatSpeed;
 		NullCheck(L_7);
 		Transform_Rotate_m683E67853797040312868B69E963D0E97F433EEB(L_7, L_10, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply((0.0174532924f), L_11)), L_12)), 0, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:294>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:306>
 		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_13 = __this->___CurrInteractable;
 		NullCheck(L_13);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_14;
@@ -11550,15 +11629,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerInteract_RodaObj_m3286D80A2EFF122E
 		float L_19 = __this->___rotatSpeed;
 		NullCheck(L_14);
 		Transform_Rotate_m683E67853797040312868B69E963D0E97F433EEB(L_14, L_17, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply((-0.0174532924f), L_18)), L_19)), 0, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:295>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:307>
 		return;
 	}
 }
-// Method Definition Index: 82121
+// Method Definition Index: 82126
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerInteract__ctor_m8DCCDCB1265966B6895F6C027C6CA8C0475B2789 (PlayerInteract_t1B2F2008321DEDEDDD394EF62CB3EFFE7A2EE8A0* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:31>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:32>
 		__this->___animationDuration = (2.0f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -11572,8 +11651,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerInteract__ctor_m8DCCDCB1265966B689
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82122
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CMovendObjU3Ed__31__ctor_mB75D48A4E619C39CFE8508459EABA5477E8EAFBB (U3CMovendObjU3Ed__31_tEA1ED5F7FA2A2329D80304721BDBD2F363A38263* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+// Method Definition Index: 82127
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CMovendObjU3Ed__34__ctor_mD8B9BFA7186A6FBAF0B1B1A89209CB4A8E0C2117 (U3CMovendObjU3Ed__34_t40980D53BE59881878FB386222C799E54CD87310* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
@@ -11582,15 +11661,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CMovendObjU3Ed__31__ctor_mB75D48A4E619
 		return;
 	}
 }
-// Method Definition Index: 82123
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CMovendObjU3Ed__31_System_IDisposable_Dispose_m12CB420D69869EEDC1C11B9D2D19F495B482C8A4 (U3CMovendObjU3Ed__31_tEA1ED5F7FA2A2329D80304721BDBD2F363A38263* __this, const RuntimeMethod* method) 
+// Method Definition Index: 82128
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CMovendObjU3Ed__34_System_IDisposable_Dispose_m1F2CBD2FD6626EAB344AF66275A0E5F02AF3354E (U3CMovendObjU3Ed__34_t40980D53BE59881878FB386222C799E54CD87310* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 82124
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CMovendObjU3Ed__31_MoveNext_m757DFA45150F9371F2B5E629CAD276AAF815D296 (U3CMovendObjU3Ed__31_tEA1ED5F7FA2A2329D80304721BDBD2F363A38263* __this, const RuntimeMethod* method) 
+// Method Definition Index: 82129
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CMovendObjU3Ed__34_MoveNext_m60C841EA13E85CB0D4514E95B171F92E657ED09F (U3CMovendObjU3Ed__34_t40980D53BE59881878FB386222C799E54CD87310* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	PlayerInteract_t1B2F2008321DEDEDDD394EF62CB3EFFE7A2EE8A0* V_1 = NULL;
@@ -11620,13 +11699,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CMovendObjU3Ed__31_MoveNext_m757DFA451
 IL_001a:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:270>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:282>
 		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_4 = __this->___obj;
 		NullCheck(L_4);
 		L_4->___IsMoving = (bool)1;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:271>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:283>
 		__this->___U3CtimerU3E5__2 = (0.0f);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:272>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:284>
 		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_5 = __this->___obj;
 		NullCheck(L_5);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6;
@@ -11635,7 +11714,7 @@ IL_001a:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
 		L_7 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_6, NULL);
 		__this->___U3CstartPosU3E5__3 = L_7;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:273>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:285>
 		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_8 = __this->___obj;
 		NullCheck(L_8);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9;
@@ -11649,13 +11728,13 @@ IL_001a:
 
 IL_0066:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:277>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:289>
 		float L_11 = __this->___U3CtimerU3E5__2;
 		PlayerInteract_t1B2F2008321DEDEDDD394EF62CB3EFFE7A2EE8A0* L_12 = V_1;
 		NullCheck(L_12);
 		float L_13 = L_12->___animationDuration;
 		V_2 = ((float)(L_11/L_13));
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:278>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:290>
 		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_14 = __this->___obj;
 		NullCheck(L_14);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_15;
@@ -11667,7 +11746,7 @@ IL_0066:
 		L_19 = Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline(L_16, L_17, L_18, NULL);
 		NullCheck(L_15);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_15, L_19, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:279>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:291>
 		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_20 = __this->___obj;
 		NullCheck(L_20);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_21;
@@ -11679,12 +11758,12 @@ IL_0066:
 		L_25 = Quaternion_Lerp_m259606226726C2F46E079A5A688B9E24FF7E9A0D_inline(L_22, L_23, L_24, NULL);
 		NullCheck(L_21);
 		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_21, L_25, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:280>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:292>
 		float L_26 = __this->___U3CtimerU3E5__2;
 		float L_27;
 		L_27 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		__this->___U3CtimerU3E5__2 = ((float)il2cpp_codegen_add(L_26, L_27));
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:281>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:293>
 		__this->___U3CU3E2__current = NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
 		__this->___U3CU3E1__state = 1;
@@ -11698,7 +11777,7 @@ IL_00da:
 
 IL_00e1:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:275>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:287>
 		float L_28 = __this->___U3CtimerU3E5__2;
 		PlayerInteract_t1B2F2008321DEDEDDD394EF62CB3EFFE7A2EE8A0* L_29 = V_1;
 		NullCheck(L_29);
@@ -11709,7 +11788,7 @@ IL_00e1:
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:284>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:296>
 		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_31 = __this->___obj;
 		NullCheck(L_31);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_32;
@@ -11717,7 +11796,7 @@ IL_00e1:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_33 = __this->___targetPos;
 		NullCheck(L_32);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_32, L_33, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:285>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:297>
 		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_34 = __this->___obj;
 		NullCheck(L_34);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_35;
@@ -11725,33 +11804,33 @@ IL_00e1:
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_36 = __this->___targetRot;
 		NullCheck(L_35);
 		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_35, L_36, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:286>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:298>
 		Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* L_37 = __this->___obj;
 		NullCheck(L_37);
 		L_37->___IsMoving = (bool)0;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:287>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Player/PlayerInteract.cs:299>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 82125
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CMovendObjU3Ed__31_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m27EC8162D8CCB827D433E71295B6642731391A94 (U3CMovendObjU3Ed__31_tEA1ED5F7FA2A2329D80304721BDBD2F363A38263* __this, const RuntimeMethod* method) 
+// Method Definition Index: 82130
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CMovendObjU3Ed__34_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mB8A61FD31031D170D3F4B07888E55EDC0185E792 (U3CMovendObjU3Ed__34_t40980D53BE59881878FB386222C799E54CD87310* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current;
 		return L_0;
 	}
 }
-// Method Definition Index: 82126
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CMovendObjU3Ed__31_System_Collections_IEnumerator_Reset_mA184C321F33948846BA8F5AE5629DF564D3D4325 (U3CMovendObjU3Ed__31_tEA1ED5F7FA2A2329D80304721BDBD2F363A38263* __this, const RuntimeMethod* method) 
+// Method Definition Index: 82131
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CMovendObjU3Ed__34_System_Collections_IEnumerator_Reset_m70D28064559636B0A5963D04A9C02926D4F9216D (U3CMovendObjU3Ed__34_t40980D53BE59881878FB386222C799E54CD87310* __this, const RuntimeMethod* method) 
 {
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CMovendObjU3Ed__31_System_Collections_IEnumerator_Reset_mA184C321F33948846BA8F5AE5629DF564D3D4325_RuntimeMethod_var)));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CMovendObjU3Ed__34_System_Collections_IEnumerator_Reset_m70D28064559636B0A5963D04A9C02926D4F9216D_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 82127
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CMovendObjU3Ed__31_System_Collections_IEnumerator_get_Current_m46AF0FAF6E3DCC4B406CCFD331DEE72282C356D4 (U3CMovendObjU3Ed__31_tEA1ED5F7FA2A2329D80304721BDBD2F363A38263* __this, const RuntimeMethod* method) 
+// Method Definition Index: 82132
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CMovendObjU3Ed__34_System_Collections_IEnumerator_get_Current_mAFB24797F8CAC1FC6503FFC9DE0B1A4A29703E18 (U3CMovendObjU3Ed__34_t40980D53BE59881878FB386222C799E54CD87310* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current;
@@ -11766,7 +11845,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CMovendObjU3Ed__31_System_Co
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82128
+// Method Definition Index: 82133
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tBB4BFB497BCF47BCBBEC63B4E8645B49487294C2* PlayerInventory_get_Itens_mC9E1F4FFEE65C7EAE19EB676775420B7044A434C (PlayerInventory_t9DFF7303E6D77500C69210AA16F04634500D80E6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11775,7 +11854,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tBB4BFB497BCF47BCBBEC63B4E8645B4948729
 		return L_0;
 	}
 }
-// Method Definition Index: 82129
+// Method Definition Index: 82134
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerInventory_AddItem_m80512292D1BBF706797CB939130328A961DC51B2 (PlayerInventory_t9DFF7303E6D77500C69210AA16F04634500D80E6* __this, Item_tFAF77888D49883A321EB596A7D93CB5615D37E95* ___0_item, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11824,7 +11903,7 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 82130
+// Method Definition Index: 82135
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerInventory__ctor_mB8D3360CF9927F0C939A4AD411EA1FC3BEFFE38F (PlayerInventory_t9DFF7303E6D77500C69210AA16F04634500D80E6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11840,7 +11919,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerInventory__ctor_mB8D3360CF9927F0C9
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82131
+// Method Definition Index: 82136
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerLimit_Awake_mBE3684A1237E6ECB35460ADE87DFC4116A6FA7A6 (PlayerLimit_t9DC886587AC387C34BC002DE613AA9FD8FBFAA20* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11875,7 +11954,7 @@ IL_001e:
 		return;
 	}
 }
-// Method Definition Index: 82132
+// Method Definition Index: 82137
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerLimit_OnTriggerEnter_mDDE8BBE84E4BAE51C3E061117009A5F9036510AF (PlayerLimit_t9DC886587AC387C34BC002DE613AA9FD8FBFAA20* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___0_other, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11964,7 +12043,7 @@ IL_007c:
 		return;
 	}
 }
-// Method Definition Index: 82133
+// Method Definition Index: 82138
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerLimit__ctor_m85FF8AF10AAA54D9BE2DEC4459B69288BF47C30E (PlayerLimit_t9DC886587AC387C34BC002DE613AA9FD8FBFAA20* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11980,7 +12059,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerLimit__ctor_m85FF8AF10AAA54D9BE2DE
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82134
+// Method Definition Index: 82139
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void teste_Awake_m4FD8EFD36356F29F2956E4D37431C793008BECDC (teste_tA6153A787EB15F25ED3B0050C332EDDD84588CBB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12032,7 +12111,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void teste_Awake_m4FD8EFD36356F29F2956E4D3743
 		return;
 	}
 }
-// Method Definition Index: 82135
+// Method Definition Index: 82140
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void teste_Update_m92E973356DFB9C3897B442B0343B3DF2C1474735 (teste_tA6153A787EB15F25ED3B0050C332EDDD84588CBB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12042,7 +12121,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void teste_Update_m92E973356DFB9C3897B442B034
 		return;
 	}
 }
-// Method Definition Index: 82136
+// Method Definition Index: 82141
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void teste_CheckInteractables_m41D5A80028FF145162E38B777A65B9F9F7D25EB9 (teste_tA6153A787EB15F25ED3B0050C332EDDD84588CBB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12710,7 +12789,7 @@ IL_03b5:
 		return;
 	}
 }
-// Method Definition Index: 82137
+// Method Definition Index: 82142
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void teste_CanFinish_m1DF3AD60D0969A544ACFF10200BB5E335DB0F5ED (teste_tA6153A787EB15F25ED3B0050C332EDDD84588CBB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12764,7 +12843,7 @@ IL_0038:
 		return;
 	}
 }
-// Method Definition Index: 82138
+// Method Definition Index: 82143
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void teste_Interact_mC9E75BA844EEE7C265C77193DBDA85F6727CA41C (teste_tA6153A787EB15F25ED3B0050C332EDDD84588CBB* __this, Item_tFAF77888D49883A321EB596A7D93CB5615D37E95* ___0_item, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12803,7 +12882,7 @@ IL_001e:
 		return;
 	}
 }
-// Method Definition Index: 82139
+// Method Definition Index: 82144
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void teste_FinishView_m54252F1167866FE4D7370CB93CC4B1BE86B1B86B (teste_tA6153A787EB15F25ED3B0050C332EDDD84588CBB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13004,7 +13083,7 @@ IL_0147:
 		return;
 	}
 }
-// Method Definition Index: 82140
+// Method Definition Index: 82145
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* teste_MovendObj_mAF306FB555327FAA995665F32D8E8251D6774F84 (teste_tA6153A787EB15F25ED3B0050C332EDDD84588CBB* __this, Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* ___0_obj, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_targetPos, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___2_targetRot, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13036,7 +13115,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* teste_MovendObj_mAF306FB555327
 		return L_6;
 	}
 }
-// Method Definition Index: 82141
+// Method Definition Index: 82146
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void teste_RodaObj_m48B3B5E6810B38368A5744A31083FE73DD63D09B (teste_tA6153A787EB15F25ED3B0050C332EDDD84588CBB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13098,7 +13177,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void teste_RodaObj_m48B3B5E6810B38368A5744A31
 		return;
 	}
 }
-// Method Definition Index: 82142
+// Method Definition Index: 82147
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void teste__ctor_m3E8B38C1DE801FEE12AB40D418D2E56738505F9E (teste_tA6153A787EB15F25ED3B0050C332EDDD84588CBB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13116,7 +13195,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void teste__ctor_m3E8B38C1DE801FEE12AB40D418D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82143
+// Method Definition Index: 82148
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CMovendObjU3Ed__26__ctor_m5BAA08392A34D63247D72CC048DA5CCAB688549B (U3CMovendObjU3Ed__26_t10BC4A5C4D53D682A94F995250FC91B464732BAB* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -13126,14 +13205,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CMovendObjU3Ed__26__ctor_m5BAA08392A34
 		return;
 	}
 }
-// Method Definition Index: 82144
+// Method Definition Index: 82149
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CMovendObjU3Ed__26_System_IDisposable_Dispose_m673590936DAB9C71DFBFC29340C49D72AEA59C7A (U3CMovendObjU3Ed__26_t10BC4A5C4D53D682A94F995250FC91B464732BAB* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 82145
+// Method Definition Index: 82150
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CMovendObjU3Ed__26_MoveNext_m4718A12030D50991734A5292E61F0261C8899E63 (U3CMovendObjU3Ed__26_t10BC4A5C4D53D682A94F995250FC91B464732BAB* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -13277,7 +13356,7 @@ IL_00e1:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 82146
+// Method Definition Index: 82151
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CMovendObjU3Ed__26_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m475BF3C04B4CF0C137C1AECAB3E4DE213983E6E3 (U3CMovendObjU3Ed__26_t10BC4A5C4D53D682A94F995250FC91B464732BAB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13285,7 +13364,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CMovendObjU3Ed__26_System_Co
 		return L_0;
 	}
 }
-// Method Definition Index: 82147
+// Method Definition Index: 82152
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CMovendObjU3Ed__26_System_Collections_IEnumerator_Reset_m70405E32805530025319A652787D9E18BABE7D24 (U3CMovendObjU3Ed__26_t10BC4A5C4D53D682A94F995250FC91B464732BAB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13294,7 +13373,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CMovendObjU3Ed__26_System_Collections_
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CMovendObjU3Ed__26_System_Collections_IEnumerator_Reset_m70405E32805530025319A652787D9E18BABE7D24_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 82148
+// Method Definition Index: 82153
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CMovendObjU3Ed__26_System_Collections_IEnumerator_get_Current_m4455E2D6A607C4CB9A309BBD88F83207ADDF6338 (U3CMovendObjU3Ed__26_t10BC4A5C4D53D682A94F995250FC91B464732BAB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13310,7 +13389,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CMovendObjU3Ed__26_System_Co
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82149
+// Method Definition Index: 82154
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BotaoCor_get_CorId_m0425A2D3BF2DFA7540A562FF7EEBD326477998EC (BotaoCor_tCCE7E3B7321F92E9B3E054A0D734C2691F6B72C9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13319,7 +13398,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BotaoCor_get_CorId_m0425A2D3BF2DFA754
 		return L_0;
 	}
 }
-// Method Definition Index: 82150
+// Method Definition Index: 82155
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BotaoCor__ctor_mA7AF4712F2881D0FE7E8A229A37885B808523956 (BotaoCor_tCCE7E3B7321F92E9B3E054A0D734C2691F6B72C9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13335,7 +13414,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BotaoCor__ctor_mA7AF4712F2881D0FE7E8A229
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82151
+// Method Definition Index: 82156
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CdgSenha_Awake_m2DFE1BF12EC4E338FDAE2117BB3DC0093A1874FB (CdgSenha_t6F36A32FE45D5B3BE2A0642F5F1E22BFFF5379CD* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13363,7 +13442,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CdgSenha_Awake_m2DFE1BF12EC4E338FDAE2117
 		return;
 	}
 }
-// Method Definition Index: 82152
+// Method Definition Index: 82157
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CdgSenha_Start_mFB013F1C43A97D06DF0FC6E90CD2B679120507F4 (CdgSenha_t6F36A32FE45D5B3BE2A0642F5F1E22BFFF5379CD* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13382,7 +13461,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CdgSenha_Start_mFB013F1C43A97D06DF0FC6E9
 		return;
 	}
 }
-// Method Definition Index: 82153
+// Method Definition Index: 82158
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CdgSenha_Update_mDBDA8429CEE76A9F9DC02BA94493231E243DEA53 (CdgSenha_t6F36A32FE45D5B3BE2A0642F5F1E22BFFF5379CD* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13588,7 +13667,7 @@ IL_0121:
 		return;
 	}
 }
-// Method Definition Index: 82154
+// Method Definition Index: 82159
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CdgSenha_OnTriggerEnter_m08F238E2CF2CC2CC7E63C3386B30F512EF0A6613 (CdgSenha_t6F36A32FE45D5B3BE2A0642F5F1E22BFFF5379CD* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___0_other, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13630,7 +13709,7 @@ IL_0028:
 		return;
 	}
 }
-// Method Definition Index: 82155
+// Method Definition Index: 82160
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CdgSenha_OnTriggerExit_m15C36EA45A2FBE363F0301C946D944EB9A474C6A (CdgSenha_t6F36A32FE45D5B3BE2A0642F5F1E22BFFF5379CD* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___0_other, const RuntimeMethod* method) 
 {
 	{
@@ -13648,7 +13727,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CdgSenha_OnTriggerExit_m15C36EA45A2FBE36
 		return;
 	}
 }
-// Method Definition Index: 82156
+// Method Definition Index: 82161
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CdgSenha_AddDigit_mC921159DCFA0E179AD56DAB6199A837E9C979796 (CdgSenha_t6F36A32FE45D5B3BE2A0642F5F1E22BFFF5379CD* __this, String_t* ___0_digito, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13676,7 +13755,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CdgSenha_AddDigit_mC921159DCFA0E179AD56D
 		return;
 	}
 }
-// Method Definition Index: 82157
+// Method Definition Index: 82162
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CdgSenha_PlayErradoAudio_m80F0C66F24AD4DD6905107FF1F98F7CA30363A3D (CdgSenha_t6F36A32FE45D5B3BE2A0642F5F1E22BFFF5379CD* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13698,7 +13777,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CdgSenha_PlayErradoAudio_m80F0C66F24AD4D
 		return;
 	}
 }
-// Method Definition Index: 82158
+// Method Definition Index: 82163
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CdgSenha_PlayAbrirAudio_mC39C4F29CD2475979ACCD8871863C92034FE1737 (CdgSenha_t6F36A32FE45D5B3BE2A0642F5F1E22BFFF5379CD* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13720,7 +13799,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CdgSenha_PlayAbrirAudio_mC39C4F29CD24759
 		return;
 	}
 }
-// Method Definition Index: 82159
+// Method Definition Index: 82164
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CdgSenha__ctor_mF6727CE86FA0B5C72F03B6B4EF903FF759A8A0A1 (CdgSenha_t6F36A32FE45D5B3BE2A0642F5F1E22BFFF5379CD* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13757,7 +13836,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CdgSenha__ctor_mF6727CE86FA0B5C72F03B6B4
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82160
+// Method Definition Index: 82165
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DefinirSpawn_Start_m63334E099EBD0395927E4015B1C8DA95C8772738 (DefinirSpawn_t9DA30CD7B4E6B3A2F20706C0285A0B7209D3C8D2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13794,7 +13873,7 @@ IL_001f:
 		return;
 	}
 }
-// Method Definition Index: 82161
+// Method Definition Index: 82166
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DefinirSpawn_OnTriggerEnter_m45E8D7A4D7BD9F01882FB671E78661D4CD7F44C5 (DefinirSpawn_t9DA30CD7B4E6B3A2F20706C0285A0B7209D3C8D2* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___0_other, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13863,7 +13942,7 @@ IL_005b:
 		return;
 	}
 }
-// Method Definition Index: 82162
+// Method Definition Index: 82167
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DefinirSpawn__ctor_mBE4EF5F7912AE879983246B70538DF750E669F82 (DefinirSpawn_t9DA30CD7B4E6B3A2F20706C0285A0B7209D3C8D2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13879,7 +13958,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DefinirSpawn__ctor_mBE4EF5F7912AE8799832
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82163
+// Method Definition Index: 82168
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IAFantasma_Start_mCF003C22DDE8CC7AB8BF1ECFC4D65B54D70B5229 (IAFantasma_t54C5E05FC2E39D009FC49026CE9471081A192C5D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13959,7 +14038,7 @@ IL_0054:
 		return;
 	}
 }
-// Method Definition Index: 82164
+// Method Definition Index: 82169
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IAFantasma_Update_m962B07649364D7E79158DECB03596A49F936E1B6 (IAFantasma_t54C5E05FC2E39D009FC49026CE9471081A192C5D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14203,7 +14282,7 @@ IL_0171:
 		return;
 	}
 }
-// Method Definition Index: 82165
+// Method Definition Index: 82170
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool IAFantasma_TemLinhaDeVisaoDireta_m1560022FE358B25B0BD89BB969738B797C823DDE (IAFantasma_t54C5E05FC2E39D009FC49026CE9471081A192C5D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14338,7 +14417,7 @@ IL_00cf:
 		return (bool)1;
 	}
 }
-// Method Definition Index: 82166
+// Method Definition Index: 82171
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* IAFantasma_EsperaNoPonto_mD64CB674306359E7B27F786636B4B1ECC1FA094C (IAFantasma_t54C5E05FC2E39D009FC49026CE9471081A192C5D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14357,7 +14436,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* IAFantasma_EsperaNoPonto_mD64C
 		return L_1;
 	}
 }
-// Method Definition Index: 82167
+// Method Definition Index: 82172
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* IAFantasma_RotinaTeletransporte_m63BFEE00BC634FF05B22BE06BCC5707FB7CA5FA6 (IAFantasma_t54C5E05FC2E39D009FC49026CE9471081A192C5D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14376,7 +14455,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* IAFantasma_RotinaTeletransport
 		return L_1;
 	}
 }
-// Method Definition Index: 82168
+// Method Definition Index: 82173
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IAFantasma_SortearProximoPonto_m3B008940775F135590AD23106800D9FEF5D566B1 (IAFantasma_t54C5E05FC2E39D009FC49026CE9471081A192C5D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14549,7 +14628,7 @@ IL_00c6:
 		return;
 	}
 }
-// Method Definition Index: 82169
+// Method Definition Index: 82174
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IAFantasma_OnDrawGizmosSelected_mF707134DEDD4AF35C6C86F3A8CDF74FFF22CAA61 (IAFantasma_t54C5E05FC2E39D009FC49026CE9471081A192C5D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14569,7 +14648,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IAFantasma_OnDrawGizmosSelected_mF707134
 		return;
 	}
 }
-// Method Definition Index: 82170
+// Method Definition Index: 82175
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IAFantasma__ctor_m32AA5DB87595920C67AA6DB932254867F79ABC08 (IAFantasma_t54C5E05FC2E39D009FC49026CE9471081A192C5D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14599,7 +14678,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IAFantasma__ctor_m32AA5DB87595920C67AA6D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82171
+// Method Definition Index: 82176
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CEsperaNoPontoU3Ed__18__ctor_mC745AC179CE6FFD7E0959FFAD558F55FA8F0004C (U3CEsperaNoPontoU3Ed__18_tFB65639C2F1685FEA2C3714C3039DE5ED05FA1F7* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -14609,14 +14688,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CEsperaNoPontoU3Ed__18__ctor_mC745AC17
 		return;
 	}
 }
-// Method Definition Index: 82172
+// Method Definition Index: 82177
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CEsperaNoPontoU3Ed__18_System_IDisposable_Dispose_m50CE92033109E461873093CE44B7BE3F25F5FE91 (U3CEsperaNoPontoU3Ed__18_tFB65639C2F1685FEA2C3714C3039DE5ED05FA1F7* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 82173
+// Method Definition Index: 82178
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CEsperaNoPontoU3Ed__18_MoveNext_mBD748777EB875F3BA695BA764F6562286C94D34B (U3CEsperaNoPontoU3Ed__18_tFB65639C2F1685FEA2C3714C3039DE5ED05FA1F7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14692,7 +14771,7 @@ IL_004c:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 82174
+// Method Definition Index: 82179
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CEsperaNoPontoU3Ed__18_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m3E33858EA61909FA2213059B1267613788C7146E (U3CEsperaNoPontoU3Ed__18_tFB65639C2F1685FEA2C3714C3039DE5ED05FA1F7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14700,7 +14779,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CEsperaNoPontoU3Ed__18_Syste
 		return L_0;
 	}
 }
-// Method Definition Index: 82175
+// Method Definition Index: 82180
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CEsperaNoPontoU3Ed__18_System_Collections_IEnumerator_Reset_m4AC07C9344D9CE797A10788935F3860B77DA37AA (U3CEsperaNoPontoU3Ed__18_tFB65639C2F1685FEA2C3714C3039DE5ED05FA1F7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14709,7 +14788,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CEsperaNoPontoU3Ed__18_System_Collecti
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CEsperaNoPontoU3Ed__18_System_Collections_IEnumerator_Reset_m4AC07C9344D9CE797A10788935F3860B77DA37AA_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 82176
+// Method Definition Index: 82181
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CEsperaNoPontoU3Ed__18_System_Collections_IEnumerator_get_Current_m1AD339171B49596E29F41DE40016A6033B96EF52 (U3CEsperaNoPontoU3Ed__18_tFB65639C2F1685FEA2C3714C3039DE5ED05FA1F7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14725,7 +14804,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CEsperaNoPontoU3Ed__18_Syste
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82177
+// Method Definition Index: 82182
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRotinaTeletransporteU3Ed__19__ctor_m1AB3E3B77BF2ACF3AA21BD5947C9FB146773410C (U3CRotinaTeletransporteU3Ed__19_t78902AEC0A5C9219D3A1219B4155FFD7B7673533* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -14735,14 +14814,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRotinaTeletransporteU3Ed__19__ctor_m1
 		return;
 	}
 }
-// Method Definition Index: 82178
+// Method Definition Index: 82183
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRotinaTeletransporteU3Ed__19_System_IDisposable_Dispose_mC496DDD3CBDC445E879A743757324F74592DBE6B (U3CRotinaTeletransporteU3Ed__19_t78902AEC0A5C9219D3A1219B4155FFD7B7673533* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 82179
+// Method Definition Index: 82184
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CRotinaTeletransporteU3Ed__19_MoveNext_m92F99ACF3996C1EF064E884651805FA67B746CD1 (U3CRotinaTeletransporteU3Ed__19_t78902AEC0A5C9219D3A1219B4155FFD7B7673533* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15044,7 +15123,7 @@ IL_0171:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 82180
+// Method Definition Index: 82185
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CRotinaTeletransporteU3Ed__19_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m0FB4157FF0F22971DFF43345306EE786083E9CAD (U3CRotinaTeletransporteU3Ed__19_t78902AEC0A5C9219D3A1219B4155FFD7B7673533* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15052,7 +15131,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CRotinaTeletransporteU3Ed__1
 		return L_0;
 	}
 }
-// Method Definition Index: 82181
+// Method Definition Index: 82186
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRotinaTeletransporteU3Ed__19_System_Collections_IEnumerator_Reset_m02542EA89B498C03D549A9046822D166FF27A13F (U3CRotinaTeletransporteU3Ed__19_t78902AEC0A5C9219D3A1219B4155FFD7B7673533* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15061,7 +15140,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRotinaTeletransporteU3Ed__19_System_C
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CRotinaTeletransporteU3Ed__19_System_Collections_IEnumerator_Reset_m02542EA89B498C03D549A9046822D166FF27A13F_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 82182
+// Method Definition Index: 82187
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CRotinaTeletransporteU3Ed__19_System_Collections_IEnumerator_get_Current_m2AC09C43D5525604E481EEAAC130C8AABC518C1D (U3CRotinaTeletransporteU3Ed__19_t78902AEC0A5C9219D3A1219B4155FFD7B7673533* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15077,7 +15156,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CRotinaTeletransporteU3Ed__1
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82183
+// Method Definition Index: 82188
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaoSegue_Start_mC7307080572D093876D4D804E36B777AE3F129DE (MaoSegue_tFE1B5F88A976C1B85BB39C806DBCEC9B1ED1EC38* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15252,7 +15331,7 @@ IL_00e7:
 		return;
 	}
 }
-// Method Definition Index: 82184
+// Method Definition Index: 82189
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaoSegue_FixedUpdate_m4A7515F4725CCE4187374745CD562B3A5767DF92 (MaoSegue_tFE1B5F88A976C1B85BB39C806DBCEC9B1ED1EC38* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15368,7 +15447,7 @@ IL_0060:
 		return;
 	}
 }
-// Method Definition Index: 82185
+// Method Definition Index: 82190
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaoSegue_OnTriggerEnter_m7A802304E67614110876148371A0AC8AD0E6E448 (MaoSegue_tFE1B5F88A976C1B85BB39C806DBCEC9B1ED1EC38* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___0_other, const RuntimeMethod* method) 
 {
 	{
@@ -15408,7 +15487,7 @@ IL_0012:
 		return;
 	}
 }
-// Method Definition Index: 82186
+// Method Definition Index: 82191
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MaoSegue_IsPlayer_m5AC3248433891D42DF48BE039DD65874D52CD842 (MaoSegue_tFE1B5F88A976C1B85BB39C806DBCEC9B1ED1EC38* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___0_other, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15447,7 +15526,7 @@ IL_0023:
 		return (bool)1;
 	}
 }
-// Method Definition Index: 82187
+// Method Definition Index: 82192
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MaoSegue_ProcessarToque_m91A844CB5E8B76B85F83916DF594437370A888D6 (MaoSegue_tFE1B5F88A976C1B85BB39C806DBCEC9B1ED1EC38* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15466,7 +15545,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MaoSegue_ProcessarToque_m91A84
 		return L_1;
 	}
 }
-// Method Definition Index: 82188
+// Method Definition Index: 82193
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MaoSegue_FadeTo_m2A3F43AA1C9B1215455BAE7EB73D42B29AA03437 (MaoSegue_tFE1B5F88A976C1B85BB39C806DBCEC9B1ED1EC38* __this, float ___0_alpha, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15489,7 +15568,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MaoSegue_FadeTo_m2A3F43AA1C9B1
 		return L_2;
 	}
 }
-// Method Definition Index: 82189
+// Method Definition Index: 82194
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaoSegue_SetAlpha_m385C43BF7CF582FD89D41C245D28F19BA9354F77 (MaoSegue_tFE1B5F88A976C1B85BB39C806DBCEC9B1ED1EC38* __this, float ___0_alpha, const RuntimeMethod* method) 
 {
 	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F V_0;
@@ -15513,7 +15592,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaoSegue_SetAlpha_m385C43BF7CF582FD89D41
 		return;
 	}
 }
-// Method Definition Index: 82190
+// Method Definition Index: 82195
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaoSegue__ctor_m1B2C6314F186E2C49B5152A83EA7D970111DCAB0 (MaoSegue_tFE1B5F88A976C1B85BB39C806DBCEC9B1ED1EC38* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15539,7 +15618,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaoSegue__ctor_m1B2C6314F186E2C49B5152A8
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82191
+// Method Definition Index: 82196
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFadeToU3Ed__17__ctor_mF01C1387019EDD74B381FF9F17422C5CF86DB6EC (U3CFadeToU3Ed__17_tD77185D51D121CBB95F3C1CB19BDCE74E64329DC* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -15549,14 +15628,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFadeToU3Ed__17__ctor_mF01C1387019EDD7
 		return;
 	}
 }
-// Method Definition Index: 82192
+// Method Definition Index: 82197
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFadeToU3Ed__17_System_IDisposable_Dispose_mC698C9AF2BBE59A94767EE60AF1C77585F3C0D08 (U3CFadeToU3Ed__17_tD77185D51D121CBB95F3C1CB19BDCE74E64329DC* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 82193
+// Method Definition Index: 82198
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CFadeToU3Ed__17_MoveNext_mCDD0C03BB50BAB58CB367DB1E5B195771FACDAE3 (U3CFadeToU3Ed__17_tD77185D51D121CBB95F3C1CB19BDCE74E64329DC* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15693,7 +15772,7 @@ IL_00d9:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 82194
+// Method Definition Index: 82199
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CFadeToU3Ed__17_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mA6BAE631B0A821A924C063AA9525F0E7BDBD1B63 (U3CFadeToU3Ed__17_tD77185D51D121CBB95F3C1CB19BDCE74E64329DC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15701,7 +15780,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CFadeToU3Ed__17_System_Colle
 		return L_0;
 	}
 }
-// Method Definition Index: 82195
+// Method Definition Index: 82200
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFadeToU3Ed__17_System_Collections_IEnumerator_Reset_mD45AF65C0D72ED30195CF720878D05C04DB38FB3 (U3CFadeToU3Ed__17_tD77185D51D121CBB95F3C1CB19BDCE74E64329DC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15710,7 +15789,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFadeToU3Ed__17_System_Collections_IEn
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CFadeToU3Ed__17_System_Collections_IEnumerator_Reset_mD45AF65C0D72ED30195CF720878D05C04DB38FB3_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 82196
+// Method Definition Index: 82201
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CFadeToU3Ed__17_System_Collections_IEnumerator_get_Current_m8A86A16A6C99208548F882365B0831D8EBE9701F (U3CFadeToU3Ed__17_tD77185D51D121CBB95F3C1CB19BDCE74E64329DC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15726,7 +15805,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CFadeToU3Ed__17_System_Colle
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82197
+// Method Definition Index: 82202
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CProcessarToqueU3Ed__16__ctor_m41B14203F61E0523A749D2A1CFC094D1E49C5034 (U3CProcessarToqueU3Ed__16_tA74D8AEE99FCCCE7726F597B43DF3CA5D66AF669* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -15736,14 +15815,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CProcessarToqueU3Ed__16__ctor_m41B1420
 		return;
 	}
 }
-// Method Definition Index: 82198
+// Method Definition Index: 82203
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CProcessarToqueU3Ed__16_System_IDisposable_Dispose_m2AC60F8561F4E757629B5C47A3555C464BB94F4D (U3CProcessarToqueU3Ed__16_tA74D8AEE99FCCCE7726F597B43DF3CA5D66AF669* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 82199
+// Method Definition Index: 82204
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CProcessarToqueU3Ed__16_MoveNext_mDBBB255E5CA3378DF69A77BBE2D9E6C2A51BCCB8 (U3CProcessarToqueU3Ed__16_tA74D8AEE99FCCCE7726F597B43DF3CA5D66AF669* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15897,7 +15976,7 @@ IL_00e4:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 82200
+// Method Definition Index: 82205
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CProcessarToqueU3Ed__16_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m6F587A2DF7D45A242E8D107B4D0FC1757BE16EB1 (U3CProcessarToqueU3Ed__16_tA74D8AEE99FCCCE7726F597B43DF3CA5D66AF669* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15905,7 +15984,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CProcessarToqueU3Ed__16_Syst
 		return L_0;
 	}
 }
-// Method Definition Index: 82201
+// Method Definition Index: 82206
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CProcessarToqueU3Ed__16_System_Collections_IEnumerator_Reset_m9A18D626B4896843AC992BF4F89706AE7577B25E (U3CProcessarToqueU3Ed__16_tA74D8AEE99FCCCE7726F597B43DF3CA5D66AF669* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15914,7 +15993,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CProcessarToqueU3Ed__16_System_Collect
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CProcessarToqueU3Ed__16_System_Collections_IEnumerator_Reset_m9A18D626B4896843AC992BF4F89706AE7577B25E_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 82202
+// Method Definition Index: 82207
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CProcessarToqueU3Ed__16_System_Collections_IEnumerator_get_Current_m1018F04449AC70242C09D0B9E784F7B6350BA9A8 (U3CProcessarToqueU3Ed__16_tA74D8AEE99FCCCE7726F597B43DF3CA5D66AF669* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15930,7 +16009,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CProcessarToqueU3Ed__16_Syst
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82203
+// Method Definition Index: 82208
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PainelInteract_Interact_m976AC65E8CDCD87F68041EC92698C3C81784BD8E (PainelInteract_t92D98337E6A931939ACB8C05DF26B47B6D2AACAC* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16007,7 +16086,7 @@ IL_003a:
 		return;
 	}
 }
-// Method Definition Index: 82204
+// Method Definition Index: 82209
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PainelInteract__ctor_m87905EE72A190A5F8D343B298021A65F2A984D7E (PainelInteract_t92D98337E6A931939ACB8C05DF26B47B6D2AACAC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16023,7 +16102,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PainelInteract__ctor_m87905EE72A190A5F8D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82205
+// Method Definition Index: 82210
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void painelManager_Awake_m5185CE3A7706B222D29F0B07EEC2256D32D38948 (painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16166,7 +16245,7 @@ IL_00e2:
 		return;
 	}
 }
-// Method Definition Index: 82206
+// Method Definition Index: 82211
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void painelManager_Update_m0085B5F17B9F6265BBA536FD691A88F4A978C249 (painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16387,7 +16466,7 @@ IL_00b1:
 		return;
 	}
 }
-// Method Definition Index: 82207
+// Method Definition Index: 82212
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void painelManager_Start_mAF59DA87AFD7029409A1A9CD1CBDB5E3C398EF9E (painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16402,7 +16481,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void painelManager_Start_mAF59DA87AFD7029409A
 		return;
 	}
 }
-// Method Definition Index: 82208
+// Method Definition Index: 82213
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void painelManager_ResetarMatrizLimpa_m2BBC977C81A206EDC7388175E260116F3A461D7B (painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -16464,7 +16543,7 @@ IL_0027:
 		return;
 	}
 }
-// Method Definition Index: 82209
+// Method Definition Index: 82214
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void painelManager_AbrirPuzzle_mCB7D6B1A20B6ADE8051BC32D1725E8FA9B3C1BDC (painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16577,7 +16656,7 @@ IL_0093:
 		return;
 	}
 }
-// Method Definition Index: 82210
+// Method Definition Index: 82215
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void painelManager_FecharPuzzle_m58A548E6F63B638719F44924F29F9312D7D63B77 (painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16612,7 +16691,7 @@ IL_0021:
 		return;
 	}
 }
-// Method Definition Index: 82211
+// Method Definition Index: 82216
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void painelManager_ProcessarCliqueOuToque_mF82DF1ECBD9ABC37AAB48EF8E4A752589CED76DA (painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16924,7 +17003,7 @@ IL_0165:
 		return;
 	}
 }
-// Method Definition Index: 82212
+// Method Definition Index: 82217
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void painelManager_SelecionarCor_m8EB7932031332778BA5E867F2E6913C71DA2D98A (painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435* __this, int32_t ___0_idCor, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16949,7 +17028,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void painelManager_SelecionarCor_m8EB79320313
 		return;
 	}
 }
-// Method Definition Index: 82213
+// Method Definition Index: 82218
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void painelManager_PintarBolinha_m69E9B215725BD98D120B03A2CB2885205B5ACDED (painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_objetoBolinha, int32_t ___1_linha, int32_t ___2_coluna, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17054,7 +17133,7 @@ IL_0094:
 		return;
 	}
 }
-// Method Definition Index: 82214
+// Method Definition Index: 82219
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void painelManager_VerificarVitoria_mAC2017CB2C5EB6FB70D6EF286FE3964D6684A40D (painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17169,7 +17248,7 @@ IL_006a:
 		return;
 	}
 }
-// Method Definition Index: 82215
+// Method Definition Index: 82220
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void painelManager__ctor_mF1149E9603E364189449846CA00C3F7FD300B7CF (painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17211,7 +17290,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void painelManager__ctor_mF1149E9603E36418944
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82216
+// Method Definition Index: 82221
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void portaEscadaria_Start_mCAA8416F8654399CAC908411E57A9282BE35CAE1 (portaEscadaria_tF992F03B5AD15F6805B5DE513C763BFECBD8FCF0* __this, const RuntimeMethod* method) 
 {
 	{
@@ -17219,7 +17298,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void portaEscadaria_Start_mCAA8416F8654399CAC
 		return;
 	}
 }
-// Method Definition Index: 82217
+// Method Definition Index: 82222
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void portaEscadaria_Update_m5C0113CAEA7580FE0FAF54B4AC978D34110A1100 (portaEscadaria_tF992F03B5AD15F6805B5DE513C763BFECBD8FCF0* __this, const RuntimeMethod* method) 
 {
 	{
@@ -17227,7 +17306,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void portaEscadaria_Update_m5C0113CAEA7580FE0
 		return;
 	}
 }
-// Method Definition Index: 82218
+// Method Definition Index: 82223
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void portaEscadaria_OnTriggerEnter_m04E31BF4BBDADC06014D49C52DB42FFB394B493B (portaEscadaria_tF992F03B5AD15F6805B5DE513C763BFECBD8FCF0* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___0_other, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17302,7 +17381,7 @@ IL_0074:
 		return;
 	}
 }
-// Method Definition Index: 82219
+// Method Definition Index: 82224
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void portaEscadaria_tremPego_mC59B101EBA7991D802373F03794FF8971734A73B (portaEscadaria_tF992F03B5AD15F6805B5DE513C763BFECBD8FCF0* __this, bool ___0_pego, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17364,7 +17443,7 @@ IL_0072:
 		return;
 	}
 }
-// Method Definition Index: 82220
+// Method Definition Index: 82225
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void portaEscadaria__ctor_mCCE542E046B5671023026800A79970FD81DCF13A (portaEscadaria_tF992F03B5AD15F6805B5DE513C763BFECBD8FCF0* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17399,7 +17478,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void portaEscadaria__ctor_mCCE542E046B5671023
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82221
+// Method Definition Index: 82226
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void sonsPorta_Start_m602A6CE6D7042BAEDE3B97851F4D068AEEB2E7B2 (sonsPorta_tBF8809125CD8206407D9EC63CEF5218D7680A0FA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -17407,7 +17486,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void sonsPorta_Start_m602A6CE6D7042BAEDE3B978
 		return;
 	}
 }
-// Method Definition Index: 82222
+// Method Definition Index: 82227
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void sonsPorta_Update_m07DC318F31BC2CDCA04DE5167BB02ADE70E97A8E (sonsPorta_tBF8809125CD8206407D9EC63CEF5218D7680A0FA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -17415,7 +17494,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void sonsPorta_Update_m07DC318F31BC2CDCA04DE5
 		return;
 	}
 }
-// Method Definition Index: 82223
+// Method Definition Index: 82228
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void sonsPorta_TocarPortaAbrindo_mC6A2CB6CF3349787B36A9672BDA7877EC51831E8 (sonsPorta_tBF8809125CD8206407D9EC63CEF5218D7680A0FA* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17438,7 +17517,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void sonsPorta_TocarPortaAbrindo_mC6A2CB6CF33
 		return;
 	}
 }
-// Method Definition Index: 82224
+// Method Definition Index: 82229
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void sonsPorta_TocarPortaFechando_m2A5A9A03F3E2D87D3B5C1ED1A2AF10AC4C5A5260 (sonsPorta_tBF8809125CD8206407D9EC63CEF5218D7680A0FA* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17461,7 +17540,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void sonsPorta_TocarPortaFechando_m2A5A9A03F3
 		return;
 	}
 }
-// Method Definition Index: 82225
+// Method Definition Index: 82230
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void sonsPorta__ctor_m22EDE6BE612962F48B2024DD52C36CCDE6847752 (sonsPorta_tBF8809125CD8206407D9EC63CEF5218D7680A0FA* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17489,7 +17568,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void sonsPorta__ctor_m22EDE6BE612962F48B2024D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82226
+// Method Definition Index: 82231
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void tocarSonsDePorta_Start_m167DD1B3B0EE3862F389BCCAE0C3D86434F6AF75 (tocarSonsDePorta_t3D2F9E35EDE95EFF8E1098010C02681C7CE3BC73* __this, const RuntimeMethod* method) 
 {
 	{
@@ -17497,7 +17576,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void tocarSonsDePorta_Start_m167DD1B3B0EE3862
 		return;
 	}
 }
-// Method Definition Index: 82227
+// Method Definition Index: 82232
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void tocarSonsDePorta_Update_m942BE45A2F831141CC2D62B30063A421349EC8B6 (tocarSonsDePorta_t3D2F9E35EDE95EFF8E1098010C02681C7CE3BC73* __this, const RuntimeMethod* method) 
 {
 	{
@@ -17505,7 +17584,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void tocarSonsDePorta_Update_m942BE45A2F83114
 		return;
 	}
 }
-// Method Definition Index: 82228
+// Method Definition Index: 82233
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void tocarSonsDePorta__ctor_mBA93A0113A59FEFFB93EA22DB3B4A9A08903148E (tocarSonsDePorta_t3D2F9E35EDE95EFF8E1098010C02681C7CE3BC73* __this, const RuntimeMethod* method) 
 {
 	{
@@ -17521,7 +17600,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void tocarSonsDePorta__ctor_mBA93A0113A59FEFF
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82229
+// Method Definition Index: 82234
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RandoStairs_Awake_m7C0AEA4743EB640C12FBDD6F1AC9318726B6D18D (RandoStairs_tA3C762C9729F03EB5F5E0FCA41591305A96DD2C6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17545,7 +17624,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RandoStairs_Awake_m7C0AEA4743EB640C12FBD
 		return;
 	}
 }
-// Method Definition Index: 82230
+// Method Definition Index: 82235
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RandoStairs_OnCollisionEnter_m967E8A2DAA869A04B6A1CBDF0C6A99C2C777C203 (RandoStairs_tA3C762C9729F03EB5F5E0FCA41591305A96DD2C6* __this, Collision_tBCC6AEBD9A63E6DA2E50660DAC03CDCB1FF7A9B0* ___0_other, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17554,8 +17633,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RandoStairs_OnCollisionEnter_m967E8A2DAA
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisCollider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76_m4CB0FC4E59CE6C91F1106739EF364208A63E2597_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisMeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_m7FF948365C38BC39333D82B235A7C4EAD219960D_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral377AC518645381BAC3EB323AFD4F0572A8BF387A);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9A5AA4C3F1D63BAD2EC81D0BEAF4A1082466AA9E);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral22B25A446CB3BFCB168478518D499A32E3573232);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5809A1DB0CCE9D550169A2EEF28B66A3536F0AB8);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCAF8804297181FF007CA835529DD4477CFD94A70);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF91B17BE0B3471A0820D886160FC19CD6DB8CE39);
 		s_Il2CppMethodInitialized = true;
@@ -17573,42 +17652,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RandoStairs_OnCollisionEnter_m967E8A2DAA
 		L_2 = GameObject_CompareTag_m6378BE50D009A93D46036F74CC3F7E2ECB0636E5(L_1, _stringLiteralCAF8804297181FF007CA835529DD4477CFD94A70, NULL);
 		if (!L_2)
 		{
-			goto IL_00c1;
+			goto IL_00cb;
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:29>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:30>
 		int32_t L_3;
-		L_3 = Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68(1, ((int32_t)11), NULL);
+		L_3 = Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68(1, ((int32_t)101), NULL);
 		V_0 = L_3;
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:33>
 		int32_t L_4 = V_0;
-		switch (((int32_t)il2cpp_codegen_subtract(L_4, 1)))
+		if ((((int32_t)L_4) > ((int32_t)((int32_t)50))))
 		{
-			case 0:
-			{
-				goto IL_0037;
-			}
-			case 1:
-			{
-				goto IL_006a;
-			}
-			case 2:
-			{
-				goto IL_007b;
-			}
-			case 3:
-			{
-				goto IL_0092;
-			}
+			goto IL_0056;
 		}
 	}
 	{
-		return;
-	}
-
-IL_0037:
-	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:33>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:35>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5;
 		L_5 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_5);
@@ -17616,7 +17676,7 @@ IL_0037:
 		L_6 = GameObject_GetComponent_TisCollider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76_m4CB0FC4E59CE6C91F1106739EF364208A63E2597(L_5, GameObject_GetComponent_TisCollider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76_m4CB0FC4E59CE6C91F1106739EF364208A63E2597_RuntimeMethod_var);
 		NullCheck(L_6);
 		Collider_set_enabled_m8D5C3B5047592D227A52560FC9723D176E209F70(L_6, (bool)0, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:34>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:36>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7;
 		L_7 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_7);
@@ -17624,66 +17684,108 @@ IL_0037:
 		L_8 = GameObject_GetComponent_TisMeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_m7FF948365C38BC39333D82B235A7C4EAD219960D(L_7, GameObject_GetComponent_TisMeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_m7FF948365C38BC39333D82B235A7C4EAD219960D_RuntimeMethod_var);
 		NullCheck(L_8);
 		Renderer_set_enabled_m015E6D7B825528A31182F267234CC6A925F71DA8(L_8, (bool)0, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:35>
-		RandoStairs_PlayBreakAudio_mE9F820D644B16A7E5677780D26CEE983EE3AE5B7(__this, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:36>
-		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral9A5AA4C3F1D63BAD2EC81D0BEAF4A1082466AA9E, NULL);
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:37>
+		RandoStairs_PlayBreakAudio_mE9F820D644B16A7E5677780D26CEE983EE3AE5B7(__this, NULL);
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:38>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral22B25A446CB3BFCB168478518D499A32E3573232, NULL);
 		return;
 	}
 
-IL_006a:
+IL_0056:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:40>
-		RandoStairs_SpawnObject_mB2F91029414A87535E8A95D43043476D8998EB87(__this, NULL);
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:41>
+		int32_t L_9 = V_0;
+		if ((((int32_t)L_9) <= ((int32_t)((int32_t)50))))
+		{
+			goto IL_0071;
+		}
+	}
+	{
+		int32_t L_10 = V_0;
+		if ((((int32_t)L_10) > ((int32_t)((int32_t)55))))
+		{
+			goto IL_0071;
+		}
+	}
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:43>
+		RandoStairs_SpawnObject_mB2F91029414A87535E8A95D43043476D8998EB87(__this, NULL);
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:44>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralF91B17BE0B3471A0820D886160FC19CD6DB8CE39, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:42>
 		return;
 	}
 
-IL_007b:
+IL_0071:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:45>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = __this->___Deco;
-		NullCheck(L_9);
-		bool L_10;
-		L_10 = GameObject_get_activeInHierarchy_m49250F4F168DCC5388D5BE4F6A5681386907B109(L_9, NULL);
-		V_1 = (bool)((((int32_t)L_10) == ((int32_t)0))? 1 : 0);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:46>
-		bool L_11 = V_1;
-		RandoStairs_SetActiveDeco_m5DDA7C77DB802F98DC5A29B4A9A0AD5575F1E5A1(__this, L_11, NULL);
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:47>
+		int32_t L_11 = V_0;
+		if ((((int32_t)L_11) <= ((int32_t)((int32_t)55))))
+		{
+			goto IL_0092;
+		}
+	}
+	{
+		int32_t L_12 = V_0;
+		if ((((int32_t)L_12) > ((int32_t)((int32_t)70))))
+		{
+			goto IL_0092;
+		}
+	}
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:49>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13 = __this->___Deco;
+		NullCheck(L_13);
+		bool L_14;
+		L_14 = GameObject_get_activeInHierarchy_m49250F4F168DCC5388D5BE4F6A5681386907B109(L_13, NULL);
+		V_1 = (bool)((((int32_t)L_14) == ((int32_t)0))? 1 : 0);
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:50>
+		bool L_15 = V_1;
+		RandoStairs_SetActiveDeco_m5DDA7C77DB802F98DC5A29B4A9A0AD5575F1E5A1(__this, L_15, NULL);
 		return;
 	}
 
 IL_0092:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:51>
-		RuntimeObject* L_12;
-		L_12 = RandoStairs_MostrarEasterEggUI_m0E40560F49460FD6F29BF4558C1746E57A6B1030(__this, NULL);
-		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_13;
-		L_13 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_12, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:52>
-		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_14 = __this->___EE2;
-		RuntimeObject* L_15;
-		L_15 = RandoStairs_InvokeEE2_m5221AACD41B42A39A2A80CC3C461FC20DD4A4CEC(__this, L_14, (3.0f), NULL);
-		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_16;
-		L_16 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_15, NULL);
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:53>
+		int32_t L_16 = V_0;
+		if ((((int32_t)L_16) <= ((int32_t)((int32_t)70))))
+		{
+			goto IL_00cb;
+		}
+	}
+	{
+		int32_t L_17 = V_0;
+		if ((((int32_t)L_17) > ((int32_t)((int32_t)80))))
+		{
+			goto IL_00cb;
+		}
+	}
+	{
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:55>
+		RuntimeObject* L_18;
+		L_18 = RandoStairs_MostrarEasterEggUI_m0E40560F49460FD6F29BF4558C1746E57A6B1030(__this, NULL);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_19;
+		L_19 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_18, NULL);
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:56>
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_20 = __this->___EE2;
+		RuntimeObject* L_21;
+		L_21 = RandoStairs_InvokeEE2_m5221AACD41B42A39A2A80CC3C461FC20DD4A4CEC(__this, L_20, (3.0f), NULL);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_22;
+		L_22 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_21, NULL);
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:57>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral377AC518645381BAC3EB323AFD4F0572A8BF387A, NULL);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral5809A1DB0CCE9D550169A2EEF28B66A3536F0AB8, NULL);
 	}
 
-IL_00c1:
+IL_00cb:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:60>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:61>
 		return;
 	}
 }
-// Method Definition Index: 82231
+// Method Definition Index: 82236
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RandoStairs_SpawnObject_mB2F91029414A87535E8A95D43043476D8998EB87 (RandoStairs_tA3C762C9729F03EB5F5E0FCA41591305A96DD2C6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17698,7 +17800,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RandoStairs_SpawnObject_mB2F91029414A875
 	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:64>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:65>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___esseDegrau;
 		NullCheck(L_0);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
@@ -17707,25 +17809,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RandoStairs_SpawnObject_mB2F91029414A875
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
 		L_2 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_1, NULL);
 		V_0 = L_2;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:65>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:66>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_3;
 		L_3 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
 		V_1 = L_3;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:67>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:68>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = __this->___hand;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = V_0;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_6 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7;
 		L_7 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4(L_4, L_5, L_6, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:68>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:69>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = __this->___hand;
 		Object_Destroy_m064F2A066491D2DC4FFCFBDBE5FCFFB807A04436(L_8, (1.5f), NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:69>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:70>
 		return;
 	}
 }
-// Method Definition Index: 82232
+// Method Definition Index: 82237
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* RandoStairs_InvokeEE2_m5221AACD41B42A39A2A80CC3C461FC20DD4A4CEC (RandoStairs_tA3C762C9729F03EB5F5E0FCA41591305A96DD2C6* __this, UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___0_unityEvent, float ___1_duration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17749,7 +17851,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* RandoStairs_InvokeEE2_m5221AAC
 		return L_3;
 	}
 }
-// Method Definition Index: 82233
+// Method Definition Index: 82238
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* RandoStairs_MostrarEasterEggUI_m0E40560F49460FD6F29BF4558C1746E57A6B1030 (RandoStairs_tA3C762C9729F03EB5F5E0FCA41591305A96DD2C6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17768,20 +17870,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* RandoStairs_MostrarEasterEggUI
 		return L_1;
 	}
 }
-// Method Definition Index: 82234
+// Method Definition Index: 82239
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RandoStairs_SetActiveDeco_m5DDA7C77DB802F98DC5A29B4A9A0AD5575F1E5A1 (RandoStairs_tA3C762C9729F03EB5F5E0FCA41591305A96DD2C6* __this, bool ___0_state, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:99>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:100>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___Deco;
 		bool L_1 = ___0_state;
 		NullCheck(L_0);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, L_1, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:100>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:101>
 		return;
 	}
 }
-// Method Definition Index: 82235
+// Method Definition Index: 82240
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RandoStairs_PlayBreakAudio_mE9F820D644B16A7E5677780D26CEE983EE3AE5B7 (RandoStairs_tA3C762C9729F03EB5F5E0FCA41591305A96DD2C6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17791,7 +17893,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RandoStairs_PlayBreakAudio_mE9F820D644B1
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:102>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:103>
 		String_t* L_0 = __this->___qMadeira;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
 		L_1 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
@@ -17803,7 +17905,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RandoStairs_PlayBreakAudio_mE9F820D644B1
 		return;
 	}
 }
-// Method Definition Index: 82236
+// Method Definition Index: 82241
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RandoStairs__ctor_m8A222A761282680D048072B49429BBA9327D5248 (RandoStairs_tA3C762C9729F03EB5F5E0FCA41591305A96DD2C6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17830,7 +17932,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RandoStairs__ctor_m8A222A761282680D04807
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82237
+// Method Definition Index: 82242
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CInvokeEE2U3Ed__10__ctor_m15349EEB07B65ADBB9347FAED0390BDA7D19AB23 (U3CInvokeEE2U3Ed__10_t3ED599ECB803C2D0FC480F937BF71817222BACD6* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -17840,14 +17942,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CInvokeEE2U3Ed__10__ctor_m15349EEB07B6
 		return;
 	}
 }
-// Method Definition Index: 82238
+// Method Definition Index: 82243
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CInvokeEE2U3Ed__10_System_IDisposable_Dispose_m8EE5AD590C9F2E3EF43E10BEAFE8D84959009377 (U3CInvokeEE2U3Ed__10_t3ED599ECB803C2D0FC480F937BF71817222BACD6* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 82239
+// Method Definition Index: 82244
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CInvokeEE2U3Ed__10_MoveNext_m7D03EC44C3C806461A8C34A2E728E1A06A199094 (U3CInvokeEE2U3Ed__10_t3ED599ECB803C2D0FC480F937BF71817222BACD6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17880,11 +17982,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CInvokeEE2U3Ed__10_MoveNext_m7D03EC44C
 IL_0010:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:73>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:74>
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_3 = __this->___unityEvent;
 		NullCheck(L_3);
 		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_3, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:74>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:75>
 		float L_4 = __this->___duration;
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_5 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_5, L_4, NULL);
@@ -17897,11 +17999,11 @@ IL_0010:
 IL_003c:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:75>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:76>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 82240
+// Method Definition Index: 82245
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CInvokeEE2U3Ed__10_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m3F852A39AFC8AB45D29ABA343E55A2EEF0CAC471 (U3CInvokeEE2U3Ed__10_t3ED599ECB803C2D0FC480F937BF71817222BACD6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -17909,7 +18011,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CInvokeEE2U3Ed__10_System_Co
 		return L_0;
 	}
 }
-// Method Definition Index: 82241
+// Method Definition Index: 82246
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CInvokeEE2U3Ed__10_System_Collections_IEnumerator_Reset_mAB3B76F92B289044CAD21068DF18993CD4C98373 (U3CInvokeEE2U3Ed__10_t3ED599ECB803C2D0FC480F937BF71817222BACD6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -17918,7 +18020,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CInvokeEE2U3Ed__10_System_Collections_
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CInvokeEE2U3Ed__10_System_Collections_IEnumerator_Reset_mAB3B76F92B289044CAD21068DF18993CD4C98373_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 82242
+// Method Definition Index: 82247
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CInvokeEE2U3Ed__10_System_Collections_IEnumerator_get_Current_m596FB678CC3E61AEFC5AB0A4028FB241E12FFF77 (U3CInvokeEE2U3Ed__10_t3ED599ECB803C2D0FC480F937BF71817222BACD6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -17934,7 +18036,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CInvokeEE2U3Ed__10_System_Co
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82243
+// Method Definition Index: 82248
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CMostrarEasterEggUIU3Ed__11__ctor_m0138F8D0CB330328ECE4D684907BEFF8517DD891 (U3CMostrarEasterEggUIU3Ed__11_tD859CE479676FA38727485B5D3D6AE5DFF94EC09* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -17944,14 +18046,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CMostrarEasterEggUIU3Ed__11__ctor_m013
 		return;
 	}
 }
-// Method Definition Index: 82244
+// Method Definition Index: 82249
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CMostrarEasterEggUIU3Ed__11_System_IDisposable_Dispose_m476DB8F42DF62EAB0ADF7039378F81BB165D21A3 (U3CMostrarEasterEggUIU3Ed__11_tD859CE479676FA38727485B5D3D6AE5DFF94EC09* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 82245
+// Method Definition Index: 82250
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CMostrarEasterEggUIU3Ed__11_MoveNext_m8D43FAD267CEED11D6C2D0AAC4AAFE5F669A0D22 (U3CMostrarEasterEggUIU3Ed__11_tD859CE479676FA38727485B5D3D6AE5DFF94EC09* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17990,7 +18092,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CMostrarEasterEggUIU3Ed__11_MoveNext_m
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:80>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:81>
 		RandoStairs_tA3C762C9729F03EB5F5E0FCA41591305A96DD2C6* L_4 = V_1;
 		NullCheck(L_4);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = L_4->___uiGatoGirando;
@@ -18003,13 +18105,13 @@ IL_0017:
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:82>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:83>
 		RandoStairs_tA3C762C9729F03EB5F5E0FCA41591305A96DD2C6* L_7 = V_1;
 		NullCheck(L_7);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = L_7->___uiGatoGirando;
 		NullCheck(L_8);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_8, (bool)1, NULL);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:85>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:86>
 		RandoStairs_tA3C762C9729F03EB5F5E0FCA41591305A96DD2C6* L_9 = V_1;
 		NullCheck(L_9);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = L_9->___uiGatoGirando;
@@ -18017,7 +18119,7 @@ IL_0017:
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_11;
 		L_11 = GameObject_GetComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m4F30DAB8E5B57E8DB6BD8C0C3BB11CCB57690C4A(L_10, GameObject_GetComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m4F30DAB8E5B57E8DB6BD8C0C3BB11CCB57690C4A_RuntimeMethod_var);
 		V_2 = L_11;
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:86>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:87>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_12 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_13;
@@ -18028,7 +18130,7 @@ IL_0017:
 		}
 	}
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:88>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:89>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_14 = V_2;
 		NullCheck(L_14);
 		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_14, NULL);
@@ -18036,7 +18138,7 @@ IL_0017:
 
 IL_0053:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:91>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:92>
 		RandoStairs_tA3C762C9729F03EB5F5E0FCA41591305A96DD2C6* L_15 = V_1;
 		NullCheck(L_15);
 		float L_16 = L_15->___tempoExibicaoGato;
@@ -18051,7 +18153,7 @@ IL_0053:
 IL_006d:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:93>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:94>
 		RandoStairs_tA3C762C9729F03EB5F5E0FCA41591305A96DD2C6* L_18 = V_1;
 		NullCheck(L_18);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_19 = L_18->___uiGatoGirando;
@@ -18061,11 +18163,11 @@ IL_006d:
 
 IL_0080:
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:95>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/RandoStairs.cs:96>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 82246
+// Method Definition Index: 82251
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CMostrarEasterEggUIU3Ed__11_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m25EB0B8A49BF4672511C45A49D22258C8A1DF324 (U3CMostrarEasterEggUIU3Ed__11_tD859CE479676FA38727485B5D3D6AE5DFF94EC09* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18073,7 +18175,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CMostrarEasterEggUIU3Ed__11_
 		return L_0;
 	}
 }
-// Method Definition Index: 82247
+// Method Definition Index: 82252
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CMostrarEasterEggUIU3Ed__11_System_Collections_IEnumerator_Reset_m835D410E4A222F15463B2EF858B6D198B37DD218 (U3CMostrarEasterEggUIU3Ed__11_tD859CE479676FA38727485B5D3D6AE5DFF94EC09* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18082,7 +18184,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CMostrarEasterEggUIU3Ed__11_System_Col
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CMostrarEasterEggUIU3Ed__11_System_Collections_IEnumerator_Reset_m835D410E4A222F15463B2EF858B6D198B37DD218_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 82248
+// Method Definition Index: 82253
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CMostrarEasterEggUIU3Ed__11_System_Collections_IEnumerator_get_Current_m233DCE252143149489E66F97F0C0B4EB5A571103 (U3CMostrarEasterEggUIU3Ed__11_tD859CE479676FA38727485B5D3D6AE5DFF94EC09* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18098,7 +18200,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CMostrarEasterEggUIU3Ed__11_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82249
+// Method Definition Index: 82254
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void terminarFase_Awake_m7917C02E4AD5901A064E69A06B65B843E5D9EEBD (terminarFase_tF2F890E18757557ECF9ECC4A9B0A6DC242CE04D2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18130,7 +18232,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void terminarFase_Awake_m7917C02E4AD5901A064E
 		return;
 	}
 }
-// Method Definition Index: 82250
+// Method Definition Index: 82255
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void terminarFase_Start_mB2D47BFEE0D2BD8130BF6FFFE404A5CC3E3DA621 (terminarFase_tF2F890E18757557ECF9ECC4A9B0A6DC242CE04D2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18138,7 +18240,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void terminarFase_Start_mB2D47BFEE0D2BD8130BF
 		return;
 	}
 }
-// Method Definition Index: 82251
+// Method Definition Index: 82256
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void terminarFase_Update_m08075067248C90A6707DB43B558E88D61ED2EB17 (terminarFase_tF2F890E18757557ECF9ECC4A9B0A6DC242CE04D2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18215,7 +18317,7 @@ IL_0071:
 		return;
 	}
 }
-// Method Definition Index: 82252
+// Method Definition Index: 82257
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void terminarFase_OnTriggerEnter_m8C3D3BA040D0B2C0A448621B33D53319162745B8 (terminarFase_tF2F890E18757557ECF9ECC4A9B0A6DC242CE04D2* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___0_other, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18252,7 +18354,7 @@ IL_0025:
 		return;
 	}
 }
-// Method Definition Index: 82253
+// Method Definition Index: 82258
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void terminarFase_OnTriggerExit_mB1B49BBA0D3A9E8F714ED1E91950086CDEFA4032 (terminarFase_tF2F890E18757557ECF9ECC4A9B0A6DC242CE04D2* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___0_other, const RuntimeMethod* method) 
 {
 	{
@@ -18266,7 +18368,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void terminarFase_OnTriggerExit_mB1B49BBA0D3A
 		return;
 	}
 }
-// Method Definition Index: 82254
+// Method Definition Index: 82259
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void terminarFase_todosAqui_m9E528F35B04A21DDAE45ACFFAF36A51680D7D25A (terminarFase_tF2F890E18757557ECF9ECC4A9B0A6DC242CE04D2* __this, int32_t ___0_toys, const RuntimeMethod* method) 
 {
 	{
@@ -18292,7 +18394,7 @@ IL_001e:
 		return;
 	}
 }
-// Method Definition Index: 82255
+// Method Definition Index: 82260
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* terminarFase_EsperarEExecutar_mEE3281AE7C68843E2AF353E54ECF44B8583667AA (terminarFase_tF2F890E18757557ECF9ECC4A9B0A6DC242CE04D2* __this, float ___0_tempoDeEspera, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18311,7 +18413,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* terminarFase_EsperarEExecutar_
 		return L_1;
 	}
 }
-// Method Definition Index: 82256
+// Method Definition Index: 82261
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void terminarFase__ctor_m03E61CAE2F7CA0661F9704A22AE06818425E08C3 (terminarFase_tF2F890E18757557ECF9ECC4A9B0A6DC242CE04D2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18327,7 +18429,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void terminarFase__ctor_m03E61CAE2F7CA0661F97
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82257
+// Method Definition Index: 82262
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CEsperarEExecutarU3Ed__15__ctor_m070F49708396E95E5225F0DA2FFF5223C23432C3 (U3CEsperarEExecutarU3Ed__15_t6D136B0B0F28F6FEF19EB0960606CF185A5C68D6* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -18337,14 +18439,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CEsperarEExecutarU3Ed__15__ctor_m070F4
 		return;
 	}
 }
-// Method Definition Index: 82258
+// Method Definition Index: 82263
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CEsperarEExecutarU3Ed__15_System_IDisposable_Dispose_m8E35065106858A76A2E9C8770DC1BA3F09D5BB99 (U3CEsperarEExecutarU3Ed__15_t6D136B0B0F28F6FEF19EB0960606CF185A5C68D6* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 82259
+// Method Definition Index: 82264
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CEsperarEExecutarU3Ed__15_MoveNext_mC9C22BB73DC83762962CD16FC91019969765882A (U3CEsperarEExecutarU3Ed__15_t6D136B0B0F28F6FEF19EB0960606CF185A5C68D6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18352,7 +18454,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CEsperarEExecutarU3Ed__15_MoveNext_mC9
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral66A5FB67D21DC593DB6AE6A7219C4905C29D3414);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral455A43B8FA4C97529FA7EA3FFA45EB494670D117);
 		s_Il2CppMethodInitialized = true;
 	}
 	int32_t V_0 = 0;
@@ -18394,12 +18496,12 @@ IL_0031:
 		__this->___U3CU3E1__state = (-1);
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/terminarFase.cs:86>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
-		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral66A5FB67D21DC593DB6AE6A7219C4905C29D3414, NULL);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral455A43B8FA4C97529FA7EA3FFA45EB494670D117, NULL);
 		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Scripts/Puzzles/terminarFase.cs:87>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 82260
+// Method Definition Index: 82265
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CEsperarEExecutarU3Ed__15_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m3BFE2A8F3AA7E653706BBC11AE3A2E513433FAE3 (U3CEsperarEExecutarU3Ed__15_t6D136B0B0F28F6FEF19EB0960606CF185A5C68D6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18407,7 +18509,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CEsperarEExecutarU3Ed__15_Sy
 		return L_0;
 	}
 }
-// Method Definition Index: 82261
+// Method Definition Index: 82266
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CEsperarEExecutarU3Ed__15_System_Collections_IEnumerator_Reset_mB41F170E7DFF49E4AFC297E32BE35CA14251CB02 (U3CEsperarEExecutarU3Ed__15_t6D136B0B0F28F6FEF19EB0960606CF185A5C68D6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18416,7 +18518,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CEsperarEExecutarU3Ed__15_System_Colle
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CEsperarEExecutarU3Ed__15_System_Collections_IEnumerator_Reset_mB41F170E7DFF49E4AFC297E32BE35CA14251CB02_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 82262
+// Method Definition Index: 82267
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CEsperarEExecutarU3Ed__15_System_Collections_IEnumerator_get_Current_mB3F03002B1C2184A8AE023772CD41AD72ED7D2AC (U3CEsperarEExecutarU3Ed__15_t6D136B0B0F28F6FEF19EB0960606CF185A5C68D6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18432,7 +18534,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CEsperarEExecutarU3Ed__15_Sy
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82263
+// Method Definition Index: 82268
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6 (Readme_tE17B99201D0F52BD5727638AD3F41072A65B3BBB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18448,7 +18550,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Readme__ctor_m69C325C4C171DCB0312B646A90
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82264
+// Method Definition Index: 82269
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B (Section_t50C894D0A717C2368EBAAE5477D4E8626D0B5401* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18464,7 +18566,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Section__ctor_m5F732533E4DFC0167D965E5F5
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82265
+// Method Definition Index: 82270
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18498,7 +18600,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC
 		return L_6;
 	}
 }
-// Method Definition Index: 82266
+// Method Definition Index: 82271
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC95F24D0C6E6B77389433852BB389F39C692926E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18800,11 +18902,11 @@ IL_0040:
 		return L_19;
 	}
 }
-// Method Definition Index: 82039
+// Method Definition Index: 82040
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool FirstPersonMovement_get_IsRunning_m58CAF98A09A5CE86F21EE8DC8A1ACBF5A655681E_inline (FirstPersonMovement_tA852887AB56569BDD01EA2BE85F9B39C349C5FFE* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:11>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:12>
 		bool L_0 = __this->___U3CIsRunningU3Ek__BackingField;
 		return L_0;
 	}
@@ -19319,11 +19421,11 @@ IL_006f:
 		return L_23;
 	}
 }
-// Method Definition Index: 82040
+// Method Definition Index: 82041
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FirstPersonMovement_set_IsRunning_mADC233CB94F50A40278FACBAA8940A4CB114EA78_inline (FirstPersonMovement_tA852887AB56569BDD01EA2BE85F9B39C349C5FFE* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:11>
+		//<source_info:C:/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/Importados/Casa/gato/Mini First Person Controller/Scripts/FirstPersonMovement.cs:12>
 		bool L_0 = ___0_value;
 		__this->___U3CIsRunningU3Ek__BackingField = L_0;
 		return;
@@ -19378,7 +19480,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9
 		return L_0;
 	}
 }
-// Method Definition Index: 82063
+// Method Definition Index: 82065
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool GerentUI_get_isPaused_m74A634825E5479FB3884B4D7B2218F179C075490_inline (GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* __this, const RuntimeMethod* method) 
 {
 	{
@@ -19387,7 +19489,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool GerentUI_get_isPaused_m74A63
 		return L_0;
 	}
 }
-// Method Definition Index: 82064
+// Method Definition Index: 82066
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void GerentUI_set_isPaused_mFB6779645616A04475C4DDBD29C65845C6E0F008_inline (GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -19397,7 +19499,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void GerentUI_set_isPaused_mFB677
 		return;
 	}
 }
-// Method Definition Index: 82128
+// Method Definition Index: 82133
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_tBB4BFB497BCF47BCBBEC63B4E8645B49487294C2* PlayerInventory_get_Itens_mC9E1F4FFEE65C7EAE19EB676775420B7044A434C_inline (PlayerInventory_t9DFF7303E6D77500C69210AA16F04634500D80E6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -19406,16 +19508,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_tBB4BFB497BCF47BCBBEC63B4E
 		return L_0;
 	}
 }
-// Method Definition Index: 29341
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* Mouse_get_rightButton_mFA0FD700624C0DE1B858F9516426414767F09D98_inline (Mouse_t9A9CC4636FA9CDBAD7FB7A02DB0D6395EDCC338F* __this, const RuntimeMethod* method) 
-{
-	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@57d0e36f6123/InputSystem/Devices/Mouse.cs:227>
-		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_0 = __this->___U3CrightButtonU3Ek__BackingField;
-		return L_0;
-	}
-}
-// Method Definition Index: 82092
+// Method Definition Index: 82095
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* BloqueioDeItem_get_MensagemBloqueado_m613E1C4C6BDB51D44F4143D0207118F3246BD007_inline (BloqueioDeItem_t13F737DA16883F4E44B6FF9FE4DD1A20B339B98D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -19424,7 +19517,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* BloqueioDeItem_get_Mens
 		return L_0;
 	}
 }
-// Method Definition Index: 82097
+// Method Definition Index: 82100
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Interactables_GetOriginalPosition_m6DD8AA6DD1F68DE9B8F68A9427F7D753A805476E_inline (Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -19433,7 +19526,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		return L_0;
 	}
 }
-// Method Definition Index: 82098
+// Method Definition Index: 82101
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Interactables_GetOriginalRotation_mD389EB6E86B2FADED0B8D38E68EF13C3EE31CC1B_inline (Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -19497,6 +19590,15 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_1;
 		L_1 = Quaternion_Internal_Lerp_mB9D9E19C29CA86767758B70DCFF9DB7C65821B39((&___0_a), (&___1_b), L_0, NULL);
 		return L_1;
+	}
+}
+// Method Definition Index: 29341
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* Mouse_get_rightButton_mFA0FD700624C0DE1B858F9516426414767F09D98_inline (Mouse_t9A9CC4636FA9CDBAD7FB7A02DB0D6395EDCC338F* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.inputsystem@57d0e36f6123/InputSystem/Devices/Mouse.cs:227>
+		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_0 = __this->___U3CrightButtonU3Ek__BackingField;
+		return L_0;
 	}
 }
 // Method Definition Index: 434
@@ -19759,7 +19861,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671A
 		return L_0;
 	}
 }
-// Method Definition Index: 82149
+// Method Definition Index: 82154
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t BotaoCor_get_CorId_m0425A2D3BF2DFA7540A562FF7EEBD326477998EC_inline (BotaoCor_tCCE7E3B7321F92E9B3E054A0D734C2691F6B72C9* __this, const RuntimeMethod* method) 
 {
 	{

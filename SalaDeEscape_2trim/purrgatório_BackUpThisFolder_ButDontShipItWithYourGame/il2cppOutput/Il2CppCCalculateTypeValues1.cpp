@@ -31256,7 +31256,7 @@ struct BurstCompatibleCompileTarget_tD18589733079FDEB1A7BBD113D1AE0FDF0E63891
 {
 	int32_t ___value__;
 };
-struct U3CFadingTextU3Ed__30_t227C7C313E7CE646CBE44ECF4A8FE3D1DE2ED734  : public RuntimeObject
+struct U3CFadingTextU3Ed__31_t0C17AD9CBAE8CF4686E2B932025BB0F085199A29  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	RuntimeObject* ___U3CU3E2__current;
@@ -32092,7 +32092,7 @@ struct PixelPerfectFilterMode_t6A5EF3D253B10A9E4728BE231FAB0E8A206882E8
 {
 	int32_t ___value__;
 };
-struct U3CMovendObjU3Ed__31_tEA1ED5F7FA2A2329D80304721BDBD2F363A38263  : public RuntimeObject
+struct U3CMovendObjU3Ed__34_t40980D53BE59881878FB386222C799E54CD87310  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	RuntimeObject* ___U3CU3E2__current;
@@ -48202,7 +48202,8 @@ struct PlayerInteract_t1B2F2008321DEDEDDD394EF62CB3EFFE7A2EE8A0  : public MonoBe
 	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___OnView;
 	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___OnFinishView;
 	InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* ___inputAction;
-	InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* ___IM;
+	InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* ___IMinterage;
+	InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* ___IMsai;
 	InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* ___RotateOb;
 	Interactables_tCC0548122132F32B4EC5FB506E25B0BA443E57FA* ___CurrInteractable;
 	bool ___estaaVer;
@@ -48808,6 +48809,7 @@ struct inventarioBrinquedos_t2272C83340A92F136A9BC574CD12F6775135E4B3  : public 
 {
 	InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* ___abrirInventario;
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___brinquedoInventario;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___inventarioNormal;
 	bool ___inventarioLig;
 };
 struct painelManager_t58560461F5C24BB27728DD5DD030683B87DBE435  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
@@ -67618,7 +67620,7 @@ const Il2CppTypeDefinitionSizes g_typeDefinitionSize10211 = { sizeof(GerentCutsc
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize10212;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize10212 = { sizeof(GerentScena_t477DC182EB089772B7D84B078828AB3823A753A9), -1, 0, 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize10213;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize10213 = { sizeof(U3CFadingTextU3Ed__30_t227C7C313E7CE646CBE44ECF4A8FE3D1DE2ED734), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize10213 = { sizeof(U3CFadingTextU3Ed__31_t0C17AD9CBAE8CF4686E2B932025BB0F085199A29), -1, 0, 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize10214;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize10214 = { sizeof(GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480), -1, sizeof(GerentUI_t3C1B79F7EDF3F8DD2C11E639A3509E747A591480_StaticFields), 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize10215;
@@ -67640,7 +67642,7 @@ const Il2CppTypeDefinitionSizes g_typeDefinitionSize10222 = { sizeof(MusicaBG_t4
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize10223;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize10223 = { sizeof(inventarioBrinquedos_t2272C83340A92F136A9BC574CD12F6775135E4B3), -1, 0, 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize10224;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize10224 = { sizeof(U3CMovendObjU3Ed__31_tEA1ED5F7FA2A2329D80304721BDBD2F363A38263), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize10224 = { sizeof(U3CMovendObjU3Ed__34_t40980D53BE59881878FB386222C799E54CD87310), -1, 0, 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize10225;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize10225 = { sizeof(PlayerInteract_t1B2F2008321DEDEDDD394EF62CB3EFFE7A2EE8A0), -1, 0, 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize10226;
