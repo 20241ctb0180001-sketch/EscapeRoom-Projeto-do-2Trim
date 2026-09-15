@@ -25,38 +25,39 @@ public class RandoStairs : MonoBehaviour
     void OnCollisionEnter(Collision other)
     {
         if (other.gameObject.CompareTag("Player"))
+    {
+        // Sorteia um número de 1 a 100 (100 opções de porcentagem)
+        int rng = Random.Range(1, 101);
+
+        // CASO 1: Quebrar a escada (50% de chance -> números de 1 a 50)
+        if (rng <= 50)
         {
-            int rng = Random.Range(1, 11); // 10% de chance para cada evento
-            switch (rng)
-            {
-                case 1:
-                    gameObject.GetComponent<Collider>().enabled = false;
-                    gameObject.GetComponent<MeshRenderer>().enabled = false;
-                    PlayBreakAudio();
-                    Debug.Log("Disaparece");
-                    break;
-
-                case 2:
-                    SpawnObject();
-                    Debug.Log("mao");
-                    break;
-
-                case 3:
-                    bool state = !Deco.activeInHierarchy;
-                    SetActiveDeco(state);
-                    break;
-
-                case 4:
-                    // Chama a Coroutine para mostrar o elemento na tela e sumir depois
-                    StartCoroutine(MostrarEasterEggUI());
-                    StartCoroutine(InvokeEE2(EE2, 3f));
-                    Debug.Log("easterEgg2");
-                    break;
-
-                default:
-                    break;
-            }
+            gameObject.GetComponent<Collider>().enabled = false;
+            gameObject.GetComponent<MeshRenderer>().enabled = false;
+            PlayBreakAudio();
+            Debug.Log("Desaparece");
         }
+        // CASO 2: Mão (Apenas 5% de chance -> números de 51 a 55)
+        else if (rng > 50 && rng <= 55)
+        {
+            SpawnObject();
+            Debug.Log("mao");
+        }
+        // CASO 3: Decoração (15% de chance -> números de 56 a 70)
+        else if (rng > 55 && rng <= 70)
+        {
+            bool state = !Deco.activeInHierarchy;
+            SetActiveDeco(state);
+        }
+        // CASO 4: Gato Girando (10% de chance -> números de 71 a 80)
+        else if (rng > 70 && rng <= 80)
+        {
+            StartCoroutine(MostrarEasterEggUI());
+            StartCoroutine(InvokeEE2(EE2, 3f));
+            Debug.Log("easterEgg2 - Gato");
+        }
+        // CASO DEFAULT: Nada acontece (20% de chance -> números de 81 a 100)
+    }
     }
 
     void SpawnObject()
