@@ -76,8 +76,8 @@ public class CdgSenha : MonoBehaviour
         }
         else if (!outroPuzzleAtivo)
         {
-            Cursor.visible = false;
-            Cursor.lockState = CursorLockMode.Locked;
+            /*Cursor.visible = false;
+            Cursor.lockState = CursorLockMode.Locked;*/
             if (look != null) look.enabled = true;
         }
 
