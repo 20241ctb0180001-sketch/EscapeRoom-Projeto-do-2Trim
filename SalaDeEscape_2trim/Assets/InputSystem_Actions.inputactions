@@ -287,7 +287,7 @@
                 {
                     "name": "",
                     "id": "c1f7a91b-d0fd-4a62-997e-7fb9b69bf235",
-                    "path": "<Gamepad>/rightStick",
+                    "path": "<Touchscreen>/primaryTouch/delta",
                     "interactions": "",
                     "processors": "",
                     "groups": ";Gamepad",
@@ -562,7 +562,7 @@
                 {
                     "name": "",
                     "id": "129fd78b-4359-4f2c-a304-9ed003c50661",
-                    "path": "<Gamepad>/leftStick/down",
+                    "path": "<Gamepad>/rightStickPress",
                     "interactions": "",
                     "processors": "",
                     "groups": "Gamepad",
@@ -1076,7 +1076,7 @@
                 {
                     "name": "",
                     "id": "d3802552-c8e4-4948-a847-4cbe7133c7c2",
-                    "path": "<Gamepad>/buttonNorth",
+                    "path": "<Gamepad>/rightStickPress",
                     "interactions": "",
                     "processors": "",
                     "groups": "Gamepad",

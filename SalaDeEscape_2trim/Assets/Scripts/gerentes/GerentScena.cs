@@ -58,7 +58,6 @@ public class GerentScena : MonoBehaviour
 
     public void ExitYes()
     {
-
         #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
         #else

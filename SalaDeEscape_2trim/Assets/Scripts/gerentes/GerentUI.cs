@@ -32,7 +32,7 @@ public class GerentUI : MonoBehaviour
         instance = this;
         Inventory = InputSystem.actions.FindAction("Inventario");
         Pause = InputSystem.actions.FindAction("Pause");
-        
+
         if (PauseMenu != null) PauseMenu.SetActive(false);
 
         if (SystemInfo.deviceType == DeviceType.Handheld)
@@ -73,7 +73,7 @@ public class GerentUI : MonoBehaviour
     {
         bool puzzleAtivo = painelManager.instance != null && painelManager.instance.puzzleAtivo;
         bool keypadAtiva = keypadScript != null && keypadScript.painelCdg != null && keypadScript.painelCdg.activeInHierarchy;
-        
+
         return puzzleAtivo || keypadAtiva;
     }
 
@@ -87,11 +87,17 @@ public class GerentUI : MonoBehaviour
 
     public void PauseGame()
     {
+
         isPaused = true;
         inputAction.FindActionMap("Player").Disable();
         inputAction.FindActionMap("UI").Enable();
         Pause = InputSystem.actions.FindAction("Pause");
-        Time.timeScale = 0f;
+        Time.timeScale = 0.1f;
+
+        if (SystemInfo.deviceType == DeviceType.Handheld)
+        {
+            UICelular.SetActive(false);
+        }
 
         if (PauseMenu != null)
             PauseMenu.SetActive(true);
@@ -104,6 +110,11 @@ public class GerentUI : MonoBehaviour
         inputAction.FindActionMap("UI").Disable();
         Pause = InputSystem.actions.FindAction("Pause");
         Time.timeScale = 1f;
+
+        if (SystemInfo.deviceType == DeviceType.Handheld)
+        {
+            UICelular.SetActive(true);
+        }
 
         if (PauseMenu != null)
             PauseMenu.SetActive(false);
