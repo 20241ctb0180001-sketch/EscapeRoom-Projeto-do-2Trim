@@ -27,6 +27,7 @@ public class inventarioBrinquedos : MonoBehaviour
             gameObject.SetActive(true);
             if (abrirInventario.WasReleasedThisFrame())
             {
+                print("kkku");
                 MostrarInventario();
             }
         }
