@@ -1,8 +1,7 @@
 fileFormatVersion: 2
-guid: 3200bcc81d4868f49bd0afca6f50701f
-NativeFormatImporter:
+guid: f755802c49db392449deb2cd7e65952a
+TextScriptImporter:
   externalObjects: {}
-  mainObjectFileID: 2100000
   userData: 
   assetBundleName: 
   assetBundleVariant: 
@@ -11,5 +10,6 @@ AssetOrigin:
   productId: 271926
   packageName: Little Ghost lowpoly(FREE)
   packageVersion: 1.0
-  assetPath: Assets/Little_GhostLP(FREE)/Material/Ghost Kid/Ghost Kid Skin01.mat
+  assetPath: Assets/Importados/Casa/Puzzles/Little_GhostLP(FREE)/Documentation/Documentation(Little
+    Ghost FREE).txt
   uploadId: 631236
