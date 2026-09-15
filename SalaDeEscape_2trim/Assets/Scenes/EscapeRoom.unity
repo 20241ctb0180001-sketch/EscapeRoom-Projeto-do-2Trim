@@ -4839,6 +4839,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2182408874155615998, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2201167923454178076, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -5720,6 +5724,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1899157580}
     - target: {fileID: 5991205669626239537, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5991205669626239537, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: raioVisao
       value: 3
       objectReference: {fileID: 0}
@@ -5794,6 +5802,10 @@ PrefabInstance:
     - target: {fileID: 6559237248094572627, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: m_IsTrigger
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6559237248094572639, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.093
       objectReference: {fileID: 0}
     - target: {fileID: 6592206503629728783, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: m_LocalScale.x
