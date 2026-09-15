@@ -1474,7 +1474,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 134, y: -15}
+  m_AnchoredPosition: {x: 20, y: -15}
   m_SizeDelta: {x: 90, y: 90}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &309301081
@@ -1919,6 +1919,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::inventarioBrinquedos
   brinquedoInventario: {fileID: 1683793967}
+  inventarioNormal: {fileID: 0}
 --- !u!1 &362465349 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1378573440241533675, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
@@ -14764,7 +14765,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1683793968
 RectTransform:
   m_ObjectHideFlags: 0

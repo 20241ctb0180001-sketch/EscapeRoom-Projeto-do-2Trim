@@ -8,6 +8,7 @@ public class inventarioBrinquedos : MonoBehaviour
 {
     private InputAction abrirInventario;
     public GameObject brinquedoInventario;
+    public GameObject inventarioNormal;
     bool inventarioLig = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -47,6 +48,7 @@ public class inventarioBrinquedos : MonoBehaviour
         if(taPodendo){
             
         }
+        inventarioNormal.SetActive(false);
         inventarioLig = taPodendo;
     }
 }
