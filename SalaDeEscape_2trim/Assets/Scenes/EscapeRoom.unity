@@ -1474,7 +1474,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 134, y: -15}
+  m_AnchoredPosition: {x: 20, y: -15}
   m_SizeDelta: {x: 90, y: 90}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &309301081
@@ -1919,6 +1919,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::inventarioBrinquedos
   brinquedoInventario: {fileID: 1683793967}
+  inventarioNormal: {fileID: 0}
 --- !u!1 &362465349 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1378573440241533675, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
@@ -3727,7 +3728,7 @@ GameObject:
   - component: {fileID: 686138527}
   - component: {fileID: 686138526}
   - component: {fileID: 686138525}
-  - component: {fileID: 686138524}
+  - component: {fileID: 686138528}
   m_Layer: 5
   m_Name: Gato
   m_TagString: Untagged
@@ -3754,103 +3755,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!82 &686138524
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 686138522}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: cd6876736167e9645ba931d8c162e06e, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!95 &686138525
 Animator:
   serializedVersion: 7
@@ -3911,6 +3815,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 686138522}
   m_CullTransparentMesh: 1
+--- !u!114 &686138528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 686138522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  Event: 
+  EventPlayTrigger: 0
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: -1
+  OverrideMaxDistance: -1
 --- !u!1001 &691825915
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4577,6 +4512,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1422576172663481060, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
+      propertyPath: uiGatoGirando
+      value: 
+      objectReference: {fileID: 686138522}
     - target: {fileID: 1440486885978772276, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.9995304
@@ -4793,6 +4732,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2054595805954740087, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
+      propertyPath: uiGatoGirando
+      value: 
+      objectReference: {fileID: 686138522}
     - target: {fileID: 2079787966283662530, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: m_Size.y
       value: 0.124506764
@@ -4925,6 +4868,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2337078653202723788, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
+      propertyPath: uiGatoGirando
+      value: 
+      objectReference: {fileID: 686138522}
     - target: {fileID: 2343304171658503342, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -5185,14 +5132,30 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3393745736832148426, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
+      propertyPath: uiGatoGirando
+      value: 
+      objectReference: {fileID: 686138522}
     - target: {fileID: 3402187788147649404, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3462499555797544331, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
+      propertyPath: Deco
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3462499555797544331, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
+      propertyPath: uiGatoGirando
+      value: 
+      objectReference: {fileID: 686138522}
     - target: {fileID: 3497114176575408114, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: m_Convex
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3499278242920931946, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
+      propertyPath: uiGatoGirando
+      value: 
+      objectReference: {fileID: 686138522}
     - target: {fileID: 3508790228275329178, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: m_Intensity
       value: 14.34
@@ -5265,6 +5228,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4410673374909122890, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
+      propertyPath: uiGatoGirando
+      value: 
+      objectReference: {fileID: 686138522}
     - target: {fileID: 4417012002657840945, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: item
       value: 
@@ -5501,6 +5468,10 @@ PrefabInstance:
       propertyPath: materiaisCores.Array.size
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4604690606436611089, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
+      propertyPath: uiGatoGirando
+      value: 
+      objectReference: {fileID: 686138522}
     - target: {fileID: 4635218283470693430, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -5813,6 +5784,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6071844513113436844, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
+      propertyPath: uiGatoGirando
+      value: 
+      objectReference: {fileID: 686138522}
     - target: {fileID: 6091780099482614412, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -5937,6 +5912,10 @@ PrefabInstance:
       propertyPath: m_Convex
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7040841891261119488, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
+      propertyPath: uiGatoGirando
+      value: 
+      objectReference: {fileID: 686138522}
     - target: {fileID: 7044533250945948413, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
@@ -5965,6 +5944,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7277802162370747214, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
+      propertyPath: uiGatoGirando
+      value: 
+      objectReference: {fileID: 686138522}
     - target: {fileID: 7310427248123602584, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: m_LocalScale.z
       value: 1
@@ -6029,6 +6012,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7946329212205745094, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
+      propertyPath: uiGatoGirando
+      value: 
+      objectReference: {fileID: 686138522}
     - target: {fileID: 7968539175321879683, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -6049,6 +6036,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 8058618056683309015, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
+      propertyPath: uiGatoGirando
+      value: 
+      objectReference: {fileID: 686138522}
     - target: {fileID: 8085158354558036264, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: m_Convex
       value: 0
@@ -6145,6 +6136,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8248919408868622862, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
+      propertyPath: uiGatoGirando
+      value: 
+      objectReference: {fileID: 686138522}
     - target: {fileID: 8272806409509010816, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.67
@@ -6205,6 +6200,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: brinquedos
       objectReference: {fileID: 0}
+    - target: {fileID: 8573215616884321364, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
+      propertyPath: uiGatoGirando
+      value: 
+      objectReference: {fileID: 686138522}
     - target: {fileID: 8659616015596817282, guid: c43b0beb7b6103348afb572a683ec676, type: 3}
       propertyPath: item
       value: 
@@ -14775,7 +14774,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1683793968
 RectTransform:
   m_ObjectHideFlags: 0
