@@ -83,7 +83,7 @@ public class terminarFase : MonoBehaviour
         yield return new WaitForSeconds(tempoDeEspera);
 
         // Função que você quer chamar após o tempo
-        SceneManager.LoadScene("fim");
+        SceneManager.LoadScene("CutsceneFinal");
     }
 }
 

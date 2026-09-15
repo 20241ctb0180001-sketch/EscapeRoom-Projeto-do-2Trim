@@ -7,6 +7,15 @@
             "id": "df70fa95-8a34-4494-b137-73ab6b9c7d37",
             "actions": [
                 {
+                    "name": "abrirInventarioBrinquedos",
+                    "type": "Button",
+                    "id": "49086473-9d00-4707-871c-72503d4b98ba",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Hold",
+                    "initialStateCheck": false
+                },
+                {
                     "name": "Move",
                     "type": "Value",
                     "id": "351f2ccd-1f9f-44bf-9bec-d62ac5c5f408",
@@ -127,15 +136,6 @@
                     "name": "giroCamera",
                     "type": "Button",
                     "id": "2cca6827-1615-40be-bb56-6a0d33de257e",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
-                    "name": "abrirInventarioBrinquedos",
-                    "type": "Button",
-                    "id": "49086473-9d00-4707-871c-72503d4b98ba",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
