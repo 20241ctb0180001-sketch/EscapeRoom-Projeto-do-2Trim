@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
@@ -53,7 +54,11 @@ public class FirstPersonMovement : MonoBehaviour
     void FixedUpdate()
     {
         IsRunning = canRun && CorreAction != null && CorreAction.IsPressed();
+        correr();
+    }
 
+    public void correr()
+    {
         float targetMovingSpeed = IsRunning ? runSpeed : speed;
         if (speedOverrides.Count > 0)
         {
