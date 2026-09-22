@@ -6,6 +6,9 @@ public class FirstPersonLook : MonoBehaviour
     Transform character;
     public float sensitivity = 2;
     public float smoothing = 1.5f;
+
+    [Header("Input system")]
+    public InputActionAsset InputActions;
     private InputAction cameraAction;
 
     Vector2 velocity;
@@ -14,15 +17,16 @@ public class FirstPersonLook : MonoBehaviour
 
     void Reset()
     {
-        // Get the character from the FirstPersonMovement in parents.
+
         character = GetComponentInParent<FirstPersonMovement>().transform;
+        
     }
 
     void Start()
     {
+
         cameraAction = InputSystem.actions.FindAction("giroCamera");
-        // Lock the mouse cursor to the game screen.
-        // Cursor.lockState = CursorLockMode.Locked;
+
     }
 
     void Update()

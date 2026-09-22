@@ -35,7 +35,7 @@ public class GerentUI : MonoBehaviour
 
         if (PauseMenu != null) PauseMenu.SetActive(false);
 
-        if (SystemInfo.deviceType == DeviceType.Handheld)
+        /* if (SystemInfo.deviceType == DeviceType.Handheld)
         {
             //Debug.Log("O dispositivo é um Celular ou Tablet.");
             UICelular.SetActive(true);
@@ -44,7 +44,7 @@ public class GerentUI : MonoBehaviour
         {
             //Debug.Log("O dispositivo é um Computador.");
             UICelular.SetActive(false);
-        }
+        } */
     }
 
     void Update()
