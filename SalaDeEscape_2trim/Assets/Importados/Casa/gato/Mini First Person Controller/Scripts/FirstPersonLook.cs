@@ -14,6 +14,7 @@ public class FirstPersonLook : MonoBehaviour
 
     private float xRotation = 0f;
     private float yRotation = 0f;
+    private bool jaInicializou = false;
 
     void Reset()
     {
@@ -31,14 +32,8 @@ public class FirstPersonLook : MonoBehaviour
         if (character == null && transform.parent != null)
             character = transform.parent;
 
-        // Regista a rotação exata inicial da câmara e do jogador para não perder a posição
         SalvarRotacaoAtual();
-    }
-
-    void OnEnable()
-    {
-        // Garante que a posição da câmara é guardada ao reativar o componente
-        SalvarRotacaoAtual();
+        jaInicializou = true; // ADICIONADO
     }
 
     public void SalvarRotacaoAtual()
@@ -50,6 +45,14 @@ public class FirstPersonLook : MonoBehaviour
         {
             yRotation = character.eulerAngles.y;
         }
+
+        Debug.Log($"[LOOK] SalvarRotacaoAtual chamado! xRotation={xRotation}", this);
+    }
+
+    void OnEnable()
+    {
+        Debug.Log("[LOOK] OnEnable disparou!", this);
+        SalvarRotacaoAtual();
     }
 
     void Update()

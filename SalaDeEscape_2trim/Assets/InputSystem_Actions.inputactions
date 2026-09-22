@@ -143,12 +143,12 @@
                 },
                 {
                     "name": "giroCamera",
-                    "type": "Button",
+                    "type": "Value",
                     "id": "2cca6827-1615-40be-bb56-6a0d33de257e",
-                    "expectedControlType": "",
+                    "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false
+                    "initialStateCheck": true
                 },
                 {
                     "name": "SairPuzzle",

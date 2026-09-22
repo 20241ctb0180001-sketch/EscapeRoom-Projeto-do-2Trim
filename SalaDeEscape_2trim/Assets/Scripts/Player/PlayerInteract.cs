@@ -39,7 +39,7 @@ public class PlayerInteract : MonoBehaviour
         Mycam = Camera.main;
         IMinterage = InputSystem.actions.FindAction("InteractMouseVe");
         IMsai = InputSystem.actions.FindAction("InteractMouseSaiVe");
-        RotateOb = InputSystem.actions.FindAction("Look");
+        RotateOb = InputSystem.actions.FindAction("giroCamera");
         inventory = GetComponent<PlayerInventory>();
         abrate = portinha != null ? portinha.GetComponent<portaEscadaria>() : null;
         inventario = bricador != null ? bricador.GetComponent<GerenciadorInventario>() : null;
@@ -56,9 +56,6 @@ public class PlayerInteract : MonoBehaviour
 
     void CheckInteractables()
     {
-
-        void CheckInteractables()
-{
     if (painelManager.instance != null && painelManager.instance.puzzleAtivo)
     {
         GerentUI.instance.SetPawCursor(false);
@@ -94,7 +91,6 @@ public class PlayerInteract : MonoBehaviour
 
         return;
     }
-}
 
         // --- MODO NORMAL (RAYCAST) ---
         RaycastHit hit;
