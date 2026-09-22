@@ -658,11 +658,11 @@
                 },
                 {
                     "name": "",
-                    "id": "551237c4-93e6-4824-9af0-1a368dd5ad45",
-                    "path": "<Touchscreen>/primaryTouch/press",
+                    "id": "5be8fdd2-a4f7-4112-a871-abfb92b62392",
+                    "path": "<Gamepad>/rightStick",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": ";Gamepad",
                     "action": "giroCamera",
                     "isComposite": false,
                     "isPartOfComposite": false

@@ -1741,11 +1741,11 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 507382013}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 51.02, y: 58.26}
-  m_SizeDelta: {x: 81.9413, y: 64.0004}
-  m_Pivot: {x: 0, y: 0}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -51.038696, y: 58.26}
+  m_SizeDelta: {x: 81.941284, y: 64.0004}
+  m_Pivot: {x: 1, y: 0}
 --- !u!114 &341727473
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1760,7 +1760,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.OnScreen.OnScreenStick
   m_MovementRange: 50
   m_DynamicOriginRange: 100
-  m_ControlPath: <Gamepad>/leftStick
+  m_ControlPath: <Gamepad>/rightStick
   m_Behaviour: 0
   m_UseIsolatedInputActions: 0
   m_PointerDownAction:
@@ -1825,9 +1825,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1899157589}
-        m_TargetAssemblyTypeName: Jump, Assembly-CSharp
-        m_MethodName: OnJump
+      - m_Target: {fileID: 1564449176}
+        m_TargetAssemblyTypeName: FirstPersonLook, Assembly-CSharp
+        m_MethodName: OlharEmVolta
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -14928,6 +14928,7 @@ MonoBehaviour:
   character: {fileID: 1899157580}
   sensitivity: 2
   smoothing: 1.5
+  InputActions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
 --- !u!124 &1564449178
 Behaviour:
   m_ObjectHideFlags: 0
