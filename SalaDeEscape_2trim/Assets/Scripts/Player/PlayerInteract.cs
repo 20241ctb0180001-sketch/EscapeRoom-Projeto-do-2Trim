@@ -57,40 +57,44 @@ public class PlayerInteract : MonoBehaviour
     void CheckInteractables()
     {
 
-        // Se estiver com o puzzle do painel ativo, desativa o cursor e interrompe
-        if (painelManager.instance != null && painelManager.instance.puzzleAtivo)
+        void CheckInteractables()
+{
+    if (painelManager.instance != null && painelManager.instance.puzzleAtivo)
+    {
+        GerentUI.instance.SetPawCursor(false);
+        return;
+    }
+
+    if (estaaVer)
+    {
+        GerentUI.instance.SetPawCursor(false);
+
+        if (CurrInteractable == null)
         {
-            GerentUI.instance.SetPawCursor(false);
+            estaaVer = false;
             return;
         }
 
-        // --- MODO DE INSPEÇÃO DO OBJETO ---
-        if (estaaVer == true)
+        if (CurrInteractable.GetComponent<Collider>() != null)
+            CurrInteractable.GetComponent<Collider>().enabled = false;
+
+        if (!CurrInteractable.IsMoving)
         {
-            // Garante que a pata do cursor não apareça durante a inspeção
-            GerentUI.instance.SetPawCursor(false);
+            CurrInteractable.transform.position = objViewer.position;
+        }
 
-            if (CurrInteractable == null)
-            {
-                estaaVer = false;
-                return;
-            }
+        // Executa a rotação do objeto
+        interag();
 
-            if (CurrInteractable.GetComponent<Collider>() != null)
-                CurrInteractable.GetComponent<Collider>().enabled = false;
-
-            // Mantém o objeto preso na posição do marcador enquanto inspeciona
-            if (!CurrInteractable.IsMoving)
-            {
-                CurrInteractable.transform.position = objViewer.position;
-            }
-
-            // Executa a rotação e a verificação de saída
-            interag();
+        // Só tenta verificar saída se a flag canFinish estiver ativa
+        if (canFinish)
+        {
             saiInterag();
-
-            return;
         }
+
+        return;
+    }
+}
 
         // --- MODO NORMAL (RAYCAST) ---
         RaycastHit hit;
@@ -191,11 +195,25 @@ public class PlayerInteract : MonoBehaviour
         }
     }
 
-    public void saiInterag()
+   public void saiInterag()
     {
+        // Apenas fecha se a ação de sair for acionada (ex: tecla ESC ou um Botão de Fechar na UI)
         if (canFinish && IMsai != null && IMsai.WasPressedThisFrame())
         {
             FinishView();
+            if (look != null) look.enabled = true;
+            if (movement != null) movement.enabled = true;
+        }
+    }
+
+    // Método PÚBLICO para você conectar diretamente a um Botão "Sair/Voltar" da UI no Mobile
+    public void BotaoSairInspecao()
+    {
+        if (canFinish && estaaVer)
+        {
+            FinishView();
+            if (look != null) look.enabled = true;
+            if (movement != null) movement.enabled = true;
         }
     }
 
@@ -304,12 +322,12 @@ public class PlayerInteract : MonoBehaviour
         if (RotateOb == null) return;
 
         Vector2 delta = RotateOb.ReadValue<Vector2>();
-        
+
         if (delta.sqrMagnitude > 0.01f)
         {
-            // Rotação com base no movimento do mouse
-            float xRot = delta.y * rotatSpeed * Time.deltaTime;
-            float yRot = -delta.x * rotatSpeed * Time.deltaTime;
+            // Usa o delta de toque/mouse diretamente com a velocidade de rotação do objeto
+            float xRot = delta.y * rotatSpeed * 0.1f;
+            float yRot = -delta.x * rotatSpeed * 0.1f;
 
             CurrInteractable.transform.Rotate(Mycam.transform.right, xRot, Space.World);
             CurrInteractable.transform.Rotate(Mycam.transform.up, yRot, Space.World);

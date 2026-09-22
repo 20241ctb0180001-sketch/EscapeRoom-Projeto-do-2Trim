@@ -2,31 +2,54 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 public class FirstPersonLook : MonoBehaviour
 {
-    [SerializeField]
-    Transform character;
-    public float sensitivity = 2;
-    public float smoothing = 1.5f;
+    [SerializeField] private Transform character;
+    
+    [Header("Sensibilidade Mobile / PC")]
+    [Tooltip("No telemóvel, tente valores entre 0.05 e 0.2")]
+    public float sensitivity = 0.1f;
 
-    [Header("Input system")]
+    [Header("Input System")]
     public InputActionAsset InputActions;
     private InputAction cameraAction;
 
-    Vector2 velocity;
-    Vector2 frameVelocity;
-
+    private float xRotation = 0f;
+    private float yRotation = 0f;
 
     void Reset()
     {
-
-        character = GetComponentInParent<FirstPersonMovement>().transform;
-        
+        if (transform.parent != null)
+            character = transform.parent;
     }
 
     void Start()
     {
-
         cameraAction = InputSystem.actions.FindAction("giroCamera");
 
+        if (cameraAction != null)
+            cameraAction.Enable();
+
+        if (character == null && transform.parent != null)
+            character = transform.parent;
+
+        // Regista a rotação exata inicial da câmara e do jogador para não perder a posição
+        SalvarRotacaoAtual();
+    }
+
+    void OnEnable()
+    {
+        // Garante que a posição da câmara é guardada ao reativar o componente
+        SalvarRotacaoAtual();
+    }
+
+    public void SalvarRotacaoAtual()
+    {
+        Vector3 currentCamAngles = transform.localEulerAngles;
+        xRotation = currentCamAngles.x > 180 ? currentCamAngles.x - 360 : currentCamAngles.x;
+
+        if (character != null)
+        {
+            yRotation = character.eulerAngles.y;
+        }
     }
 
     void Update()
@@ -36,24 +59,29 @@ public class FirstPersonLook : MonoBehaviour
 
     public void OlharEmVolta()
     {
-        if (cameraAction.IsPressed())
-        {
-            Cursor.lockState = CursorLockMode.Locked;
-            Cursor.visible = false;
-            // Get smooth velocity.
-            Vector2 mouseDelta = Mouse.current.delta != null ? Mouse.current.delta.ReadValue() : Vector2.zero;
-            Vector2 rawFrameVelocity = Vector2.Scale(mouseDelta, Vector2.one * sensitivity);
-            frameVelocity = Vector2.Lerp(frameVelocity, rawFrameVelocity, 1 / smoothing);
-            velocity += frameVelocity;
-            velocity.y = Mathf.Clamp(velocity.y, -90, 90);
+        if (cameraAction == null) return;
 
-            // Rotate camera up-down and controller left-right from velocity.
-            transform.localRotation = Quaternion.AngleAxis(-velocity.y, Vector3.right);
-            character.localRotation = Quaternion.AngleAxis(velocity.x, Vector3.up);
-        }else if (cameraAction.WasReleasedThisFrame())
+        Vector2 inputDelta = cameraAction.ReadValue<Vector2>();
+
+        if (inputDelta.sqrMagnitude > 0.001f)
         {
-            Cursor.lockState = CursorLockMode.None;
-            Cursor.visible = true;
+            // O delta do Touchscreen no mobile vem em pixels brutos. 
+            // Multiplicamos diretamente pela sensibilidade (SEM Time.deltaTime).
+            float mouseX = inputDelta.x * sensitivity;
+            float mouseY = inputDelta.y * sensitivity;
+
+            xRotation -= mouseY;
+            xRotation = Mathf.Clamp(xRotation, -85f, 85f);
+
+            yRotation += mouseX;
+
+            // Aplica a rotação de forma absoluta mantendo o estado
+            transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
+
+            if (character != null)
+            {
+                character.rotation = Quaternion.Euler(0f, yRotation, 0f);
+            }
         }
     }
 }
