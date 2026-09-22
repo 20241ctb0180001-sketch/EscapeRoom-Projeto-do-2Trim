@@ -21,7 +21,7 @@ public class PlayerInteract : MonoBehaviour
     private Interactables CurrInteractable;
     private bool estaaVer;
     private bool canFinish;
-    [SerializeField] private float rotatSpeed;
+    [SerializeField] private float rotatSpeed = 100f; // Ajuste a velocidade na Inspector se necessário
     private Vector3 OriginPos;
     private Quaternion OiginRotat;
     private PlayerInventory inventory;
@@ -29,7 +29,7 @@ public class PlayerInteract : MonoBehaviour
     [Header("Câmera e Movimento")]
     [SerializeField] private FirstPersonLook look;
     [SerializeField] private FirstPersonMovement movement;
-    [SerializeField] private float animationDuration = 2f;
+    [SerializeField] private float animationDuration = 0.5f;
     private GerenciadorInventario inventario;
     private portaEscadaria abrate;
     private inventarioBrinquedos ToyInvent;
@@ -41,8 +41,8 @@ public class PlayerInteract : MonoBehaviour
         IMsai = InputSystem.actions.FindAction("InteractMouseSaiVe");
         RotateOb = InputSystem.actions.FindAction("Look");
         inventory = GetComponent<PlayerInventory>();
-        abrate = portinha.GetComponent<portaEscadaria>();
-        inventario = bricador.GetComponent<GerenciadorInventario>();
+        abrate = portinha != null ? portinha.GetComponent<portaEscadaria>() : null;
+        inventario = bricador != null ? bricador.GetComponent<GerenciadorInventario>() : null;
         if (BInv != null)
         {
             ToyInvent = BInv.GetComponent<inventarioBrinquedos>();
@@ -56,15 +56,20 @@ public class PlayerInteract : MonoBehaviour
 
     void CheckInteractables()
     {
-        // Se estiver com o puzzle do painel ativo, desativa a patinha e interrompe o Raycast
+
+        // Se estiver com o puzzle do painel ativo, desativa o cursor e interrompe
         if (painelManager.instance != null && painelManager.instance.puzzleAtivo)
         {
             GerentUI.instance.SetPawCursor(false);
             return;
         }
 
+        // --- MODO DE INSPEÇÃO DO OBJETO ---
         if (estaaVer == true)
         {
+            // Garante que a pata do cursor não apareça durante a inspeção
+            GerentUI.instance.SetPawCursor(false);
+
             if (CurrInteractable == null)
             {
                 estaaVer = false;
@@ -74,24 +79,28 @@ public class PlayerInteract : MonoBehaviour
             if (CurrInteractable.GetComponent<Collider>() != null)
                 CurrInteractable.GetComponent<Collider>().enabled = false;
 
-            Vector3 targetPos = objViewer.position;
-            CurrInteractable.transform.position = targetPos;
+            // Mantém o objeto preso na posição do marcador enquanto inspeciona
+            if (!CurrInteractable.IsMoving)
+            {
+                CurrInteractable.transform.position = objViewer.position;
+            }
 
-            //interag();
-            //saiInterag();
+            // Executa a rotação e a verificação de saída
+            interag();
+            saiInterag();
 
             return;
         }
 
+        // --- MODO NORMAL (RAYCAST) ---
         RaycastHit hit;
-        Vector3 rayOrigin = Mycam.ScreenToWorldPoint(new Vector3(0f, 0f, 0f));
+        Vector3 rayOrigin = Mycam.ViewportToWorldPoint(new Vector3(0.5f, 0.5f, 0f)); // Centro da tela
 
         if (Physics.Raycast(rayOrigin, Mycam.transform.forward, out hit, RayDistance))
         {
             PainelInteract painel = hit.collider.GetComponent<PainelInteract>();
             if (painel != null)
             {
-                // Se o puzzle das cores já foi terminado, ignora o destaque do cursor
                 if (painelManager.instance != null && painelManager.instance.puzzleConcluido)
                 {
                     GerentUI.instance.SetPawCursor(false);
@@ -113,10 +122,7 @@ public class PlayerInteract : MonoBehaviour
                 GerentUI.instance.SetPawCursor(true);
                 if (IMinterage.WasPressedThisFrame())
                 {
-                    if (interactable.IsMoving)
-                    {
-                        return;
-                    }
+                    if (interactable.IsMoving) return;
 
                     CurrInteractable = interactable;
 
@@ -137,10 +143,7 @@ public class PlayerInteract : MonoBehaviour
                             break;
                         }
                     }
-                    if (hasPreviousItem)
-                    {
-                        return;
-                    }
+                    if (hasPreviousItem) return;
 
                     BloqueioDeItem bloqueio = CurrInteractable.GetComponent<BloqueioDeItem>();
                     if (bloqueio != null && !bloqueio.PodeInteragir(inventory))
@@ -149,15 +152,20 @@ public class PlayerInteract : MonoBehaviour
                         return;
                     }
 
-                    CurrInteractable.OnInteract.Invoke();
-                    if (CurrInteractable.item != null)
-                    {
-                        Interact(CurrInteractable.item);
-                        OnView.Invoke();
-                        estaaVer = true;
-                        if (look != null) look.enabled = false;
-                        if (movement != null) movement.enabled = false;
-                        Invoke("CanFinish", 1f);
+                        CurrInteractable.OnInteract.Invoke();
+                        if (CurrInteractable.item != null)
+                        {
+                            Interact(CurrInteractable.item);
+                            OnView.Invoke();
+                            estaaVer = true;
+
+                            // DESATIVA A PATA AO ENTRAR NA INSPEÇÃO
+                            GerentUI.instance.SetPawCursor(false); 
+
+                            if (look != null) look.enabled = false;
+                            if (movement != null) movement.enabled = false;
+                        
+                        Invoke("CanFinish", 0.5f);
                         if (CurrInteractable.item.pegavel)
                         {
                             OriginPos = CurrInteractable.transform.position;
@@ -176,37 +184,32 @@ public class PlayerInteract : MonoBehaviour
 
     public void interag()
     {
-        if (CurrInteractable.item.pegavel && IMinterage.WasPressedThisFrame())
-            {
-                if (look != null) look.enabled = false;
-                if (movement != null) movement.enabled = false;
-                RodaObj();
-            }
+        // Roda o objeto continuamente se for pegável
+        if (CurrInteractable != null && CurrInteractable.item != null && CurrInteractable.item.pegavel)
+        {
+            RodaObj();
+        }
     }
 
     public void saiInterag()
     {
-        if (canFinish && IMsai.WasPressedThisFrame())
-            {
-                FinishView();
-                if (look != null) look.enabled = true;
-                if (movement != null) movement.enabled = true;
-            }
+        if (canFinish && IMsai != null && IMsai.WasPressedThisFrame())
+        {
+            FinishView();
+        }
     }
+
     private void ColetarBrinquedoDireto(Interactables interactable)
     {
         BrinquedoColetavel coletavel = interactable.GetComponent<BrinquedoColetavel>();
         if (CurrInteractable.CompareTag("brinquedos"))
         {
-            inventario.AdicionarItem(coletavel.dadosDoItem);
+            if (inventario != null && coletavel != null) inventario.AdicionarItem(coletavel.dadosDoItem);
             CurrInteractable.CollectItem.Invoke();
             if (CurrInteractable.gameObject.name == "Trenzinho")
             {
-                abrate.tremPego(true);
-                if (ToyInvent != null)
-                {
-                    ToyInvent.ativarInventario(true);
-                }
+                if (abrate != null) abrate.tremPego(true);
+                if (ToyInvent != null) ToyInvent.ativarInventario(true);
             }
         }
     }
@@ -236,8 +239,11 @@ public class PlayerInteract : MonoBehaviour
     {
         canFinish = false;
         estaaVer = false;
+
+        // Reativa a câmera e movimento
         if (look != null) look.enabled = true;
         if (movement != null) movement.enabled = true;
+
         GerentUI.instance.SetbackImg(false);
 
         BrinquedoColetavel coletavel = CurrInteractable.GetComponent<BrinquedoColetavel>();
@@ -245,33 +251,28 @@ public class PlayerInteract : MonoBehaviour
         {
             if (CurrInteractable.CompareTag("brinquedos"))
             {
-                inventario.AdicionarItem(coletavel.dadosDoItem);
+                if (inventario != null && coletavel != null) inventario.AdicionarItem(coletavel.dadosDoItem);
                 CurrInteractable.CollectItem.Invoke();
                 if (CurrInteractable.gameObject.name == "Trenzinho")
                 {
-                    abrate.tremPego(true);
-                    if (ToyInvent != null)
-                    {
-                        ToyInvent.ativarInventario(true);
-                    }
+                    if (abrate != null) abrate.tremPego(true);
+                    if (ToyInvent != null) ToyInvent.ativarInventario(true);
                 }
             }
             else
             {
-                inventory.AddItem(CurrInteractable.item);
+                if (inventory != null) inventory.AddItem(CurrInteractable.item);
                 CurrInteractable.CollectItem.Invoke();
             }
         }
 
         if (CurrInteractable.item.pegavel)
         {
-            CurrInteractable.transform.rotation = OiginRotat;
             if (CurrInteractable.GetComponent<Collider>() != null)
             {
                 CurrInteractable.GetComponent<Collider>().enabled = true;
             }
 
-            CurrInteractable.RestoreOriginalTransform();
             StartCoroutine(MovendObj(CurrInteractable, CurrInteractable.GetOriginalPosition(), CurrInteractable.GetOriginalRotation()));
         }
         OnFinishView.Invoke();
@@ -300,9 +301,18 @@ public class PlayerInteract : MonoBehaviour
 
     void RodaObj()
     {
-        float x = RotateOb.ReadValue<Vector2>().x;
-        float y = RotateOb.ReadValue<Vector2>().y;
-        CurrInteractable.transform.Rotate(Mycam.transform.right, Mathf.Deg2Rad * y * rotatSpeed, Space.World);
-        CurrInteractable.transform.Rotate(Mycam.transform.up, -Mathf.Deg2Rad * x * rotatSpeed, Space.World);
+        if (RotateOb == null) return;
+
+        Vector2 delta = RotateOb.ReadValue<Vector2>();
+        
+        if (delta.sqrMagnitude > 0.01f)
+        {
+            // Rotação com base no movimento do mouse
+            float xRot = delta.y * rotatSpeed * Time.deltaTime;
+            float yRot = -delta.x * rotatSpeed * Time.deltaTime;
+
+            CurrInteractable.transform.Rotate(Mycam.transform.right, xRot, Space.World);
+            CurrInteractable.transform.Rotate(Mycam.transform.up, yRot, Space.World);
+        }
     }
 }
