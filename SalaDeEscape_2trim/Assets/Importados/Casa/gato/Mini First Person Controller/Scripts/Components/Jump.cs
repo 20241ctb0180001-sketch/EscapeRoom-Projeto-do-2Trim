@@ -32,15 +32,20 @@ public class Jump : MonoBehaviour
 
     void LateUpdate()
     {
-        OnJump();
+        // Se a tecla/botão configurado no Input System for pressionado
+        if (PuloAction != null && PuloAction.WasPressedThisFrame())
+        {
+            OnJump();
+        }
     }
 
     public void OnJump()
     {
-        // Jump when the Jump button is pressed and we are on the ground.
-        if (PuloAction.WasPressedThisFrame() && (!groundCheck || groundCheck.isGrounded))
+       // Verifica se está no chão antes de pular
+        if (!groundCheck || groundCheck.isGrounded)
         {
-            RB.AddForce(Vector3.up * 100 * jumpStrength);
+            // Usamos ForceMode.Impulse para pulos instantâneos com Rigidbody
+            RB.AddForce(Vector3.up * jumpStrength, ForceMode.Impulse);
             Jumped?.Invoke();
         }
     }
