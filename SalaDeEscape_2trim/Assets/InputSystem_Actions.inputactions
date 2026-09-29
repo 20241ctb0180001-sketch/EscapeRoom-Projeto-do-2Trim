@@ -648,7 +648,7 @@
                 {
                     "name": "",
                     "id": "0e8fec95-6602-451c-8676-4384aa9caa42",
-                    "path": "<Mouse>/rightButton",
+                    "path": "<Mouse>/delta",
                     "interactions": "",
                     "processors": "",
                     "groups": ";Keyboard&Mouse",
