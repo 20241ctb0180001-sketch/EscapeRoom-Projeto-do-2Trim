@@ -1,80 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8127471808609410038
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorBankRef
-  Path: ../Fmod/GatoSFX/Build/Desktop/Master.strings.bank
-  Name: Master.strings
-  StudioPath: bank:/Master.strings
-  lastModified: 639256779910473419
-  FileSizes:
-  - Name: Desktop
-    Value: 2050
-  Exists: 1
---- !u!114 &-8029535666182773444
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/fantasma/simon-scream
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: event:/fantasma/simon-scream
-  Guid:
-    Data1: -2142920873
-    Data2: 1108147313
-    Data3: -1863976003
-    Data4: -2094113226
-  Banks:
-  - {fileID: 7553115357002063613}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &-6750519154326870181
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Brinquedos/brinqueoInventario
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: event:/Brinquedos/brinqueoInventario
-  Guid:
-    Data1: 1401357658
-    Data2: 1231187481
-    Data3: -1481722974
-    Data4: -1554550628
-  Banks:
-  - {fileID: 7553115357002063613}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &-5791688633188204525
+--- !u!114 &-9154859780865850685
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -93,7 +19,7 @@ MonoBehaviour:
     Data3: 32853420
     Data4: 657209098
   Banks:
-  - {fileID: 7553115357002063613}
+  - {fileID: 1409353893659793947}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -101,222 +27,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &-5507672069030167634
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Corre/jump
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
-  Name: jump
-  StudioPath: 
-  Min: 0
-  Max: 0
-  Default: 0
-  ID:
-    data1: 825915901
-    data2: 1507142479
-  Type: 2
-  IsGlobal: 0
-  Labels:
-  - Value A
-  Exists: 1
---- !u!114 &-5474313081419492079
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/porta/portaRangendo
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: event:/porta/portaRangendo
-  Guid:
-    Data1: 338034443
-    Data2: 1320468384
-    Data3: -987509371
-    Data4: -1256580407
-  Banks:
-  - {fileID: 7553115357002063613}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &-3793241007664222063
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: "event:/M\xE3oAparece"
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: "event:/M\xE3oAparece"
-  Guid:
-    Data1: -1738212735
-    Data2: 1296875647
-    Data3: -1350250590
-    Data4: -549680036
-  Banks:
-  - {fileID: 7553115357002063613}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 3700
---- !u!114 &-3531030382874908037
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/pawsteps/garras
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: event:/pawsteps/garras
-  Guid:
-    Data1: 1374377696
-    Data2: 1114738082
-    Data3: -1605760626
-    Data4: -1802208124
-  Banks:
-  - {fileID: 7553115357002063613}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters:
-  - {fileID: 5251310348135156101}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &-2260979911949682490
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: "event:/M\xFAsicas/Creditos"
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: "event:/M\xFAsicas/Creditos"
-  Guid:
-    Data1: 124391066
-    Data2: 1160736021
-    Data3: -650689614
-    Data4: 345615948
-  Banks:
-  - {fileID: 7553115357002063613}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 214343
---- !u!114 &-2212307251802996572
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: "event:/M\xFAsicas/Ambiente"
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: "event:/M\xFAsicas/Ambiente"
-  Guid:
-    Data1: 1120472061
-    Data2: 1283268358
-    Data3: -2099359299
-    Data4: 1500641882
-  Banks:
-  - {fileID: 7553115357002063613}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 111571
---- !u!114 &-1953548114375765907
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/porta/portaBatendo
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: event:/porta/portaBatendo
-  Guid:
-    Data1: 139810404
-    Data2: 1282936792
-    Data3: -532328540
-    Data4: 360370430
-  Banks:
-  - {fileID: 7553115357002063613}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &-1710182096425781288
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Botoes/click
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: event:/Botoes/click
-  Guid:
-    Data1: -371378505
-    Data2: 1317980742
-    Data3: 234738343
-    Data4: 934721342
-  Banks:
-  - {fileID: 7553115357002063613}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 230
---- !u!114 &-1638567441202736366
+--- !u!114 &-8639318625179572553
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -335,16 +46,16 @@ MonoBehaviour:
     Data3: 2147140509
     Data4: 289756493
   Banks:
-  - {fileID: 7553115357002063613}
+  - {fileID: 1409353893659793947}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -5507672069030167634}
+  - {fileID: 2759283462371052059}
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &-1245214975150472441
+--- !u!114 &-8633831958996456050
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -354,24 +65,44 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/pintar/Pintar
+  m_Name: event:/fios
   m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: event:/pintar/Pintar
+  Path: event:/fios
   Guid:
-    Data1: -122507675
-    Data2: 1260055430
-    Data3: 872222848
-    Data4: 1944097303
+    Data1: 1524048244
+    Data2: 1314704989
+    Data3: 1646581160
+    Data4: 218071254
   Banks:
-  - {fileID: 7553115357002063613}
+  - {fileID: 1409353893659793947}
   IsStream: 0
   Is3D: 0
-  IsOneShot: 1
+  IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 540
---- !u!114 &-815309177377673603
+  Length: 4800
+--- !u!114 &-7499236377276341990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorBankRef
+  Path: ../Fmod/GatoSFX/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 639262838051453105
+  FileSizes:
+  - Name: Desktop
+    Value: 2050
+  Exists: 1
+--- !u!114 &-6402309302834026621
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -381,281 +112,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/fantasma/fantasmaCochichos
+  m_Name: event:/porta/portaBatendo
   m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: event:/fantasma/fantasmaCochichos
+  Path: event:/porta/portaBatendo
   Guid:
-    Data1: 2104530346
-    Data2: 1171503209
-    Data3: -1841745254
-    Data4: -44218403
+    Data1: 139810404
+    Data2: 1282936792
+    Data3: -532328540
+    Data4: 360370430
   Banks:
-  - {fileID: 7553115357002063613}
+  - {fileID: 1409353893659793947}
   IsStream: 0
   Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 9200
---- !u!114 &-684949433887996624
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Quebra madeira/madeira
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
-  Name: madeira
-  StudioPath: 
-  Min: 0
-  Max: 0
-  Default: 0
-  ID:
-    data1: 1280465035
-    data2: 569125605
-  Type: 2
-  IsGlobal: 0
-  Labels:
-  - Value A
-  Exists: 1
---- !u!114 &-621265489152647406
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Brinquedos/trainCollect-1
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: event:/Brinquedos/trainCollect-1
-  Guid:
-    Data1: 788092826
-    Data2: 1078299214
-    Data3: -912650606
-    Data4: 726319898
-  Banks:
-  - {fileID: 7553115357002063613}
-  IsStream: 0
-  Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
-  m_Name: FMODStudioCache
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EventCache
-  EditorBanks:
-  - {fileID: -8127471808609410038}
-  - {fileID: 7553115357002063613}
-  EditorEvents:
-  - {fileID: 1118208258830038525}
-  - {fileID: 307909875913075056}
-  - {fileID: -1638567441202736366}
-  - {fileID: -3531030382874908037}
-  - {fileID: -1710182096425781288}
-  - {fileID: -1245214975150472441}
-  - {fileID: -5791688633188204525}
-  - {fileID: 900648470484666051}
-  - {fileID: -8029535666182773444}
-  - {fileID: -6750519154326870181}
-  - {fileID: -621265489152647406}
-  - {fileID: -815309177377673603}
-  - {fileID: -5474313081419492079}
-  - {fileID: -1953548114375765907}
-  - {fileID: 8299475637052771695}
-  - {fileID: -3793241007664222063}
-  - {fileID: -2260979911949682490}
-  - {fileID: 7922105778561578693}
-  - {fileID: -2212307251802996572}
-  - {fileID: 1237369844296044887}
-  - {fileID: 5032329305425492393}
-  - {fileID: 2950407946039387938}
-  - {fileID: 8132143033762885346}
-  - {fileID: 7495526107973209078}
-  EditorParameters: []
-  MasterBanks:
-  - {fileID: 7553115357002063613}
-  StringsBanks:
-  - {fileID: -8127471808609410038}
-  cacheVersion: 131860
-  cacheTime: 639256779910473419
-  SerializableEventsDict:
-  - key: event:/pawsteps/patas
-    index: 0
-  - key: event:/pawsteps/fall
-    index: 1
-  - key: event:/pawsteps/Corre
-    index: 2
-  - key: event:/pawsteps/garras
-    index: 3
-  - key: event:/Botoes/click
-    index: 4
-  - key: event:/pintar/Pintar
-    index: 5
-  - key: event:/Botoes/clickInventario
-    index: 6
-  - key: event:/finalDeFase
-    index: 7
-  - key: event:/fantasma/simon-scream
-    index: 8
-  - key: event:/Brinquedos/brinqueoInventario
-    index: 9
-  - key: event:/Brinquedos/trainCollect-1
-    index: 10
-  - key: event:/fantasma/fantasmaCochichos
-    index: 11
-  - key: event:/porta/portaRangendo
-    index: 12
-  - key: event:/porta/portaBatendo
-    index: 13
-  - key: "event:/M\xFAsicas/Menu"
-    index: 14
-  - key: "event:/M\xE3oAparece"
-    index: 15
-  - key: "event:/M\xFAsicas/Creditos"
-    index: 16
-  - key: "event:/M\xFAsicas/CutSceneFinal"
-    index: 17
-  - key: "event:/M\xFAsicas/Ambiente"
-    index: 18
-  - key: event:/caixaSons/Correto
-    index: 19
-  - key: event:/caixaSons/Abrir
-    index: 20
-  - key: event:/caixaSons/Errado
-    index: 21
-  - key: event:/fios
-    index: 22
-  - key: event:/Quebra madeira
-    index: 23
---- !u!114 &307909875913075056
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/pawsteps/fall
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: event:/pawsteps/fall
-  Guid:
-    Data1: -459874246
-    Data2: 1177062624
-    Data3: 287098539
-    Data4: -1502477960
-  Banks:
-  - {fileID: 7553115357002063613}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 520
---- !u!114 &900648470484666051
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/finalDeFase
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: event:/finalDeFase
-  Guid:
-    Data1: 69355542
-    Data2: 1133653439
-    Data3: -803814729
-    Data4: -1339661378
-  Banks:
-  - {fileID: 7553115357002063613}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &1118208258830038525
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/pawsteps/patas
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: event:/pawsteps/patas
-  Guid:
-    Data1: 2089693970
-    Data2: 1127028511
-    Data3: 852548495
-    Data4: 156445580
-  Banks:
-  - {fileID: 7553115357002063613}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters:
-  - {fileID: 2193707098518536476}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &1237369844296044887
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/caixaSons/Correto
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: event:/caixaSons/Correto
-  Guid:
-    Data1: 657321320
-    Data2: 1255049771
-    Data3: 1396871823
-    Data4: 1746883302
-  Banks:
-  - {fileID: 7553115357002063613}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 936
---- !u!114 &2193707098518536476
+--- !u!114 &-5955225607716966669
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -680,7 +154,7 @@ MonoBehaviour:
   Labels:
   - Value A
   Exists: 1
---- !u!114 &2950407946039387938
+--- !u!114 &-5533930892415571491
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -690,24 +164,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/caixaSons/Errado
+  m_Name: event:/finalDeFase
   m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: event:/caixaSons/Errado
+  Path: event:/finalDeFase
   Guid:
-    Data1: 1912686503
-    Data2: 1326685388
-    Data3: -1648164432
-    Data4: -2040126155
+    Data1: 69355542
+    Data2: 1133653439
+    Data3: -803814729
+    Data4: -1339661378
   Banks:
-  - {fileID: 7553115357002063613}
+  - {fileID: 1409353893659793947}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 340
---- !u!114 &5032329305425492393
+  Length: 0
+--- !u!114 &-4492156739230537329
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -717,24 +191,107 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/caixaSons/Abrir
+  m_Name: event:/fantasma/simon-scream
   m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: event:/caixaSons/Abrir
+  Path: event:/fantasma/simon-scream
   Guid:
-    Data1: -1957673104
-    Data2: 1190863212
-    Data3: -1110959443
-    Data4: 1013563127
+    Data1: -2142920873
+    Data2: 1108147313
+    Data3: -1863976003
+    Data4: -2094113226
   Banks:
-  - {fileID: 7553115357002063613}
+  - {fileID: 1409353893659793947}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-2789151066203277555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/pawsteps/patas
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/pawsteps/patas
+  Guid:
+    Data1: 2089693970
+    Data2: 1127028511
+    Data3: 852548495
+    Data4: 156445580
+  Banks:
+  - {fileID: 1409353893659793947}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -5955225607716966669}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-2107496327026101316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Brinquedos/trainCollect-1
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Brinquedos/trainCollect-1
+  Guid:
+    Data1: 788092826
+    Data2: 1078299214
+    Data3: -912650606
+    Data4: 726319898
+  Banks:
+  - {fileID: 1409353893659793947}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 816
---- !u!114 &5251310348135156101
+  Length: 0
+--- !u!114 &-516700972773272102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Quebra madeira
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Quebra madeira
+  Guid:
+    Data1: -759395209
+    Data2: 1138340927
+    Data3: -889895283
+    Data4: -2135216493
+  Banks:
+  - {fileID: 1409353893659793947}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 6498168077819245714}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-226855928905883630
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -759,7 +316,7 @@ MonoBehaviour:
   Labels:
   - Value A
   Exists: 1
---- !u!114 &7495526107973209078
+--- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -768,46 +325,94 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Quebra madeira
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: event:/Quebra madeira
-  Guid:
-    Data1: -759395209
-    Data2: 1138340927
-    Data3: -889895283
-    Data4: -2135216493
-  Banks:
-  - {fileID: 7553115357002063613}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters:
-  - {fileID: -684949433887996624}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &7553115357002063613
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorBankRef
-  Path: ../Fmod/GatoSFX/Build/Desktop/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 639256779910463417
-  FileSizes:
-  - Name: Desktop
-    Value: 4810912
-  Exists: 1
---- !u!114 &7922105778561578693
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EventCache
+  EditorBanks:
+  - {fileID: -7499236377276341990}
+  - {fileID: 1409353893659793947}
+  EditorEvents:
+  - {fileID: 7616696010890719645}
+  - {fileID: 3114641898590559213}
+  - {fileID: -2789151066203277555}
+  - {fileID: -9154859780865850685}
+  - {fileID: -5533930892415571491}
+  - {fileID: 8380332645382958021}
+  - {fileID: -4492156739230537329}
+  - {fileID: 5010838777086245447}
+  - {fileID: -6402309302834026621}
+  - {fileID: 8905097297408343263}
+  - {fileID: 5326798224649920913}
+  - {fileID: -8639318625179572553}
+  - {fileID: 3596744124300558316}
+  - {fileID: -8633831958996456050}
+  - {fileID: -516700972773272102}
+  - {fileID: 2814750398171566330}
+  - {fileID: 5015215147251640483}
+  - {fileID: -2107496327026101316}
+  - {fileID: 3623809351376433351}
+  - {fileID: 4732156618978290651}
+  - {fileID: 1443139681476706275}
+  - {fileID: 748563627880074030}
+  - {fileID: 8259900616802576091}
+  - {fileID: 2556999582474714165}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: 1409353893659793947}
+  StringsBanks:
+  - {fileID: -7499236377276341990}
+  cacheVersion: 131860
+  cacheTime: 639262838051453105
+  SerializableEventsDict:
+  - key: "event:/M\xFAsicas/Menu"
+    index: 0
+  - key: event:/porta/portaRangendo
+    index: 1
+  - key: event:/pawsteps/patas
+    index: 2
+  - key: event:/Botoes/clickInventario
+    index: 3
+  - key: event:/finalDeFase
+    index: 4
+  - key: event:/pawsteps/fall
+    index: 5
+  - key: event:/fantasma/simon-scream
+    index: 6
+  - key: event:/Brinquedos/brinqueoInventario
+    index: 7
+  - key: event:/porta/portaBatendo
+    index: 8
+  - key: event:/pintar/Pintar
+    index: 9
+  - key: event:/caixaSons/Correto
+    index: 10
+  - key: event:/pawsteps/Corre
+    index: 11
+  - key: event:/caixaSons/Abrir
+    index: 12
+  - key: event:/fios
+    index: 13
+  - key: event:/Quebra madeira
+    index: 14
+  - key: "event:/M\xE3oAparece"
+    index: 15
+  - key: "event:/M\xFAsicas/Creditos"
+    index: 16
+  - key: event:/Brinquedos/trainCollect-1
+    index: 17
+  - key: event:/caixaSons/Errado
+    index: 18
+  - key: event:/fantasma/fantasmaCochichos
+    index: 19
+  - key: event:/Botoes/click
+    index: 20
+  - key: "event:/M\xFAsicas/CutSceneFinal"
+    index: 21
+  - key: event:/pawsteps/garras
+    index: 22
+  - key: "event:/M\xFAsicas/Ambiente"
+    index: 23
+--- !u!114 &748563627880074030
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -826,7 +431,7 @@ MonoBehaviour:
     Data3: 351770281
     Data4: 1999780604
   Banks:
-  - {fileID: 7553115357002063613}
+  - {fileID: 1409353893659793947}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -834,7 +439,27 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 17005
---- !u!114 &8132143033762885346
+--- !u!114 &1409353893659793947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorBankRef
+  Path: ../Fmod/GatoSFX/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 639262838051453105
+  FileSizes:
+  - Name: Desktop
+    Value: 4810912
+  Exists: 1
+--- !u!114 &1443139681476706275
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -844,24 +469,317 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/fios
+  m_Name: event:/Botoes/click
   m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: event:/fios
+  Path: event:/Botoes/click
   Guid:
-    Data1: 1524048244
-    Data2: 1314704989
-    Data3: 1646581160
-    Data4: 218071254
+    Data1: -371378505
+    Data2: 1317980742
+    Data3: 234738343
+    Data4: 934721342
   Banks:
-  - {fileID: 7553115357002063613}
+  - {fileID: 1409353893659793947}
   IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 230
+--- !u!114 &2556999582474714165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/M\xFAsicas/Ambiente"
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: "event:/M\xFAsicas/Ambiente"
+  Guid:
+    Data1: 1120472061
+    Data2: 1283268358
+    Data3: -2099359299
+    Data4: 1500641882
+  Banks:
+  - {fileID: 1409353893659793947}
+  IsStream: 1
   Is3D: 0
   IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 4800
---- !u!114 &8299475637052771695
+  Length: 111571
+--- !u!114 &2759283462371052059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Corre/jump
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
+  Name: jump
+  StudioPath: 
+  Min: 0
+  Max: 0
+  Default: 0
+  ID:
+    data1: 825915901
+    data2: 1507142479
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Value A
+  Exists: 1
+--- !u!114 &2814750398171566330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/M\xE3oAparece"
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: "event:/M\xE3oAparece"
+  Guid:
+    Data1: -1738212735
+    Data2: 1296875647
+    Data3: -1350250590
+    Data4: -549680036
+  Banks:
+  - {fileID: 1409353893659793947}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3700
+--- !u!114 &3114641898590559213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/porta/portaRangendo
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/porta/portaRangendo
+  Guid:
+    Data1: 338034443
+    Data2: 1320468384
+    Data3: -987509371
+    Data4: -1256580407
+  Banks:
+  - {fileID: 1409353893659793947}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &3596744124300558316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/caixaSons/Abrir
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/caixaSons/Abrir
+  Guid:
+    Data1: -1957673104
+    Data2: 1190863212
+    Data3: -1110959443
+    Data4: 1013563127
+  Banks:
+  - {fileID: 1409353893659793947}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 816
+--- !u!114 &3623809351376433351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/caixaSons/Errado
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/caixaSons/Errado
+  Guid:
+    Data1: 1912686503
+    Data2: 1326685388
+    Data3: -1648164432
+    Data4: -2040126155
+  Banks:
+  - {fileID: 1409353893659793947}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 340
+--- !u!114 &4732156618978290651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/fantasma/fantasmaCochichos
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/fantasma/fantasmaCochichos
+  Guid:
+    Data1: 2104530346
+    Data2: 1171503209
+    Data3: -1841745254
+    Data4: -44218403
+  Banks:
+  - {fileID: 1409353893659793947}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 9200
+--- !u!114 &5010838777086245447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Brinquedos/brinqueoInventario
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Brinquedos/brinqueoInventario
+  Guid:
+    Data1: 1401357658
+    Data2: 1231187481
+    Data3: -1481722974
+    Data4: -1554550628
+  Banks:
+  - {fileID: 1409353893659793947}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &5015215147251640483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/M\xFAsicas/Creditos"
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: "event:/M\xFAsicas/Creditos"
+  Guid:
+    Data1: 124391066
+    Data2: 1160736021
+    Data3: -650689614
+    Data4: 345615948
+  Banks:
+  - {fileID: 1409353893659793947}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 214343
+--- !u!114 &5326798224649920913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/caixaSons/Correto
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/caixaSons/Correto
+  Guid:
+    Data1: 657321320
+    Data2: 1255049771
+    Data3: 1396871823
+    Data4: 1746883302
+  Banks:
+  - {fileID: 1409353893659793947}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 936
+--- !u!114 &6498168077819245714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Quebra madeira/madeira
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
+  Name: madeira
+  StudioPath: 
+  Min: 0
+  Max: 0
+  Default: 0
+  ID:
+    data1: 1280465035
+    data2: 569125605
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Value A
+  Exists: 1
+--- !u!114 &7616696010890719645
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -880,7 +798,7 @@ MonoBehaviour:
     Data3: 217803151
     Data4: 1990069052
   Banks:
-  - {fileID: 7553115357002063613}
+  - {fileID: 1409353893659793947}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -888,3 +806,85 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 29280
+--- !u!114 &8259900616802576091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/pawsteps/garras
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/pawsteps/garras
+  Guid:
+    Data1: 1374377696
+    Data2: 1114738082
+    Data3: -1605760626
+    Data4: -1802208124
+  Banks:
+  - {fileID: 1409353893659793947}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -226855928905883630}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &8380332645382958021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/pawsteps/fall
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/pawsteps/fall
+  Guid:
+    Data1: -459874246
+    Data2: 1177062624
+    Data3: 287098539
+    Data4: -1502477960
+  Banks:
+  - {fileID: 1409353893659793947}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 520
+--- !u!114 &8905097297408343263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/pintar/Pintar
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/pintar/Pintar
+  Guid:
+    Data1: -122507675
+    Data2: 1260055430
+    Data3: 872222848
+    Data4: 1944097303
+  Banks:
+  - {fileID: 1409353893659793947}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 540
