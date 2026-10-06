@@ -1824,19 +1824,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 341727475}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1564449176}
-        m_TargetAssemblyTypeName: FirstPersonLook, Assembly-CSharp
-        m_MethodName: OlharEmVolta
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &341727475
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7546,7 +7534,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &765486574
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8338,6 +8326,11 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.25606915, y: 0.018410817, z: 0.25606915}
   m_Center: {x: -0.0033608016, y: 0.008121392, z: 0.005103754}
+--- !u!1 &837540142 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5236932314424556259, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
+  m_PrefabInstance: {fileID: 1780267262}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &839331509
 GameObject:
   m_ObjectHideFlags: 0
@@ -16597,6 +16590,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5432431308074180855, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
+      propertyPath: TrackerSettings.BindingMode
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6504402827853011204, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
       propertyPath: m_TagString
       value: Untagged
@@ -16625,7 +16622,10 @@ PrefabInstance:
     - {fileID: 1963958859065967600, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
     - {fileID: 7262903598032256510, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5236932314424556259, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1813485864}
   m_SourcePrefab: {fileID: 100100000, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
 --- !u!1 &1792163026
 GameObject:
@@ -16893,7 +16893,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2981135734984359331, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
   m_PrefabInstance: {fileID: 1780267262}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 837540142}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ec72980442fddac4d86e75ab24b4d027, type: 3}
@@ -16904,12 +16904,31 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 9092226063645860714, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
   m_PrefabInstance: {fileID: 1780267262}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 837540142}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f9dfa5b682dcd46bda6128250e975f58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Cinemachine::Unity.Cinemachine.CinemachineCamera
+--- !u!114 &1813485864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 837540142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0544e7b14d134a1449e61175446cfb95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Cinemachine::Unity.Cinemachine.CinemachineRecomposer
+  ApplyAfter: 3
+  Tilt: 0
+  Pan: 0
+  Dutch: 0
+  ZoomScale: 1
+  FollowAttachment: 1
+  LookAtAttachment: 1
 --- !u!1 &1821104908
 GameObject:
   m_ObjectHideFlags: 0
