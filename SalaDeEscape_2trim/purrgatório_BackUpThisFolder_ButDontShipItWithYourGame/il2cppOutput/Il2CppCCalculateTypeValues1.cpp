@@ -5761,13 +5761,13 @@ struct U3CU3Ec_t77B67633E730920DBCC8A70AA1939587FD397D2E  : public RuntimeObject
 struct ShaderConstants_tA87362D61008C15B277455CBE89FE8B1F66DC1E1  : public RuntimeObject
 {
 };
-struct U3CEsperaNoPontoU3Ed__18_tFB65639C2F1685FEA2C3714C3039DE5ED05FA1F7  : public RuntimeObject
+struct U3CEsperaNoPontoU3Ed__16_tF0AD6D1610B6270F96DF5BBBE326CF6DD0A6F50D  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	RuntimeObject* ___U3CU3E2__current;
 	IAFantasma_t54C5E05FC2E39D009FC49026CE9471081A192C5D* ___U3CU3E4__this;
 };
-struct U3CRotinaTeletransporteU3Ed__19_t78902AEC0A5C9219D3A1219B4155FFD7B7673533  : public RuntimeObject
+struct U3CRotinaTeletransporteU3Ed__17_t4C1D2033B00A3BE95BBAE272D8078EEB6C04CA61  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	RuntimeObject* ___U3CU3E2__current;
@@ -32092,7 +32092,7 @@ struct PixelPerfectFilterMode_t6A5EF3D253B10A9E4728BE231FAB0E8A206882E8
 {
 	int32_t ___value__;
 };
-struct U3CMovendObjU3Ed__34_t40980D53BE59881878FB386222C799E54CD87310  : public RuntimeObject
+struct U3CMovendObjU3Ed__35_tCE153FD3BFA945D7F3298FB2CA7430886628F3CA  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	RuntimeObject* ___U3CU3E2__current;
@@ -47747,11 +47747,15 @@ struct FirstPersonAudio_t42DBEA25B65A97CD0277104F996717899E882174  : public Mono
 struct FirstPersonLook_tFFEABF55DC99B2EC1D6B5DAEE9864E5815F6B93C  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___character;
-	float ___sensitivity;
-	float ___smoothing;
+	float ___pcSensitivity;
+	float ___mobileSensitivity;
+	bool ___inverterEixoY;
+	bool ___inverterEixoX;
+	float ___velocidadeBotao;
+	Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___characterRB;
 	InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* ___cameraAction;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___velocity;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___frameVelocity;
+	float ___xRotation;
+	float ___yRotation;
 };
 struct FirstPersonMovement_tA852887AB56569BDD01EA2BE85F9B39C349C5FFE  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -47863,8 +47867,6 @@ struct IAFantasma_t54C5E05FC2E39D009FC49026CE9471081A192C5D  : public MonoBehavi
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___player;
 	TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* ___pontosPatrulha;
 	int32_t ___indiceAtual;
-	int32_t ___indiceAnterior;
-	int32_t ___repeticoesSeguidas;
 	int32_t ___maxRepeticoesToleradas;
 	float ___tempoEsperaMin;
 	float ___tempoEsperaMax;
@@ -67642,7 +67644,7 @@ const Il2CppTypeDefinitionSizes g_typeDefinitionSize10222 = { sizeof(MusicaBG_t4
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize10223;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize10223 = { sizeof(inventarioBrinquedos_t2272C83340A92F136A9BC574CD12F6775135E4B3), -1, 0, 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize10224;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize10224 = { sizeof(U3CMovendObjU3Ed__34_t40980D53BE59881878FB386222C799E54CD87310), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize10224 = { sizeof(U3CMovendObjU3Ed__35_tCE153FD3BFA945D7F3298FB2CA7430886628F3CA), -1, 0, 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize10225;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize10225 = { sizeof(PlayerInteract_t1B2F2008321DEDEDDD394EF62CB3EFFE7A2EE8A0), -1, 0, 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize10226;
@@ -67660,9 +67662,9 @@ const Il2CppTypeDefinitionSizes g_typeDefinitionSize10231 = { sizeof(CdgSenha_t6
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize10232;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize10232 = { sizeof(DefinirSpawn_t9DA30CD7B4E6B3A2F20706C0285A0B7209D3C8D2), -1, 0, 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize10233;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize10233 = { sizeof(U3CEsperaNoPontoU3Ed__18_tFB65639C2F1685FEA2C3714C3039DE5ED05FA1F7), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize10233 = { sizeof(U3CEsperaNoPontoU3Ed__16_tF0AD6D1610B6270F96DF5BBBE326CF6DD0A6F50D), -1, 0, 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize10234;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize10234 = { sizeof(U3CRotinaTeletransporteU3Ed__19_t78902AEC0A5C9219D3A1219B4155FFD7B7673533), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize10234 = { sizeof(U3CRotinaTeletransporteU3Ed__17_t4C1D2033B00A3BE95BBAE272D8078EEB6C04CA61), -1, 0, 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize10235;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize10235 = { sizeof(IAFantasma_t54C5E05FC2E39D009FC49026CE9471081A192C5D), -1, 0, 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize10236;

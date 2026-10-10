@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+
 public class FirstPersonLook : MonoBehaviour
 {
     [SerializeField] private Transform character;
@@ -12,46 +13,35 @@ public class FirstPersonLook : MonoBehaviour
     public bool inverterEixoY = false;
     public bool inverterEixoX = false;
 
-    [Header("Input System")]
-    public InputActionAsset InputActions;
-    private InputAction cameraAction;
-
-    private float xRotation = 0f;
-    private float yRotation = 0f;
-
     [Header("Rotação por botão / analógico")]
     public float velocidadeBotao = 90f; // graus por segundo
+    private Rigidbody characterRB;
+    private InputAction cameraAction;
+    private float xRotation;
+    private float yRotation;
 
-    void Reset()
-    {
-        if (transform.parent != null)
-            character = transform.parent;
-    }
-
+    // void Reset()
+    // {
+    //     if (transform.parent != null) character = transform.parent;
+    // }
     void Awake()
     {
-        if (character == null && transform.parent != null)
-            character = transform.parent;
+        // if (character == null && transform.parent != null)
+        //     character = transform.parent;
+
+        if (character != null)
+            characterRB = character.GetComponent<Rigidbody>();
+    }
+
+    void OnEnable()
+    {
+        SalvarRotacaoAtual(); // só aqui e no Start
     }
 
     void Start()
     {
         cameraAction = InputSystem.actions.FindAction("giroCamera");
-
-        if (cameraAction != null)
-            cameraAction.Enable();
-
-        //SalvarRotacaoAtual();
-    }
-
-    void Update()
-    {
-        OlharEmVolta();
-        SalvarRotacaoAtual();
-    }
-
-    void OnEnable()
-    {
+        cameraAction?.Enable();
         SalvarRotacaoAtual();
     }
 
@@ -70,13 +60,28 @@ public class FirstPersonLook : MonoBehaviour
         xRotation = currentX > 180f ? currentX - 360f : currentX;
 
         if (character != null)
+            yRotation = character.eulerAngles.y;
+    }
+
+    void Update()
+    {
+        OlharEmVolta(); // só atualiza xRotation / yRotation
+    }
+
+    void LateUpdate()
+    {
+        transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
+
+        if (character != null)
         {
-            float currentY = character.eulerAngles.y;
-            yRotation = currentY > 180f ? currentY - 360f : currentY;
+            Quaternion rot = Quaternion.Euler(0f, yRotation, 0f);
+            character.rotation = rot;
+            if (characterRB != null)
+                characterRB.rotation = rot; // mantém o Rigidbody sincronizado
         }
     }
 
-    public void OlharEmVolta()
+    void OlharEmVolta()
     {
         if (cameraAction == null) return;
 
@@ -84,36 +89,25 @@ public class FirstPersonLook : MonoBehaviour
         InputDevice device = cameraAction.activeControl?.device;
 
         bool viaMouse = device is Mouse;
-        bool viaPonteiro = device is Pointer; // mouse ou touch: valor já é um delta
+        bool viaPonteiro = device is Pointer;
 
-        // Cursor e bloqueio do botão direito valem só para o MOUSE
         if (!Application.isMobilePlatform && Mouse.current != null)
         {
             bool direito = Mouse.current.rightButton.isPressed;
             Cursor.lockState = direito ? CursorLockMode.Locked : CursorLockMode.None;
             Cursor.visible = !direito;
 
-            if (viaMouse && !direito) return; // mouse sem botão direito não gira
+            if (viaMouse && !direito) return;
         }
 
         if (input.sqrMagnitude < 0.001f) return;
 
-        float sens;
-        if (viaPonteiro)
-            sens = Application.isMobilePlatform ? mobileSensitivity : pcSensitivity;
-        else
-            sens = velocidadeBotao * Time.deltaTime; // teclas / gamepad
+        float sens = viaPonteiro ? (Application.isMobilePlatform ? mobileSensitivity : pcSensitivity) : velocidadeBotao * Time.deltaTime;
 
         float x = input.x * sens * (inverterEixoX ? -1f : 1f);
         float y = input.y * sens * (inverterEixoY ? -1f : 1f);
 
-        xRotation -= y;
-        xRotation = Mathf.Clamp(xRotation, -85f, 85f);
+        xRotation = Mathf.Clamp(xRotation - y, -85f, 85f);
         yRotation += x;
-
-        transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
-
-        if (character != null)
-            character.rotation = Quaternion.Euler(0f, yRotation, 0f);
     }
 }

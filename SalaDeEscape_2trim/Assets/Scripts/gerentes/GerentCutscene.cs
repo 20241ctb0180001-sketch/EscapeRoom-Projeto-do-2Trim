@@ -5,14 +5,18 @@ using UnityEngine.SceneManagement;
 
 public class GerentCutscene : MonoBehaviour
 {
-    
+
     public float changeTime;
     public string sceneName;
 
+    void Start()
+    {
+        Time.timeScale = 1f;
+    }
     void Update()
     {
         changeTime -= Time.deltaTime;
-        if(changeTime <= 0)
+        if (changeTime <= 0)
         {
             SceneManager.LoadScene(sceneName);
         }

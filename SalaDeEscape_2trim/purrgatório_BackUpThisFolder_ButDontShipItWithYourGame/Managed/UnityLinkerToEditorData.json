@@ -1254,6 +1254,14 @@
             "icon": null
           },
           {
+            "name": "PhysicsMaterial",
+            "scenes": [
+              "Assets/Scenes/EscapeRoom.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
             "name": "Rigidbody",
             "scenes": [
               "Assets/Scenes/Cutscene.unity",

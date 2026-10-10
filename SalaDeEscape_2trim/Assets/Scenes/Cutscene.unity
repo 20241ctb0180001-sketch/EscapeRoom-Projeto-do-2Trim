@@ -344,7 +344,7 @@ PlayableDirector:
   m_PlayableAsset: {fileID: 11400000, guid: 9ff0a98267e5df342a596685d3055fbd, type: 2}
   m_InitialState: 1
   m_WrapMode: 2
-  m_DirectorUpdateMode: 2
+  m_DirectorUpdateMode: 1
   m_InitialTime: 0
   m_SceneBindings:
   - key: {fileID: -2747679075125078854, guid: 9ff0a98267e5df342a596685d3055fbd, type: 2}
@@ -4561,7 +4561,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3317e5f480b8c14ababa64b4bbdb099, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GerentCutscene
-  changeTime: 24.28
+  changeTime: 24
   sceneName: EscapeRoom
 --- !u!4 &1296785493
 Transform:

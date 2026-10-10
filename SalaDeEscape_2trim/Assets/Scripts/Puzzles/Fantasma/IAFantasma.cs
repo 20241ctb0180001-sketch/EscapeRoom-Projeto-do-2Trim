@@ -12,8 +12,8 @@ public class IAFantasma : MonoBehaviour
     [Header("Configurações de Patrulha")]
     public Transform[] pontosPatrulha;
     private int indiceAtual = -1;
-    private int indiceAnterior = -1;
-    private int repeticoesSeguidas = 0;
+    //private int indiceAnterior = -1;
+    //private int repeticoesSeguidas = 0;
     public int maxRepeticoesToleradas = 2;
 
     [Header("Tempo de Espera nos Pontos")]
@@ -68,12 +68,12 @@ public class IAFantasma : MonoBehaviour
 
         // 2. DIAGNÓSTICO A CADA 1 SEGUNDO
         timerDebug += Time.deltaTime;
-        if (timerDebug >= 1.0f)
+        /*if (timerDebug >= 1.0f)
         {
             float dist = Vector3.Distance(transform.position, player.position);
             Debug.Log($"[DIAGNÓSTICO] Distância real: {dist:F1}m | Raio necessário: {raioVisao}m | Tá sumindo agora? {estaSumindo}");
             timerDebug = 0f;
-        }
+        }*/
 
         if (estaSumindo) return;
 
@@ -175,8 +175,8 @@ public class IAFantasma : MonoBehaviour
             Debug.Log("Teletransportado com sucesso para: " + pontoMaisDistante.name);
         }
 
-        repeticoesSeguidas = 0;
-        indiceAnterior = -1;
+        //repeticoesSeguidas = 0;
+        //indiceAnterior = -1;
 
         if (agent.enabled)
         {

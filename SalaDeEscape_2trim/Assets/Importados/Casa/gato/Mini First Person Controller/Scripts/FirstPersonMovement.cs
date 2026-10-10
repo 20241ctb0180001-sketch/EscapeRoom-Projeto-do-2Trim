@@ -70,13 +70,13 @@ public class FirstPersonMovement : MonoBehaviour
         bool isAirborne = Mathf.Abs(RB.linearVelocity.y) > 0.05f;
         float moveMultiplier = isAirborne ? 0.55f : 1f;
 
-        Vector3 desiredVelocity = transform.rotation * new Vector3( movInput.x * targetMovingSpeed * moveMultiplier, 0f, movInput.y * targetMovingSpeed * moveMultiplier);
+        Vector3 desiredVelocity = RB.rotation * new Vector3(movInput.x * targetMovingSpeed * moveMultiplier, 0f, movInput.y * targetMovingSpeed * moveMultiplier);
         desiredVelocity = GetWallSafeVelocity(desiredVelocity);
 
         Vector3 currentVelocity = RB.linearVelocity;
 
         float smoothAmount = isAirborne ? 0.08f : 0.18f;
-        Vector3 smoothedVelocity = new Vector3( Mathf.Lerp(currentVelocity.x, desiredVelocity.x, smoothAmount), currentVelocity.y, Mathf.Lerp(currentVelocity.z, desiredVelocity.z, smoothAmount));
+        Vector3 smoothedVelocity = new Vector3(Mathf.Lerp(currentVelocity.x, desiredVelocity.x, smoothAmount), currentVelocity.y, Mathf.Lerp(currentVelocity.z, desiredVelocity.z, smoothAmount));
 
         if (movInput == Vector2.zero)
         {

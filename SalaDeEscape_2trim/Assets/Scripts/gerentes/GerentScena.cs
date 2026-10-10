@@ -19,9 +19,7 @@ public class GerentScena : MonoBehaviour
 
     public void Play()
     {
-        
         SceneManager.LoadScene("Cutscene");
-        
     }
 
     public void Controles()

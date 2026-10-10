@@ -96,7 +96,7 @@ public class GerentUI : MonoBehaviour
         inputAction.FindActionMap("Player").Disable();
         inputAction.FindActionMap("UI").Enable();
         Pause = InputSystem.actions.FindAction("Pause");
-        Time.timeScale = 0.1f;
+        Time.timeScale = 0f;
 
         if (SystemInfo.deviceType == DeviceType.Handheld)
         {
@@ -115,11 +115,11 @@ public class GerentUI : MonoBehaviour
 
     public void ResumeGame()
     {
+        Time.timeScale = 1f;
         isPaused = false;
         inputAction.FindActionMap("Player").Enable();
         inputAction.FindActionMap("UI").Disable();
         Pause = InputSystem.actions.FindAction("Pause");
-        Time.timeScale = 1f;
 
         if (SystemInfo.deviceType == DeviceType.Desktop)
         {
