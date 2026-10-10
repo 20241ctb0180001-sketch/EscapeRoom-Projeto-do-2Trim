@@ -72,10 +72,9 @@ extern void CreditosRolagem_Update_mEFDCD2AB175A98F5E71F0165AC1256122EC28C96 (vo
 extern void CreditosRolagem__ctor_mD4731D683A08AFE01F75CBC9A8405433C9C59C60 (void);
 extern void debug_Update_mA7FE038F788B350FFEC9AF8530D78F9732C07A7A (void);
 extern void debug__ctor_mB746F918327FF528AB878B4F55B135D0C7635CDF (void);
-extern void destroiObjeto_Start_m33E7E4EE124BAFC23C4F38DD94D416DEF54EE276 (void);
-extern void destroiObjeto_Update_m37A2F185F9B57C7D89FF54D8F223FD8057053080 (void);
 extern void destroiObjeto_DestroiObjeto_mF2139F3AD7F2F1305FAC400932CEE25B6607E5D0 (void);
 extern void destroiObjeto__ctor_m2284DED8E769D2F7AFBA8EFD40C02EAA58A48E53 (void);
+extern void GerentCutscene_Start_m86DF88AF52ECFA6035A19A97FB5E03507E10060F (void);
 extern void GerentCutscene_Update_mC589FD4E2DEC466F89BB74F43F137FD3B93C29F0 (void);
 extern void GerentCutscene__ctor_m1C179A64D1E6F2BC1D45727DC13E81E95077093E (void);
 extern void GerentScena_ReturnToMainMenu_mA33DE3AE29115BC1CA709BE3E7E033F19518025F (void);
@@ -1263,7 +1262,7 @@ extern void AotStubs_UnityEngine_EventSystems_PhysicsRaycaster_op_Implicit_m59AD
 extern void AotStubs_UnityEngine_EventSystems_PhysicsRaycaster_op_Equality_m30C5C7702A36F2BAEEF9EF82E6F8425500AFAFB9 (void);
 extern void AotStubs_UnityEngine_EventSystems_PhysicsRaycaster_op_Inequality_m5CF222965746AAF9CE984589B2B487C9CC9B0F03 (void);
 extern void AotStubs__ctor_mD8E1D4EB5BE3B72AE9FD29C595BB7C9A05734676 (void);
-static Il2CppMethodPointer s_methodPointers[1256] = 
+static Il2CppMethodPointer s_methodPointers[1255] = 
 {
 	Crouch_get_IsCrouched_m8021AD022A7B374B3B874ADC220EF7C450E8953D,
 	Crouch_set_IsCrouched_m0E68FE1FCB4B9AB458FDB6ED63274E3E18500DEF,
@@ -1330,10 +1329,9 @@ static Il2CppMethodPointer s_methodPointers[1256] =
 	CreditosRolagem__ctor_mD4731D683A08AFE01F75CBC9A8405433C9C59C60,
 	debug_Update_mA7FE038F788B350FFEC9AF8530D78F9732C07A7A,
 	debug__ctor_mB746F918327FF528AB878B4F55B135D0C7635CDF,
-	destroiObjeto_Start_m33E7E4EE124BAFC23C4F38DD94D416DEF54EE276,
-	destroiObjeto_Update_m37A2F185F9B57C7D89FF54D8F223FD8057053080,
 	destroiObjeto_DestroiObjeto_mF2139F3AD7F2F1305FAC400932CEE25B6607E5D0,
 	destroiObjeto__ctor_m2284DED8E769D2F7AFBA8EFD40C02EAA58A48E53,
+	GerentCutscene_Start_m86DF88AF52ECFA6035A19A97FB5E03507E10060F,
 	GerentCutscene_Update_mC589FD4E2DEC466F89BB74F43F137FD3B93C29F0,
 	GerentCutscene__ctor_m1C179A64D1E6F2BC1D45727DC13E81E95077093E,
 	GerentScena_ReturnToMainMenu_mA33DE3AE29115BC1CA709BE3E7E033F19518025F,
@@ -2522,7 +2520,7 @@ static Il2CppMethodPointer s_methodPointers[1256] =
 	AotStubs_UnityEngine_EventSystems_PhysicsRaycaster_op_Inequality_m5CF222965746AAF9CE984589B2B487C9CC9B0F03,
 	AotStubs__ctor_mD8E1D4EB5BE3B72AE9FD29C595BB7C9A05734676,
 };
-static const int32_t s_InvokerIndices[1256] = 
+static const int32_t s_InvokerIndices[1255] = 
 {
 	16011,
 	12378,
@@ -2582,7 +2580,6 @@ static const int32_t s_InvokerIndices[1256] =
 	12378,
 	16469,
 	11250,
-	16469,
 	16469,
 	16469,
 	16469,
@@ -3785,7 +3782,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	1256,
+	1255,
 	s_methodPointers,
 	0,
 	NULL,

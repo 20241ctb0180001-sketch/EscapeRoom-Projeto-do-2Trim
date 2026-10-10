@@ -21,7 +21,7 @@ public class PlayerInteract : MonoBehaviour
     private Interactables CurrInteractable;
     private bool estaaVer;
     private bool canFinish;
-    [SerializeField] private float rotatSpeed = 100f; // Ajuste a velocidade na Inspector se necessário
+    [SerializeField] private float rotatSpeed;
     private Vector3 OriginPos;
     private Quaternion OiginRotat;
     private PlayerInventory inventory;
@@ -39,7 +39,7 @@ public class PlayerInteract : MonoBehaviour
         Mycam = Camera.main;
         IMinterage = InputSystem.actions.FindAction("InteractMouseVe");
         IMsai = InputSystem.actions.FindAction("InteractMouseSaiVe");
-        RotateOb = InputSystem.actions.FindAction("giroCamera");
+        RotateOb = InputSystem.actions.FindAction("Look");
         inventory = GetComponent<PlayerInventory>();
         abrate = portinha != null ? portinha.GetComponent<portaEscadaria>() : null;
         inventario = bricador != null ? bricador.GetComponent<GerenciadorInventario>() : null;
