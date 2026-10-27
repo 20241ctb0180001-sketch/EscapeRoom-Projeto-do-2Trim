@@ -758,7 +758,7 @@ inline void List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4 (List
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91770
+// Method Definition Index: 91772
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t14EB74337897CA151C53CDCB14582435DC06A120 UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m89A3A2D839E02FD4A67534285C7BE87F4BBDDFCA (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -792,7 +792,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t14EB74337897CA151C53CDCB14582
 		return L_6;
 	}
 }
-// Method Definition Index: 91771
+// Method Definition Index: 91773
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mBC6E862BB20DB12A65B2F108817CC90B9CC5FD7B (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t91403D98B038360BF3C9D99EA5CD453876C9AF0C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -878,7 +878,7 @@ IL2CPP_EXTERN_C void MonoScriptData_t14EB74337897CA151C53CDCB14582435DC06A120_ma
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91772
+// Method Definition Index: 91774
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FmodResonanceAudio_UpdateAudioRoom_mE957D662AD9913EC12470386DDC9A65777CF67D2 (FmodResonanceAudioRoom_t7078E03ED7F19847733049BD2ACA2CBA5B39BB35* ___0_room, bool ___1_roomEnabled, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -899,7 +899,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FmodResonanceAudio_UpdateAudioRoom_mE957
 	DSP_t2B1AC37BB23E46F1608C986888576EDAE43E74AD V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:76>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:76>
 		bool L_0 = ___1_roomEnabled;
 		if (!L_0)
 		{
@@ -907,7 +907,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FmodResonanceAudio_UpdateAudioRoom_mE957
 		}
 	}
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:78>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:78>
 		il2cpp_codegen_runtime_class_init_inline(FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_il2cpp_TypeInfo_var);
 		List_1_t01119EC95ECAFA76FC524F76369EB573C12270E4* L_1 = ((FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_StaticFields*)il2cpp_codegen_static_fields_for(FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_il2cpp_TypeInfo_var))->___enabledRooms;
 		FmodResonanceAudioRoom_t7078E03ED7F19847733049BD2ACA2CBA5B39BB35* L_2 = ___0_room;
@@ -920,7 +920,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FmodResonanceAudio_UpdateAudioRoom_mE957
 		}
 	}
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:80>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:80>
 		il2cpp_codegen_runtime_class_init_inline(FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_il2cpp_TypeInfo_var);
 		List_1_t01119EC95ECAFA76FC524F76369EB573C12270E4* L_4 = ((FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_StaticFields*)il2cpp_codegen_static_fields_for(FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_il2cpp_TypeInfo_var))->___enabledRooms;
 		FmodResonanceAudioRoom_t7078E03ED7F19847733049BD2ACA2CBA5B39BB35* L_5 = ___0_room;
@@ -931,7 +931,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FmodResonanceAudio_UpdateAudioRoom_mE957
 
 IL_001d:
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:85>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:85>
 		il2cpp_codegen_runtime_class_init_inline(FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_il2cpp_TypeInfo_var);
 		List_1_t01119EC95ECAFA76FC524F76369EB573C12270E4* L_6 = ((FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_StaticFields*)il2cpp_codegen_static_fields_for(FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_il2cpp_TypeInfo_var))->___enabledRooms;
 		FmodResonanceAudioRoom_t7078E03ED7F19847733049BD2ACA2CBA5B39BB35* L_7 = ___0_room;
@@ -942,7 +942,7 @@ IL_001d:
 
 IL_0029:
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:88>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:88>
 		il2cpp_codegen_runtime_class_init_inline(FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_il2cpp_TypeInfo_var);
 		List_1_t01119EC95ECAFA76FC524F76369EB573C12270E4* L_9 = ((FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_StaticFields*)il2cpp_codegen_static_fields_for(FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_il2cpp_TypeInfo_var))->___enabledRooms;
 		NullCheck(L_9);
@@ -954,7 +954,7 @@ IL_0029:
 		}
 	}
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:90>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:90>
 		il2cpp_codegen_runtime_class_init_inline(FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_il2cpp_TypeInfo_var);
 		List_1_t01119EC95ECAFA76FC524F76369EB573C12270E4* L_11 = ((FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_StaticFields*)il2cpp_codegen_static_fields_for(FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_il2cpp_TypeInfo_var))->___enabledRooms;
 		List_1_t01119EC95ECAFA76FC524F76369EB573C12270E4* L_12 = ((FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_StaticFields*)il2cpp_codegen_static_fields_for(FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_il2cpp_TypeInfo_var))->___enabledRooms;
@@ -964,20 +964,20 @@ IL_0029:
 		NullCheck(L_11);
 		FmodResonanceAudioRoom_t7078E03ED7F19847733049BD2ACA2CBA5B39BB35* L_14;
 		L_14 = List_1_get_Item_mFD82115F7E4F9C27FF8E3B802B65CC483EFEAAEA(L_11, ((int32_t)il2cpp_codegen_subtract(L_13, 1)), List_1_get_Item_mFD82115F7E4F9C27FF8E3B802B65CC483EFEAAEA_RuntimeMethod_var);
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:91>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:91>
 		RoomProperties_t4C5F00200CF815F9A30E6192C13DBF7448A51538 L_15;
 		L_15 = FmodResonanceAudio_GetRoomProperties_m20E941629CDA31D5A1D27028D5EC7E0673BC647F(L_14, NULL);
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:93>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:93>
 		int32_t L_16 = ((FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_StaticFields*)il2cpp_codegen_static_fields_for(FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_il2cpp_TypeInfo_var))->___roomPropertiesSize;
 		il2cpp_codegen_runtime_class_init_inline(Marshal_tD976A56A90263C3CE2B780D4B1CADADE2E70B4A7_il2cpp_TypeInfo_var);
 		intptr_t L_17;
 		L_17 = Marshal_AllocHGlobal_mE1D700DF967E28BE8AB3E0D67C81A96B4FCC8F4F(L_16, NULL);
 		V_0 = L_17;
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:94>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:94>
 		intptr_t L_18 = V_0;
 		Marshal_StructureToPtr_TisRoomProperties_t4C5F00200CF815F9A30E6192C13DBF7448A51538_mBC8CF1A75A5AFF2D73E492F1E38ED0B423116434(L_15, L_18, (bool)0, Marshal_StructureToPtr_TisRoomProperties_t4C5F00200CF815F9A30E6192C13DBF7448A51538_mBC8CF1A75A5AFF2D73E492F1E38ED0B423116434_RuntimeMethod_var);
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:95>
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:96>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:95>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:96>
 		DSP_t2B1AC37BB23E46F1608C986888576EDAE43E74AD L_19;
 		L_19 = FmodResonanceAudio_get_ListenerPlugin_mD852E94681203B33FB96E426E51EFC961DE1AAAB(NULL);
 		V_1 = L_19;
@@ -988,7 +988,7 @@ IL_0029:
 		L_23 = FmodResonanceAudio_GetBytes_m118205AD0F68AE69DA396FE804E86630D8BA6365(L_21, L_22, NULL);
 		int32_t L_24;
 		L_24 = DSP_setParameterData_m9F28CFB3C0427D34E2F00EC4F59FAB554AB55C9D((&V_1), L_20, L_23, NULL);
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:97>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:97>
 		intptr_t L_25 = V_0;
 		Marshal_FreeHGlobal_m298EF0650E82E326EDA8048488DC384BB9171EB9(L_25, NULL);
 		return;
@@ -996,7 +996,7 @@ IL_0029:
 
 IL_0088:
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:102>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:102>
 		il2cpp_codegen_runtime_class_init_inline(FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_il2cpp_TypeInfo_var);
 		DSP_t2B1AC37BB23E46F1608C986888576EDAE43E74AD L_26;
 		L_26 = FmodResonanceAudio_get_ListenerPlugin_mD852E94681203B33FB96E426E51EFC961DE1AAAB(NULL);
@@ -1006,11 +1006,11 @@ IL_0088:
 		L_28 = FmodResonanceAudio_GetBytes_m118205AD0F68AE69DA396FE804E86630D8BA6365(0, 0, NULL);
 		int32_t L_29;
 		L_29 = DSP_setParameterData_m9F28CFB3C0427D34E2F00EC4F59FAB554AB55C9D((&V_1), L_27, L_28, NULL);
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:104>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:104>
 		return;
 	}
 }
-// Method Definition Index: 91773
+// Method Definition Index: 91775
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FmodResonanceAudio_IsListenerInsideRoom_mF51A6574877EEB05D8496935C40F6B9C50BC495D (FmodResonanceAudioRoom_t7078E03ED7F19847733049BD2ACA2CBA5B39BB35* ___0_room, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1029,8 +1029,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FmodResonanceAudio_IsListenerInsideRoom_
 	System_t6EFDC3E1FD4233974056B56839DD37F057D7AD20 V_3;
 	memset((&V_3), 0, sizeof(V_3));
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:111>
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:112>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:111>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:112>
 		il2cpp_codegen_runtime_class_init_inline(RuntimeManager_t8E78AD643D1B838B80E527F55596F997F5B7340D_il2cpp_TypeInfo_var);
 		System_t6EFDC3E1FD4233974056B56839DD37F057D7AD20 L_0;
 		L_0 = RuntimeManager_get_CoreSystem_mB63C5146714D83EBF9DE3B6E17735226BAA0EF18(NULL);
@@ -1038,15 +1038,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FmodResonanceAudio_IsListenerInsideRoom_
 		il2cpp_codegen_runtime_class_init_inline(FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_il2cpp_TypeInfo_var);
 		int32_t L_1;
 		L_1 = System_get3DListenerAttributes_m06103C27268810A6357FB146F2A894027641896D((&V_3), 0, (&((FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_StaticFields*)il2cpp_codegen_static_fields_for(FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_il2cpp_TypeInfo_var))->___listenerPositionFmod), (&V_0), (&V_0), (&V_0), NULL);
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:113>
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:114>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:113>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:114>
 		float L_2 = (&((FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_StaticFields*)il2cpp_codegen_static_fields_for(FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_il2cpp_TypeInfo_var))->___listenerPositionFmod)->___x;
 		float L_3 = (&((FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_StaticFields*)il2cpp_codegen_static_fields_for(FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_il2cpp_TypeInfo_var))->___listenerPositionFmod)->___y;
 		float L_4 = (&((FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_StaticFields*)il2cpp_codegen_static_fields_for(FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_il2cpp_TypeInfo_var))->___listenerPositionFmod)->___z;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
 		memset((&L_5), 0, sizeof(L_5));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_5), L_2, L_3, L_4, NULL);
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:115>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:115>
 		FmodResonanceAudioRoom_t7078E03ED7F19847733049BD2ACA2CBA5B39BB35* L_6 = ___0_room;
 		NullCheck(L_6);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7;
@@ -1057,7 +1057,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FmodResonanceAudio_IsListenerInsideRoom_
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
 		L_9 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_5, L_8, NULL);
 		V_1 = L_9;
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:116>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:116>
 		FmodResonanceAudioRoom_t7078E03ED7F19847733049BD2ACA2CBA5B39BB35* L_10 = ___0_room;
 		NullCheck(L_10);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_11;
@@ -1068,7 +1068,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FmodResonanceAudio_IsListenerInsideRoom_
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_13;
 		L_13 = Quaternion_Inverse_mD9C060AC626A7B406F4984AC98F8358DC89EF512_inline(L_12, NULL);
 		V_2 = L_13;
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:118>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:118>
 		FmodResonanceAudioRoom_t7078E03ED7F19847733049BD2ACA2CBA5B39BB35* L_14 = ___0_room;
 		NullCheck(L_14);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_15;
@@ -1082,7 +1082,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FmodResonanceAudio_IsListenerInsideRoom_
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19;
 		L_19 = Vector3_Scale_m7C3CD199271902D5C00CBF35CD230DEB62B68CAE_inline(L_16, L_18, NULL);
 		Bounds_set_size_m950CFB68CDD1BF409E770509A38B958E1AE68128_inline((&((FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_StaticFields*)il2cpp_codegen_static_fields_for(FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_il2cpp_TypeInfo_var))->___bounds), L_19, NULL);
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:119>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:119>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_20 = V_2;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_21 = V_1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22;
@@ -1092,7 +1092,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FmodResonanceAudio_IsListenerInsideRoom_
 		return L_23;
 	}
 }
-// Method Definition Index: 91774
+// Method Definition Index: 91776
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DSP_t2B1AC37BB23E46F1608C986888576EDAE43E74AD FmodResonanceAudio_get_ListenerPlugin_mD852E94681203B33FB96E426E51EFC961DE1AAAB (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1102,7 +1102,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DSP_t2B1AC37BB23E46F1608C986888576EDAE43E74AD
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:170>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:170>
 		il2cpp_codegen_runtime_class_init_inline(FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_il2cpp_TypeInfo_var);
 		bool L_0;
 		L_0 = DSP_hasHandle_m6B7E68A9F0F07B429C856569EE2578DAB6312723((&((FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_StaticFields*)il2cpp_codegen_static_fields_for(FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_il2cpp_TypeInfo_var))->___listenerPlugin), NULL);
@@ -1112,7 +1112,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DSP_t2B1AC37BB23E46F1608C986888576EDAE43E74AD
 		}
 	}
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:172>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:172>
 		il2cpp_codegen_runtime_class_init_inline(FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_il2cpp_TypeInfo_var);
 		DSP_t2B1AC37BB23E46F1608C986888576EDAE43E74AD L_1;
 		L_1 = FmodResonanceAudio_Initialize_m6F0D8A464FBAABAD7040F426D3F81FCB0624A5A1(NULL);
@@ -1121,24 +1121,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DSP_t2B1AC37BB23E46F1608C986888576EDAE43E74AD
 
 IL_0016:
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:174>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:174>
 		il2cpp_codegen_runtime_class_init_inline(FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_il2cpp_TypeInfo_var);
 		DSP_t2B1AC37BB23E46F1608C986888576EDAE43E74AD L_2 = ((FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_StaticFields*)il2cpp_codegen_static_fields_for(FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_il2cpp_TypeInfo_var))->___listenerPlugin;
 		return L_2;
 	}
 }
-// Method Definition Index: 91775
+// Method Definition Index: 91777
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FmodResonanceAudio_ConvertAmplitudeFromDb_mB733E1B4458C6EB6342882C0E65FD625FE366A68 (float ___0_db, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:181>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:181>
 		float L_0 = ___0_db;
 		float L_1;
 		L_1 = powf((10.0f), ((float)il2cpp_codegen_multiply((0.0500000007f), L_0)));
 		return L_1;
 	}
 }
-// Method Definition Index: 91776
+// Method Definition Index: 91778
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FmodResonanceAudio_ConvertAudioTransformFromUnity_mADC39D21EA0D3A5AE8C304A7041EFB3E3C0AF215 (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___0_position, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* ___1_rotation, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1150,7 +1150,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FmodResonanceAudio_ConvertAudioTransform
 	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:189>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:189>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_0 = ___0_position;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_0);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* L_2 = ___1_rotation;
@@ -1160,7 +1160,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FmodResonanceAudio_ConvertAudioTransform
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_5;
 		L_5 = Matrix4x4_TRS_mCC04FD47347234B451ACC6CCD2CE6D02E1E0E1E3_inline(L_1, L_3, L_4, NULL);
 		V_0 = L_5;
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:191>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:191>
 		il2cpp_codegen_runtime_class_init_inline(FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_il2cpp_TypeInfo_var);
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_6 = ((FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_StaticFields*)il2cpp_codegen_static_fields_for(FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_il2cpp_TypeInfo_var))->___flipZ;
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_7 = V_0;
@@ -1170,14 +1170,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FmodResonanceAudio_ConvertAudioTransform
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_10;
 		L_10 = Matrix4x4_op_Multiply_m75E91775655DCA8DFC8EDE0AB787285BB3935162_inline(L_8, L_9, NULL);
 		V_0 = L_10;
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:193>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:193>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_11 = ___0_position;
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_12;
 		L_12 = Matrix4x4_GetColumn_m5CE079D7A69DE70E3144BADD20A1651C73A8D118_inline((&V_0), 3, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13;
 		L_13 = Vector4_op_Implicit_m0217ADDC8CADDB93ACBABB17A50207698DAB0071_inline(L_12, NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_11 = L_13;
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:194>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:194>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* L_14 = ___1_rotation;
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_15;
 		L_15 = Matrix4x4_GetColumn_m5CE079D7A69DE70E3144BADD20A1651C73A8D118_inline((&V_0), 2, NULL);
@@ -1190,11 +1190,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FmodResonanceAudio_ConvertAudioTransform
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_19;
 		L_19 = Quaternion_LookRotation_mFB02EDC8F733774DFAC3BEA4B4BB265A228F8307_inline(L_16, L_18, NULL);
 		*(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974*)L_14 = L_19;
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:195>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:195>
 		return;
 	}
 }
-// Method Definition Index: 91777
+// Method Definition Index: 91779
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* FmodResonanceAudio_GetBytes_m118205AD0F68AE69DA396FE804E86630D8BA6365 (intptr_t ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1206,7 +1206,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A8261
 	}
 	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* V_0 = NULL;
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:200>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:200>
 		intptr_t L_0 = ___0_ptr;
 		bool L_1;
 		L_1 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline(L_0, 0, NULL);
@@ -1216,29 +1216,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A8261
 		}
 	}
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:202>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:202>
 		int32_t L_2 = ___1_length;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)L_2);
 		V_0 = L_3;
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:203>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:203>
 		intptr_t L_4 = ___0_ptr;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_5 = V_0;
 		int32_t L_6 = ___1_length;
 		il2cpp_codegen_runtime_class_init_inline(Marshal_tD976A56A90263C3CE2B780D4B1CADADE2E70B4A7_il2cpp_TypeInfo_var);
 		Marshal_Copy_mF7402FFDB520EA1B8D1C32B368DBEE4B13F1BE77(L_4, L_5, 0, L_6, NULL);
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:204>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:204>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_7 = V_0;
 		return L_7;
 	}
 
 IL_001f:
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:207>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:207>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_8 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)1);
 		return L_8;
 	}
 }
-// Method Definition Index: 91778
+// Method Definition Index: 91780
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RoomProperties_t4C5F00200CF815F9A30E6192C13DBF7448A51538 FmodResonanceAudio_GetRoomProperties_m20E941629CDA31D5A1D27028D5EC7E0673BC647F (FmodResonanceAudioRoom_t7078E03ED7F19847733049BD2ACA2CBA5B39BB35* ___0_room, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1256,7 +1256,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RoomProperties_t4C5F00200CF815F9A30E6192C13DB
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_3;
 	memset((&V_3), 0, sizeof(V_3));
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:214>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:214>
 		FmodResonanceAudioRoom_t7078E03ED7F19847733049BD2ACA2CBA5B39BB35* L_0 = ___0_room;
 		NullCheck(L_0);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
@@ -1265,7 +1265,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RoomProperties_t4C5F00200CF815F9A30E6192C13DB
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
 		L_2 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_1, NULL);
 		V_1 = L_2;
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:215>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:215>
 		FmodResonanceAudioRoom_t7078E03ED7F19847733049BD2ACA2CBA5B39BB35* L_3 = ___0_room;
 		NullCheck(L_3);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
@@ -1274,7 +1274,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RoomProperties_t4C5F00200CF815F9A30E6192C13DB
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_5;
 		L_5 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_4, NULL);
 		V_2 = L_5;
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:216>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:216>
 		FmodResonanceAudioRoom_t7078E03ED7F19847733049BD2ACA2CBA5B39BB35* L_6 = ___0_room;
 		NullCheck(L_6);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7;
@@ -1288,107 +1288,107 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RoomProperties_t4C5F00200CF815F9A30E6192C13DB
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
 		L_11 = Vector3_Scale_m7C3CD199271902D5C00CBF35CD230DEB62B68CAE_inline(L_8, L_10, NULL);
 		V_3 = L_11;
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:217>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:217>
 		il2cpp_codegen_runtime_class_init_inline(FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_il2cpp_TypeInfo_var);
 		FmodResonanceAudio_ConvertAudioTransformFromUnity_mADC39D21EA0D3A5AE8C304A7041EFB3E3C0AF215((&V_1), (&V_2), NULL);
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:218>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:218>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12 = V_1;
 		float L_13 = L_12.___x;
 		(&V_0)->___PositionX = L_13;
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:219>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:219>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14 = V_1;
 		float L_15 = L_14.___y;
 		(&V_0)->___PositionY = L_15;
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:220>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:220>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16 = V_1;
 		float L_17 = L_16.___z;
 		(&V_0)->___PositionZ = L_17;
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:221>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:221>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_18 = V_2;
 		float L_19 = L_18.___x;
 		(&V_0)->___RotationX = L_19;
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:222>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:222>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_20 = V_2;
 		float L_21 = L_20.___y;
 		(&V_0)->___RotationY = L_21;
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:223>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:223>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_22 = V_2;
 		float L_23 = L_22.___z;
 		(&V_0)->___RotationZ = L_23;
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:224>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:224>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_24 = V_2;
 		float L_25 = L_24.___w;
 		(&V_0)->___RotationW = L_25;
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:225>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:225>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_26 = V_3;
 		float L_27 = L_26.___x;
 		(&V_0)->___DimensionsX = L_27;
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:226>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:226>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_28 = V_3;
 		float L_29 = L_28.___y;
 		(&V_0)->___DimensionsY = L_29;
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:227>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:227>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_30 = V_3;
 		float L_31 = L_30.___z;
 		(&V_0)->___DimensionsZ = L_31;
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:228>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:228>
 		FmodResonanceAudioRoom_t7078E03ED7F19847733049BD2ACA2CBA5B39BB35* L_32 = ___0_room;
 		NullCheck(L_32);
 		int32_t L_33 = L_32->___LeftWall;
 		(&V_0)->___MaterialLeft = L_33;
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:229>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:229>
 		FmodResonanceAudioRoom_t7078E03ED7F19847733049BD2ACA2CBA5B39BB35* L_34 = ___0_room;
 		NullCheck(L_34);
 		int32_t L_35 = L_34->___RightWall;
 		(&V_0)->___MaterialRight = L_35;
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:230>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:230>
 		FmodResonanceAudioRoom_t7078E03ED7F19847733049BD2ACA2CBA5B39BB35* L_36 = ___0_room;
 		NullCheck(L_36);
 		int32_t L_37 = L_36->___Floor;
 		(&V_0)->___MaterialBottom = L_37;
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:231>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:231>
 		FmodResonanceAudioRoom_t7078E03ED7F19847733049BD2ACA2CBA5B39BB35* L_38 = ___0_room;
 		NullCheck(L_38);
 		int32_t L_39 = L_38->___Ceiling;
 		(&V_0)->___MaterialTop = L_39;
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:232>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:232>
 		FmodResonanceAudioRoom_t7078E03ED7F19847733049BD2ACA2CBA5B39BB35* L_40 = ___0_room;
 		NullCheck(L_40);
 		int32_t L_41 = L_40->___FrontWall;
 		(&V_0)->___MaterialFront = L_41;
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:233>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:233>
 		FmodResonanceAudioRoom_t7078E03ED7F19847733049BD2ACA2CBA5B39BB35* L_42 = ___0_room;
 		NullCheck(L_42);
 		int32_t L_43 = L_42->___BackWall;
 		(&V_0)->___MaterialBack = L_43;
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:234>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:234>
 		FmodResonanceAudioRoom_t7078E03ED7F19847733049BD2ACA2CBA5B39BB35* L_44 = ___0_room;
 		NullCheck(L_44);
 		float L_45 = L_44->___ReverbGainDb;
 		float L_46;
 		L_46 = FmodResonanceAudio_ConvertAmplitudeFromDb_mB733E1B4458C6EB6342882C0E65FD625FE366A68(L_45, NULL);
 		(&V_0)->___ReverbGain = L_46;
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:235>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:235>
 		FmodResonanceAudioRoom_t7078E03ED7F19847733049BD2ACA2CBA5B39BB35* L_47 = ___0_room;
 		NullCheck(L_47);
 		float L_48 = L_47->___ReverbTime;
 		(&V_0)->___ReverbTime = L_48;
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:236>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:236>
 		FmodResonanceAudioRoom_t7078E03ED7F19847733049BD2ACA2CBA5B39BB35* L_49 = ___0_room;
 		NullCheck(L_49);
 		float L_50 = L_49->___ReverbBrightness;
 		(&V_0)->___ReverbBrightness = L_50;
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:237>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:237>
 		FmodResonanceAudioRoom_t7078E03ED7F19847733049BD2ACA2CBA5B39BB35* L_51 = ___0_room;
 		NullCheck(L_51);
 		float L_52 = L_51->___Reflectivity;
 		(&V_0)->___ReflectionScalar = L_52;
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:238>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:238>
 		RoomProperties_t4C5F00200CF815F9A30E6192C13DBF7448A51538 L_53 = V_0;
 		return L_53;
 	}
 }
-// Method Definition Index: 91779
+// Method Definition Index: 91781
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DSP_t2B1AC37BB23E46F1608C986888576EDAE43E74AD FmodResonanceAudio_Initialize_m6F0D8A464FBAABAD7040F426D3F81FCB0624A5A1 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1418,64 +1418,64 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DSP_t2B1AC37BB23E46F1608C986888576EDAE43E74AD
 	int32_t V_13 = 0;
 	uint32_t V_14 = 0;
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:245>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:245>
 		V_0 = 0;
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:246>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:246>
 		il2cpp_codegen_initobj((&V_1), sizeof(DSP_t2B1AC37BB23E46F1608C986888576EDAE43E74AD));
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:247>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:247>
 		V_2 = (BankU5BU5D_t58904B47BB60A78AA092F5A615D121CD9EEB6F50*)NULL;
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:248>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:248>
 		il2cpp_codegen_runtime_class_init_inline(RuntimeManager_t8E78AD643D1B838B80E527F55596F997F5B7340D_il2cpp_TypeInfo_var);
 		System_t9A51FE13708186A22E9D4454A7EA18347C389FEC L_0;
 		L_0 = RuntimeManager_get_StudioSystem_m783AEDBA088138F0A6929EEE2E628002B5287C57(NULL);
 		V_3 = L_0;
 		int32_t L_1;
 		L_1 = System_getBankCount_m28AF716F1A068059CEF930A8306C5034D6258D7B((&V_3), (&V_0), NULL);
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:249>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:249>
 		System_t9A51FE13708186A22E9D4454A7EA18347C389FEC L_2;
 		L_2 = RuntimeManager_get_StudioSystem_m783AEDBA088138F0A6929EEE2E628002B5287C57(NULL);
 		V_3 = L_2;
 		int32_t L_3;
 		L_3 = System_getBankList_m672E0205A7C39538E10C0BB15365BD54653F058D((&V_3), (&V_2), NULL);
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:250>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:250>
 		V_4 = 0;
 		goto IL_014a;
 	}
 
 IL_0034:
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:252>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:252>
 		V_5 = 0;
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:253>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:253>
 		V_6 = (BusU5BU5D_t2F3D0F2757F9BABE3649A6E1ADC1EE01585C779A*)NULL;
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:254>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:254>
 		BankU5BU5D_t58904B47BB60A78AA092F5A615D121CD9EEB6F50* L_4 = V_2;
 		int32_t L_5 = V_4;
 		NullCheck(L_4);
 		int32_t L_6;
 		L_6 = Bank_getBusCount_mDB4D9767E286CA8952D68CA2E5E6268BAC443861(((L_4)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_5))), (&V_5), NULL);
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:255>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:255>
 		BankU5BU5D_t58904B47BB60A78AA092F5A615D121CD9EEB6F50* L_7 = V_2;
 		int32_t L_8 = V_4;
 		NullCheck(L_7);
 		int32_t L_9;
 		L_9 = Bank_getBusList_m31CC23B28516D03EC240181928C269012D5784B0(((L_7)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_8))), (&V_6), NULL);
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:256>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:256>
 		V_7 = 0;
 		goto IL_013b;
 	}
 
 IL_0062:
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:259>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:259>
 		V_8 = (String_t*)NULL;
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:260>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:260>
 		BusU5BU5D_t2F3D0F2757F9BABE3649A6E1ADC1EE01585C779A* L_10 = V_6;
 		int32_t L_11 = V_7;
 		NullCheck(L_10);
 		int32_t L_12;
 		L_12 = Bus_getPath_m1C3BF57DF5A6E3083AE0F763C9816EF8AAF88747(((L_10)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_11))), (&V_8), NULL);
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:261>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:261>
 		il2cpp_codegen_runtime_class_init_inline(RuntimeManager_t8E78AD643D1B838B80E527F55596F997F5B7340D_il2cpp_TypeInfo_var);
 		System_t9A51FE13708186A22E9D4454A7EA18347C389FEC L_13;
 		L_13 = RuntimeManager_get_StudioSystem_m783AEDBA088138F0A6929EEE2E628002B5287C57(NULL);
@@ -1486,25 +1486,25 @@ IL_0062:
 		NullCheck(L_15);
 		int32_t L_17;
 		L_17 = System_getBus_m72A5E19A1084B02B1EF3BB2F71DD87EACFEA40D0((&V_3), L_14, ((L_15)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_16))), NULL);
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:262>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:262>
 		BusU5BU5D_t2F3D0F2757F9BABE3649A6E1ADC1EE01585C779A* L_18 = V_6;
 		int32_t L_19 = V_7;
 		NullCheck(L_18);
 		int32_t L_20;
 		L_20 = Bus_lockChannelGroup_m218261189677988D595DE11884BB8CE785D80139(((L_18)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_19))), NULL);
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:263>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:263>
 		System_t9A51FE13708186A22E9D4454A7EA18347C389FEC L_21;
 		L_21 = RuntimeManager_get_StudioSystem_m783AEDBA088138F0A6929EEE2E628002B5287C57(NULL);
 		V_3 = L_21;
 		int32_t L_22;
 		L_22 = System_flushCommands_mF8141A609F9E327B16CFA51A0DD488CC49CAA68B((&V_3), NULL);
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:265>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:265>
 		BusU5BU5D_t2F3D0F2757F9BABE3649A6E1ADC1EE01585C779A* L_23 = V_6;
 		int32_t L_24 = V_7;
 		NullCheck(L_23);
 		int32_t L_25;
 		L_25 = Bus_getChannelGroup_mAE99D88164967EE1E5056CA68F4A48918B06D60C(((L_23)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_24))), (&V_9), NULL);
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:266>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:266>
 		bool L_26;
 		L_26 = ChannelGroup_hasHandle_m9A0F2D3241B19FB791370DC8539AECFDDB1BD3EF((&V_9), NULL);
 		if (!L_26)
@@ -1513,30 +1513,30 @@ IL_0062:
 		}
 	}
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:268>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:268>
 		V_10 = 0;
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:269>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:269>
 		int32_t L_27;
 		L_27 = ChannelGroup_getNumDSPs_mF195CCD9228B86502562D548D99B7FB8907CC38E((&V_9), (&V_10), NULL);
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:270>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:270>
 		V_11 = 0;
 		goto IL_0120;
 	}
 
 IL_00d8:
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:272>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:272>
 		int32_t L_28 = V_11;
 		int32_t L_29;
 		L_29 = ChannelGroup_getDSP_mD799A7E5A919958BC156AF30C790266D68677D3E((&V_9), L_28, (&V_1), NULL);
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:274>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:274>
 		V_13 = 0;
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:275>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:275>
 		V_14 = 0;
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:276>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:276>
 		int32_t L_30;
 		L_30 = DSP_getInfo_mB51F9D52E187E2FA6F32A964D22B859AB8C7D38F((&V_1), (&V_12), (&V_14), (&V_13), (&V_13), (&V_13), NULL);
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:277>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:277>
 		String_t* L_31 = V_12;
 		NullCheck(L_31);
 		String_t* L_32;
@@ -1560,21 +1560,21 @@ IL_00d8:
 		}
 	}
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:279>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:279>
 		DSP_t2B1AC37BB23E46F1608C986888576EDAE43E74AD L_36 = V_1;
 		return L_36;
 	}
 
 IL_011a:
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:270>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:270>
 		int32_t L_37 = V_11;
 		V_11 = ((int32_t)il2cpp_codegen_add(L_37, 1));
 	}
 
 IL_0120:
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:270>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:270>
 		int32_t L_38 = V_11;
 		int32_t L_39 = V_10;
 		if ((((int32_t)L_38) < ((int32_t)L_39)))
@@ -1585,20 +1585,20 @@ IL_0120:
 
 IL_0126:
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:283>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:283>
 		BusU5BU5D_t2F3D0F2757F9BABE3649A6E1ADC1EE01585C779A* L_40 = V_6;
 		int32_t L_41 = V_7;
 		NullCheck(L_40);
 		int32_t L_42;
 		L_42 = Bus_unlockChannelGroup_m699B697E38852BFD104DDC8DFD8B08EE29C9F639(((L_40)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_41))), NULL);
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:256>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:256>
 		int32_t L_43 = V_7;
 		V_7 = ((int32_t)il2cpp_codegen_add(L_43, 1));
 	}
 
 IL_013b:
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:256>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:256>
 		int32_t L_44 = V_7;
 		int32_t L_45 = V_5;
 		if ((((int32_t)L_44) < ((int32_t)L_45)))
@@ -1607,14 +1607,14 @@ IL_013b:
 		}
 	}
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:250>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:250>
 		int32_t L_46 = V_4;
 		V_4 = ((int32_t)il2cpp_codegen_add(L_46, 1));
 	}
 
 IL_014a:
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:250>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:250>
 		int32_t L_47 = V_4;
 		int32_t L_48 = V_0;
 		if ((((int32_t)L_47) < ((int32_t)L_48)))
@@ -1623,18 +1623,18 @@ IL_014a:
 		}
 	}
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:286>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:286>
 		il2cpp_codegen_runtime_class_init_inline(FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_il2cpp_TypeInfo_var);
 		String_t* L_49 = ((FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_StaticFields*)il2cpp_codegen_static_fields_for(FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_il2cpp_TypeInfo_var))->___listenerPluginName;
 		String_t* L_50;
 		L_50 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_49, _stringLiteral04A5492DE7135826F34AFDA6E93B88BA6DCEE868, NULL);
 		RuntimeUtils_DebugLogError_m1C24AAA71793478DCA40E4F4685D18E492E8ADDE(L_50, NULL);
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:287>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:287>
 		DSP_t2B1AC37BB23E46F1608C986888576EDAE43E74AD L_51 = V_1;
 		return L_51;
 	}
 }
-// Method Definition Index: 91780
+// Method Definition Index: 91782
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FmodResonanceAudio__cctor_m907C588ED1F4CB5FBC03523E1311612A8D7F0C46 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1649,24 +1649,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FmodResonanceAudio__cctor_m907C588ED1F4C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:48>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:48>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
 		memset((&L_0), 0, sizeof(L_0));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_0), (1.0f), (1.0f), (-1.0f), NULL);
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_1;
 		L_1 = Matrix4x4_Scale_m95902D2A889FD6E7B04BBEAE6FAE5D6D8A88E642_inline(L_0, NULL);
 		((FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_StaticFields*)il2cpp_codegen_static_fields_for(FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_il2cpp_TypeInfo_var))->___flipZ = L_1;
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:51>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:51>
 		((FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_StaticFields*)il2cpp_codegen_static_fields_for(FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_il2cpp_TypeInfo_var))->___listenerPluginName = _stringLiteral560FF11FB71A07916C2C601DFDC9A5A18BE76F6D;
 		Il2CppCodeGenWriteBarrier((void**)(&((FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_StaticFields*)il2cpp_codegen_static_fields_for(FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_il2cpp_TypeInfo_var))->___listenerPluginName), (void*)_stringLiteral560FF11FB71A07916C2C601DFDC9A5A18BE76F6D);
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:54>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:54>
 		il2cpp_codegen_runtime_class_init_inline(Marshal_tD976A56A90263C3CE2B780D4B1CADADE2E70B4A7_il2cpp_TypeInfo_var);
 		int32_t L_2;
 		L_2 = Marshal_SizeOf_TisRoomProperties_t4C5F00200CF815F9A30E6192C13DBF7448A51538_mAEFADBFCD4F6500CCE4C4C77FAA446531AACA4C2(Marshal_SizeOf_TisRoomProperties_t4C5F00200CF815F9A30E6192C13DBF7448A51538_mAEFADBFCD4F6500CCE4C4C77FAA446531AACA4C2_RuntimeMethod_var);
 		((FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_StaticFields*)il2cpp_codegen_static_fields_for(FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_il2cpp_TypeInfo_var))->___roomPropertiesSize = L_2;
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:57>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:57>
 		((FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_StaticFields*)il2cpp_codegen_static_fields_for(FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_il2cpp_TypeInfo_var))->___roomPropertiesIndex = 1;
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:60>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:60>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
 		L_3 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
@@ -1675,12 +1675,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FmodResonanceAudio__cctor_m907C588ED1F4C
 		memset((&L_5), 0, sizeof(L_5));
 		Bounds__ctor_mAF7B238B9FBF90C495E5D7951760085A93119C5A_inline((&L_5), L_3, L_4, NULL);
 		((FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_StaticFields*)il2cpp_codegen_static_fields_for(FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_il2cpp_TypeInfo_var))->___bounds = L_5;
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:63>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:63>
 		List_1_t01119EC95ECAFA76FC524F76369EB573C12270E4* L_6 = (List_1_t01119EC95ECAFA76FC524F76369EB573C12270E4*)il2cpp_codegen_object_new(List_1_t01119EC95ECAFA76FC524F76369EB573C12270E4_il2cpp_TypeInfo_var);
 		List_1__ctor_mC49CD4F04DE70D42EEA0EBE4E070E85277A71E74(L_6, List_1__ctor_mC49CD4F04DE70D42EEA0EBE4E070E85277A71E74_RuntimeMethod_var);
 		((FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_StaticFields*)il2cpp_codegen_static_fields_for(FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_il2cpp_TypeInfo_var))->___enabledRooms = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&((FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_StaticFields*)il2cpp_codegen_static_fields_for(FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_il2cpp_TypeInfo_var))->___enabledRooms), (void*)L_6);
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:66>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs:66>
 		il2cpp_codegen_initobj((&((FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_StaticFields*)il2cpp_codegen_static_fields_for(FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_il2cpp_TypeInfo_var))->___listenerPositionFmod), sizeof(VECTOR_t2970F478E0C7B6D413C80CF3ADCE451A7BB4F41F));
 		return;
 	}
@@ -1701,7 +1701,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FmodResonanceAudio__cctor_m907C588ED1F4C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91781
+// Method Definition Index: 91783
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FmodResonanceAudioRoom_OnEnable_mDB3DCB9E5858B517F47DC52048472F14B452D60C (FmodResonanceAudioRoom_t7078E03ED7F19847733049BD2ACA2CBA5B39BB35* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1711,16 +1711,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FmodResonanceAudioRoom_OnEnable_mDB3DCB9
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs:100>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs:100>
 		il2cpp_codegen_runtime_class_init_inline(FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_il2cpp_TypeInfo_var);
 		bool L_0;
 		L_0 = FmodResonanceAudio_IsListenerInsideRoom_mF51A6574877EEB05D8496935C40F6B9C50BC495D(__this, NULL);
 		FmodResonanceAudio_UpdateAudioRoom_mE957D662AD9913EC12470386DDC9A65777CF67D2(__this, L_0, NULL);
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs:101>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs:101>
 		return;
 	}
 }
-// Method Definition Index: 91782
+// Method Definition Index: 91784
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FmodResonanceAudioRoom_OnDisable_mBF54289307047AB8B837917C1E8B70C6837C689F (FmodResonanceAudioRoom_t7078E03ED7F19847733049BD2ACA2CBA5B39BB35* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1730,14 +1730,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FmodResonanceAudioRoom_OnDisable_mBF5428
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs:105>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs:105>
 		il2cpp_codegen_runtime_class_init_inline(FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_il2cpp_TypeInfo_var);
 		FmodResonanceAudio_UpdateAudioRoom_mE957D662AD9913EC12470386DDC9A65777CF67D2(__this, (bool)0, NULL);
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs:106>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs:106>
 		return;
 	}
 }
-// Method Definition Index: 91783
+// Method Definition Index: 91785
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FmodResonanceAudioRoom_Update_mB3F39F395CE086C53460FE4A25FDB244B77E73CB (FmodResonanceAudioRoom_t7078E03ED7F19847733049BD2ACA2CBA5B39BB35* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1747,60 +1747,60 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FmodResonanceAudioRoom_Update_mB3F39F395
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs:110>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs:110>
 		il2cpp_codegen_runtime_class_init_inline(FmodResonanceAudio_tB56D3972610A725C4E28946A672D7A10F4E20B35_il2cpp_TypeInfo_var);
 		bool L_0;
 		L_0 = FmodResonanceAudio_IsListenerInsideRoom_mF51A6574877EEB05D8496935C40F6B9C50BC495D(__this, NULL);
 		FmodResonanceAudio_UpdateAudioRoom_mE957D662AD9913EC12470386DDC9A65777CF67D2(__this, L_0, NULL);
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs:111>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs:111>
 		return;
 	}
 }
-// Method Definition Index: 91784
+// Method Definition Index: 91786
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FmodResonanceAudioRoom_OnDrawGizmosSelected_m52A7D70F7A63652BA33C68443AB65F11F13E378B (FmodResonanceAudioRoom_t7078E03ED7F19847733049BD2ACA2CBA5B39BB35* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs:116>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs:116>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0;
 		L_0 = Color_get_yellow_m66637FA14383E8D74F24AE256B577CE1D55D469F_inline(NULL);
 		Gizmos_set_color_m53927A2741937484180B20B55F7F20F8F60C5797(L_0, NULL);
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs:117>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs:117>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
 		L_1 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_1);
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_2;
 		L_2 = Transform_get_localToWorldMatrix_m5D35188766856338DD21DE756F42277C21719E6D(L_1, NULL);
 		Gizmos_set_matrix_m100B4ACA7FBDFF65CE1BD0000E9E0D7566147A15(L_2, NULL);
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs:118>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs:118>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
 		L_3 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = __this->___Size;
 		Gizmos_DrawWireCube_m343533B3955A2D04A8638280D0EF537274A1FD8B(L_3, L_4, NULL);
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs:119>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs:119>
 		return;
 	}
 }
-// Method Definition Index: 91785
+// Method Definition Index: 91787
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FmodResonanceAudioRoom__ctor_m1F848A91D64BC754832CB90A48F3A7A2C8AEB9EA (FmodResonanceAudioRoom_t7078E03ED7F19847733049BD2ACA2CBA5B39BB35* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs:56>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs:56>
 		__this->___LeftWall = 4;
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs:60>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs:60>
 		__this->___RightWall = 4;
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs:64>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs:64>
 		__this->___Floor = ((int32_t)14);
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs:68>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs:68>
 		__this->___Ceiling = ((int32_t)15);
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs:72>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs:72>
 		__this->___BackWall = 4;
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs:76>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs:76>
 		__this->___FrontWall = 4;
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs:80>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs:80>
 		__this->___Reflectivity = (1.0f);
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs:92>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs:92>
 		__this->___ReverbTime = (1.0f);
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs:96>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs:96>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
 		L_0 = Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline(NULL);
 		__this->___Size = L_0;

@@ -1746,6 +1746,7 @@ UnityEngine.Rigidbody::get_rotation_Injected
 UnityEngine.Rigidbody::set_detectCollisions_Injected
 UnityEngine.Rigidbody::set_isKinematic_Injected
 UnityEngine.Rigidbody::set_linearVelocity_Injected
+UnityEngine.Rigidbody::set_rotation_Injected
 UnityEngine.Rigidbody2D::get_mass_Injected
 UnityEngine.Rigidbody2D::get_linearVelocity_Injected
 UnityEngine.Rigidbody2D::get_localToWorldMatrix_Injected

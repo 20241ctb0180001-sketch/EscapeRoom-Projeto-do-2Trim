@@ -17700,7 +17700,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Predicate_1_Invoke_mA3719150FB410DBBCDAE
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 68363
+// Method Definition Index: 68364
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PrimitiveParameterExpression_1__ctor_m71BCD2392D28272B9A7693A94865BC28A244E8CF_gshared (PrimitiveParameterExpression_1_t817BB90AF8382BE20F8FD0E9A1508A6227273B93* __this, String_t* ___0_name, const RuntimeMethod* method) 
 {
 	{
@@ -17709,7 +17709,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PrimitiveParameterExpression_1__ctor_m71
 		return;
 	}
 }
-// Method Definition Index: 68364
+// Method Definition Index: 68365
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* PrimitiveParameterExpression_1_get_Type_mC58DC5750424AE27022BB9CE031F67DB229B6045_gshared (PrimitiveParameterExpression_1_t817BB90AF8382BE20F8FD0E9A1508A6227273B93* __this, const RuntimeMethod* method) 
 {
 	{
@@ -17728,7 +17728,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* PrimitiveParameterExpression_1_get_Ty
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 68363
+// Method Definition Index: 68364
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PrimitiveParameterExpression_1__ctor_mD276E0CA282C5DFD13A185721D0ECF962A94D593_gshared (PrimitiveParameterExpression_1_t3472890410B9EABBEA006747FAB75C83ED05D0EF* __this, String_t* ___0_name, const RuntimeMethod* method) 
 {
 	{
@@ -17737,7 +17737,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PrimitiveParameterExpression_1__ctor_mD2
 		return;
 	}
 }
-// Method Definition Index: 68364
+// Method Definition Index: 68365
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* PrimitiveParameterExpression_1_get_Type_m58CC353B9609732207AFC7B2C595C2324691B28D_gshared (PrimitiveParameterExpression_1_t3472890410B9EABBEA006747FAB75C83ED05D0EF* __this, const RuntimeMethod* method) 
 {
 	{
@@ -17756,7 +17756,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* PrimitiveParameterExpression_1_get_Ty
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 68363
+// Method Definition Index: 68364
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PrimitiveParameterExpression_1__ctor_mDB7AAFBF808E0E8302D135C1221BB12874C5A64E_gshared (PrimitiveParameterExpression_1_tFB88225EB56949A5FE7789A097F7D3EF9E87F71F* __this, String_t* ___0_name, const RuntimeMethod* method) 
 {
 	{
@@ -17765,7 +17765,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PrimitiveParameterExpression_1__ctor_mDB
 		return;
 	}
 }
-// Method Definition Index: 68364
+// Method Definition Index: 68365
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* PrimitiveParameterExpression_1_get_Type_mB30309FF3F40F7AA5611FE062E6BFA438909A38A_gshared (PrimitiveParameterExpression_1_tFB88225EB56949A5FE7789A097F7D3EF9E87F71F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -17784,7 +17784,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* PrimitiveParameterExpression_1_get_Ty
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 68363
+// Method Definition Index: 68364
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PrimitiveParameterExpression_1__ctor_mBEE7A69E2919758783563C56B31B1181ACFCB245_gshared (PrimitiveParameterExpression_1_t84EA49070ADDAED1D947288626F447420F7018FB* __this, String_t* ___0_name, const RuntimeMethod* method) 
 {
 	{
@@ -17793,7 +17793,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PrimitiveParameterExpression_1__ctor_mBE
 		return;
 	}
 }
-// Method Definition Index: 68364
+// Method Definition Index: 68365
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* PrimitiveParameterExpression_1_get_Type_m3A7255969F5CB7B4A331C93AC56A1BABAF53CCD6_gshared (PrimitiveParameterExpression_1_t84EA49070ADDAED1D947288626F447420F7018FB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -17812,7 +17812,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* PrimitiveParameterExpression_1_get_Ty
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 68363
+// Method Definition Index: 68364
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PrimitiveParameterExpression_1__ctor_m3BC011713D323B206EB351C0C6474DFF94164668_gshared (PrimitiveParameterExpression_1_tF8C4A7CE27CA4A119A479E44DC4809FC7A1EB210* __this, String_t* ___0_name, const RuntimeMethod* method) 
 {
 	{
@@ -17821,7 +17821,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PrimitiveParameterExpression_1__ctor_m3B
 		return;
 	}
 }
-// Method Definition Index: 68364
+// Method Definition Index: 68365
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* PrimitiveParameterExpression_1_get_Type_m9E4ABE392CE2BFB84A4CE55E6F6F187D8E6745AA_gshared (PrimitiveParameterExpression_1_tF8C4A7CE27CA4A119A479E44DC4809FC7A1EB210* __this, const RuntimeMethod* method) 
 {
 	{
@@ -17840,7 +17840,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* PrimitiveParameterExpression_1_get_Ty
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 68363
+// Method Definition Index: 68364
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PrimitiveParameterExpression_1__ctor_m78B52D6F90A26232693A9AD371C3B2585A767A82_gshared (PrimitiveParameterExpression_1_tC964C6EB5263DD52D8A6F2E7A30831E4E78B168F* __this, String_t* ___0_name, const RuntimeMethod* method) 
 {
 	{
@@ -17849,7 +17849,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PrimitiveParameterExpression_1__ctor_m78
 		return;
 	}
 }
-// Method Definition Index: 68364
+// Method Definition Index: 68365
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* PrimitiveParameterExpression_1_get_Type_mBAD499BC0F24987CABB6D9C0B38D16D62A3452EB_gshared (PrimitiveParameterExpression_1_tC964C6EB5263DD52D8A6F2E7A30831E4E78B168F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -17868,7 +17868,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* PrimitiveParameterExpression_1_get_Ty
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 68363
+// Method Definition Index: 68364
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PrimitiveParameterExpression_1__ctor_mFCB931F8CA3CCBED78237F23623CE9D031138676_gshared (PrimitiveParameterExpression_1_t53C7A6D1CDD24E4536D67F3DA5A0CBCC52FB9354* __this, String_t* ___0_name, const RuntimeMethod* method) 
 {
 	{
@@ -17877,7 +17877,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PrimitiveParameterExpression_1__ctor_mFC
 		return;
 	}
 }
-// Method Definition Index: 68364
+// Method Definition Index: 68365
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* PrimitiveParameterExpression_1_get_Type_m797677367CCF18A2535A5D769798F7740B69766B_gshared (PrimitiveParameterExpression_1_t53C7A6D1CDD24E4536D67F3DA5A0CBCC52FB9354* __this, const RuntimeMethod* method) 
 {
 	{
@@ -17896,7 +17896,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* PrimitiveParameterExpression_1_get_Ty
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 68363
+// Method Definition Index: 68364
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PrimitiveParameterExpression_1__ctor_mBD5F03FFFBDFBB1CADF5B219E0DF682952301C77_gshared (PrimitiveParameterExpression_1_t69A4CB89EC79CA6D17497F54F8F5FEB4D5D08CBF* __this, String_t* ___0_name, const RuntimeMethod* method) 
 {
 	{
@@ -17905,7 +17905,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PrimitiveParameterExpression_1__ctor_mBD
 		return;
 	}
 }
-// Method Definition Index: 68364
+// Method Definition Index: 68365
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* PrimitiveParameterExpression_1_get_Type_mDD2598095629796E908811043D9567A946ED6D56_gshared (PrimitiveParameterExpression_1_t69A4CB89EC79CA6D17497F54F8F5FEB4D5D08CBF* __this, const RuntimeMethod* method) 
 {
 	{
@@ -17924,7 +17924,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* PrimitiveParameterExpression_1_get_Ty
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 68363
+// Method Definition Index: 68364
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PrimitiveParameterExpression_1__ctor_m7433FBCA26646D073E10CE3DB024BFD0AF12DF35_gshared (PrimitiveParameterExpression_1_t724ACADC8B1EA7446E226EDA6843CCF1A81B8D02* __this, String_t* ___0_name, const RuntimeMethod* method) 
 {
 	{
@@ -17933,7 +17933,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PrimitiveParameterExpression_1__ctor_m74
 		return;
 	}
 }
-// Method Definition Index: 68364
+// Method Definition Index: 68365
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* PrimitiveParameterExpression_1_get_Type_mF35AAFD48F86D242CB19A36E3CC270E72CD053E2_gshared (PrimitiveParameterExpression_1_t724ACADC8B1EA7446E226EDA6843CCF1A81B8D02* __this, const RuntimeMethod* method) 
 {
 	{
@@ -17952,7 +17952,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* PrimitiveParameterExpression_1_get_Ty
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 68363
+// Method Definition Index: 68364
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PrimitiveParameterExpression_1__ctor_m03711421D9ABA85E6F5329B1A184E57F668F440D_gshared (PrimitiveParameterExpression_1_tBFC9B66638DBCCC19EF2B6E4DC39614684C4CB91* __this, String_t* ___0_name, const RuntimeMethod* method) 
 {
 	{
@@ -17961,7 +17961,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PrimitiveParameterExpression_1__ctor_m03
 		return;
 	}
 }
-// Method Definition Index: 68364
+// Method Definition Index: 68365
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* PrimitiveParameterExpression_1_get_Type_m32D83948376015AC432C9C94F5E03DBC4E6EAFAD_gshared (PrimitiveParameterExpression_1_tBFC9B66638DBCCC19EF2B6E4DC39614684C4CB91* __this, const RuntimeMethod* method) 
 {
 	{
@@ -17980,7 +17980,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* PrimitiveParameterExpression_1_get_Ty
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 68363
+// Method Definition Index: 68364
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PrimitiveParameterExpression_1__ctor_m0222361D180AC336E45B7CD930A0BCEC2ACEBC04_gshared (PrimitiveParameterExpression_1_tEEA462A425C4DCDF13971C28AA578F30672871A9* __this, String_t* ___0_name, const RuntimeMethod* method) 
 {
 	{
@@ -17989,7 +17989,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PrimitiveParameterExpression_1__ctor_m02
 		return;
 	}
 }
-// Method Definition Index: 68364
+// Method Definition Index: 68365
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* PrimitiveParameterExpression_1_get_Type_m48A56E60B5E50F7596B6CEC03EEC7926B71A0906_gshared (PrimitiveParameterExpression_1_tEEA462A425C4DCDF13971C28AA578F30672871A9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18008,7 +18008,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* PrimitiveParameterExpression_1_get_Ty
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 68363
+// Method Definition Index: 68364
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PrimitiveParameterExpression_1__ctor_m289B89C40A50E8C7721E963029B4EFD2572EDE11_gshared (PrimitiveParameterExpression_1_t636203FF8694D0F7AD7FEDB5AE0166324EF4004F* __this, String_t* ___0_name, const RuntimeMethod* method) 
 {
 	{
@@ -18017,7 +18017,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PrimitiveParameterExpression_1__ctor_m28
 		return;
 	}
 }
-// Method Definition Index: 68364
+// Method Definition Index: 68365
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* PrimitiveParameterExpression_1_get_Type_m87607F282D691D07771075CAC42FA1C306132C32_gshared (PrimitiveParameterExpression_1_t636203FF8694D0F7AD7FEDB5AE0166324EF4004F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18036,7 +18036,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* PrimitiveParameterExpression_1_get_Ty
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 68363
+// Method Definition Index: 68364
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PrimitiveParameterExpression_1__ctor_m432CAFD04C99CECC21AF21CD442580742C99B14A_gshared (PrimitiveParameterExpression_1_tE19231DCC163F99D61A92741130C5A50C829C892* __this, String_t* ___0_name, const RuntimeMethod* method) 
 {
 	{
@@ -18045,7 +18045,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PrimitiveParameterExpression_1__ctor_m43
 		return;
 	}
 }
-// Method Definition Index: 68364
+// Method Definition Index: 68365
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* PrimitiveParameterExpression_1_get_Type_m7F91E3B9391BD165E64F7CC141766BB81AFBC9AA_gshared (PrimitiveParameterExpression_1_tE19231DCC163F99D61A92741130C5A50C829C892* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18064,7 +18064,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* PrimitiveParameterExpression_1_get_Ty
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 68363
+// Method Definition Index: 68364
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PrimitiveParameterExpression_1__ctor_m6EA176AD6AF65AA8EBFD1B907AC9809081EDC40D_gshared (PrimitiveParameterExpression_1_tBC700C0B6EDB3B78BFCEA74F8C24432261BD81AF* __this, String_t* ___0_name, const RuntimeMethod* method) 
 {
 	{
@@ -18073,7 +18073,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PrimitiveParameterExpression_1__ctor_m6E
 		return;
 	}
 }
-// Method Definition Index: 68364
+// Method Definition Index: 68365
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* PrimitiveParameterExpression_1_get_Type_m5C300A46078FAAC6C2C358B863DB1A662E088B03_gshared (PrimitiveParameterExpression_1_tBC700C0B6EDB3B78BFCEA74F8C24432261BD81AF* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18092,7 +18092,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* PrimitiveParameterExpression_1_get_Ty
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 68363
+// Method Definition Index: 68364
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PrimitiveParameterExpression_1__ctor_m9ECE6DF9DD81C46CFB4B1B8379C2D6DDB6F87637_gshared (PrimitiveParameterExpression_1_tDF794270F4B8AB052535A17E28757CE8124CAC71* __this, String_t* ___0_name, const RuntimeMethod* method) 
 {
 	{
@@ -18101,7 +18101,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PrimitiveParameterExpression_1__ctor_m9E
 		return;
 	}
 }
-// Method Definition Index: 68364
+// Method Definition Index: 68365
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* PrimitiveParameterExpression_1_get_Type_mC69119732E3D3AF144545363C7AA15C110487E64_gshared (PrimitiveParameterExpression_1_tDF794270F4B8AB052535A17E28757CE8124CAC71* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18120,7 +18120,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* PrimitiveParameterExpression_1_get_Ty
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 68363
+// Method Definition Index: 68364
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PrimitiveParameterExpression_1__ctor_m3087944CBB462A9FEAE385240F2AA2029AA387C5_gshared (PrimitiveParameterExpression_1_tEE20C9A20842E44239F978A05D919674BAE974ED* __this, String_t* ___0_name, const RuntimeMethod* method) 
 {
 	{
@@ -18129,7 +18129,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PrimitiveParameterExpression_1__ctor_m30
 		return;
 	}
 }
-// Method Definition Index: 68364
+// Method Definition Index: 68365
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* PrimitiveParameterExpression_1_get_Type_m9AF54297A1F15FB23BDDDFD2114A084DBFB207B1_gshared (PrimitiveParameterExpression_1_tEE20C9A20842E44239F978A05D919674BAE974ED* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18148,7 +18148,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* PrimitiveParameterExpression_1_get_Ty
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 65856
+// Method Definition Index: 65857
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* Project_1_get_a_m09C5A3D2961DA46ECACDACF57D5A517AA346192C_gshared (Project_1_t9B9875594AF61413624135C374E4A65B871AEAD9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18157,7 +18157,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D
 		return L_0;
 	}
 }
-// Method Definition Index: 65857
+// Method Definition Index: 65858
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Project_1_set_a_mD78935E185051A923F0D142D52B1D912A0BBBB0A_gshared (Project_1_t9B9875594AF61413624135C374E4A65B871AEAD9* __this, ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -18168,7 +18168,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Project_1_set_a_mD78935E185051A923F0D142
 		return;
 	}
 }
-// Method Definition Index: 65858
+// Method Definition Index: 65859
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* Project_1_get_b_mD9AB47F2092470540A5D676B7E7D573AE509A667_gshared (Project_1_t9B9875594AF61413624135C374E4A65B871AEAD9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18177,7 +18177,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D
 		return L_0;
 	}
 }
-// Method Definition Index: 65859
+// Method Definition Index: 65860
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Project_1_set_b_m60A93BDFB7B9FCD28C134CCF4BF7C069EA45E3C9_gshared (Project_1_t9B9875594AF61413624135C374E4A65B871AEAD9* __this, ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -18188,7 +18188,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Project_1_set_b_m60A93BDFB7B9FCD28C134CC
 		return;
 	}
 }
-// Method Definition Index: 65860
+// Method Definition Index: 65861
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueOutput_tADDC9DBF6515A1572E876C3881B5F110DC5EBE1B* Project_1_get_projection_m799DA9F4244315C4B42FEA88D1063EB61D470ECF_gshared (Project_1_t9B9875594AF61413624135C374E4A65B871AEAD9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18197,7 +18197,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueOutput_tADDC9DBF6515A1572E876C3881B5F110
 		return L_0;
 	}
 }
-// Method Definition Index: 65861
+// Method Definition Index: 65862
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Project_1_set_projection_mE418D4BA0C006F168BEC58CFD9BCE32F684EED48_gshared (Project_1_t9B9875594AF61413624135C374E4A65B871AEAD9* __this, ValueOutput_tADDC9DBF6515A1572E876C3881B5F110DC5EBE1B* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -18208,7 +18208,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Project_1_set_projection_mE418D4BA0C006F
 		return;
 	}
 }
-// Method Definition Index: 65862
+// Method Definition Index: 65863
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Project_1_Definition_m88E16BDD6BA70A2D9A03E4418A98D28A55CE0944_gshared (Project_1_t9B9875594AF61413624135C374E4A65B871AEAD9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18258,7 +18258,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Project_1_Definition_m88E16BDD6BA70A2D9A
 		return;
 	}
 }
-// Method Definition Index: 65863
+// Method Definition Index: 65864
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Project_1_Operation_m5A7C8E9D19B194858FE1456BB62CAF8D6424252C_gshared (Project_1_t9B9875594AF61413624135C374E4A65B871AEAD9* __this, Flow_tC370BDFF173D53E274F883ED6ADAFE29B049C582* ___0_flow, const RuntimeMethod* method) 
 {
 	{
@@ -18280,7 +18280,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 		return L_6;
 	}
 }
-// Method Definition Index: 65865
+// Method Definition Index: 65866
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Project_1__ctor_m0BDDA01A3CCAD535D31F2EFF940F063C7DB225E9_gshared (Project_1_t9B9875594AF61413624135C374E4A65B871AEAD9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18296,7 +18296,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Project_1__ctor_m0BDDA01A3CCAD535D31F2EF
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 65856
+// Method Definition Index: 65857
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* Project_1_get_a_m6D0CA8ACFB7F1ACED5485AAB6B5CD862887135DD_gshared (Project_1_t021CAE32A9D38A968574466E108ABE918DDDD53A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18305,7 +18305,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D
 		return L_0;
 	}
 }
-// Method Definition Index: 65857
+// Method Definition Index: 65858
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Project_1_set_a_m175CBA4CD138EC8517513F4E6E09560CA245646B_gshared (Project_1_t021CAE32A9D38A968574466E108ABE918DDDD53A* __this, ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -18316,7 +18316,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Project_1_set_a_m175CBA4CD138EC8517513F4
 		return;
 	}
 }
-// Method Definition Index: 65858
+// Method Definition Index: 65859
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* Project_1_get_b_mC83178C444DC27AAD56837E05FFC02BDD9F2307C_gshared (Project_1_t021CAE32A9D38A968574466E108ABE918DDDD53A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18325,7 +18325,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D
 		return L_0;
 	}
 }
-// Method Definition Index: 65859
+// Method Definition Index: 65860
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Project_1_set_b_mDD1D0A7EFBFAA435E26DC9866FDD2EC38F19747E_gshared (Project_1_t021CAE32A9D38A968574466E108ABE918DDDD53A* __this, ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -18336,7 +18336,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Project_1_set_b_mDD1D0A7EFBFAA435E26DC98
 		return;
 	}
 }
-// Method Definition Index: 65860
+// Method Definition Index: 65861
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueOutput_tADDC9DBF6515A1572E876C3881B5F110DC5EBE1B* Project_1_get_projection_m03CB954D8939D83A49FA3136A8132E598AC75C1A_gshared (Project_1_t021CAE32A9D38A968574466E108ABE918DDDD53A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18345,7 +18345,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueOutput_tADDC9DBF6515A1572E876C3881B5F110
 		return L_0;
 	}
 }
-// Method Definition Index: 65861
+// Method Definition Index: 65862
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Project_1_set_projection_m81DC9AFF11BBF4321102558F5CC0C91D5EBEC6B7_gshared (Project_1_t021CAE32A9D38A968574466E108ABE918DDDD53A* __this, ValueOutput_tADDC9DBF6515A1572E876C3881B5F110DC5EBE1B* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -18356,7 +18356,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Project_1_set_projection_m81DC9AFF11BBF4
 		return;
 	}
 }
-// Method Definition Index: 65862
+// Method Definition Index: 65863
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Project_1_Definition_mF135BFE7C9F8BD771E10FC9367814D8B59295E9A_gshared (Project_1_t021CAE32A9D38A968574466E108ABE918DDDD53A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18406,7 +18406,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Project_1_Definition_mF135BFE7C9F8BD771E
 		return;
 	}
 }
-// Method Definition Index: 65863
+// Method Definition Index: 65864
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Project_1_Operation_m046D0AF08638332EE008B265F21F23580F16987F_gshared (Project_1_t021CAE32A9D38A968574466E108ABE918DDDD53A* __this, Flow_tC370BDFF173D53E274F883ED6ADAFE29B049C582* ___0_flow, const RuntimeMethod* method) 
 {
 	{
@@ -18428,7 +18428,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		return L_6;
 	}
 }
-// Method Definition Index: 65865
+// Method Definition Index: 65866
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Project_1__ctor_m0ACE6E5BA01E5A5B38CDD5C2906F0D84DED528AE_gshared (Project_1_t021CAE32A9D38A968574466E108ABE918DDDD53A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18444,7 +18444,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Project_1__ctor_m0ACE6E5BA01E5A5B38CDD5C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 65856
+// Method Definition Index: 65857
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* Project_1_get_a_m4CA0CC3C74AD01C061F3DD6FD45CA971FD0C1601_gshared (Project_1_tEA024D07D5448C55BB50A50500818EEBD717B1DC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18453,7 +18453,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D
 		return L_0;
 	}
 }
-// Method Definition Index: 65857
+// Method Definition Index: 65858
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Project_1_set_a_m176F5AE5830102608CAF20595802D141D29F1DBC_gshared (Project_1_tEA024D07D5448C55BB50A50500818EEBD717B1DC* __this, ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -18464,7 +18464,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Project_1_set_a_m176F5AE5830102608CAF205
 		return;
 	}
 }
-// Method Definition Index: 65858
+// Method Definition Index: 65859
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* Project_1_get_b_mC2139D043E76CF6ACFFD644BFDED8A9000F9F37B_gshared (Project_1_tEA024D07D5448C55BB50A50500818EEBD717B1DC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18473,7 +18473,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D
 		return L_0;
 	}
 }
-// Method Definition Index: 65859
+// Method Definition Index: 65860
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Project_1_set_b_m9735AF84B40226D9B396C0C38E543654247AA2C2_gshared (Project_1_tEA024D07D5448C55BB50A50500818EEBD717B1DC* __this, ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -18484,7 +18484,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Project_1_set_b_m9735AF84B40226D9B396C0C
 		return;
 	}
 }
-// Method Definition Index: 65860
+// Method Definition Index: 65861
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueOutput_tADDC9DBF6515A1572E876C3881B5F110DC5EBE1B* Project_1_get_projection_m5F20F2F5FE809ED3C9290908C45012B69CB1D303_gshared (Project_1_tEA024D07D5448C55BB50A50500818EEBD717B1DC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18493,7 +18493,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueOutput_tADDC9DBF6515A1572E876C3881B5F110
 		return L_0;
 	}
 }
-// Method Definition Index: 65861
+// Method Definition Index: 65862
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Project_1_set_projection_mE26685CA74AA2BA9317CD6FA8B45470B38C6115D_gshared (Project_1_tEA024D07D5448C55BB50A50500818EEBD717B1DC* __this, ValueOutput_tADDC9DBF6515A1572E876C3881B5F110DC5EBE1B* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -18504,7 +18504,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Project_1_set_projection_mE26685CA74AA2B
 		return;
 	}
 }
-// Method Definition Index: 65862
+// Method Definition Index: 65863
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Project_1_Definition_m1A9526AA3CDD7F6F6228B7AAB0A22AFC39EFEE61_gshared (Project_1_tEA024D07D5448C55BB50A50500818EEBD717B1DC* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18554,7 +18554,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Project_1_Definition_m1A9526AA3CDD7F6F62
 		return;
 	}
 }
-// Method Definition Index: 65863
+// Method Definition Index: 65864
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Project_1_Operation_mC6A84611965DEACC995B12371092FFB78E07D669_gshared (Project_1_tEA024D07D5448C55BB50A50500818EEBD717B1DC* __this, Flow_tC370BDFF173D53E274F883ED6ADAFE29B049C582* ___0_flow, Il2CppFullySharedGenericAny* il2cppRetVal, const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_T_t9DC71D0BF2D78999F5DE8794DBD4903D61C83D01 = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 13));
@@ -18578,7 +18578,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Project_1_Operation_mC6A84611965DEACC995
 		return;
 	}
 }
-// Method Definition Index: 65865
+// Method Definition Index: 65866
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Project_1__ctor_m0E2B17C1E131F57BBA37C56E628DA766BD1DDD71_gshared (Project_1_tEA024D07D5448C55BB50A50500818EEBD717B1DC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18594,18 +18594,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Project_1__ctor_m0E2B17C1E131F57BBA37C56
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78089
+// Method Definition Index: 78090
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PropertyAccessor_1__ctor_m4972084206F0B1DF1591805A6065713D5D475BFA_gshared (PropertyAccessor_1_tEC3F1AB2053ACD2790A88A1D4AFFC64215237A1C* __this, Func_2_t93F1D711AE1F89A368D6492E16BF040DF5B786C8* ___0_getter, int32_t ___1_defaultValue, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:728>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:728>
 		Func_2_t93F1D711AE1F89A368D6492E16BF040DF5B786C8* L_0 = ___0_getter;
 		__this->___Getter = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Getter), (void*)L_0);
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:729>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:729>
 		int32_t L_1 = ___1_defaultValue;
 		__this->___DefaultValue = L_1;
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:730>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:730>
 		return;
 	}
 }
@@ -18616,11 +18616,11 @@ IL2CPP_EXTERN_C  void PropertyAccessor_1__ctor_m4972084206F0B1DF1591805A6065713D
 	_thisAdjusted = reinterpret_cast<PropertyAccessor_1_tEC3F1AB2053ACD2790A88A1D4AFFC64215237A1C*>(__this + _offset);
 	PropertyAccessor_1__ctor_m4972084206F0B1DF1591805A6065713D5D475BFA(_thisAdjusted, ___0_getter, ___1_defaultValue, method);
 }
-// Method Definition Index: 78090
+// Method Definition Index: 78091
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PropertyAccessor_1_HasValue_m8743368E87F34DCF41EACA4DD08989CB0FEE9351_gshared (PropertyAccessor_1_tEC3F1AB2053ACD2790A88A1D4AFFC64215237A1C* __this, Platform_t013ADD7B874E5E0B4FE314A2D17876A14EB1FA40* ___0_platform, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:736>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:736>
 		Platform_t013ADD7B874E5E0B4FE314A2D17876A14EB1FA40* L_0 = ___0_platform;
 		NullCheck(L_0);
 		bool L_1;
@@ -18657,7 +18657,7 @@ IL2CPP_EXTERN_C  bool PropertyAccessor_1_HasValue_m8743368E87F34DCF41EACA4DD0898
 	_returnValue = PropertyAccessor_1_HasValue_m8743368E87F34DCF41EACA4DD08989CB0FEE9351(_thisAdjusted, ___0_platform, method);
 	return _returnValue;
 }
-// Method Definition Index: 78091
+// Method Definition Index: 78092
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PropertyAccessor_1_Get_m557F500621F2A0797CA17AAFB65A4E1369F7D7C1_gshared (PropertyAccessor_1_tEC3F1AB2053ACD2790A88A1D4AFFC64215237A1C* __this, Platform_t013ADD7B874E5E0B4FE314A2D17876A14EB1FA40* ___0_platform, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18669,7 +18669,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PropertyAccessor_1_Get_m557F500621F2A
 	Platform_t013ADD7B874E5E0B4FE314A2D17876A14EB1FA40* V_0 = NULL;
 	Property_1_t20C85DA8D1020679BD6AEA9C956F013DEFE957E1* V_1 = NULL;
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:742>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:742>
 		Platform_t013ADD7B874E5E0B4FE314A2D17876A14EB1FA40* L_0 = ___0_platform;
 		V_0 = L_0;
 		goto IL_0034;
@@ -18677,7 +18677,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PropertyAccessor_1_Get_m557F500621F2A
 
 IL_0004:
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:744>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:744>
 		Platform_t013ADD7B874E5E0B4FE314A2D17876A14EB1FA40* L_1 = V_0;
 		NullCheck(L_1);
 		bool L_2;
@@ -18688,7 +18688,7 @@ IL_0004:
 		}
 	}
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:746>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:746>
 		Func_2_t93F1D711AE1F89A368D6492E16BF040DF5B786C8* L_3 = __this->___Getter;
 		Platform_t013ADD7B874E5E0B4FE314A2D17876A14EB1FA40* L_4 = V_0;
 		NullCheck(L_4);
@@ -18697,7 +18697,7 @@ IL_0004:
 		Property_1_t20C85DA8D1020679BD6AEA9C956F013DEFE957E1* L_6;
 		L_6 = Func_2_Invoke_mBD7410E1C6289C6A93BA9E21CC44860DB60533FC_inline(L_3, L_5, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
 		V_1 = L_6;
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:748>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:748>
 		Property_1_t20C85DA8D1020679BD6AEA9C956F013DEFE957E1* L_7 = V_1;
 		NullCheck(L_7);
 		bool L_8 = L_7->___HasValue;
@@ -18707,7 +18707,7 @@ IL_0004:
 		}
 	}
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:750>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:750>
 		Property_1_t20C85DA8D1020679BD6AEA9C956F013DEFE957E1* L_9 = V_1;
 		NullCheck(L_9);
 		int32_t L_10 = L_9->___Value;
@@ -18716,7 +18716,7 @@ IL_0004:
 
 IL_002d:
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:742>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:742>
 		Platform_t013ADD7B874E5E0B4FE314A2D17876A14EB1FA40* L_11 = V_0;
 		NullCheck(L_11);
 		Platform_t013ADD7B874E5E0B4FE314A2D17876A14EB1FA40* L_12 = L_11->___Parent;
@@ -18725,7 +18725,7 @@ IL_002d:
 
 IL_0034:
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:742>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:742>
 		Platform_t013ADD7B874E5E0B4FE314A2D17876A14EB1FA40* L_13 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_14;
@@ -18736,7 +18736,7 @@ IL_0034:
 		}
 	}
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:762>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:762>
 		int32_t L_15 = __this->___DefaultValue;
 		return L_15;
 	}
@@ -18750,11 +18750,11 @@ IL2CPP_EXTERN_C  int32_t PropertyAccessor_1_Get_m557F500621F2A0797CA17AAFB65A4E1
 	_returnValue = PropertyAccessor_1_Get_m557F500621F2A0797CA17AAFB65A4E1369F7D7C1(_thisAdjusted, ___0_platform, method);
 	return _returnValue;
 }
-// Method Definition Index: 78092
+// Method Definition Index: 78093
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PropertyAccessor_1_Set_m8E4DCA204F777B97372AC4761C596B891BA4CC93_gshared (PropertyAccessor_1_tEC3F1AB2053ACD2790A88A1D4AFFC64215237A1C* __this, Platform_t013ADD7B874E5E0B4FE314A2D17876A14EB1FA40* ___0_platform, int32_t ___1_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:769>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:769>
 		Func_2_t93F1D711AE1F89A368D6492E16BF040DF5B786C8* L_0 = __this->___Getter;
 		Platform_t013ADD7B874E5E0B4FE314A2D17876A14EB1FA40* L_1 = ___0_platform;
 		NullCheck(L_1);
@@ -18762,15 +18762,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PropertyAccessor_1_Set_m8E4DCA204F777B97
 		NullCheck(L_0);
 		Property_1_t20C85DA8D1020679BD6AEA9C956F013DEFE957E1* L_3;
 		L_3 = Func_2_Invoke_mBD7410E1C6289C6A93BA9E21CC44860DB60533FC_inline(L_0, L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:771>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:771>
 		Property_1_t20C85DA8D1020679BD6AEA9C956F013DEFE957E1* L_4 = L_3;
 		int32_t L_5 = ___1_value;
 		NullCheck(L_4);
 		L_4->___Value = L_5;
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:772>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:772>
 		NullCheck(L_4);
 		L_4->___HasValue = (bool)1;
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:773>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:773>
 		return;
 	}
 }
@@ -18781,11 +18781,11 @@ IL2CPP_EXTERN_C  void PropertyAccessor_1_Set_m8E4DCA204F777B97372AC4761C596B891B
 	_thisAdjusted = reinterpret_cast<PropertyAccessor_1_tEC3F1AB2053ACD2790A88A1D4AFFC64215237A1C*>(__this + _offset);
 	PropertyAccessor_1_Set_m8E4DCA204F777B97372AC4761C596B891BA4CC93(_thisAdjusted, ___0_platform, ___1_value, method);
 }
-// Method Definition Index: 78093
+// Method Definition Index: 78094
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PropertyAccessor_1_Clear_mF9F2C62B7E9B88BD4BBF86A779DCCF99C71C3058_gshared (PropertyAccessor_1_tEC3F1AB2053ACD2790A88A1D4AFFC64215237A1C* __this, Platform_t013ADD7B874E5E0B4FE314A2D17876A14EB1FA40* ___0_platform, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:779>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:779>
 		Func_2_t93F1D711AE1F89A368D6492E16BF040DF5B786C8* L_0 = __this->___Getter;
 		Platform_t013ADD7B874E5E0B4FE314A2D17876A14EB1FA40* L_1 = ___0_platform;
 		NullCheck(L_1);
@@ -18795,7 +18795,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PropertyAccessor_1_Clear_mF9F2C62B7E9B88
 		L_3 = Func_2_Invoke_mBD7410E1C6289C6A93BA9E21CC44860DB60533FC_inline(L_0, L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
 		NullCheck(L_3);
 		L_3->___HasValue = (bool)0;
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:780>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:780>
 		return;
 	}
 }
@@ -18814,18 +18814,18 @@ IL2CPP_EXTERN_C  void PropertyAccessor_1_Clear_mF9F2C62B7E9B88BD4BBF86A779DCCF99
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78089
+// Method Definition Index: 78090
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PropertyAccessor_1__ctor_mC502CA30BB9D09A532E036174AD73B51C86781B1_gshared (PropertyAccessor_1_t67B0EA3A3FBA2F99D6EC37011D47139704719277* __this, Func_2_t71F4F0017690011E379E5078436BB250AE62E254* ___0_getter, int32_t ___1_defaultValue, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:728>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:728>
 		Func_2_t71F4F0017690011E379E5078436BB250AE62E254* L_0 = ___0_getter;
 		__this->___Getter = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Getter), (void*)L_0);
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:729>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:729>
 		int32_t L_1 = ___1_defaultValue;
 		__this->___DefaultValue = L_1;
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:730>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:730>
 		return;
 	}
 }
@@ -18836,11 +18836,11 @@ IL2CPP_EXTERN_C  void PropertyAccessor_1__ctor_mC502CA30BB9D09A532E036174AD73B51
 	_thisAdjusted = reinterpret_cast<PropertyAccessor_1_t67B0EA3A3FBA2F99D6EC37011D47139704719277*>(__this + _offset);
 	PropertyAccessor_1__ctor_mC502CA30BB9D09A532E036174AD73B51C86781B1(_thisAdjusted, ___0_getter, ___1_defaultValue, method);
 }
-// Method Definition Index: 78090
+// Method Definition Index: 78091
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PropertyAccessor_1_HasValue_m95FB7ACEF27567ACC1AF4315095B4DC70DDDB71C_gshared (PropertyAccessor_1_t67B0EA3A3FBA2F99D6EC37011D47139704719277* __this, Platform_t013ADD7B874E5E0B4FE314A2D17876A14EB1FA40* ___0_platform, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:736>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:736>
 		Platform_t013ADD7B874E5E0B4FE314A2D17876A14EB1FA40* L_0 = ___0_platform;
 		NullCheck(L_0);
 		bool L_1;
@@ -18877,7 +18877,7 @@ IL2CPP_EXTERN_C  bool PropertyAccessor_1_HasValue_m95FB7ACEF27567ACC1AF4315095B4
 	_returnValue = PropertyAccessor_1_HasValue_m95FB7ACEF27567ACC1AF4315095B4DC70DDDB71C(_thisAdjusted, ___0_platform, method);
 	return _returnValue;
 }
-// Method Definition Index: 78091
+// Method Definition Index: 78092
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PropertyAccessor_1_Get_m4154AD587C2590F30FC2DDE06F02C027A2DF1427_gshared (PropertyAccessor_1_t67B0EA3A3FBA2F99D6EC37011D47139704719277* __this, Platform_t013ADD7B874E5E0B4FE314A2D17876A14EB1FA40* ___0_platform, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18889,7 +18889,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PropertyAccessor_1_Get_m4154AD587C259
 	Platform_t013ADD7B874E5E0B4FE314A2D17876A14EB1FA40* V_0 = NULL;
 	Property_1_t891970BE4221A851CC8525AC2FD8057EA2D924E6* V_1 = NULL;
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:742>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:742>
 		Platform_t013ADD7B874E5E0B4FE314A2D17876A14EB1FA40* L_0 = ___0_platform;
 		V_0 = L_0;
 		goto IL_0034;
@@ -18897,7 +18897,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PropertyAccessor_1_Get_m4154AD587C259
 
 IL_0004:
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:744>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:744>
 		Platform_t013ADD7B874E5E0B4FE314A2D17876A14EB1FA40* L_1 = V_0;
 		NullCheck(L_1);
 		bool L_2;
@@ -18908,7 +18908,7 @@ IL_0004:
 		}
 	}
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:746>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:746>
 		Func_2_t71F4F0017690011E379E5078436BB250AE62E254* L_3 = __this->___Getter;
 		Platform_t013ADD7B874E5E0B4FE314A2D17876A14EB1FA40* L_4 = V_0;
 		NullCheck(L_4);
@@ -18917,7 +18917,7 @@ IL_0004:
 		Property_1_t891970BE4221A851CC8525AC2FD8057EA2D924E6* L_6;
 		L_6 = Func_2_Invoke_m2779DD2528F7F324E279A85ED6CBAF7D96587B1E_inline(L_3, L_5, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
 		V_1 = L_6;
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:748>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:748>
 		Property_1_t891970BE4221A851CC8525AC2FD8057EA2D924E6* L_7 = V_1;
 		NullCheck(L_7);
 		bool L_8 = L_7->___HasValue;
@@ -18927,7 +18927,7 @@ IL_0004:
 		}
 	}
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:750>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:750>
 		Property_1_t891970BE4221A851CC8525AC2FD8057EA2D924E6* L_9 = V_1;
 		NullCheck(L_9);
 		int32_t L_10 = L_9->___Value;
@@ -18936,7 +18936,7 @@ IL_0004:
 
 IL_002d:
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:742>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:742>
 		Platform_t013ADD7B874E5E0B4FE314A2D17876A14EB1FA40* L_11 = V_0;
 		NullCheck(L_11);
 		Platform_t013ADD7B874E5E0B4FE314A2D17876A14EB1FA40* L_12 = L_11->___Parent;
@@ -18945,7 +18945,7 @@ IL_002d:
 
 IL_0034:
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:742>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:742>
 		Platform_t013ADD7B874E5E0B4FE314A2D17876A14EB1FA40* L_13 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_14;
@@ -18956,7 +18956,7 @@ IL_0034:
 		}
 	}
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:762>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:762>
 		int32_t L_15 = __this->___DefaultValue;
 		return L_15;
 	}
@@ -18970,11 +18970,11 @@ IL2CPP_EXTERN_C  int32_t PropertyAccessor_1_Get_m4154AD587C2590F30FC2DDE06F02C02
 	_returnValue = PropertyAccessor_1_Get_m4154AD587C2590F30FC2DDE06F02C027A2DF1427(_thisAdjusted, ___0_platform, method);
 	return _returnValue;
 }
-// Method Definition Index: 78092
+// Method Definition Index: 78093
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PropertyAccessor_1_Set_m1204006CA4E07512E940F6B557578D9DA9894237_gshared (PropertyAccessor_1_t67B0EA3A3FBA2F99D6EC37011D47139704719277* __this, Platform_t013ADD7B874E5E0B4FE314A2D17876A14EB1FA40* ___0_platform, int32_t ___1_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:769>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:769>
 		Func_2_t71F4F0017690011E379E5078436BB250AE62E254* L_0 = __this->___Getter;
 		Platform_t013ADD7B874E5E0B4FE314A2D17876A14EB1FA40* L_1 = ___0_platform;
 		NullCheck(L_1);
@@ -18982,15 +18982,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PropertyAccessor_1_Set_m1204006CA4E07512
 		NullCheck(L_0);
 		Property_1_t891970BE4221A851CC8525AC2FD8057EA2D924E6* L_3;
 		L_3 = Func_2_Invoke_m2779DD2528F7F324E279A85ED6CBAF7D96587B1E_inline(L_0, L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:771>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:771>
 		Property_1_t891970BE4221A851CC8525AC2FD8057EA2D924E6* L_4 = L_3;
 		int32_t L_5 = ___1_value;
 		NullCheck(L_4);
 		L_4->___Value = L_5;
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:772>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:772>
 		NullCheck(L_4);
 		L_4->___HasValue = (bool)1;
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:773>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:773>
 		return;
 	}
 }
@@ -19001,11 +19001,11 @@ IL2CPP_EXTERN_C  void PropertyAccessor_1_Set_m1204006CA4E07512E940F6B557578D9DA9
 	_thisAdjusted = reinterpret_cast<PropertyAccessor_1_t67B0EA3A3FBA2F99D6EC37011D47139704719277*>(__this + _offset);
 	PropertyAccessor_1_Set_m1204006CA4E07512E940F6B557578D9DA9894237(_thisAdjusted, ___0_platform, ___1_value, method);
 }
-// Method Definition Index: 78093
+// Method Definition Index: 78094
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PropertyAccessor_1_Clear_m19C65439BBBF1D549D5488A572FDF390F736DD96_gshared (PropertyAccessor_1_t67B0EA3A3FBA2F99D6EC37011D47139704719277* __this, Platform_t013ADD7B874E5E0B4FE314A2D17876A14EB1FA40* ___0_platform, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:779>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:779>
 		Func_2_t71F4F0017690011E379E5078436BB250AE62E254* L_0 = __this->___Getter;
 		Platform_t013ADD7B874E5E0B4FE314A2D17876A14EB1FA40* L_1 = ___0_platform;
 		NullCheck(L_1);
@@ -19015,7 +19015,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PropertyAccessor_1_Clear_m19C65439BBBF1D
 		L_3 = Func_2_Invoke_m2779DD2528F7F324E279A85ED6CBAF7D96587B1E_inline(L_0, L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
 		NullCheck(L_3);
 		L_3->___HasValue = (bool)0;
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:780>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:780>
 		return;
 	}
 }
@@ -19034,19 +19034,19 @@ IL2CPP_EXTERN_C  void PropertyAccessor_1_Clear_m19C65439BBBF1D549D5488A572FDF390
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78089
+// Method Definition Index: 78090
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PropertyAccessor_1__ctor_m0A1A552D7A8B796799ABB3F6CEF3EC67AEA03504_gshared (PropertyAccessor_1_t6EFD6655DA4E66EB29B0DD65736C2797383F0337* __this, Func_2_t76D79ADD293897B7EBA2F3D8DFB8BD2F61C9FA9F* ___0_getter, RuntimeObject* ___1_defaultValue, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:728>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:728>
 		Func_2_t76D79ADD293897B7EBA2F3D8DFB8BD2F61C9FA9F* L_0 = ___0_getter;
 		__this->___Getter = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Getter), (void*)L_0);
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:729>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:729>
 		RuntimeObject* L_1 = ___1_defaultValue;
 		__this->___DefaultValue = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___DefaultValue), (void*)L_1);
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:730>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:730>
 		return;
 	}
 }
@@ -19057,11 +19057,11 @@ IL2CPP_EXTERN_C  void PropertyAccessor_1__ctor_m0A1A552D7A8B796799ABB3F6CEF3EC67
 	_thisAdjusted = reinterpret_cast<PropertyAccessor_1_t6EFD6655DA4E66EB29B0DD65736C2797383F0337*>(__this + _offset);
 	PropertyAccessor_1__ctor_m0A1A552D7A8B796799ABB3F6CEF3EC67AEA03504(_thisAdjusted, ___0_getter, ___1_defaultValue, method);
 }
-// Method Definition Index: 78090
+// Method Definition Index: 78091
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PropertyAccessor_1_HasValue_mC633B85EAB14D14432C3866612693F1ACEED3929_gshared (PropertyAccessor_1_t6EFD6655DA4E66EB29B0DD65736C2797383F0337* __this, Platform_t013ADD7B874E5E0B4FE314A2D17876A14EB1FA40* ___0_platform, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:736>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:736>
 		Platform_t013ADD7B874E5E0B4FE314A2D17876A14EB1FA40* L_0 = ___0_platform;
 		NullCheck(L_0);
 		bool L_1;
@@ -19098,7 +19098,7 @@ IL2CPP_EXTERN_C  bool PropertyAccessor_1_HasValue_mC633B85EAB14D14432C3866612693
 	_returnValue = PropertyAccessor_1_HasValue_mC633B85EAB14D14432C3866612693F1ACEED3929(_thisAdjusted, ___0_platform, method);
 	return _returnValue;
 }
-// Method Definition Index: 78091
+// Method Definition Index: 78092
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PropertyAccessor_1_Get_m97A6B543B8792650D8F6BD47EF9A90C72BC126F3_gshared (PropertyAccessor_1_t6EFD6655DA4E66EB29B0DD65736C2797383F0337* __this, Platform_t013ADD7B874E5E0B4FE314A2D17876A14EB1FA40* ___0_platform, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19110,7 +19110,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PropertyAccessor_1_Get_m97A6B5
 	Platform_t013ADD7B874E5E0B4FE314A2D17876A14EB1FA40* V_0 = NULL;
 	Property_1_t866A332F766D51BD3E902CE12C7B296E517E4AD0* V_1 = NULL;
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:742>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:742>
 		Platform_t013ADD7B874E5E0B4FE314A2D17876A14EB1FA40* L_0 = ___0_platform;
 		V_0 = L_0;
 		goto IL_0034;
@@ -19118,7 +19118,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PropertyAccessor_1_Get_m97A6B5
 
 IL_0004:
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:744>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:744>
 		Platform_t013ADD7B874E5E0B4FE314A2D17876A14EB1FA40* L_1 = V_0;
 		NullCheck(L_1);
 		bool L_2;
@@ -19129,7 +19129,7 @@ IL_0004:
 		}
 	}
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:746>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:746>
 		Func_2_t76D79ADD293897B7EBA2F3D8DFB8BD2F61C9FA9F* L_3 = __this->___Getter;
 		Platform_t013ADD7B874E5E0B4FE314A2D17876A14EB1FA40* L_4 = V_0;
 		NullCheck(L_4);
@@ -19138,7 +19138,7 @@ IL_0004:
 		Property_1_t866A332F766D51BD3E902CE12C7B296E517E4AD0* L_6;
 		L_6 = Func_2_Invoke_m1450C38C7523F9BAE4FE6D130990E443C6F6421E_inline(L_3, L_5, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
 		V_1 = L_6;
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:748>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:748>
 		Property_1_t866A332F766D51BD3E902CE12C7B296E517E4AD0* L_7 = V_1;
 		NullCheck(L_7);
 		bool L_8 = L_7->___HasValue;
@@ -19148,7 +19148,7 @@ IL_0004:
 		}
 	}
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:750>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:750>
 		Property_1_t866A332F766D51BD3E902CE12C7B296E517E4AD0* L_9 = V_1;
 		NullCheck(L_9);
 		RuntimeObject* L_10 = L_9->___Value;
@@ -19157,7 +19157,7 @@ IL_0004:
 
 IL_002d:
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:742>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:742>
 		Platform_t013ADD7B874E5E0B4FE314A2D17876A14EB1FA40* L_11 = V_0;
 		NullCheck(L_11);
 		Platform_t013ADD7B874E5E0B4FE314A2D17876A14EB1FA40* L_12 = L_11->___Parent;
@@ -19166,7 +19166,7 @@ IL_002d:
 
 IL_0034:
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:742>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:742>
 		Platform_t013ADD7B874E5E0B4FE314A2D17876A14EB1FA40* L_13 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_14;
@@ -19177,7 +19177,7 @@ IL_0034:
 		}
 	}
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:762>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:762>
 		RuntimeObject* L_15 = __this->___DefaultValue;
 		return L_15;
 	}
@@ -19191,11 +19191,11 @@ IL2CPP_EXTERN_C  RuntimeObject* PropertyAccessor_1_Get_m97A6B543B8792650D8F6BD47
 	_returnValue = PropertyAccessor_1_Get_m97A6B543B8792650D8F6BD47EF9A90C72BC126F3(_thisAdjusted, ___0_platform, method);
 	return _returnValue;
 }
-// Method Definition Index: 78092
+// Method Definition Index: 78093
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PropertyAccessor_1_Set_m2CFBF876CA149008E945A5DA3E9F02566F0C59D5_gshared (PropertyAccessor_1_t6EFD6655DA4E66EB29B0DD65736C2797383F0337* __this, Platform_t013ADD7B874E5E0B4FE314A2D17876A14EB1FA40* ___0_platform, RuntimeObject* ___1_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:769>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:769>
 		Func_2_t76D79ADD293897B7EBA2F3D8DFB8BD2F61C9FA9F* L_0 = __this->___Getter;
 		Platform_t013ADD7B874E5E0B4FE314A2D17876A14EB1FA40* L_1 = ___0_platform;
 		NullCheck(L_1);
@@ -19203,16 +19203,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PropertyAccessor_1_Set_m2CFBF876CA149008
 		NullCheck(L_0);
 		Property_1_t866A332F766D51BD3E902CE12C7B296E517E4AD0* L_3;
 		L_3 = Func_2_Invoke_m1450C38C7523F9BAE4FE6D130990E443C6F6421E_inline(L_0, L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:771>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:771>
 		Property_1_t866A332F766D51BD3E902CE12C7B296E517E4AD0* L_4 = L_3;
 		RuntimeObject* L_5 = ___1_value;
 		NullCheck(L_4);
 		L_4->___Value = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&L_4->___Value), (void*)L_5);
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:772>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:772>
 		NullCheck(L_4);
 		L_4->___HasValue = (bool)1;
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:773>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:773>
 		return;
 	}
 }
@@ -19223,11 +19223,11 @@ IL2CPP_EXTERN_C  void PropertyAccessor_1_Set_m2CFBF876CA149008E945A5DA3E9F02566F
 	_thisAdjusted = reinterpret_cast<PropertyAccessor_1_t6EFD6655DA4E66EB29B0DD65736C2797383F0337*>(__this + _offset);
 	PropertyAccessor_1_Set_m2CFBF876CA149008E945A5DA3E9F02566F0C59D5(_thisAdjusted, ___0_platform, ___1_value, method);
 }
-// Method Definition Index: 78093
+// Method Definition Index: 78094
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PropertyAccessor_1_Clear_mA1818A71F19E15AAE5C590F34A2C1FB485C987AA_gshared (PropertyAccessor_1_t6EFD6655DA4E66EB29B0DD65736C2797383F0337* __this, Platform_t013ADD7B874E5E0B4FE314A2D17876A14EB1FA40* ___0_platform, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:779>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:779>
 		Func_2_t76D79ADD293897B7EBA2F3D8DFB8BD2F61C9FA9F* L_0 = __this->___Getter;
 		Platform_t013ADD7B874E5E0B4FE314A2D17876A14EB1FA40* L_1 = ___0_platform;
 		NullCheck(L_1);
@@ -19237,7 +19237,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PropertyAccessor_1_Clear_mA1818A71F19E15
 		L_3 = Func_2_Invoke_m1450C38C7523F9BAE4FE6D130990E443C6F6421E_inline(L_0, L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
 		NullCheck(L_3);
 		L_3->___HasValue = (bool)0;
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:780>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:780>
 		return;
 	}
 }
@@ -19256,19 +19256,19 @@ IL2CPP_EXTERN_C  void PropertyAccessor_1_Clear_mA1818A71F19E15AAE5C590F34A2C1FB4
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78089
+// Method Definition Index: 78090
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PropertyAccessor_1__ctor_m37A52636FF0AFFC371E51B2B9FA95FC019AE11CD_gshared (PropertyAccessor_1_t9A8AA4CA8D732B817B95405F165883FF37D53329* __this, Func_2_t6B603E61F3373047E96E4A634301FC6E0D46B049* ___0_getter, Il2CppFullySharedGenericAny ___1_defaultValue, const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_T_t923D98855FECCBF8755D4E480F209C4E3C8B6C17 = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 	const Il2CppFullySharedGenericAny L_1 = alloca(SizeOf_T_t923D98855FECCBF8755D4E480F209C4E3C8B6C17);
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:728>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:728>
 		Func_2_t6B603E61F3373047E96E4A634301FC6E0D46B049* L_0 = ___0_getter;
 		il2cpp_codegen_write_instance_field_data<Func_2_t6B603E61F3373047E96E4A634301FC6E0D46B049*>(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 1),0), L_0);
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:729>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:729>
 		il2cpp_codegen_memcpy(L_1, (il2cpp_codegen_class_is_value_type(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 2)) ? ___1_defaultValue : &___1_defaultValue), SizeOf_T_t923D98855FECCBF8755D4E480F209C4E3C8B6C17);
 		il2cpp_codegen_write_instance_field_data(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 1),1), L_1, SizeOf_T_t923D98855FECCBF8755D4E480F209C4E3C8B6C17);
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:730>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:730>
 		return;
 	}
 }
@@ -19279,11 +19279,11 @@ IL2CPP_EXTERN_C  void PropertyAccessor_1__ctor_m37A52636FF0AFFC371E51B2B9FA95FC0
 	_thisAdjusted = reinterpret_cast<PropertyAccessor_1_t9A8AA4CA8D732B817B95405F165883FF37D53329*>(__this + _offset);
 	PropertyAccessor_1__ctor_m37A52636FF0AFFC371E51B2B9FA95FC019AE11CD(_thisAdjusted, ___0_getter, ___1_defaultValue, method);
 }
-// Method Definition Index: 78090
+// Method Definition Index: 78091
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PropertyAccessor_1_HasValue_m157D20CD97373A12FD1475A1B41F219E58A37446_gshared (PropertyAccessor_1_t9A8AA4CA8D732B817B95405F165883FF37D53329* __this, Platform_t013ADD7B874E5E0B4FE314A2D17876A14EB1FA40* ___0_platform, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:736>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:736>
 		Platform_t013ADD7B874E5E0B4FE314A2D17876A14EB1FA40* L_0 = ___0_platform;
 		NullCheck(L_0);
 		bool L_1;
@@ -19319,7 +19319,7 @@ IL2CPP_EXTERN_C  bool PropertyAccessor_1_HasValue_m157D20CD97373A12FD1475A1B41F2
 	_returnValue = PropertyAccessor_1_HasValue_m157D20CD97373A12FD1475A1B41F219E58A37446(_thisAdjusted, ___0_platform, method);
 	return _returnValue;
 }
-// Method Definition Index: 78091
+// Method Definition Index: 78092
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PropertyAccessor_1_Get_mCD48781AFE810FCDC0ECF4E333BFD863EFBDD477_gshared (PropertyAccessor_1_t9A8AA4CA8D732B817B95405F165883FF37D53329* __this, Platform_t013ADD7B874E5E0B4FE314A2D17876A14EB1FA40* ___0_platform, Il2CppFullySharedGenericAny* il2cppRetVal, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19334,7 +19334,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PropertyAccessor_1_Get_mCD48781AFE810FCD
 	Platform_t013ADD7B874E5E0B4FE314A2D17876A14EB1FA40* V_0 = NULL;
 	Property_1_t397EFA26B9D86DEE35792694B7C925FB0AE0EF27* V_1 = NULL;
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:742>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:742>
 		Platform_t013ADD7B874E5E0B4FE314A2D17876A14EB1FA40* L_0 = ___0_platform;
 		V_0 = L_0;
 		goto IL_0034;
@@ -19342,7 +19342,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PropertyAccessor_1_Get_mCD48781AFE810FCD
 
 IL_0004:
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:744>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:744>
 		Platform_t013ADD7B874E5E0B4FE314A2D17876A14EB1FA40* L_1 = V_0;
 		NullCheck(L_1);
 		bool L_2;
@@ -19353,7 +19353,7 @@ IL_0004:
 		}
 	}
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:746>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:746>
 		Func_2_t6B603E61F3373047E96E4A634301FC6E0D46B049* L_3 = *(Func_2_t6B603E61F3373047E96E4A634301FC6E0D46B049**)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 1),0));
 		Platform_t013ADD7B874E5E0B4FE314A2D17876A14EB1FA40* L_4 = V_0;
 		NullCheck(L_4);
@@ -19362,7 +19362,7 @@ IL_0004:
 		Property_1_t397EFA26B9D86DEE35792694B7C925FB0AE0EF27* L_6;
 		L_6 = InvokerFuncInvoker1< Property_1_t397EFA26B9D86DEE35792694B7C925FB0AE0EF27*, PropertyStorage_t6CB8106A0C26DF1907DDDD3AE3DBC4B4FBAA3681* >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3), L_3, L_5);
 		V_1 = L_6;
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:748>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:748>
 		Property_1_t397EFA26B9D86DEE35792694B7C925FB0AE0EF27* L_7 = V_1;
 		bool L_8 = *(bool*)il2cpp_codegen_get_instance_field_data_pointer(L_7, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4),1));
 		if (!L_8)
@@ -19371,7 +19371,7 @@ IL_0004:
 		}
 	}
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:750>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:750>
 		Property_1_t397EFA26B9D86DEE35792694B7C925FB0AE0EF27* L_9 = V_1;
 		il2cpp_codegen_memcpy(L_10, il2cpp_codegen_get_instance_field_data_pointer(L_9, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4),0)), SizeOf_T_t923D98855FECCBF8755D4E480F209C4E3C8B6C17);
 		il2cpp_codegen_memcpy(il2cppRetVal, L_10, SizeOf_T_t923D98855FECCBF8755D4E480F209C4E3C8B6C17);
@@ -19380,7 +19380,7 @@ IL_0004:
 
 IL_002d:
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:742>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:742>
 		Platform_t013ADD7B874E5E0B4FE314A2D17876A14EB1FA40* L_11 = V_0;
 		NullCheck(L_11);
 		Platform_t013ADD7B874E5E0B4FE314A2D17876A14EB1FA40* L_12 = L_11->___Parent;
@@ -19389,7 +19389,7 @@ IL_002d:
 
 IL_0034:
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:742>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:742>
 		Platform_t013ADD7B874E5E0B4FE314A2D17876A14EB1FA40* L_13 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_14;
@@ -19400,7 +19400,7 @@ IL_0034:
 		}
 	}
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:762>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:762>
 		il2cpp_codegen_memcpy(L_15, il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 1),1)), SizeOf_T_t923D98855FECCBF8755D4E480F209C4E3C8B6C17);
 		il2cpp_codegen_memcpy(il2cppRetVal, L_15, SizeOf_T_t923D98855FECCBF8755D4E480F209C4E3C8B6C17);
 		return;
@@ -19414,13 +19414,13 @@ IL2CPP_EXTERN_C  void PropertyAccessor_1_Get_mCD48781AFE810FCDC0ECF4E333BFD863EF
 	PropertyAccessor_1_Get_mCD48781AFE810FCDC0ECF4E333BFD863EFBDD477(_thisAdjusted, ___0_platform, il2cppRetVal, method);
 	return;
 }
-// Method Definition Index: 78092
+// Method Definition Index: 78093
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PropertyAccessor_1_Set_m4DDF8DD113EFF45AED040783D672CDA228E7A1F1_gshared (PropertyAccessor_1_t9A8AA4CA8D732B817B95405F165883FF37D53329* __this, Platform_t013ADD7B874E5E0B4FE314A2D17876A14EB1FA40* ___0_platform, Il2CppFullySharedGenericAny ___1_value, const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_T_t923D98855FECCBF8755D4E480F209C4E3C8B6C17 = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 	const Il2CppFullySharedGenericAny L_5 = alloca(SizeOf_T_t923D98855FECCBF8755D4E480F209C4E3C8B6C17);
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:769>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:769>
 		Func_2_t6B603E61F3373047E96E4A634301FC6E0D46B049* L_0 = *(Func_2_t6B603E61F3373047E96E4A634301FC6E0D46B049**)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 1),0));
 		Platform_t013ADD7B874E5E0B4FE314A2D17876A14EB1FA40* L_1 = ___0_platform;
 		NullCheck(L_1);
@@ -19428,15 +19428,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PropertyAccessor_1_Set_m4DDF8DD113EFF45A
 		NullCheck(L_0);
 		Property_1_t397EFA26B9D86DEE35792694B7C925FB0AE0EF27* L_3;
 		L_3 = InvokerFuncInvoker1< Property_1_t397EFA26B9D86DEE35792694B7C925FB0AE0EF27*, PropertyStorage_t6CB8106A0C26DF1907DDDD3AE3DBC4B4FBAA3681* >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3), L_0, L_2);
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:771>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:771>
 		Property_1_t397EFA26B9D86DEE35792694B7C925FB0AE0EF27* L_4 = L_3;
 		il2cpp_codegen_memcpy(L_5, (il2cpp_codegen_class_is_value_type(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 2)) ? ___1_value : &___1_value), SizeOf_T_t923D98855FECCBF8755D4E480F209C4E3C8B6C17);
 		NullCheck(L_4);
 		il2cpp_codegen_write_instance_field_data(L_4, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4),0), L_5, SizeOf_T_t923D98855FECCBF8755D4E480F209C4E3C8B6C17);
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:772>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:772>
 		NullCheck(L_4);
 		il2cpp_codegen_write_instance_field_data<bool>(L_4, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4),1), (bool)1);
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:773>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:773>
 		return;
 	}
 }
@@ -19447,11 +19447,11 @@ IL2CPP_EXTERN_C  void PropertyAccessor_1_Set_m4DDF8DD113EFF45AED040783D672CDA228
 	_thisAdjusted = reinterpret_cast<PropertyAccessor_1_t9A8AA4CA8D732B817B95405F165883FF37D53329*>(__this + _offset);
 	PropertyAccessor_1_Set_m4DDF8DD113EFF45AED040783D672CDA228E7A1F1(_thisAdjusted, ___0_platform, ___1_value, method);
 }
-// Method Definition Index: 78093
+// Method Definition Index: 78094
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PropertyAccessor_1_Clear_mB347FC39AFE4BB638CE7E4963441278F28446A5F_gshared (PropertyAccessor_1_t9A8AA4CA8D732B817B95405F165883FF37D53329* __this, Platform_t013ADD7B874E5E0B4FE314A2D17876A14EB1FA40* ___0_platform, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:779>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:779>
 		Func_2_t6B603E61F3373047E96E4A634301FC6E0D46B049* L_0 = *(Func_2_t6B603E61F3373047E96E4A634301FC6E0D46B049**)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 1),0));
 		Platform_t013ADD7B874E5E0B4FE314A2D17876A14EB1FA40* L_1 = ___0_platform;
 		NullCheck(L_1);
@@ -19461,7 +19461,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PropertyAccessor_1_Clear_mB347FC39AFE4BB
 		L_3 = InvokerFuncInvoker1< Property_1_t397EFA26B9D86DEE35792694B7C925FB0AE0EF27*, PropertyStorage_t6CB8106A0C26DF1907DDDD3AE3DBC4B4FBAA3681* >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3), L_0, L_2);
 		NullCheck(L_3);
 		il2cpp_codegen_write_instance_field_data<bool>(L_3, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4),1), (bool)0);
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:780>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:780>
 		return;
 	}
 }
@@ -31965,16 +31965,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PropertyBag_1__ctor_m884F6687467019ADA6C
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 78050
+// Method Definition Index: 78051
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Platform_get_Active_m64C0F3CEE763169C79B98098F772EA7F5B2EF2A0_inline (Platform_t013ADD7B874E5E0B4FE314A2D17876A14EB1FA40* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/IFPR/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:806>
+		//<source_info:C:/Users/IFPR.LENOVO_LAB02_58/Documents/GitHub/EscapeRoom-Projeto-do-2Trim/SalaDeEscape_2trim/Assets/TMP + URP + FMOD/Plugins/FMOD/src/Platform.cs:806>
 		bool L_0 = __this->___active;
 		return L_0;
 	}
 }
-// Method Definition Index: 65857
+// Method Definition Index: 65858
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Project_1_set_a_mD78935E185051A923F0D142D52B1D912A0BBBB0A_gshared_inline (Project_1_t9B9875594AF61413624135C374E4A65B871AEAD9* __this, ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -31985,7 +31985,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Project_1_set_a_mD78935E1850
 		return;
 	}
 }
-// Method Definition Index: 65859
+// Method Definition Index: 65860
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Project_1_set_b_m60A93BDFB7B9FCD28C134CCF4BF7C069EA45E3C9_gshared_inline (Project_1_t9B9875594AF61413624135C374E4A65B871AEAD9* __this, ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -31996,7 +31996,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Project_1_set_b_m60A93BDFB7B
 		return;
 	}
 }
-// Method Definition Index: 65861
+// Method Definition Index: 65862
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Project_1_set_projection_mE418D4BA0C006F168BEC58CFD9BCE32F684EED48_gshared_inline (Project_1_t9B9875594AF61413624135C374E4A65B871AEAD9* __this, ValueOutput_tADDC9DBF6515A1572E876C3881B5F110DC5EBE1B* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -32007,7 +32007,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Project_1_set_projection_mE4
 		return;
 	}
 }
-// Method Definition Index: 65856
+// Method Definition Index: 65857
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* Project_1_get_a_m09C5A3D2961DA46ECACDACF57D5A517AA346192C_gshared_inline (Project_1_t9B9875594AF61413624135C374E4A65B871AEAD9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -32016,7 +32016,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ValueInput_t2F9A2AA29F683A1C27C27
 		return L_0;
 	}
 }
-// Method Definition Index: 65860
+// Method Definition Index: 65861
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ValueOutput_tADDC9DBF6515A1572E876C3881B5F110DC5EBE1B* Project_1_get_projection_m799DA9F4244315C4B42FEA88D1063EB61D470ECF_gshared_inline (Project_1_t9B9875594AF61413624135C374E4A65B871AEAD9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -32025,7 +32025,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ValueOutput_tADDC9DBF6515A1572E87
 		return L_0;
 	}
 }
-// Method Definition Index: 65858
+// Method Definition Index: 65859
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* Project_1_get_b_mD9AB47F2092470540A5D676B7E7D573AE509A667_gshared_inline (Project_1_t9B9875594AF61413624135C374E4A65B871AEAD9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -32034,7 +32034,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ValueInput_t2F9A2AA29F683A1C27C27
 		return L_0;
 	}
 }
-// Method Definition Index: 65857
+// Method Definition Index: 65858
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Project_1_set_a_m175CBA4CD138EC8517513F4E6E09560CA245646B_gshared_inline (Project_1_t021CAE32A9D38A968574466E108ABE918DDDD53A* __this, ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -32045,7 +32045,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Project_1_set_a_m175CBA4CD13
 		return;
 	}
 }
-// Method Definition Index: 65859
+// Method Definition Index: 65860
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Project_1_set_b_mDD1D0A7EFBFAA435E26DC9866FDD2EC38F19747E_gshared_inline (Project_1_t021CAE32A9D38A968574466E108ABE918DDDD53A* __this, ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -32056,7 +32056,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Project_1_set_b_mDD1D0A7EFBF
 		return;
 	}
 }
-// Method Definition Index: 65861
+// Method Definition Index: 65862
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Project_1_set_projection_m81DC9AFF11BBF4321102558F5CC0C91D5EBEC6B7_gshared_inline (Project_1_t021CAE32A9D38A968574466E108ABE918DDDD53A* __this, ValueOutput_tADDC9DBF6515A1572E876C3881B5F110DC5EBE1B* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -32067,7 +32067,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Project_1_set_projection_m81
 		return;
 	}
 }
-// Method Definition Index: 65856
+// Method Definition Index: 65857
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* Project_1_get_a_m6D0CA8ACFB7F1ACED5485AAB6B5CD862887135DD_gshared_inline (Project_1_t021CAE32A9D38A968574466E108ABE918DDDD53A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -32076,7 +32076,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ValueInput_t2F9A2AA29F683A1C27C27
 		return L_0;
 	}
 }
-// Method Definition Index: 65860
+// Method Definition Index: 65861
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ValueOutput_tADDC9DBF6515A1572E876C3881B5F110DC5EBE1B* Project_1_get_projection_m03CB954D8939D83A49FA3136A8132E598AC75C1A_gshared_inline (Project_1_t021CAE32A9D38A968574466E108ABE918DDDD53A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -32085,7 +32085,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ValueOutput_tADDC9DBF6515A1572E87
 		return L_0;
 	}
 }
-// Method Definition Index: 65858
+// Method Definition Index: 65859
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* Project_1_get_b_mC83178C444DC27AAD56837E05FFC02BDD9F2307C_gshared_inline (Project_1_t021CAE32A9D38A968574466E108ABE918DDDD53A* __this, const RuntimeMethod* method) 
 {
 	{
